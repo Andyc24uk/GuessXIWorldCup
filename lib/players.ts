@@ -9674,11 +9674,12 @@ export function getPlayerByPromoSlug(slug: string): Player | undefined {
   return players.find((player) => {
     const candidates = [
       player.id,
+      player.slug,
       player.fullName,
       player.displayName,
       ...(player.searchAliases ?? []),
       ...(player.acceptedAnswers ?? [])
-    ];
+    ].filter((candidate): candidate is string => Boolean(candidate));
 
     return candidates.some((candidate) => createPlayerSlug(candidate) === normalizedSlug);
   });

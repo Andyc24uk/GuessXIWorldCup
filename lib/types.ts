@@ -19,6 +19,7 @@ export type ClueKey =
 
 export type Player = {
   id: string;
+  slug?: string;
   fullName: string;
   displayName: string;
   searchAliases: string[];

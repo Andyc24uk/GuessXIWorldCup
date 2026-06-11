@@ -11,6 +11,8 @@ import { getPromoSlotFromSearch } from "@/lib/promo";
 import { loadOrCreateDailySlots, loadStoredGame } from "@/lib/storage";
 import type { DailyGameSlot } from "@/lib/types";
 
+const PUBLIC_PROMO_KEY = process.env.NEXT_PUBLIC_PROMO_KEY;
+
 export default function HomePage() {
   const [activeSlot, setActiveSlot] = useState(0);
   const [slots, setSlots] = useState<DailyGameSlot[]>([]);
@@ -18,7 +20,11 @@ export default function HomePage() {
   const selectedSlot = slots[activeSlot] ?? slots[0];
 
   useEffect(() => {
-    const promoSlot = getPromoSlotFromSearch(window.location.search, dateKey);
+    const promoSlot = getPromoSlotFromSearch(window.location.search, {
+      dateKey,
+      configuredKey: PUBLIC_PROMO_KEY,
+      devWarnings: process.env.NODE_ENV !== "production"
+    });
     if (promoSlot) {
       const promoPlayer = getPlayerById(promoSlot.playerId);
       setActiveSlot(0);

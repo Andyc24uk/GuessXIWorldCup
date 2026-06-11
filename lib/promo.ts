@@ -7,15 +7,27 @@ const PROMO_KEY_PARAM = "promoKey";
 const PREVIEW_KEY_PARAM = "previewKey";
 const PROMO_PLAYER_PARAM = "promoPlayer";
 
-export function getPromoSlotFromSearch(search: string, dateKey = getLocalDateKey()): DailyGameSlot | null {
-  const configuredKey = process.env.NEXT_PUBLIC_PROMO_KEY;
+type PromoSlotOptions = {
+  dateKey?: string;
+  configuredKey?: string;
+  devWarnings?: boolean;
+};
+
+export function getPromoSlotFromSearch(search: string, dateKeyOrOptions: string | PromoSlotOptions = getLocalDateKey()): DailyGameSlot | null {
+  const options = typeof dateKeyOrOptions === "string" ? { dateKey: dateKeyOrOptions } : dateKeyOrOptions;
+  const dateKey = options.dateKey ?? getLocalDateKey();
+  const configuredKey = options.configuredKey ?? process.env.NEXT_PUBLIC_PROMO_KEY;
+  const devWarnings = options.devWarnings ?? process.env.NODE_ENV !== "production";
+
   if (!configuredKey) {
+    warnPromoFailure("env var missing", devWarnings);
     return null;
   }
 
   const params = new URLSearchParams(search);
   const providedKey = params.get(PROMO_KEY_PARAM) ?? params.get(PREVIEW_KEY_PARAM);
   if (providedKey !== configuredKey) {
+    warnPromoFailure("key mismatch", devWarnings);
     return null;
   }
 
@@ -26,6 +38,7 @@ export function getPromoSlotFromSearch(search: string, dateKey = getLocalDateKey
 
   const player = getPlayerByPromoSlug(promoPlayer);
   if (!player) {
+    warnPromoFailure(`player not found: ${promoPlayer}`, devWarnings);
     return null;
   }
 
@@ -38,4 +51,12 @@ export function getPromoSlotFromSearch(search: string, dateKey = getLocalDateKey
     selectionMode: "promo",
     seedType: "promo"
   };
+}
+
+function warnPromoFailure(reason: string, enabled: boolean): void {
+  if (!enabled) {
+    return;
+  }
+
+  console.warn(`[Guess XI promo] ${reason}`);
 }

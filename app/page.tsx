@@ -50,6 +50,9 @@ export default function HomePage() {
       <AdSlot placement="top" />
 
       {selectedSlot ? <GameCard key={`${selectedSlot.playerId}-${activeSlot}-${dateKey}`} slot={selectedSlot} /> : <section className="game-card">Loading today&apos;s games...</section>}
+      <footer className="site-footer">
+        <a href="/privacy">Privacy Policy</a>
+      </footer>
     </main>
   );
 }

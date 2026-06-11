@@ -9669,6 +9669,30 @@ export function getPlayerById(id: string): Player | undefined {
   return players.find((player) => player.id === id);
 }
 
+export function getPlayerByPromoSlug(slug: string): Player | undefined {
+  const normalizedSlug = createPlayerSlug(slug);
+  return players.find((player) => {
+    const candidates = [
+      player.id,
+      player.fullName,
+      player.displayName,
+      ...(player.searchAliases ?? []),
+      ...(player.acceptedAnswers ?? [])
+    ];
+
+    return candidates.some((candidate) => createPlayerSlug(candidate) === normalizedSlug);
+  });
+}
+
+export function createPlayerSlug(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export function getLaunchPlayerPool(): Player[] {
   return players;
 }

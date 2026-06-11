@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { ADS_ENABLED, ADSENSE_CLIENT } from "@/lib/constants";
 import "./globals.css";
 
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           />
         ) : null}
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -11,8 +11,13 @@ export default function PrivacyPage() {
         <h1>Privacy Policy</h1>
 
         <p>
-          Guess XI uses localStorage and other browser storage to save game progress, guesses, daily limits, and recent-player history on your device.
-          This helps the game remember your current daily games without requiring an account.
+          Guess XI uses localStorage and other browser storage to save game progress, guesses, daily limits, cooldown/no-repeat history, and game
+          state on your device. This helps the game remember your current daily games without requiring an account.
+        </p>
+
+        <p>
+          Guess XI uses privacy-friendly analytics to understand page views and gameplay events, such as clue reveals, completed games, and copied
+          results. Normal gameplay does not require an account, and Guess XI does not collect names or email addresses for normal play.
         </p>
 
         <p>

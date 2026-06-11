@@ -5,7 +5,16 @@ import AdSlot from "@/components/AdSlot";
 import AnswerKitGraphic from "@/components/AnswerKitGraphic";
 import ClueList from "@/components/ClueList";
 import GuessInput from "@/components/GuessInput";
-import { buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
+import {
+  trackAnswerRevealed,
+  trackClueRevealed,
+  trackCopyResult,
+  trackGameFailed,
+  trackGameSolved,
+  trackGameStart,
+  trackGuessSubmitted
+} from "@/lib/analytics";
+import { applyGuessToGame, buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
 import { getPlayerById } from "@/lib/players";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
 import type { DailyGameSlot, StoredGameResult } from "@/lib/types";
@@ -30,15 +39,30 @@ export default function GameCard({ slot }: GameCardProps) {
     if (!player) {
       return;
     }
+    if (slot.isPromo) {
+      setGame(createInitialStoredGame(slot.dateKey, slot.mode, slot.slot, player.id));
+      return;
+    }
+
     const stored = loadStoredGame(slot.dateKey, slot.mode, slot.slot);
     setGame(stored?.playerId === player.id ? stored : createInitialStoredGame(slot.dateKey, slot.mode, slot.slot, player.id));
-  }, [player, slot.dateKey, slot.mode, slot.slot]);
+  }, [player, slot.dateKey, slot.isPromo, slot.mode, slot.slot]);
 
   useEffect(() => {
-    if (game) {
+    if (game && !slot.isPromo) {
       saveStoredGame(game);
     }
-  }, [game]);
+  }, [game, slot.isPromo]);
+
+  useEffect(() => {
+    if (!player || !game) {
+      return;
+    }
+
+    trackGameStart(getAnalyticsProperties(player, slot, {
+      clueNumber: Math.min(game.revealedCount, clues.length)
+    }));
+  }, [clues.length, game?.playerId, player, slot]);
 
   if (!player || !game) {
     return <section className="game-card">Loading today&apos;s game...</section>;
@@ -48,6 +72,7 @@ export default function GameCard({ slot }: GameCardProps) {
   const activeGame = game;
   const completed = game.completed;
   const revealedCount = completed ? clues.length : Math.min(game.revealedCount, clues.length);
+  const solvedClueCount = game.solvedClueCount ?? Math.min(game.revealedCount, clues.length);
   const kitRevealed = clues.slice(0, revealedCount).some((clue) => clue.key === "kit");
 
   function revealNextClue() {
@@ -57,6 +82,9 @@ export default function GameCard({ slot }: GameCardProps) {
       }
 
       const nextRevealedCount = Math.min(current.revealedCount + 1, clues.length);
+      trackClueRevealed(getAnalyticsProperties(activePlayer, slot, {
+        clueNumber: nextRevealedCount
+      }));
       return {
         ...current,
         revealedCount: nextRevealedCount,
@@ -73,25 +101,51 @@ export default function GameCard({ slot }: GameCardProps) {
       }
 
       const solved = isCorrectGuess(guess, activePlayer);
-      const nextGuesses = [...current.guesses, guess];
-      const finalGuessMissed = !solved && current.revealedCount >= clues.length;
-      const nextRevealedCount = solved || finalGuessMissed ? current.revealedCount : Math.min(current.revealedCount + 1, clues.length);
+      const previousClueCount = Math.min(current.revealedCount, clues.length);
+      const nextGame = applyGuessToGame(current, guess, activePlayer, clues.length);
+      const clueWasRevealed = !nextGame.completed && nextGame.revealedCount > previousClueCount;
 
-      return {
-        ...current,
-        guesses: nextGuesses,
-        revealedCount: nextRevealedCount,
-        completed: solved || finalGuessMissed,
-        solved,
-        completedAt: solved || finalGuessMissed ? new Date().toISOString() : current.completedAt
-      };
+      trackGuessSubmitted(getAnalyticsProperties(activePlayer, slot, {
+        clueNumber: previousClueCount,
+        solved
+      }));
+
+      if (clueWasRevealed) {
+        trackClueRevealed(getAnalyticsProperties(activePlayer, slot, {
+          clueNumber: nextGame.revealedCount
+        }));
+      }
+
+      if (nextGame.solved) {
+        trackGameSolved(getAnalyticsProperties(activePlayer, slot, {
+          clueNumber: nextGame.solvedClueCount,
+          cluesUsed: nextGame.solvedClueCount,
+          solved: true
+        }));
+      } else if (nextGame.completed) {
+        trackGameFailed(getAnalyticsProperties(activePlayer, slot, {
+          clueNumber: clues.length,
+          cluesUsed: clues.length,
+          solved: false
+        }));
+        trackAnswerRevealed(getAnalyticsProperties(activePlayer, slot, {
+          clueNumber: clues.length,
+          solved: false
+        }));
+      }
+
+      return nextGame;
     });
   }
 
   async function copyShareText() {
-    const text = createShareText(slot.mode, activeGame.solved, revealedCount);
+    const text = createShareText(slot.mode, activeGame.solved, activeGame.solved ? solvedClueCount : revealedCount);
     try {
       await navigator.clipboard.writeText(text);
+      trackCopyResult(getAnalyticsProperties(activePlayer, slot, {
+        cluesUsed: activeGame.solved ? solvedClueCount : revealedCount,
+        solved: activeGame.solved
+      }));
       setCopyState("copied");
     } catch {
       setCopyState("failed");
@@ -120,7 +174,7 @@ export default function GameCard({ slot }: GameCardProps) {
 
       <div className="game-main">
         <div className="status-row">
-          <span className="mode-tag">Daily Game</span>
+          <span className="mode-tag">{slot.isPromo ? "Promo Preview" : "Daily Game"}</span>
           <span className="progress-text">
             Clue {revealedCount} of {clues.length}
           </span>
@@ -133,7 +187,7 @@ export default function GameCard({ slot }: GameCardProps) {
             <strong>{game.solved ? "Correct" : "Answer revealed"}</strong>
             <span>
               {player.displayName} was the player.{" "}
-              {game.solved ? `Solved with ${revealedCount} clue${revealedCount === 1 ? "" : "s"}.` : "Try the next daily game."}
+              {game.solved ? `Solved with ${solvedClueCount} clue${solvedClueCount === 1 ? "" : "s"}.` : "Try the next daily game."}
             </span>
           </div>
         ) : (
@@ -145,9 +199,11 @@ export default function GameCard({ slot }: GameCardProps) {
         ) : null}
 
         <div className="actions-row">
-          <button className="secondary-button" disabled={completed || revealedCount >= clues.length} onClick={revealNextClue} type="button">
-            Reveal next clue
-          </button>
+          {!completed ? (
+            <button className="secondary-button" disabled={revealedCount >= clues.length} onClick={revealNextClue} type="button">
+              Reveal next clue
+            </button>
+          ) : null}
           {completed ? (
             <button className="secondary-button" onClick={copyShareText} type="button">
               {copyState === "copied" ? "Copied result" : copyState === "failed" ? "Copy unavailable" : "Copy result"}
@@ -159,4 +215,21 @@ export default function GameCard({ slot }: GameCardProps) {
       </div>
     </section>
   );
+}
+
+function getAnalyticsProperties(
+  player: NonNullable<ReturnType<typeof getPlayerById>>,
+  slot: DailyGameSlot,
+  extras: Record<string, string | number | boolean | undefined> = {}
+): Record<string, string | number | boolean | undefined> {
+  return {
+    gameSlot: slot.slot,
+    playerId: player.id,
+    nation: player.nation,
+    fameTier: player.fameTier,
+    isPromo: Boolean(slot.isPromo),
+    selectionMode: slot.selectionMode ?? (slot.isPromo ? "promo" : "daily-random"),
+    seedType: slot.seedType ?? (slot.isPromo ? "promo" : "user-day"),
+    ...extras
+  };
 }

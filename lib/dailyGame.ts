@@ -32,7 +32,9 @@ export function createRandomGameSlots(
     slot: index,
     playerId,
     mode,
-    dateKey
+    dateKey,
+    selectionMode: "daily-random",
+    seedType: "user-day"
   }));
 }
 

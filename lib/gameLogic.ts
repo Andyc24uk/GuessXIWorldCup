@@ -1,5 +1,6 @@
 import { players } from "./players";
-import type { Clue, ClueKey, GameMode, Player } from "./types";
+import { getCareerPathOverride, getNotableFactOverride } from "./playerClueOverrides";
+import type { Clue, ClueKey, GameMode, Player, StoredGameResult } from "./types";
 
 export const CASUAL_CLUE_ORDER: ClueKey[] = [
   "position",
@@ -10,6 +11,7 @@ export const CASUAL_CLUE_ORDER: ClueKey[] = [
   "playedAlongside",
   "club",
   "shirtNumber",
+  "careerPath",
   "fact",
   "kit"
 ];
@@ -24,6 +26,7 @@ export const ULTRA_CLUE_ORDER: ClueKey[] = [
   "internationalGoals",
   "position",
   "shirtNumber",
+  "careerPath",
   "kit"
 ];
 
@@ -36,6 +39,7 @@ export const LAUNCH_CLUE_ORDER: ClueKey[] = [
   "playedAlongside",
   "club",
   "shirtNumber",
+  "careerPath",
   "fact",
   "kit"
 ];
@@ -87,6 +91,7 @@ export function getClueLabel(key: ClueKey): string {
     internationalGoals: "International goals",
     worldCupAppearances: "World Cup appearances",
     playedAlongside: "Played alongside",
+    careerPath: "Career Path",
     fact: "Notable fact"
   };
   return labels[key];
@@ -98,6 +103,8 @@ export function getClueValue(player: Player, key: ClueKey): string {
       return "Kit image revealed";
     case "shirtNumber":
       return `No. ${player.shirtNumber}`;
+    case "careerPath":
+      return getCareerPath(player);
     case "position":
       return player.position;
     case "clubCountry":
@@ -113,8 +120,37 @@ export function getClueValue(player: Player, key: ClueKey): string {
     case "playedAlongside":
       return player.playedAlongside;
     case "fact":
-      return player.clueFact;
+      return getNotableFact(player);
   }
+}
+
+export function getCareerPath(player: Player): string {
+  const override = getCareerPathOverride(player);
+  if (override) {
+    return formatCareerPath(override);
+  }
+
+  if (player.careerPath?.trim()) {
+    return formatCareerPath(player.careerPath.trim());
+  }
+
+  if (player.careerHint?.trim()) {
+    return formatCareerPath(player.careerHint.trim());
+  }
+
+  if (player.club) {
+    return `Current club: ${player.club}`;
+  }
+
+  return "Career path unavailable";
+}
+
+export function getNotableFact(player: Player): string {
+  return getNotableFactOverride(player) ?? player.clueFact;
+}
+
+function formatCareerPath(path: string): string {
+  return path.replace(/\s+->\s+/g, " → ");
 }
 
 export function normalizeGuess(value: string): string {
@@ -199,6 +235,31 @@ function getGuessFragments(normalizedName: string): string[] {
 export function createShareText(mode: GameMode, solved: boolean, cluesUsed: number): string {
   const result = solved ? `Guessed in ${cluesUsed} clue${cluesUsed === 1 ? "" : "s"}` : "Stumped today";
   return `Guess XI: World Cup - ${result}`;
+}
+
+export function applyGuessToGame(
+  current: StoredGameResult,
+  guess: string,
+  player: Player,
+  clueCount: number,
+  completedAt = new Date().toISOString()
+): StoredGameResult {
+  const solved = isCorrectGuess(guess, player);
+  const nextGuesses = [...current.guesses, guess];
+  const cluesVisibleAtGuess = Math.min(current.revealedCount, clueCount);
+  const finalGuessMissed = !solved && current.revealedCount >= clueCount;
+  const completed = solved || finalGuessMissed;
+  const nextRevealedCount = completed ? clueCount : Math.min(current.revealedCount + 1, clueCount);
+
+  return {
+    ...current,
+    guesses: nextGuesses,
+    revealedCount: nextRevealedCount,
+    completed,
+    solved,
+    solvedClueCount: solved ? cluesVisibleAtGuess : current.solvedClueCount,
+    completedAt: completed ? completedAt : current.completedAt
+  };
 }
 
 function seededShuffle<T>(items: T[], seed: string): T[] {

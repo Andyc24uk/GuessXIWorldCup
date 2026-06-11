@@ -13,6 +13,7 @@ export type ClueKey =
   | "playedAlongside"
   | "club"
   | "shirtNumber"
+  | "careerPath"
   | "fact"
   | "kit";
 
@@ -35,6 +36,8 @@ export type Player = {
   internationalGoals: number;
   nationalTeamDebutYear: number;
   worldCupAppearances: string;
+  careerPath?: string;
+  careerHint?: string;
   kitPrimaryColor: string;
   kitSecondaryColor: string;
   kitAccentColor: string;
@@ -57,6 +60,9 @@ export type DailyGameSlot = {
   playerId: string;
   mode: GameMode;
   dateKey: string;
+  isPromo?: boolean;
+  selectionMode?: "daily-random" | "promo";
+  seedType?: "user-day" | "promo";
 };
 
 export type StoredGameResult = {
@@ -68,5 +74,6 @@ export type StoredGameResult = {
   solved: boolean;
   guesses: string[];
   revealedCount: number;
+  solvedClueCount?: number;
   completedAt?: string;
 };

@@ -3,9 +3,12 @@
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
 import GameCard from "@/components/GameCard";
+import { trackDailyLimitReached, trackPromoPreviewUsed } from "@/lib/analytics";
 import { APP_TITLE, FREE_DAILY_GAME_LIMIT, LAUNCH_GAME_MODE } from "@/lib/constants";
 import { getLocalDateKey } from "@/lib/dailyGame";
-import { loadOrCreateDailySlots } from "@/lib/storage";
+import { getPlayerById } from "@/lib/players";
+import { getPromoSlotFromSearch } from "@/lib/promo";
+import { loadOrCreateDailySlots, loadStoredGame } from "@/lib/storage";
 import type { DailyGameSlot } from "@/lib/types";
 
 export default function HomePage() {
@@ -15,8 +18,39 @@ export default function HomePage() {
   const selectedSlot = slots[activeSlot] ?? slots[0];
 
   useEffect(() => {
+    const promoSlot = getPromoSlotFromSearch(window.location.search, dateKey);
+    if (promoSlot) {
+      const promoPlayer = getPlayerById(promoSlot.playerId);
+      setActiveSlot(0);
+      setSlots([promoSlot]);
+      if (promoPlayer) {
+        trackPromoPreviewUsed({
+          gameSlot: promoSlot.slot,
+          playerId: promoPlayer.id,
+          nation: promoPlayer.nation,
+          fameTier: promoPlayer.fameTier,
+          isPromo: true,
+          selectionMode: "promo",
+          seedType: "promo"
+        });
+      }
+      return;
+    }
+
     setSlots(loadOrCreateDailySlots(LAUNCH_GAME_MODE, dateKey));
   }, [dateKey]);
+
+  useEffect(() => {
+    if (
+      slots.length >= FREE_DAILY_GAME_LIMIT &&
+      slots.every((slot) => !slot.isPromo && loadStoredGame(slot.dateKey, slot.mode, slot.slot)?.completed)
+    ) {
+      trackDailyLimitReached({
+        selectionMode: "daily-random",
+        seedType: "user-day"
+      });
+    }
+  }, [slots]);
 
   return (
     <main className="app-shell">
@@ -41,7 +75,7 @@ export default function HomePage() {
               onClick={() => setActiveSlot(slot.slot)}
               type="button"
             >
-              Game {slot.slot + 1}
+              {slot.isPromo ? "Promo" : `Game ${slot.slot + 1}`}
             </button>
           ))}
         </div>

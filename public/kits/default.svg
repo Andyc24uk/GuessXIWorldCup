@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 430" role="img" aria-label="Generic football shirt">
+  <defs>
+    <linearGradient id="fabric" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".22"/>
+      <stop offset=".52" stop-color="#ffffff" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="430" fill="#0f7a49"/>
+  <path d="M119 54 L151 30 H209 L241 54 L323 103 L289 171 L252 154 L252 386 H108 L108 154 L71 171 L37 103 Z" fill="#f7f7f2"/>
+  <path d="M119 54 L151 30 H209 L241 54 L323 103 L289 171 L252 154 L252 386 H108 L108 154 L71 171 L37 103 Z" fill="url(#fabric)"/>
+  <path d="M145 32 H215 V61 C207 82 153 82 145 61 Z" fill="#d9ded8"/>
+  <path d="M119 54 L151 30 H209 L241 54 L323 103 L289 171 L252 154 L252 386 H108 L108 154 L71 171 L37 103 Z" fill="none" stroke="#0f7a49" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M55 148 L78 166M305 148 L282 166M111 384H249" fill="none" stroke="#e7bd4a" stroke-linecap="round" stroke-width="7"/>
+</svg>

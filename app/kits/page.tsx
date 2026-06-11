@@ -1,5 +1,5 @@
-import ShirtGraphic from "@/components/ShirtGraphic";
-import { nationKitConfigs, type NationKitConfig } from "@/lib/kits";
+import AnswerKitGraphic from "@/components/AnswerKitGraphic";
+import { nationKitAssetColours } from "@/lib/nationKitAssets";
 import type { Player } from "@/lib/types";
 
 export const metadata = {
@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 export default function KitsPage() {
-  const sortedKits = [...nationKitConfigs].sort((a, b) => a.nation.localeCompare(b.nation));
+  const sortedKits = Object.entries(nationKitAssetColours).sort(([a], [b]) => a.localeCompare(b));
 
   return (
     <main className="kit-gallery-shell">
@@ -21,31 +21,26 @@ export default function KitsPage() {
       </header>
 
       <section className="kit-gallery-grid" aria-label="Generic national kit gallery">
-        {sortedKits.map((kit) => {
-          const previewPlayer = createPreviewPlayer(kit);
+        {sortedKits.map(([nation, colours]) => {
+          const previewPlayer = createPreviewPlayer(nation);
 
           return (
-            <article className="kit-card" key={kit.nation}>
+            <article className="kit-card" key={nation}>
               <header className="kit-card-header">
-                <h2>{kit.nation}</h2>
-                <span>{kit.patternType}</span>
+                <h2>{nation}</h2>
+                <span>{colours.shirt} / {colours.shorts}</span>
               </header>
-              <div className="kit-shirt-pair">
-                <div>
-                  <ShirtGraphic player={previewPlayer} showName={false} showNumber={false} view="front" />
-                </div>
-                <div>
-                  <ShirtGraphic player={previewPlayer} showName showNumber view="back" />
-                </div>
+              <div className="kit-review-panel">
+                <AnswerKitGraphic player={previewPlayer} showCaption={false} />
               </div>
               <dl className="kit-meta">
                 <div>
-                  <dt>Collar</dt>
-                  <dd>{kit.collarType}</dd>
+                  <dt>Shirt</dt>
+                  <dd>{colours.shirt}</dd>
                 </div>
                 <div>
-                  <dt>Trim</dt>
-                  <dd>{kit.trimStyle}</dd>
+                  <dt>Shorts</dt>
+                  <dd>{colours.shorts}</dd>
                 </div>
               </dl>
             </article>
@@ -56,29 +51,29 @@ export default function KitsPage() {
   );
 }
 
-function createPreviewPlayer(kit: NationKitConfig): Player {
+function createPreviewPlayer(nation: string): Player {
   return {
-    id: `preview-${kit.nation.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+    id: `preview-${nation.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
     fullName: "Preview Player",
     displayName: "Player",
     searchAliases: [],
     acceptedAnswers: ["Player"],
-    nationality: kit.nation,
-    nation: kit.nation,
-    nationSlug: kit.nation.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+    nationality: nation,
+    nation,
+    nationSlug: nation.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
     shirtNumber: 10,
     position: "Forward",
     club: "Preview FC",
-    clubCountry: kit.nation,
+    clubCountry: nation,
     age: 26,
     internationalDebut: "2020-01-01",
     caps: 10,
     internationalGoals: 3,
     nationalTeamDebutYear: 2020,
     worldCupAppearances: "First World Cup",
-    kitPrimaryColor: kit.baseColor,
-    kitSecondaryColor: kit.secondaryColor,
-    kitAccentColor: kit.accentColor,
+    kitPrimaryColor: "#ffffff",
+    kitSecondaryColor: "#10231d",
+    kitAccentColor: "#e7bd4a",
     clueFact: "Gallery preview only.",
     playedAlongside: "Gallery preview only.",
     sources: "GALLERY",

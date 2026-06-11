@@ -102,7 +102,7 @@ export default function GameCard({ slot }: GameCardProps) {
     <section className="game-card" aria-label={`Game ${slot.slot + 1}`}>
       <div className="shirt-stage">
         {completed ? (
-          <AnswerKitGraphic player={player} />
+          <AnswerKitGraphic player={player} showCaption={false} />
         ) : kitRevealed ? (
           <AnswerKitGraphic player={player} showCaption={false} showPrint={false} />
         ) : (
@@ -111,7 +111,7 @@ export default function GameCard({ slot }: GameCardProps) {
           </figure>
         )}
         {completed || !kitRevealed ? (
-          <div className="shirt-caption">
+          <div className={completed ? "shirt-caption answer-caption" : "shirt-caption"}>
             <strong>{completed ? player.displayName : "Mystery player"}</strong>
             {completed ? <span>{`${player.nation} - ${player.position}`}</span> : null}
           </div>

@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0" y="0.0" width="300" height="66.66666666666667" fill="#ce1126"/><rect x="0" y="66.66666666666667" width="300" height="66.66666666666667" fill="#fcd116"/><rect x="0" y="133.33333333333334" width="300" height="66.66666666666667" fill="#006b3f"/><polygon points="150.0,76.0 155.9,91.8 172.8,92.6 159.6,103.1 164.1,119.4 150.0,110.1 135.9,119.4 140.4,103.1 127.2,92.6 144.1,91.8" fill="#000"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-gh" viewBox="0 0 640 480">
+  <path fill="#006b3f" d="M0 0h640v480H0z"/>
+  <path fill="#fcd116" d="M0 0h640v320H0z"/>
+  <path fill="#ce1126" d="M0 0h640v160H0z"/>
+  <path fill="#000001" d="m320 160 52 160-136.1-98.9H404L268 320z"/>
 </svg>

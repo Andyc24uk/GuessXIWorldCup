@@ -1,3 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0" y="0" width="300" height="62" fill="#1eb5e5"/><rect x="0" y="62" width="300" height="7" fill="#ce1126"/><rect x="0" y="69" width="300" height="62" fill="#fff"/><rect x="0" y="131" width="300" height="7" fill="#ce1126"/><rect x="0" y="138" width="300" height="62" fill="#009b3a"/><circle cx="52" cy="31" r="20" fill="#fff"/><circle cx="60" cy="31" r="16.4" fill="#1eb5e5"/><polygon points="92.0,13.0 93.2,16.3 96.8,16.5 94.0,18.6 94.9,22.0 92.0,20.1 89.1,22.0 90.0,18.6 87.2,16.5 90.8,16.3" fill="#fff"/><polygon points="110.0,13.0 111.2,16.3 114.8,16.5 112.0,18.6 112.9,22.0 110.0,20.1 107.1,22.0 108.0,18.6 105.2,16.5 108.8,16.3" fill="#fff"/><polygon points="128.0,13.0 129.2,16.3 132.8,16.5 130.0,18.6 130.9,22.0 128.0,20.1 125.1,22.0 126.0,18.6 123.2,16.5 126.8,16.3" fill="#fff"/><polygon points="146.0,13.0 147.2,16.3 150.8,16.5 148.0,18.6 148.9,22.0 146.0,20.1 143.1,22.0 144.0,18.6 141.2,16.5 144.8,16.3" fill="#fff"/><polygon points="92.0,29.0 93.2,32.3 96.8,32.5 94.0,34.6 94.9,38.0 92.0,36.1 89.1,38.0 90.0,34.6 87.2,32.5 90.8,32.3" fill="#fff"/><polygon points="110.0,29.0 111.2,32.3 114.8,32.5 112.0,34.6 112.9,38.0 110.0,36.1 107.1,38.0 108.0,34.6 105.2,32.5 108.8,32.3" fill="#fff"/><polygon points="128.0,29.0 129.2,32.3 132.8,32.5 130.0,34.6 130.9,38.0 128.0,36.1 125.1,38.0 126.0,34.6 123.2,32.5 126.8,32.3" fill="#fff"/><polygon points="146.0,29.0 147.2,32.3 150.8,32.5 148.0,34.6 148.9,38.0 146.0,36.1 143.1,38.0 144.0,34.6 141.2,32.5 144.8,32.3" fill="#fff"/><polygon points="92.0,45.0 93.2,48.3 96.8,48.5 94.0,50.6 94.9,54.0 92.0,52.1 89.1,54.0 90.0,50.6 87.2,48.5 90.8,48.3" fill="#fff"/><polygon points="110.0,45.0 111.2,48.3 114.8,48.5 112.0,50.6 112.9,54.0 110.0,52.1 107.1,54.0 108.0,50.6 105.2,48.5 108.8,48.3" fill="#fff"/><polygon points="128.0,45.0 129.2,48.3 132.8,48.5 130.0,50.6 130.9,54.0 128.0,52.1 125.1,54.0 126.0,50.6 123.2,48.5 126.8,48.3" fill="#fff"/><polygon points="146.0,45.0 147.2,48.3 150.8,48.5 148.0,50.6 148.9,54.0 146.0,52.1 143.1,54.0 144.0,50.6 141.2,48.5 144.8,48.3" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-uz" viewBox="0 0 640 480">
+  <path fill="#1eb53a" d="M0 320h640v160H0z"/>
+  <path fill="#0099b5" d="M0 0h640v160H0z"/>
+  <path fill="#ce1126" d="M0 153.6h640v172.8H0z"/>
+  <path fill="#fff" d="M0 163.2h640v153.6H0z"/>
+  <circle cx="134.4" cy="76.8" r="57.6" fill="#fff"/>
+  <circle cx="153.6" cy="76.8" r="57.6" fill="#0099b5"/>
+  <g fill="#fff" transform="translate(261.1 122.9)scale(1.92)">
+    <g id="uz-e">
+      <g id="uz-d">
+        <g id="uz-c">
+          <g id="uz-b">
+            <path id="uz-a" d="M0-6-1.9-.3 1 .7"/>
+            <use xlink:href="#uz-a" width="100%" height="100%" transform="scale(-1 1)"/>
+          </g>
+          <use xlink:href="#uz-b" width="100%" height="100%" transform="rotate(72)"/>
+        </g>
+        <use xlink:href="#uz-b" width="100%" height="100%" transform="rotate(-72)"/>
+        <use xlink:href="#uz-c" width="100%" height="100%" transform="rotate(144)"/>
+      </g>
+      <use xlink:href="#uz-d" width="100%" height="100%" y="-24"/>
+      <use xlink:href="#uz-d" width="100%" height="100%" y="-48"/>
+    </g>
+    <use xlink:href="#uz-e" width="100%" height="100%" x="24"/>
+    <use xlink:href="#uz-e" width="100%" height="100%" x="48"/>
+    <use xlink:href="#uz-d" width="100%" height="100%" x="-48"/>
+    <use xlink:href="#uz-d" width="100%" height="100%" x="-24"/>
+    <use xlink:href="#uz-d" width="100%" height="100%" x="-24" y="-24"/>
+  </g>
 </svg>

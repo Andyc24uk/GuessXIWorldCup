@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0.0" y="0" width="150.0" height="200" fill="#006233"/><rect x="150.0" y="0" width="150.0" height="200" fill="#fff"/><circle cx="168" cy="100" r="38" fill="#d21034"/><circle cx="184" cy="100" r="31.159999999999997" fill="#fff"/><polygon points="190.0,78.0 195.4,92.5 210.9,93.2 198.8,102.9 202.9,117.8 190.0,109.2 177.1,117.8 181.2,102.9 169.1,93.2 184.6,92.5" fill="#d21034"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-dz" viewBox="0 0 640 480">
+  <path fill="#fff" d="M320 0h320v480H320z"/>
+  <path fill="#006233" d="M0 0h320v480H0z"/>
+  <path fill="#d21034" d="M424 180a120 120 0 1 0 0 120 96 96 0 1 1 0-120m4 60-108-35.2 67.2 92V183.2l-67.2 92z"/>
 </svg>

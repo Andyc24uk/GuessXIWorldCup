@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0" y="0" width="150" height="100" fill="#fff"/><rect x="150" y="0" width="150" height="100" fill="#d21034"/><rect x="0" y="100" width="150" height="100" fill="#005293"/><rect x="150" y="100" width="150" height="100" fill="#fff"/><polygon points="75.0,26.0 80.9,41.8 97.8,42.6 84.6,53.1 89.1,69.4 75.0,60.1 60.9,69.4 65.4,53.1 52.2,42.6 69.1,41.8" fill="#005293"/><polygon points="225.0,126.0 230.9,141.8 247.8,142.6 234.6,153.1 239.1,169.4 225.0,160.1 210.9,169.4 215.4,153.1 202.2,142.6 219.1,141.8" fill="#d21034"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-pa" viewBox="0 0 640 480">
+  <path fill="#fff" d="M0 0h640v480H0z"/>
+  <path fill="#db0000" d="M323 0h358v225.3H323z"/>
+  <path fill="#0000ab" d="M0 225.3h323.1V480H0z"/>
+  <path fill="#0000ab" fill-rule="evenodd" d="m214.8 177.7-42-29.4-41.7 29.6 15.5-48L105 100l51.6-.4 16-48 16.3 47.9h51.6l-41.5 30 15.9 48z"/>
+  <path fill="#d80000" fill-rule="evenodd" d="m516.9 413.9-42.4-27.7-42.1 28 15.6-45.6-42-28 52-.5 16.2-45.4 16.4 45.3h52l-41.8 28.5 16 45.4z"/>
 </svg>

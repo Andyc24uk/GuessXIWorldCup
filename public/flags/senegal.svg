@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0.0" y="0" width="100.0" height="200" fill="#00853f"/><rect x="100.0" y="0" width="100.0" height="200" fill="#fdef42"/><rect x="200.0" y="0" width="100.0" height="200" fill="#e31b23"/><polygon points="150.0,76.0 155.9,91.8 172.8,92.6 159.6,103.1 164.1,119.4 150.0,110.1 135.9,119.4 140.4,103.1 127.2,92.6 144.1,91.8" fill="#00853f"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-sn" viewBox="0 0 640 480">
+  <g fill-rule="evenodd" stroke-width="1pt">
+    <path fill="#0b7226" d="M0 0h213.3v480H0z"/>
+    <path fill="#ff0" d="M213.3 0h213.3v480H213.3z"/>
+    <path fill="#bc0000" d="M426.6 0H640v480H426.6z"/>
+  </g>
+  <path fill="#0b7226" d="M342 218.8h71.8l-56.6 43.6 20.7 69.3-56.6-43.6-56.6 41.6 20.7-67.3-56.6-43.6h69.8l22.7-71.3z"/>
 </svg>

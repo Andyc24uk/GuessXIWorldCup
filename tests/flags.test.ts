@@ -16,4 +16,10 @@ describe("flag assets", () => {
       expect(existsSync(join(process.cwd(), "public", assetPath)), `${assetPath} should exist`).toBe(true);
     }
   });
+
+  it("uses the provided Australia source asset rather than a generated placeholder", () => {
+    expect(getFlagAssetForNation("Australia")).toBe("/flags/australia.svg");
+    const australiaFlag = join(process.cwd(), "public", "flags", "australia.svg");
+    expect(existsSync(australiaFlag)).toBe(true);
+  });
 });

@@ -214,6 +214,8 @@ h1 {
 }
 
 .shirt-caption {
+  display: grid;
+  justify-items: center;
   text-align: center;
 }
 
@@ -247,6 +249,7 @@ h1 {
   width: min(76%, 260px);
   aspect-ratio: 3 / 2;
   margin-top: clamp(10px, 2vw, 16px);
+  margin-inline: auto;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   object-fit: cover;

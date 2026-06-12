@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
-<rect x="0" y="0" width="300" height="200" fill="#002b7f"/><rect x="0" y="128" width="300" height="22" fill="#f9e814"/><polygon points="78.0,51.0 83.2,64.9 98.0,65.5 86.4,74.7 90.3,89.0 78.0,80.8 65.7,89.0 69.6,74.7 58.0,65.5 72.8,64.9" fill="#fff"/><polygon points="116.0,35.0 119.2,43.6 128.4,44.0 121.2,49.7 123.6,58.5 116.0,53.5 108.4,58.5 110.8,49.7 103.6,44.0 112.8,43.6" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-cw" viewBox="0 0 640 480">
+  <defs>
+    <clipPath id="cw-a">
+      <path fill-opacity=".7" d="M0 0h682.7v512H0z"/>
+    </clipPath>
+    <path id="cw-b" d="m0-1 .2.7H1L.3 0l.2.7L0 .4l-.6.4.2-.7-.5-.4h.7z"/>
+  </defs>
+  <g clip-path="url(#cw-a)" transform="scale(.94)">
+    <path fill="#002b7f" d="M0 0h768v512H0z"/>
+    <path fill="#f9e814" d="M0 320h768v64H0z"/>
+    <use xlink:href="#cw-b" width="13500" height="9000" x="2" y="2" fill="#fff" transform="scale(42.67)"/>
+    <use xlink:href="#cw-b" width="13500" height="9000" x="3" y="3" fill="#fff" transform="scale(56.9)"/>
+  </g>
 </svg>

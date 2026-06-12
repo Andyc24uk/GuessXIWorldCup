@@ -14,6 +14,7 @@ import {
   trackGameStart,
   trackGuessSubmitted
 } from "@/lib/analytics";
+import { getFlagForNation } from "@/lib/flags";
 import { applyGuessToGame, buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
 import { getPlayerById } from "@/lib/players";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
@@ -26,7 +27,7 @@ type GameCardProps = {
 export default function GameCard({ slot }: GameCardProps) {
   const player = getPlayerById(slot.playerId);
   const [game, setGame] = useState<StoredGameResult | null>(null);
-  const [copyState, setCopyState] = useState<"idle" | "copied" | "failed">("idle");
+  const [shareState, setShareState] = useState<"idle" | "copied" | "failed">("idle");
 
   const clues = useMemo(() => {
     if (!player) {
@@ -138,17 +139,27 @@ export default function GameCard({ slot }: GameCardProps) {
     });
   }
 
-  async function copyShareText() {
-    const text = createShareText(slot.mode, activeGame.solved, activeGame.solved ? solvedClueCount : revealedCount);
+  async function shareScore() {
+    const cluesUsed = activeGame.solved ? solvedClueCount : clues.length;
+    const text = createShareText(activePlayer.displayName, activeGame.solved, cluesUsed, clues.length);
     try {
-      await navigator.clipboard.writeText(text);
+      let usedNativeShare = false;
+      if (navigator.share) {
+        await navigator.share({
+          text,
+          url: "https://guessxi.app/"
+        });
+        usedNativeShare = true;
+      } else {
+        await navigator.clipboard.writeText(text);
+      }
       trackCopyResult(getAnalyticsProperties(activePlayer, slot, {
-        cluesUsed: activeGame.solved ? solvedClueCount : revealedCount,
+        cluesUsed,
         solved: activeGame.solved
       }));
-      setCopyState("copied");
+      setShareState(usedNativeShare ? "idle" : "copied");
     } catch {
-      setCopyState("failed");
+      setShareState("failed");
     }
   }
 
@@ -167,7 +178,14 @@ export default function GameCard({ slot }: GameCardProps) {
         {completed || !kitRevealed ? (
           <div className={completed ? "shirt-caption answer-caption" : "shirt-caption"}>
             <strong>{completed ? player.displayName : "Mystery player"}</strong>
-            {completed ? <span>{`${player.nation} - ${player.position}`}</span> : null}
+            {completed ? (
+              <>
+                <span>{`${player.nation} - ${player.position}`}</span>
+                <span className="answer-flag" aria-label={`${player.nation} flag`} role="img">
+                  {getFlagForNation(player.nation)}
+                </span>
+              </>
+            ) : null}
           </div>
         ) : null}
       </div>
@@ -205,8 +223,8 @@ export default function GameCard({ slot }: GameCardProps) {
             </button>
           ) : null}
           {completed ? (
-            <button className="secondary-button" onClick={copyShareText} type="button">
-              {copyState === "copied" ? "Copied result" : copyState === "failed" ? "Copy unavailable" : "Copy result"}
+            <button className="secondary-button" onClick={shareScore} type="button">
+              {shareState === "copied" ? "Score copied!" : shareState === "failed" ? "Share unavailable" : "Share your Score"}
             </button>
           ) : null}
         </div>

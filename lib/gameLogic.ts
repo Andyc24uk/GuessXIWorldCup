@@ -215,9 +215,14 @@ function getGuessFragments(normalizedName: string): string[] {
     .filter((part) => part.length >= 3 && !IGNORED_NAME_PARTS.has(part));
 }
 
-export function createShareText(mode: GameMode, solved: boolean, cluesUsed: number): string {
-  const result = solved ? `Guessed in ${cluesUsed} clue${cluesUsed === 1 ? "" : "s"}` : "Stumped today";
-  return `Guess XI: World Cup - ${result}`;
+export function createShareText(playerName: string, solved: boolean, cluesUsed: number, clueCount = 11, url = "https://guessxi.app/"): string {
+  const normalizedCluesUsed = Math.max(0, Math.min(cluesUsed, clueCount));
+  const symbols = Array.from({ length: clueCount }, (_, index) => (index < normalizedCluesUsed ? "⚽" : "⚪️")).join(" ");
+  const result = solved
+    ? `Guessed in ${normalizedCluesUsed} clue${normalizedCluesUsed === 1 ? "" : "s"}!`
+    : `Stumped after ${clueCount} clues!`;
+
+  return `${playerName}\n${symbols}\n${result}\nThink you can do better?\n${url}`;
 }
 
 export function applyGuessToGame(

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { applyGuessToGame, buildClues, CASUAL_CLUE_ORDER, enforceClubDependency, getClueOrder, isCorrectGuess } from "@/lib/gameLogic";
+import { applyGuessToGame, buildClues, CASUAL_CLUE_ORDER, createShareText, enforceClubDependency, getClueOrder, isCorrectGuess } from "@/lib/gameLogic";
 import { createGuessOptionFromPlayer, searchGuessOptions } from "@/lib/guessOptions";
 import { getLaunchPlayerPool, players } from "@/lib/players";
 import {
@@ -157,6 +157,20 @@ describe("game result state", () => {
     expect(next.completed).toBe(true);
     expect(next.solved).toBe(false);
     expect(next.solvedClueCount).toBeUndefined();
+  });
+});
+
+describe("share text", () => {
+  it("formats solved scores with eleven symbols and solved clue count", () => {
+    expect(createShareText("Bernardo Silva", true, 6, 11)).toBe(
+      "Bernardo Silva\n⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚪️ ⚪️ ⚪️ ⚪️ ⚪️\nGuessed in 6 clues!\nThink you can do better?\nhttps://guessxi.app/"
+    );
+  });
+
+  it("formats failed scores with eleven football symbols", () => {
+    expect(createShareText("Bernardo Silva", false, 11, 11)).toBe(
+      "Bernardo Silva\n⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽\nStumped after 11 clues!\nThink you can do better?\nhttps://guessxi.app/"
+    );
   });
 });
 

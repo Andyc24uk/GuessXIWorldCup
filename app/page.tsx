@@ -92,6 +92,7 @@ export default function HomePage() {
       {selectedSlot ? <GameCard key={`${selectedSlot.playerId}-${activeSlot}-${dateKey}`} slot={selectedSlot} /> : <section className="game-card">Loading today&apos;s games...</section>}
       <footer className="site-footer">
         <a href="/privacy">Privacy Policy</a>
+        <a href="/contact">Contact</a>
       </footer>
     </main>
   );

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { applyGuessToGame, buildClues, CASUAL_CLUE_ORDER, enforceClubDependency, getClueOrder, isCorrectGuess } from "@/lib/gameLogic";
 import { createGuessOptionFromPlayer, searchGuessOptions } from "@/lib/guessOptions";
-import { players } from "@/lib/players";
+import { getLaunchPlayerPool, players } from "@/lib/players";
 import {
   createPlayerSheetHeaderMap,
   getPlayerSheetCell,
@@ -197,6 +197,15 @@ describe("guess matching", () => {
 
     expect(suggestions.some((option) => option.displayName === "Zinedine Zidane" && option.suggestionOnly)).toBe(true);
     expect(isCorrectGuess("Zinedine Zidane", player!)).toBe(false);
+  });
+
+  it("offers FIFA squad PDF names as suggestion-only autocomplete options", () => {
+    const player = players.find((item) => item.id === "bernardo-silva");
+    const suggestions = searchGuessOptions("Angus Gunn");
+
+    expect(suggestions.some((option) => option.displayName === "Angus Gunn" && option.suggestionOnly)).toBe(true);
+    expect(getLaunchPlayerPool().some((item) => item.displayName === "Angus Gunn")).toBe(false);
+    expect(isCorrectGuess("Angus Gunn", player!)).toBe(false);
   });
 
   it("can keep excluded player rows in autocomplete while removing them from answer eligibility", () => {

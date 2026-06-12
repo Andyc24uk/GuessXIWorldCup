@@ -43,4 +43,5 @@ https://guessxi.app?promoPlayer=bernardo-silva&promoKey=fake-preview-key
 - Player data lives in `lib/players.ts`.
 - Google Sheet/player import expectations live in `lib/sheetSchema.ts`. `Exclude` is an optional first column; rows marked `X`, `TRUE`, or `Yes` are kept in source data but excluded from the playable daily pool. Add `Career Path` immediately before `Fact` in the sheet.
 - Autocomplete uses `lib/guessOptions.ts`, which can include source rows and suggestion-only names that are not answer candidates.
+- FIFA PDF squad suggestion extraction review lives at `data/extracted-fifa-squad-names-review.csv`.
 - A paste-ready career path backfill is available at `data/career-path-sheet-backfill.csv`.

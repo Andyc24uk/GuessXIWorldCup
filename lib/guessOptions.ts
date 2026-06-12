@@ -1,5 +1,6 @@
 import { players } from "./players";
 import { normalizeGuess } from "./gameLogic";
+import { fifaSquadSuggestionOnlyPlayers } from "./suggestionOnlyPlayers";
 import type { GuessOption, Player } from "./types";
 
 const SUGGESTION_LIMIT = 8;
@@ -16,7 +17,8 @@ export const suggestionOnlyGuessOptions: GuessOption[] = [
   createSuggestionOnlyGuessOption("luis-suarez", "Luis Suárez", ["Luis Suarez", "Suarez"]),
   createSuggestionOnlyGuessOption("eden-hazard", "Eden Hazard", ["Hazard"]),
   createSuggestionOnlyGuessOption("neymar", "Neymar", ["Neymar Jr", "Neymar da Silva Santos Junior"]),
-  createSuggestionOnlyGuessOption("karim-benzema", "Karim Benzema", ["Benzema"])
+  createSuggestionOnlyGuessOption("karim-benzema", "Karim Benzema", ["Benzema"]),
+  ...fifaSquadSuggestionOnlyPlayers.map((player) => createSuggestionOnlyGuessOption(player.id, player.displayName, [...player.acceptedAnswers]))
 ];
 
 export const guessOptions: GuessOption[] = dedupeGuessOptions([...players.map(createGuessOptionFromPlayer), ...suggestionOnlyGuessOptions]);

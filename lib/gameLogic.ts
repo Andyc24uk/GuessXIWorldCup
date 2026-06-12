@@ -1,4 +1,3 @@
-import { players } from "./players";
 import { getCareerPathOverride, getNotableFactOverride } from "./playerClueOverrides";
 import type { Clue, ClueKey, GameMode, Player, StoredGameResult } from "./types";
 
@@ -125,13 +124,13 @@ export function getClueValue(player: Player, key: ClueKey): string {
 }
 
 export function getCareerPath(player: Player): string {
+  if (player.careerPath?.trim()) {
+    return formatCareerPath(player.careerPath.trim());
+  }
+
   const override = getCareerPathOverride(player);
   if (override) {
     return formatCareerPath(override);
-  }
-
-  if (player.careerPath?.trim()) {
-    return formatCareerPath(player.careerPath.trim());
   }
 
   if (player.careerHint?.trim()) {
@@ -190,22 +189,6 @@ export function getAcceptedGuessValues(player: Player): string[] {
   }
 
   return [...accepted];
-}
-
-export function searchPlayers(query: string): Player[] {
-  const normalized = normalizeGuess(query);
-  if (!normalized) {
-    return players.slice(0, 8);
-  }
-
-  return players
-    .filter((player) => {
-      const haystack = [player.fullName, player.displayName, ...player.searchAliases]
-        .map(normalizeGuess)
-        .join(" ");
-      return haystack.includes(normalized);
-    })
-    .slice(0, 8);
 }
 
 const IGNORED_NAME_PARTS = new Set([

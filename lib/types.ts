@@ -20,6 +20,7 @@ export type ClueKey =
 export type Player = {
   id: string;
   slug?: string;
+  exclude?: boolean;
   fullName: string;
   displayName: string;
   searchAliases: string[];
@@ -48,6 +49,14 @@ export type Player = {
   snapshotDate: string;
   difficultyTier: "easy" | "medium" | "hard";
   fameTier: FameTier;
+};
+
+export type GuessOption = {
+  id: string;
+  displayName: string;
+  acceptedAnswers: string[];
+  playablePlayerId?: string;
+  suggestionOnly?: boolean;
 };
 
 export type Clue = {

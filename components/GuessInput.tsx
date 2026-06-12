@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useMemo, useState } from "react";
-import { searchPlayers } from "@/lib/gameLogic";
+import { searchGuessOptions } from "@/lib/guessOptions";
 
 type GuessInputProps = {
   disabled: boolean;
@@ -11,7 +11,7 @@ type GuessInputProps = {
 export default function GuessInput({ disabled, onSubmit }: GuessInputProps) {
   const [value, setValue] = useState("");
   const [focused, setFocused] = useState(false);
-  const suggestions = useMemo(() => searchPlayers(value), [value]);
+  const suggestions = useMemo(() => searchGuessOptions(value), [value]);
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();

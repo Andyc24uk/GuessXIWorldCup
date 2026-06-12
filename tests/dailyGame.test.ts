@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { FREE_DAILY_GAME_LIMIT } from "@/lib/constants";
 import { createRandomGameSlots, getDailyGameSlots, pickRandomPlayerIds, updateRecentPlayerHistory } from "@/lib/dailyGame";
-import { players } from "@/lib/players";
+import { getLaunchPlayerPool, players } from "@/lib/players";
 
 describe("daily game selection", () => {
   it("creates three free daily slots", () => {
@@ -22,6 +22,19 @@ describe("daily game selection", () => {
     const [id] = pickRandomPlayerIds(1, [], () => 0.5);
 
     expect(players.some((player) => player.id === id)).toBe(true);
+  });
+
+  it("excludes marked players from the playable daily pool without removing source data", () => {
+    const player = players[0];
+    player.exclude = true;
+
+    try {
+      expect(players.some((item) => item.id === player.id)).toBe(true);
+      expect(getLaunchPlayerPool().some((item) => item.id === player.id)).toBe(false);
+      expect(pickRandomPlayerIds(players.length, [], () => 0).includes(player.id)).toBe(false);
+    } finally {
+      delete player.exclude;
+    }
   });
 
   it("avoids recent player history when enough alternatives exist", () => {

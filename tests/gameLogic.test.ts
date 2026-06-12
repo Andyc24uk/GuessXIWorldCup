@@ -1,6 +1,16 @@
 import { describe, expect, it } from "vitest";
 import { applyGuessToGame, buildClues, CASUAL_CLUE_ORDER, enforceClubDependency, getClueOrder, isCorrectGuess } from "@/lib/gameLogic";
+import { createGuessOptionFromPlayer, searchGuessOptions } from "@/lib/guessOptions";
 import { players } from "@/lib/players";
+import {
+  createPlayerSheetHeaderMap,
+  getPlayerSheetCell,
+  isExcludedSheetValue,
+  mapPlayerSheetRowByHeader,
+  PLAYER_SHEET_COLUMNS,
+  PLAYER_SHEET_FIELD_MAP,
+  validatePlayerSheetHeaders
+} from "@/lib/sheetSchema";
 import type { Player, StoredGameResult } from "@/lib/types";
 
 describe("clue ordering", () => {
@@ -37,6 +47,7 @@ describe("clue ordering", () => {
     const player = players.find((item) => item.id === "bernardo-silva");
     const clues = buildClues(player!, "casual");
 
+    expect(player?.careerPath).toBe("Benfica -> Monaco -> Manchester City");
     expect(clues.find((clue) => clue.key === "careerPath")?.value).toBe("Benfica → Monaco → Manchester City");
     expect(clues.find((clue) => clue.key === "fact")?.value).toContain("2022-23 treble-winning team");
   });
@@ -51,6 +62,58 @@ describe("clue ordering", () => {
     const order = getClueOrder("ultra", "2026-06-09:0:ultra", true);
 
     expect(order.indexOf("clubCountry")).toBeLessThan(order.indexOf("club"));
+  });
+});
+
+describe("sheet schema", () => {
+  it("places Career Path immediately before Fact", () => {
+    expect(PLAYER_SHEET_COLUMNS.indexOf("Career Path")).toBe(PLAYER_SHEET_COLUMNS.indexOf("Fact") - 1);
+    expect(PLAYER_SHEET_FIELD_MAP["Career Path"]).toBe("careerPath");
+  });
+
+  it("keeps Exclude as an optional first column", () => {
+    expect(PLAYER_SHEET_COLUMNS[0]).toBe("Exclude");
+    expect(PLAYER_SHEET_FIELD_MAP["Exclude"]).toBe("exclude");
+  });
+
+  it("reads player sheet cells by exact header name instead of fixed index", () => {
+    const headers = ["Fact", "Player Name", "Career Path", "Nation"];
+    const row = ["Treble winner.", "Bernardo Silva", "Benfica -> Monaco -> Manchester City", "Portugal"];
+    const headerMap = createPlayerSheetHeaderMap(headers);
+
+    expect(getPlayerSheetCell(row, headerMap, "Player Name")).toBe("Bernardo Silva");
+    expect(getPlayerSheetCell(row, headerMap, "Career Path")).toBe("Benfica -> Monaco -> Manchester City");
+  });
+
+  it("treats Exclude as backward-compatible when absent", () => {
+    const headers = PLAYER_SHEET_COLUMNS.filter((column) => column !== "Exclude");
+
+    expect(() => validatePlayerSheetHeaders(headers)).not.toThrow();
+  });
+
+  it("reports missing required player sheet headers clearly", () => {
+    const headers = PLAYER_SHEET_COLUMNS.filter((column) => column !== "Club");
+
+    expect(() => validatePlayerSheetHeaders(headers)).toThrow("Missing required player sheet header: Club");
+  });
+
+  it("maps Exclude values to the player exclude field", () => {
+    const headers = [...PLAYER_SHEET_COLUMNS];
+    const row = headers.map((header) => {
+      if (header === "Exclude") {
+        return "Yes";
+      }
+      if (header === "Player Name") {
+        return "Test Player";
+      }
+      return "value";
+    });
+
+    expect(mapPlayerSheetRowByHeader(row, headers).exclude).toBe(true);
+    expect(isExcludedSheetValue("X")).toBe(true);
+    expect(isExcludedSheetValue("true")).toBe(true);
+    expect(isExcludedSheetValue("yes")).toBe(true);
+    expect(isExcludedSheetValue("")).toBe(false);
   });
 });
 
@@ -126,6 +189,30 @@ describe("guess matching", () => {
 
     expect(isCorrectGuess("De", player)).toBe(false);
     expect(isCorrectGuess("Bruyne", player)).toBe(true);
+  });
+
+  it("offers suggestion-only names without accepting them for the active answer", () => {
+    const player = players.find((item) => item.id === "bernardo-silva");
+    const suggestions = searchGuessOptions("Zidane");
+
+    expect(suggestions.some((option) => option.displayName === "Zinedine Zidane" && option.suggestionOnly)).toBe(true);
+    expect(isCorrectGuess("Zinedine Zidane", player!)).toBe(false);
+  });
+
+  it("can keep excluded player rows in autocomplete while removing them from answer eligibility", () => {
+    const option = createGuessOptionFromPlayer({
+      ...createTestPlayer({
+        displayName: "Suggestion Only Player",
+        fullName: "Suggestion Only Player",
+        searchAliases: ["Suggestion Alias"]
+      }),
+      exclude: true
+    });
+
+    expect(option.displayName).toBe("Suggestion Only Player");
+    expect(option.acceptedAnswers).toContain("Suggestion Alias");
+    expect(option.playablePlayerId).toBeUndefined();
+    expect(option.suggestionOnly).toBe(true);
   });
 });
 

@@ -242,11 +242,14 @@ h1 {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.34);
 }
 
-.answer-flag {
+.answer-flag-img {
   display: block;
+  width: min(76%, 260px);
+  aspect-ratio: 3 / 2;
   margin-top: clamp(10px, 2vw, 16px);
-  font-size: clamp(4.5rem, 15vw, 8.8rem);
-  line-height: 0.9;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  object-fit: cover;
   filter: drop-shadow(0 16px 22px rgba(0, 0, 0, 0.24));
 }
 

@@ -14,7 +14,7 @@ import {
   trackGameStart,
   trackGuessSubmitted
 } from "@/lib/analytics";
-import { getFlagForNation } from "@/lib/flags";
+import { getFlagAssetForNation } from "@/lib/flags";
 import { applyGuessToGame, buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
 import { getPlayerById } from "@/lib/players";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
@@ -181,9 +181,7 @@ export default function GameCard({ slot }: GameCardProps) {
             {completed ? (
               <>
                 <span>{`${player.nation} - ${player.position}`}</span>
-                <span className="answer-flag" aria-label={`${player.nation} flag`} role="img">
-                  {getFlagForNation(player.nation)}
-                </span>
+                <img className="answer-flag-img" src={getFlagAssetForNation(player.nation)} alt={`${player.nation} flag`} />
               </>
             ) : null}
           </div>

@@ -4,9 +4,9 @@ import { shareWithFallback, createNativeSharePayload } from "@/lib/share";
 import { createInitialStoredGame, getDailySlotsStorageKey, getRecentPlayersStorageKey, saveStoredGame } from "@/lib/storage";
 import { getLaunchPlayerPool, players } from "@/lib/players";
 import {
-  createFreshVersusChallengeId,
   createVersusShareText,
   createVersusSlot,
+  getNextVersusChallengeId,
   getStableVersusPlayerPool,
   getVersusChallengePlayer,
   getVersusChallengeUrl
@@ -110,14 +110,50 @@ describe("versus mode", () => {
     expect(shouldShowVersusPlayAgain(dailySlot, true)).toBe(false);
   });
 
-  it("creates a fresh versus challenge id for play again", () => {
-    const challengeId = createFreshVersusChallengeId(getVersusChallengePlayer("abc123")?.id, () => 0.13);
-
-    expect(challengeId).toHaveLength(6);
-    expect(challengeId).not.toBe("abc123");
+  it("produces the same next challenge id from the same current challenge id", () => {
+    expect(getNextVersusChallengeId("abc123")).toBe(getNextVersusChallengeId("abc123"));
   });
 
-  it("creating a fresh versus challenge does not affect daily storage", () => {
+  it("different challenge ids generally produce different next challenge ids", () => {
+    expect(getNextVersusChallengeId("abc123")).not.toBe(getNextVersusChallengeId("def456"));
+  });
+
+  it("play again from the same challenge sends users to the same next url", () => {
+    const firstUrl = getVersusChallengeUrl(getNextVersusChallengeId("abc123"));
+    const secondUrl = getVersusChallengeUrl(getNextVersusChallengeId("abc123"));
+
+    expect(firstUrl).toBe(secondUrl);
+  });
+
+  it("the deterministic next challenge resolves to a strict playable player", () => {
+    const nextChallengeId = getNextVersusChallengeId("abc123");
+    const nextPlayer = getVersusChallengePlayer(nextChallengeId);
+
+    expect(nextChallengeId).toHaveLength(6);
+    expect(nextPlayer).toBeDefined();
+    expect(getLaunchPlayerPool().some((candidate) => candidate.id === nextPlayer?.id)).toBe(true);
+  });
+
+  it("the deterministic next challenge avoids excluded, verify, incomplete, and suggestion-only players", () => {
+    const nextChallengeId = getNextVersusChallengeId("abc123");
+    const nextPlayer = getVersusChallengePlayer(nextChallengeId);
+    const versusPoolIds = new Set(getStableVersusPlayerPool().map((player) => player.id));
+
+    expect(nextPlayer).toBeDefined();
+    expect(versusPoolIds.has(nextPlayer!.id)).toBe(true);
+    expect(nextPlayer?.id).not.toBe("england-nico-oreilly");
+  });
+
+  it("the deterministic next challenge tries to avoid the same player where possible", () => {
+    const currentPlayer = getVersusChallengePlayer("abc123");
+    const nextPlayer = getVersusChallengePlayer(getNextVersusChallengeId("abc123"));
+
+    if (getStableVersusPlayerPool().length > 1) {
+      expect(nextPlayer?.id).not.toBe(currentPlayer?.id);
+    }
+  });
+
+  it("deterministic play again does not affect daily storage", () => {
     const storage = createLocalStorageMock();
     (globalThis as { window?: unknown }).window = {
       localStorage: storage
@@ -128,7 +164,7 @@ describe("versus mode", () => {
     storage.setItem(dailySlotsKey, JSON.stringify([{ slot: 0, playerId: "daily-player", mode: "casual", dateKey: "2026-06-13" }]));
     storage.setItem(recentPlayersKey, JSON.stringify([{ playerId: "daily-player", dateKey: "2026-06-13" }]));
 
-    createFreshVersusChallengeId(getLaunchPlayerPool()[0].id, () => 0.22);
+    getNextVersusChallengeId("abc123");
 
     expect(storage.getItem(dailySlotsKey)).toBe(JSON.stringify([{ slot: 0, playerId: "daily-player", mode: "casual", dateKey: "2026-06-13" }]));
     expect(storage.getItem(recentPlayersKey)).toBe(JSON.stringify([{ playerId: "daily-player", dateKey: "2026-06-13" }]));

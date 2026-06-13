@@ -21,7 +21,7 @@ import { shouldShowVersusPlayAgain } from "@/lib/gameUi";
 import { getPlayerById } from "@/lib/players";
 import { shareWithFallback } from "@/lib/share";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
-import { createFreshVersusChallengeId, createVersusShareText, getVersusChallengeUrl } from "@/lib/versus";
+import { createVersusShareText, getNextVersusChallengeId, getVersusChallengeUrl } from "@/lib/versus";
 import type { DailyGameSlot, StoredGameResult } from "@/lib/types";
 import { trackVersusChallengeOpened, trackVersusFailed, trackVersusShareClicked, trackVersusSolved } from "@/lib/analytics";
 
@@ -67,8 +67,8 @@ export default function GameCard({ slot }: GameCardProps) {
       return;
     }
 
-    setPlayAgainHref(`/v/${createFreshVersusChallengeId(player.id)}`);
-  }, [game?.completed, isVersus, player]);
+    setPlayAgainHref(`/v/${getNextVersusChallengeId(challengeId)}`);
+  }, [challengeId, game?.completed, isVersus, player]);
 
   useEffect(() => {
     if (!player) {

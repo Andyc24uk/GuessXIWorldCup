@@ -36,6 +36,24 @@ export function createFreshVersusChallengeId(currentPlayerId?: string, random: (
   return fallbackId;
 }
 
+export function getNextVersusChallengeId(currentChallengeId: string, pool = getStableVersusPlayerPool()): string {
+  const normalizedCurrentId = normalizeChallengeId(currentChallengeId);
+  const currentPlayerId = getVersusChallengePlayer(normalizedCurrentId, pool)?.id;
+  let fallbackId = createDeterministicChallengeId(`${normalizedCurrentId}:next:0`);
+
+  for (let attempt = 0; attempt < 12; attempt += 1) {
+    const nextId = createDeterministicChallengeId(`${normalizedCurrentId}:next:${attempt}`);
+    const nextPlayer = getVersusChallengePlayer(nextId, pool);
+    fallbackId = nextId;
+
+    if (!currentPlayerId || !nextPlayer || nextPlayer.id !== currentPlayerId) {
+      return nextId;
+    }
+  }
+
+  return fallbackId;
+}
+
 export function getVersusChallengePlayer(challengeId: string, pool = getStableVersusPlayerPool()): Player | undefined {
   if (!pool.length) {
     return undefined;
@@ -100,4 +118,16 @@ function hashChallengeId(value: string): number {
   }
 
   return hash;
+}
+
+function createDeterministicChallengeId(seedValue: string, length = CHALLENGE_ID_LENGTH): string {
+  let seed = hashChallengeId(seedValue) || 1;
+  let output = "";
+
+  for (let index = 0; index < length; index += 1) {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    output += CHALLENGE_ALPHABET[seed % CHALLENGE_ALPHABET.length];
+  }
+
+  return output;
 }

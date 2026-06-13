@@ -69,11 +69,13 @@ export default function HomePage() {
           <p className="subtitle">Guess the World Cup player from the shirt and clues.</p>
         </div>
         <div className="hero-side">
-          <div className="daily-pill" aria-label={`${dailyLimit} games today`}>
+          <div className="daily-pill desktop-only" aria-label={`${dailyLimit} games today`}>
             <strong>{dailyLimit}</strong>
             <span>games today</span>
           </div>
-          <VersusEntryCard />
+          <div className="desktop-only">
+            <VersusEntryCard />
+          </div>
         </div>
       </section>
 
@@ -90,6 +92,14 @@ export default function HomePage() {
             </button>
           ))}
         </div>
+        <div className="mobile-daily-pill" aria-label={`${dailyLimit} games today`}>
+          <strong>{dailyLimit}</strong>
+          <span>today</span>
+        </div>
+      </section>
+
+      <section className="mobile-versus-row" aria-label="Versus Mode">
+        <VersusEntryCard />
       </section>
 
       <AdSlot placement="top" />

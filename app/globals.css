@@ -99,6 +99,10 @@ button {
   gap: 12px;
 }
 
+.desktop-only {
+  display: contents;
+}
+
 .eyebrow {
   margin: 0 0 8px;
   color: rgba(255, 255, 255, 0.72);
@@ -143,6 +147,11 @@ h1 {
 .daily-pill span {
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.86rem;
+}
+
+.mobile-daily-pill,
+.mobile-versus-row {
+  display: none;
 }
 
 .versus-entry-card {
@@ -961,12 +970,45 @@ h1 {
     justify-items: stretch;
   }
 
-  .daily-pill {
-    min-width: 86px;
-    min-height: 76px;
+  .desktop-only {
+    display: none;
   }
 
-  .versus-entry-card {
+  .control-panel {
+    margin: -2px 0 8px;
+    gap: 10px;
+  }
+
+  .mobile-daily-pill {
+    display: inline-flex;
+    min-height: 34px;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    padding: 0 12px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .mobile-daily-pill strong {
+    font-size: 0.9rem;
+    line-height: 1;
+  }
+
+  .mobile-daily-pill span {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .mobile-versus-row {
+    display: block;
+    margin: 0 0 10px;
+  }
+
+  .mobile-versus-row .versus-entry-card {
     min-width: 0;
   }
 
@@ -1018,6 +1060,12 @@ h1 {
   .primary-button,
   .secondary-button {
     width: 100%;
+  }
+
+  .app-shell > .ad-slot {
+    margin-bottom: 10px;
+    min-height: 84px;
+    padding: 12px;
   }
 
   .kit-gallery-shell {

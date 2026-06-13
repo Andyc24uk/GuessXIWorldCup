@@ -82,11 +82,11 @@ button {
 
 .hero-panel {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   color: #fff;
-  padding: 22px 0 18px;
+  padding: 14px 0 8px;
 }
 
 .hero-copy {
@@ -117,7 +117,7 @@ h1 {
 
 .subtitle {
   max-width: 580px;
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: rgba(255, 255, 255, 0.82);
   font-size: clamp(1rem, 2vw, 1.22rem);
 }
@@ -216,7 +216,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin: 0 0 16px;
+  margin: -2px 0 14px;
 }
 
 .mode-selector,
@@ -538,6 +538,22 @@ h1 {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
+}
+
+.subtle-home-link {
+  display: inline-flex;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.subtle-home-link:hover,
+.subtle-home-link:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+  outline: none;
 }
 
 .guess-input {
@@ -905,6 +921,18 @@ h1 {
 .privacy-card h1 {
   color: var(--ink);
   font-size: clamp(2rem, 6vw, 3.2rem);
+}
+
+.privacy-card .subtle-home-link,
+.kit-gallery-header .subtle-home-link {
+  color: var(--green-dark);
+}
+
+.privacy-card .subtle-home-link:hover,
+.privacy-card .subtle-home-link:focus-visible,
+.kit-gallery-header .subtle-home-link:hover,
+.kit-gallery-header .subtle-home-link:focus-visible {
+  color: var(--green);
 }
 
 .privacy-card p {

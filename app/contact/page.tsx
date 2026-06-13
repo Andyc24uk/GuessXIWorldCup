@@ -1,3 +1,5 @@
+import HomeLink from "@/components/HomeLink";
+
 export const metadata = {
   title: "Contact | Guess XI",
   description: "Contact Guess XI: World Cup."
@@ -7,6 +9,7 @@ export default function ContactPage() {
   return (
     <main className="privacy-shell">
       <article className="privacy-card">
+        <HomeLink />
         <p className="privacy-eyebrow">Contact</p>
         <h1>Contact Guess XI</h1>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import AdSlot from "@/components/AdSlot";
 import AnswerKitGraphic from "@/components/AnswerKitGraphic";
 import ClueList from "@/components/ClueList";
@@ -16,9 +17,11 @@ import {
 } from "@/lib/analytics";
 import { getFlagAssetForNation } from "@/lib/flags";
 import { applyGuessToGame, buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
+import { shouldShowVersusPlayAgain } from "@/lib/gameUi";
 import { getPlayerById } from "@/lib/players";
+import { shareWithFallback } from "@/lib/share";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
-import { createVersusShareText, getVersusChallengeUrl } from "@/lib/versus";
+import { createFreshVersusChallengeId, createVersusShareText, getVersusChallengeUrl } from "@/lib/versus";
 import type { DailyGameSlot, StoredGameResult } from "@/lib/types";
 import { trackVersusChallengeOpened, trackVersusFailed, trackVersusShareClicked, trackVersusSolved } from "@/lib/analytics";
 
@@ -29,8 +32,9 @@ type GameCardProps = {
 export default function GameCard({ slot }: GameCardProps) {
   const player = getPlayerById(slot.playerId);
   const [game, setGame] = useState<StoredGameResult | null>(null);
-  const [shareState, setShareState] = useState<"idle" | "copied" | "failed">("idle");
+  const [shareState, setShareState] = useState<"idle" | "shared" | "copied" | "failed">("idle");
   const [shareBaseUrl, setShareBaseUrl] = useState("https://guessxi.app");
+  const [playAgainHref, setPlayAgainHref] = useState<string | null>(null);
 
   const clues = useMemo(() => {
     if (!player) {
@@ -47,6 +51,24 @@ export default function GameCard({ slot }: GameCardProps) {
       setShareBaseUrl(window.location.origin);
     }
   }, []);
+
+  useEffect(() => {
+    if (shareState === "idle") {
+      return;
+    }
+
+    const timer = window.setTimeout(() => setShareState("idle"), 2200);
+    return () => window.clearTimeout(timer);
+  }, [shareState]);
+
+  useEffect(() => {
+    if (!isVersus || !player || !game?.completed) {
+      setPlayAgainHref(null);
+      return;
+    }
+
+    setPlayAgainHref(`/v/${createFreshVersusChallengeId(player.id)}`);
+  }, [game?.completed, isVersus, player]);
 
   useEffect(() => {
     if (!player) {
@@ -174,16 +196,21 @@ export default function GameCard({ slot }: GameCardProps) {
       ? createVersusShareText(activePlayer.displayName, activeGame.solved, cluesUsed, challengeUrl, clues.length)
       : createShareText(activePlayer.displayName, activeGame.solved, cluesUsed, clues.length);
     try {
-      let usedNativeShare = false;
-      if (navigator.share) {
-        await navigator.share({
-          text,
-          url: challengeUrl
-        });
-        usedNativeShare = true;
-      } else {
-        await navigator.clipboard.writeText(text);
+      const outcome = await shareWithFallback({
+        fullText: text,
+        url: challengeUrl
+      });
+
+      if (outcome === "cancelled") {
+        setShareState("idle");
+        return;
       }
+
+      if (outcome === "failed") {
+        setShareState("failed");
+        return;
+      }
+
       const properties = getAnalyticsProperties(activePlayer, slot, {
         cluesUsed,
         solved: activeGame.solved
@@ -193,7 +220,7 @@ export default function GameCard({ slot }: GameCardProps) {
       } else {
         trackCopyResult(properties);
       }
-      setShareState(usedNativeShare ? "idle" : "copied");
+      setShareState(outcome);
     } catch {
       setShareState("failed");
     }
@@ -232,8 +259,6 @@ export default function GameCard({ slot }: GameCardProps) {
           </span>
         </div>
 
-        <ClueList clues={clues} revealedCount={revealedCount} />
-
         {completed ? (
           <div className={game.solved ? "result-box success" : "result-box miss"}>
             <strong>{game.solved ? "Correct" : "Answer revealed"}</strong>
@@ -245,6 +270,8 @@ export default function GameCard({ slot }: GameCardProps) {
         ) : (
           <GuessInput disabled={completed} onSubmit={submitGuess} />
         )}
+
+        <ClueList clues={clues} revealedCount={revealedCount} />
 
         {game.guesses.length ? (
           <div className="guess-history">Guesses: {game.guesses.join(", ")}</div>
@@ -258,8 +285,24 @@ export default function GameCard({ slot }: GameCardProps) {
           ) : null}
           {completed ? (
             <button className="secondary-button" onClick={shareScore} type="button">
-              {shareState === "copied" ? "Score copied!" : shareState === "failed" ? "Share unavailable" : "Share your Score"}
+              {shareState === "shared"
+                ? "Shared!"
+                : shareState === "copied"
+                  ? "Score copied!"
+                  : shareState === "failed"
+                    ? "Share unavailable"
+                    : "Share your Score"}
             </button>
+          ) : null}
+          {shouldShowVersusPlayAgain(slot, completed) && playAgainHref ? (
+            <Link className="primary-button link-button" href={playAgainHref}>
+              Play again?
+            </Link>
+          ) : null}
+          {shouldShowVersusPlayAgain(slot, completed) ? (
+            <Link className="secondary-button link-button" href="/">
+              Home
+            </Link>
           ) : null}
         </div>
 

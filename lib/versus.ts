@@ -16,6 +16,26 @@ export function createVersusChallengeId(random: () => number = Math.random, leng
   return output;
 }
 
+export function createFreshVersusChallengeId(currentPlayerId?: string, random: () => number = Math.random): string {
+  let fallbackId = createVersusChallengeId(random);
+
+  if (!currentPlayerId) {
+    return fallbackId;
+  }
+
+  for (let attempt = 0; attempt < 12; attempt += 1) {
+    const nextId = attempt === 0 ? fallbackId : createVersusChallengeId(random);
+    const nextPlayer = getVersusChallengePlayer(nextId);
+    fallbackId = nextId;
+
+    if (nextPlayer && nextPlayer.id !== currentPlayerId) {
+      return nextId;
+    }
+  }
+
+  return fallbackId;
+}
+
 export function getVersusChallengePlayer(challengeId: string, pool = getStableVersusPlayerPool()): Player | undefined {
   if (!pool.length) {
     return undefined;

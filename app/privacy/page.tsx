@@ -1,3 +1,5 @@
+import HomeLink from "@/components/HomeLink";
+
 export const metadata = {
   title: "Privacy Policy | Guess XI",
   description: "Privacy information for Guess XI: World Cup."
@@ -7,6 +9,7 @@ export default function PrivacyPage() {
   return (
     <main className="privacy-shell">
       <article className="privacy-card">
+        <HomeLink />
         <p className="privacy-eyebrow">Privacy</p>
         <h1>Privacy Policy</h1>
 

@@ -1,7 +1,10 @@
 import { afterEach, describe, expect, it } from "vitest";
+import { shouldShowVersusPlayAgain } from "@/lib/gameUi";
+import { shareWithFallback, createNativeSharePayload } from "@/lib/share";
 import { createInitialStoredGame, getDailySlotsStorageKey, getRecentPlayersStorageKey, saveStoredGame } from "@/lib/storage";
 import { getLaunchPlayerPool, players } from "@/lib/players";
 import {
+  createFreshVersusChallengeId,
   createVersusShareText,
   createVersusSlot,
   getStableVersusPlayerPool,
@@ -90,6 +93,88 @@ describe("versus mode", () => {
     expect(text).toContain(challengeUrl);
     expect(text).toContain("I was stumped in Guess XI Versus Mode.");
     expect(text).toContain("⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽ ⚽");
+  });
+
+  it("shows Play again? for versus results but not daily results", () => {
+    const versusSlot = createVersusSlot("abc123");
+    const dailySlot = {
+      slot: 0,
+      playerId: getLaunchPlayerPool()[0].id,
+      mode: "casual" as const,
+      dateKey: "2026-06-13",
+      selectionMode: "daily-random" as const,
+      seedType: "user-day" as const
+    };
+
+    expect(shouldShowVersusPlayAgain(versusSlot!, true)).toBe(true);
+    expect(shouldShowVersusPlayAgain(dailySlot, true)).toBe(false);
+  });
+
+  it("creates a fresh versus challenge id for play again", () => {
+    const challengeId = createFreshVersusChallengeId(getVersusChallengePlayer("abc123")?.id, () => 0.13);
+
+    expect(challengeId).toHaveLength(6);
+    expect(challengeId).not.toBe("abc123");
+  });
+
+  it("creating a fresh versus challenge does not affect daily storage", () => {
+    const storage = createLocalStorageMock();
+    (globalThis as { window?: unknown }).window = {
+      localStorage: storage
+    };
+
+    const dailySlotsKey = getDailySlotsStorageKey("2026-06-13", "casual");
+    const recentPlayersKey = getRecentPlayersStorageKey();
+    storage.setItem(dailySlotsKey, JSON.stringify([{ slot: 0, playerId: "daily-player", mode: "casual", dateKey: "2026-06-13" }]));
+    storage.setItem(recentPlayersKey, JSON.stringify([{ playerId: "daily-player", dateKey: "2026-06-13" }]));
+
+    createFreshVersusChallengeId(getLaunchPlayerPool()[0].id, () => 0.22);
+
+    expect(storage.getItem(dailySlotsKey)).toBe(JSON.stringify([{ slot: 0, playerId: "daily-player", mode: "casual", dateKey: "2026-06-13" }]));
+    expect(storage.getItem(recentPlayersKey)).toBe(JSON.stringify([{ playerId: "daily-player", dateKey: "2026-06-13" }]));
+  });
+});
+
+describe("share helpers", () => {
+  afterEach(() => {
+    delete (globalThis as { navigator?: unknown }).navigator;
+  });
+
+  it("removes duplicate url text from native share payloads", () => {
+    const url = "https://guessxi.app/v/abc123";
+    const payload = createNativeSharePayload(`Mathew Ryan\nCan you beat me?\n${url}`, url);
+
+    expect(payload.url).toBe(url);
+    expect(payload.text).toBe("Mathew Ryan\nCan you beat me?");
+  });
+
+  it("treats share cancellation as non-fatal", async () => {
+    (globalThis as { navigator?: unknown }).navigator = {
+      share: async () => {
+        const error = new Error("cancelled");
+        error.name = "AbortError";
+        throw error;
+      }
+    };
+
+    await expect(shareWithFallback({ fullText: "Hello\nhttps://guessxi.app/", url: "https://guessxi.app/" })).resolves.toBe("cancelled");
+  });
+
+  it("falls back to clipboard if native share fails", async () => {
+    let copied = "";
+    (globalThis as { navigator?: unknown }).navigator = {
+      share: async () => {
+        throw new Error("share failed");
+      },
+      clipboard: {
+        writeText: async (value: string) => {
+          copied = value;
+        }
+      }
+    };
+
+    await expect(shareWithFallback({ fullText: "Hello\nhttps://guessxi.app/", url: "https://guessxi.app/" })).resolves.toBe("copied");
+    expect(copied).toContain("https://guessxi.app/");
   });
 });
 

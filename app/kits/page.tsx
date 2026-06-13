@@ -1,3 +1,4 @@
+import HomeLink from "@/components/HomeLink";
 import AnswerKitGraphic from "@/components/AnswerKitGraphic";
 import { nationKitAssetColours } from "@/lib/nationKitAssets";
 import type { Player } from "@/lib/types";
@@ -13,6 +14,7 @@ export default function KitsPage() {
   return (
     <main className="kit-gallery-shell">
       <header className="kit-gallery-header">
+        <HomeLink />
         <p className="eyebrow">Visual review</p>
         <h1>Guess XI Kit Gallery</h1>
         <p className="kit-gallery-disclaimer">

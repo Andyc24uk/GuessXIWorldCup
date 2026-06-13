@@ -1,3 +1,4 @@
+import HomeLink from "@/components/HomeLink";
 import GameCard from "@/components/GameCard";
 import { createVersusSlot } from "@/lib/versus";
 
@@ -15,9 +16,10 @@ export default async function VersusChallengePage({ params }: VersusPageProps) {
     <main className="app-shell">
       <section className="hero-panel">
         <div className="hero-copy">
+          <HomeLink />
           <p className="eyebrow">Challenge your friends</p>
           <h1>Versus Mode</h1>
-          <p className="subtitle">Same challenge. Same player. Beat the other score manually for now.</p>
+          <p className="subtitle">Same challenge. Same player.</p>
         </div>
       </section>
 

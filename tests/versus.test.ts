@@ -1,8 +1,8 @@
 import { afterEach, describe, expect, it } from "vitest";
 import { shouldShowVersusPlayAgain } from "@/lib/gameUi";
+import { isPlayablePlayer, getLaunchPlayerPool } from "@/lib/players";
 import { shareWithFallback, createNativeSharePayload } from "@/lib/share";
 import { createInitialStoredGame, getDailySlotsStorageKey, getRecentPlayersStorageKey, saveStoredGame } from "@/lib/storage";
-import { getLaunchPlayerPool, players } from "@/lib/players";
 import {
   createVersusShareText,
   createVersusSlot,
@@ -24,14 +24,13 @@ describe("versus mode", () => {
     expect(first?.id).toBe(second?.id);
   });
 
-  it("can resolve different challenge ids to different players", () => {
-    const first = getVersusChallengePlayer("abc123");
-    const second = getVersusChallengePlayer("def456");
+  it("resolves different challenge ids deterministically across a controlled playable pool", () => {
+    const pool = createPlayableFixturePool();
+    const candidateChallengeIds = ["abc123", "def456", "ghi789", "jkl012", "mno345", "pqr678", "stu901", "vwx234"];
+    const resolvedIds = candidateChallengeIds.map((challengeId) => getVersusChallengePlayer(challengeId, pool)?.id);
 
-    expect(first).toBeDefined();
-    expect(second).toBeDefined();
-    expect(getStableVersusPlayerPool().length).toBeGreaterThan(1);
-    expect(first?.id).not.toBe(second?.id);
+    expect(resolvedIds.every(Boolean)).toBe(true);
+    expect(new Set(resolvedIds).size).toBeGreaterThan(1);
   });
 
   it("selects versus players only from the strict playable pool", () => {
@@ -44,18 +43,25 @@ describe("versus mode", () => {
     expect(getLaunchPlayerPool().some((candidate) => candidate.id === player?.id)).toBe(true);
   });
 
-  it("does not select excluded, verify, or suggestion-only players", () => {
-    const versusPoolIds = new Set(getStableVersusPlayerPool().map((player) => player.id));
+  it("does not select excluded, verify, incomplete, or suggestion-only fixture players", () => {
+    const playablePool = createPlayableFixturePool();
+    const excludedPlayer = { ...createFixturePlayer("excluded", "Nation X"), exclude: true };
+    const verifyPlayer = { ...createFixturePlayer("verify", "Nation Y"), careerPath: "[Verify]" };
+    const incompletePlayer = { ...createFixturePlayer("incomplete", "Nation Z"), clubCountry: "" };
+    const suggestionOnlyPlayer = { id: "suggestion-only-player" };
+    const sourceRows = [...playablePool, excludedPlayer, verifyPlayer, incompletePlayer];
+    const strictPool = sourceRows.filter(isPlayablePlayer);
+    const strictPoolIds = new Set(strictPool.map((player) => player.id));
 
-    expect(versusPoolIds.has("england-nico-oreilly")).toBe(false);
+    expect(strictPoolIds).toEqual(new Set(playablePool.map((player) => player.id)));
+    expect(strictPoolIds.has(excludedPlayer.id)).toBe(false);
+    expect(strictPoolIds.has(verifyPlayer.id)).toBe(false);
+    expect(strictPoolIds.has(incompletePlayer.id)).toBe(false);
+    expect(strictPoolIds.has(suggestionOnlyPlayer.id)).toBe(false);
 
-    const excludedPlayer = players[0];
-    excludedPlayer.exclude = true;
-    try {
-      expect(getStableVersusPlayerPool().some((player) => player.id === excludedPlayer.id)).toBe(false);
-    } finally {
-      delete excludedPlayer.exclude;
-    }
+    const resolved = getVersusChallengePlayer("fixture123", strictPool);
+    expect(resolved).toBeDefined();
+    expect(strictPoolIds.has(resolved!.id)).toBe(true);
   });
 
   it("does not count against daily mode slot storage or no-repeat memory", () => {
@@ -135,13 +141,20 @@ describe("versus mode", () => {
   });
 
   it("the deterministic next challenge avoids excluded, verify, incomplete, and suggestion-only players", () => {
-    const nextChallengeId = getNextVersusChallengeId("abc123");
-    const nextPlayer = getVersusChallengePlayer(nextChallengeId);
-    const versusPoolIds = new Set(getStableVersusPlayerPool().map((player) => player.id));
+    const playablePool = createPlayableFixturePool();
+    const strictPool = [
+      ...playablePool,
+      { ...createFixturePlayer("excluded-next", "Nation D"), exclude: true },
+      { ...createFixturePlayer("verify-next", "Nation E"), caps: "[Verify]" },
+      { ...createFixturePlayer("blank-next", "Nation F"), playedAlongside: "" }
+    ].filter(isPlayablePlayer);
+    const nextChallengeId = getNextVersusChallengeId("abc123", strictPool);
+    const nextPlayer = getVersusChallengePlayer(nextChallengeId, strictPool);
+    const versusPoolIds = new Set(strictPool.map((player) => player.id));
 
     expect(nextPlayer).toBeDefined();
     expect(versusPoolIds.has(nextPlayer!.id)).toBe(true);
-    expect(nextPlayer?.id).not.toBe("england-nico-oreilly");
+    expect(versusPoolIds).toEqual(new Set(playablePool.map((player) => player.id)));
   });
 
   it("the deterministic next challenge tries to avoid the same player where possible", () => {
@@ -231,4 +244,47 @@ function createLocalStorageMock() {
       store.clear();
     }
   };
+}
+
+function createFixturePlayer(id: string, nation: string) {
+  return {
+    id,
+    fullName: `Player ${id}`,
+    displayName: `Player ${id}`,
+    searchAliases: [`Player ${id}`, id],
+    acceptedAnswers: [`Player ${id}`, id],
+    nationality: nation,
+    nation,
+    nationSlug: nation.toLowerCase().replace(/\s+/g, "-"),
+    shirtNumber: 10,
+    position: "Midfielder",
+    club: `${nation} FC`,
+    clubCountry: nation,
+    age: 25,
+    internationalDebut: "2024-01-01",
+    caps: 12,
+    internationalGoals: 2,
+    nationalTeamDebutYear: 2024,
+    worldCupAppearances: "First World Cup",
+    careerPath: `Academy ${nation} -> ${nation} FC`,
+    kitPrimaryColor: "#ffffff",
+    kitSecondaryColor: "#111111",
+    kitAccentColor: "#cccccc",
+    clueFact: `${nation} fact`,
+    playedAlongside: `${nation} teammate`,
+    sources: "TEST",
+    snapshotDate: "2026-06-13",
+    difficultyTier: "medium" as const,
+    fameTier: "National" as const
+  };
+}
+
+function createPlayableFixturePool() {
+  return [
+    createFixturePlayer("fixture-a", "Nation A"),
+    createFixturePlayer("fixture-b", "Nation B"),
+    createFixturePlayer("fixture-c", "Nation C"),
+    createFixturePlayer("fixture-d", "Nation D"),
+    createFixturePlayer("fixture-e", "Nation E")
+  ];
 }

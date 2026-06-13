@@ -80,27 +80,43 @@ button {
   mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
 }
 
-.hero-panel {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 20px;
-  color: #fff;
-  padding: 14px 0 8px;
-}
-
 .hero-copy {
   min-width: 0;
 }
 
-.hero-side {
+.home-layout {
   display: grid;
-  justify-items: end;
-  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) 196px;
+  grid-template-areas:
+    "intro daily"
+    "tabs versus"
+    "ad ad";
+  align-items: start;
+  column-gap: 20px;
+  row-gap: 12px;
+  color: #fff;
+  padding: 14px 0 8px;
 }
 
-.desktop-only {
-  display: contents;
+.home-intro {
+  grid-area: intro;
+}
+
+.home-daily {
+  grid-area: daily;
+  justify-self: end;
+}
+
+.home-tabs {
+  grid-area: tabs;
+}
+
+.desktop-versus-row {
+  grid-area: versus;
+}
+
+.home-ad {
+  grid-area: ad;
 }
 
 .eyebrow {
@@ -222,9 +238,9 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 12px;
-  margin: -10px 0 14px;
+  margin: 0;
 }
 
 .mode-selector,
@@ -955,32 +971,32 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  .home-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "intro"
+      "tabs"
+      "mobile-versus"
+      "ad";
+    row-gap: 14px;
+  }
+
   .app-shell {
     padding: 14px;
-  }
-
-  .hero-panel {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .hero-side {
-    width: 100%;
-    justify-items: stretch;
   }
 
   .desktop-only {
     display: none;
   }
 
-  .control-panel {
-    margin: -10px 0 8px;
-    gap: 10px;
-  }
-
   .mobile-versus-row {
     display: block;
+    grid-area: mobile-versus;
     margin: 0 0 10px;
+  }
+
+  .control-panel {
+    gap: 10px;
   }
 
   .mobile-versus-row .versus-entry-card {

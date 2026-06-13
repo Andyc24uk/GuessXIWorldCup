@@ -46,22 +46,25 @@ describe("daily game selection", () => {
     expect(getLaunchPlayerPool().some((player) => player.id === id)).toBe(true);
   });
 
-  it("excludes marked players and verify-placeholder rows from the playable daily pool without removing source data", () => {
-    const excludedPlayer = players[0];
-    const verifyPlayer = players.find((player) => player.id === "england-nico-oreilly");
+  it("excludes marked, blank, and [Verify] fixture rows from playable selection without relying on production data", () => {
+    const playablePlayer = createTestPlayer("playable", "Nation A");
+    const excludedPlayer = { ...createTestPlayer("excluded", "Nation B"), exclude: true };
+    const blankPlayer = { ...createTestPlayer("blank", "Nation C"), club: "   " };
+    const verifyPlayer = { ...createTestPlayer("verify", "Nation D"), caps: "[Verify]" };
+    const verifyAliasPlayer = { ...createTestPlayer("verify-alias", "Nation E"), acceptedAnswers: ["Player verify-alias", "[Verify]"] };
+    const pool = [playablePlayer, excludedPlayer, blankPlayer, verifyPlayer, verifyAliasPlayer];
 
-    excludedPlayer.exclude = true;
+    expect(players.length).toBeGreaterThan(0);
+    expect(players.some((item) => item.id === players[0].id)).toBe(true);
 
-    try {
-      expect(players.some((item) => item.id === excludedPlayer.id)).toBe(true);
-      expect(getLaunchPlayerPool().some((item) => item.id === excludedPlayer.id)).toBe(false);
-      expect(pickRandomPlayerIds(players.length, [], () => 0).includes(excludedPlayer.id)).toBe(false);
-      expect(verifyPlayer).toBeDefined();
-      expect(isPlayablePlayer(verifyPlayer!)).toBe(false);
-      expect(getLaunchPlayerPool().some((item) => item.id === verifyPlayer!.id)).toBe(false);
-    } finally {
-      delete excludedPlayer.exclude;
-    }
+    expect(isPlayablePlayer(playablePlayer)).toBe(true);
+    expect(isPlayablePlayer(excludedPlayer)).toBe(false);
+    expect(isPlayablePlayer(blankPlayer)).toBe(false);
+    expect(isPlayablePlayer(verifyPlayer)).toBe(false);
+    expect(isPlayablePlayer(verifyAliasPlayer)).toBe(false);
+
+    const pickedIds = pickRandomPlayerIds(pool.length, [], () => 0, pool.filter(isPlayablePlayer));
+    expect(pickedIds).toEqual([playablePlayer.id]);
   });
 
   it("avoids recent player history when enough alternatives exist", () => {

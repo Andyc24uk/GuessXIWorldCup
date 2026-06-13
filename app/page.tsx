@@ -62,43 +62,45 @@ export default function HomePage() {
 
   return (
     <main className="app-shell">
-      <section className="hero-panel">
-        <div className="hero-copy">
+      <section className="home-layout">
+        <div className="hero-copy home-intro">
           <p className="eyebrow">Daily football trivia</p>
           <h1>{APP_TITLE}</h1>
           <p className="subtitle">Guess the World Cup player from the shirt and clues.</p>
         </div>
-        <div className="hero-side">
-          <div className="daily-pill desktop-only" aria-label={`${dailyLimit} games today`}>
-            <strong>{dailyLimit}</strong>
-            <span>games today</span>
+
+        <div className="daily-pill desktop-only home-daily" aria-label={`${dailyLimit} games today`}>
+          <strong>{dailyLimit}</strong>
+          <span>games today</span>
+        </div>
+
+        <section className="control-panel home-tabs" aria-label="Game options">
+          <div className="slot-selector" aria-label="Daily game slots">
+            {slots.map((slot) => (
+              <button
+                className={slot.slot === activeSlot ? "slot-button active" : "slot-button"}
+                key={slot.slot}
+                onClick={() => setActiveSlot(slot.slot)}
+                type="button"
+              >
+                {slot.isPromo ? "Promo" : `Game ${slot.slot + 1}`}
+              </button>
+            ))}
           </div>
-          <div className="desktop-only">
-            <VersusEntryCard />
-          </div>
+        </section>
+
+        <section className="desktop-versus-row desktop-only" aria-label="Versus Mode">
+          <VersusEntryCard />
+        </section>
+
+        <section className="mobile-versus-row" aria-label="Versus Mode">
+          <VersusEntryCard />
+        </section>
+
+        <div className="home-ad">
+          <AdSlot placement="top" />
         </div>
       </section>
-
-      <section className="control-panel" aria-label="Game options">
-        <div className="slot-selector" aria-label="Daily game slots">
-          {slots.map((slot) => (
-            <button
-              className={slot.slot === activeSlot ? "slot-button active" : "slot-button"}
-              key={slot.slot}
-              onClick={() => setActiveSlot(slot.slot)}
-              type="button"
-            >
-              {slot.isPromo ? "Promo" : `Game ${slot.slot + 1}`}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      <section className="mobile-versus-row" aria-label="Versus Mode">
-        <VersusEntryCard />
-      </section>
-
-      <AdSlot placement="top" />
 
       {selectedSlot ? <GameCard key={`${selectedSlot.playerId}-${activeSlot}-${dateKey}`} slot={selectedSlot} /> : <section className="game-card">Loading today&apos;s games...</section>}
       <footer className="site-footer">

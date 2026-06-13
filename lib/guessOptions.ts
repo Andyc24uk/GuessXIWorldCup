@@ -1,4 +1,4 @@
-import { players } from "./players";
+import { isPlayablePlayer, players } from "./players";
 import { normalizeGuess } from "./gameLogic";
 import { fifaSquadSuggestionOnlyPlayers } from "./suggestionOnlyPlayers";
 import type { GuessOption, Player } from "./types";
@@ -28,8 +28,8 @@ export function createGuessOptionFromPlayer(player: Player): GuessOption {
     id: `player:${player.id}`,
     displayName: player.displayName,
     acceptedAnswers: getUniqueNames([player.fullName, player.displayName, ...(player.searchAliases ?? []), ...(player.acceptedAnswers ?? [])]),
-    playablePlayerId: player.exclude ? undefined : player.id,
-    suggestionOnly: player.exclude === true
+    playablePlayerId: isPlayablePlayer(player) ? player.id : undefined,
+    suggestionOnly: !isPlayablePlayer(player)
   };
 }
 

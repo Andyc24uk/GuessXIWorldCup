@@ -18,7 +18,9 @@ import { getFlagAssetForNation } from "@/lib/flags";
 import { applyGuessToGame, buildClues, createShareText, isCorrectGuess } from "@/lib/gameLogic";
 import { getPlayerById } from "@/lib/players";
 import { createInitialStoredGame, loadStoredGame, saveStoredGame } from "@/lib/storage";
+import { createVersusShareText, getVersusChallengeUrl } from "@/lib/versus";
 import type { DailyGameSlot, StoredGameResult } from "@/lib/types";
+import { trackVersusChallengeOpened, trackVersusFailed, trackVersusShareClicked, trackVersusSolved } from "@/lib/analytics";
 
 type GameCardProps = {
   slot: DailyGameSlot;
@@ -28,6 +30,7 @@ export default function GameCard({ slot }: GameCardProps) {
   const player = getPlayerById(slot.playerId);
   const [game, setGame] = useState<StoredGameResult | null>(null);
   const [shareState, setShareState] = useState<"idle" | "copied" | "failed">("idle");
+  const [shareBaseUrl, setShareBaseUrl] = useState("https://guessxi.app");
 
   const clues = useMemo(() => {
     if (!player) {
@@ -35,6 +38,15 @@ export default function GameCard({ slot }: GameCardProps) {
     }
     return buildClues(player, slot.mode, `${slot.dateKey}:${slot.slot}:${player.id}`);
   }, [player, slot.dateKey, slot.mode, slot.slot]);
+  const isVersus = slot.selectionMode === "versus";
+  const challengeId = isVersus ? slot.dateKey.replace(/^versus:/, "") : "";
+  const challengeUrl = isVersus ? getVersusChallengeUrl(challengeId, shareBaseUrl) : "https://guessxi.app/";
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setShareBaseUrl(window.location.origin);
+    }
+  }, []);
 
   useEffect(() => {
     if (!player) {
@@ -60,10 +72,17 @@ export default function GameCard({ slot }: GameCardProps) {
       return;
     }
 
-    trackGameStart(getAnalyticsProperties(player, slot, {
+    const properties = getAnalyticsProperties(player, slot, {
       clueNumber: Math.min(game.revealedCount, clues.length)
-    }));
-  }, [clues.length, game?.playerId, player, slot]);
+    });
+
+    if (isVersus) {
+      trackVersusChallengeOpened(properties);
+      return;
+    }
+
+    trackGameStart(properties);
+  }, [clues.length, game?.playerId, isVersus, player, slot]);
 
   if (!player || !game) {
     return <section className="game-card">Loading today&apos;s game...</section>;
@@ -118,17 +137,27 @@ export default function GameCard({ slot }: GameCardProps) {
       }
 
       if (nextGame.solved) {
-        trackGameSolved(getAnalyticsProperties(activePlayer, slot, {
+        const properties = getAnalyticsProperties(activePlayer, slot, {
           clueNumber: nextGame.solvedClueCount,
           cluesUsed: nextGame.solvedClueCount,
           solved: true
-        }));
+        });
+        if (isVersus) {
+          trackVersusSolved(properties);
+        } else {
+          trackGameSolved(properties);
+        }
       } else if (nextGame.completed) {
-        trackGameFailed(getAnalyticsProperties(activePlayer, slot, {
+        const properties = getAnalyticsProperties(activePlayer, slot, {
           clueNumber: clues.length,
           cluesUsed: clues.length,
           solved: false
-        }));
+        });
+        if (isVersus) {
+          trackVersusFailed(properties);
+        } else {
+          trackGameFailed(properties);
+        }
         trackAnswerRevealed(getAnalyticsProperties(activePlayer, slot, {
           clueNumber: clues.length,
           solved: false
@@ -141,22 +170,29 @@ export default function GameCard({ slot }: GameCardProps) {
 
   async function shareScore() {
     const cluesUsed = activeGame.solved ? solvedClueCount : clues.length;
-    const text = createShareText(activePlayer.displayName, activeGame.solved, cluesUsed, clues.length);
+    const text = isVersus
+      ? createVersusShareText(activePlayer.displayName, activeGame.solved, cluesUsed, challengeUrl, clues.length)
+      : createShareText(activePlayer.displayName, activeGame.solved, cluesUsed, clues.length);
     try {
       let usedNativeShare = false;
       if (navigator.share) {
         await navigator.share({
           text,
-          url: "https://guessxi.app/"
+          url: challengeUrl
         });
         usedNativeShare = true;
       } else {
         await navigator.clipboard.writeText(text);
       }
-      trackCopyResult(getAnalyticsProperties(activePlayer, slot, {
+      const properties = getAnalyticsProperties(activePlayer, slot, {
         cluesUsed,
         solved: activeGame.solved
-      }));
+      });
+      if (isVersus) {
+        trackVersusShareClicked(properties);
+      } else {
+        trackCopyResult(properties);
+      }
       setShareState(usedNativeShare ? "idle" : "copied");
     } catch {
       setShareState("failed");
@@ -190,7 +226,7 @@ export default function GameCard({ slot }: GameCardProps) {
 
       <div className="game-main">
         <div className="status-row">
-          <span className="mode-tag">{slot.isPromo ? "Promo Preview" : "Daily Game"}</span>
+          <span className="mode-tag">{getModeLabel(slot)}</span>
           <span className="progress-text">
             Clue {revealedCount} of {clues.length}
           </span>
@@ -203,7 +239,7 @@ export default function GameCard({ slot }: GameCardProps) {
             <strong>{game.solved ? "Correct" : "Answer revealed"}</strong>
             <span>
               {player.displayName} was the player.{" "}
-              {game.solved ? `Solved with ${solvedClueCount} clue${solvedClueCount === 1 ? "" : "s"}.` : "Try the next daily game."}
+              {game.solved ? `Solved with ${solvedClueCount} clue${solvedClueCount === 1 ? "" : "s"}.` : isVersus ? "Share the challenge and compare scores." : "Try the next daily game."}
             </span>
           </div>
         ) : (
@@ -231,6 +267,14 @@ export default function GameCard({ slot }: GameCardProps) {
       </div>
     </section>
   );
+}
+
+function getModeLabel(slot: DailyGameSlot): string {
+  if (slot.selectionMode === "versus") {
+    return "Versus Mode";
+  }
+
+  return slot.isPromo ? "Promo Preview" : "Daily Game";
 }
 
 function getAnalyticsProperties(

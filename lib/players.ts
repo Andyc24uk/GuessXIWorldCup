@@ -1,3 +1,4 @@
+import { majorNationAdditions } from "./majorNationAdditions";
 import type { Player } from "./types";
 
 export const players: Player[] = [
@@ -9737,7 +9738,8 @@ export const players: Player[] = [
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
     "fameTier": "National"
-  }
+  },
+  ...majorNationAdditions
 ];
 
 export function getPlayerById(id: string): Player | undefined {
@@ -9773,8 +9775,72 @@ export function isPlayerExcluded(player: Player): boolean {
   return player.exclude === true;
 }
 
+const PLAYABLE_REQUIRED_STRING_FIELDS: Array<keyof Player> = [
+  "id",
+  "fullName",
+  "displayName",
+  "nationality",
+  "nation",
+  "nationSlug",
+  "position",
+  "club",
+  "clubCountry",
+  "internationalDebut",
+  "worldCupAppearances",
+  "clueFact",
+  "playedAlongside",
+  "sources",
+  "snapshotDate",
+  "difficultyTier",
+  "fameTier"
+];
+
+const PLAYABLE_REQUIRED_ARRAY_FIELDS: Array<keyof Player> = ["searchAliases", "acceptedAnswers"];
+const PLAYABLE_REQUIRED_SCALAR_FIELDS: Array<keyof Player> = ["shirtNumber", "age", "caps", "internationalGoals"];
+
+export function hasVerifyMarker(value: unknown): boolean {
+  return typeof value === "string" && value.toLowerCase().includes("[verify]");
+}
+
+function hasBlankString(value: unknown): boolean {
+  return typeof value !== "string" || value.trim().length === 0;
+}
+
+export function isPlayablePlayer(player: Player): boolean {
+  if (isPlayerExcluded(player)) {
+    return false;
+  }
+
+  for (const field of PLAYABLE_REQUIRED_STRING_FIELDS) {
+    const value = player[field];
+    if (hasBlankString(value) || hasVerifyMarker(value)) {
+      return false;
+    }
+  }
+
+  for (const field of PLAYABLE_REQUIRED_ARRAY_FIELDS) {
+    const value = player[field];
+    if (!Array.isArray(value) || value.length === 0 || value.some((entry) => hasBlankString(entry) || hasVerifyMarker(entry))) {
+      return false;
+    }
+  }
+
+  for (const field of PLAYABLE_REQUIRED_SCALAR_FIELDS) {
+    const value = player[field];
+    if ((typeof value !== "number" && hasBlankString(value)) || hasVerifyMarker(value)) {
+      return false;
+    }
+  }
+
+  if (player.careerPath == null || hasBlankString(player.careerPath) || hasVerifyMarker(player.careerPath)) {
+    return false;
+  }
+
+  return true;
+}
+
 export function getLaunchPlayerPool(): Player[] {
-  return players.filter((player) => !isPlayerExcluded(player));
+  return players.filter(isPlayablePlayer);
 }
 
 export function getCasualPlayerPool(): Player[] {

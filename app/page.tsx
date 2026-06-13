@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
 import GameCard from "@/components/GameCard";
+import VersusEntryCard from "@/components/VersusEntryCard";
 import { trackDailyLimitReached, trackPromoPreviewUsed } from "@/lib/analytics";
-import { APP_TITLE, FREE_DAILY_GAME_LIMIT, LAUNCH_GAME_MODE } from "@/lib/constants";
+import { APP_TITLE, LAUNCH_GAME_MODE, getDailyGameLimit } from "@/lib/constants";
 import { getLocalDateKey } from "@/lib/dailyGame";
 import { getPlayerById } from "@/lib/players";
 import { getPromoSlotFromSearch } from "@/lib/promo";
@@ -17,6 +18,7 @@ export default function HomePage() {
   const [activeSlot, setActiveSlot] = useState(0);
   const [slots, setSlots] = useState<DailyGameSlot[]>([]);
   const dateKey = getLocalDateKey();
+  const dailyLimit = getDailyGameLimit(dateKey);
   const selectedSlot = slots[activeSlot] ?? slots[0];
 
   useEffect(() => {
@@ -43,12 +45,12 @@ export default function HomePage() {
       return;
     }
 
-    setSlots(loadOrCreateDailySlots(LAUNCH_GAME_MODE, dateKey));
-  }, [dateKey]);
+    setSlots(loadOrCreateDailySlots(LAUNCH_GAME_MODE, dateKey, dailyLimit));
+  }, [dailyLimit, dateKey]);
 
   useEffect(() => {
     if (
-      slots.length >= FREE_DAILY_GAME_LIMIT &&
+      slots.length >= dailyLimit &&
       slots.every((slot) => !slot.isPromo && loadStoredGame(slot.dateKey, slot.mode, slot.slot)?.completed)
     ) {
       trackDailyLimitReached({
@@ -56,19 +58,22 @@ export default function HomePage() {
         seedType: "user-day"
       });
     }
-  }, [slots]);
+  }, [dailyLimit, slots]);
 
   return (
     <main className="app-shell">
       <section className="hero-panel">
-        <div>
+        <div className="hero-copy">
           <p className="eyebrow">Daily football trivia</p>
           <h1>{APP_TITLE}</h1>
           <p className="subtitle">Guess the World Cup player from the shirt and clues.</p>
         </div>
-        <div className="daily-pill" aria-label={`${FREE_DAILY_GAME_LIMIT} games today`}>
-          <strong>{FREE_DAILY_GAME_LIMIT}</strong>
-          <span>games today</span>
+        <div className="hero-side">
+          <div className="daily-pill" aria-label={`${dailyLimit} games today`}>
+            <strong>{dailyLimit}</strong>
+            <span>games today</span>
+          </div>
+          <VersusEntryCard />
         </div>
       </section>
 

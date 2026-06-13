@@ -3,6 +3,7 @@ export type GameMode = "casual" | "ultra";
 export const FAME_TIERS = ["Elite", "Global", "Continental", "National"] as const;
 
 export type FameTier = (typeof FAME_TIERS)[number];
+export type PlayerScalar = string | number;
 
 export type ClueKey =
   | "position"
@@ -28,15 +29,15 @@ export type Player = {
   nationality: string;
   nation: string;
   nationSlug: string;
-  shirtNumber: number;
+  shirtNumber: PlayerScalar;
   position: string;
   club: string;
   clubCountry: string;
-  age: number;
+  age: PlayerScalar;
   internationalDebut: string;
-  caps: number;
-  internationalGoals: number;
-  nationalTeamDebutYear: number;
+  caps: PlayerScalar;
+  internationalGoals: PlayerScalar;
+  nationalTeamDebutYear: PlayerScalar;
   worldCupAppearances: string;
   careerPath?: string;
   careerHint?: string;
@@ -71,8 +72,8 @@ export type DailyGameSlot = {
   mode: GameMode;
   dateKey: string;
   isPromo?: boolean;
-  selectionMode?: "daily-random" | "promo";
-  seedType?: "user-day" | "promo";
+  selectionMode?: "daily-random" | "promo" | "versus";
+  seedType?: "user-day" | "promo" | "versus";
 };
 
 export type StoredGameResult = {

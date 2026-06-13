@@ -215,11 +215,11 @@ describe("guess matching", () => {
 
   it("offers FIFA squad PDF names as suggestion-only autocomplete options", () => {
     const player = players.find((item) => item.id === "bernardo-silva");
-    const suggestions = searchGuessOptions("Angus Gunn");
+    const suggestions = searchGuessOptions("Achref Abada");
 
-    expect(suggestions.some((option) => option.displayName === "Angus Gunn" && option.suggestionOnly)).toBe(true);
-    expect(getLaunchPlayerPool().some((item) => item.displayName === "Angus Gunn")).toBe(false);
-    expect(isCorrectGuess("Angus Gunn", player!)).toBe(false);
+    expect(suggestions.some((option) => option.displayName === "Achref Abada" && option.suggestionOnly)).toBe(true);
+    expect(getLaunchPlayerPool().some((item) => item.displayName === "Achref Abada")).toBe(false);
+    expect(isCorrectGuess("Achref Abada", player!)).toBe(false);
   });
 
   it("can keep excluded player rows in autocomplete while removing them from answer eligibility", () => {

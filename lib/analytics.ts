@@ -50,3 +50,23 @@ export function trackDailyLimitReached(properties: AnalyticsProperties = {}): vo
 export function trackPromoPreviewUsed(properties: AnalyticsProperties): void {
   safeTrack("promo_preview_used", properties);
 }
+
+export function trackVersusStarted(properties: AnalyticsProperties): void {
+  safeTrack("versus_started", properties);
+}
+
+export function trackVersusChallengeOpened(properties: AnalyticsProperties): void {
+  safeTrack("versus_challenge_opened", properties);
+}
+
+export function trackVersusSolved(properties: AnalyticsProperties): void {
+  safeTrack("versus_solved", properties);
+}
+
+export function trackVersusFailed(properties: AnalyticsProperties): void {
+  safeTrack("versus_failed", properties);
+}
+
+export function trackVersusShareClicked(properties: AnalyticsProperties): void {
+  safeTrack("versus_share_clicked", properties);
+}

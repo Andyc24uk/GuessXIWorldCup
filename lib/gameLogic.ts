@@ -101,7 +101,7 @@ export function getClueValue(player: Player, key: ClueKey): string {
     case "kit":
       return "Kit image revealed";
     case "shirtNumber":
-      return `No. ${player.shirtNumber}`;
+      return formatScalarClue(player.shirtNumber, "No.");
     case "careerPath":
       return getCareerPath(player);
     case "position":
@@ -111,9 +111,9 @@ export function getClueValue(player: Player, key: ClueKey): string {
     case "club":
       return player.club;
     case "caps":
-      return player.caps ? `${player.caps} senior caps` : "";
+      return formatScalarClue(player.caps, "senior caps", true);
     case "internationalGoals":
-      return `${player.internationalGoals} international goal${player.internationalGoals === 1 ? "" : "s"}`;
+      return formatGoalClue(player.internationalGoals);
     case "worldCupAppearances":
       return player.worldCupAppearances;
     case "playedAlongside":
@@ -150,6 +150,33 @@ export function getNotableFact(player: Player): string {
 
 function formatCareerPath(path: string): string {
   return path.replace(/\s+->\s+/g, " → ");
+}
+
+function formatScalarClue(value: string | number, suffix: string, suffixOnly = false): string {
+  if (typeof value === "number") {
+    return suffixOnly ? `${value} ${suffix}` : `${suffix} ${value}`;
+  }
+
+  const normalized = value.trim();
+  if (!normalized) {
+    return "";
+  }
+
+  return suffixOnly ? `${normalized} ${suffix}` : `${suffix} ${normalized}`;
+}
+
+function formatGoalClue(value: string | number): string {
+  if (typeof value === "number") {
+    return `${value} international goal${value === 1 ? "" : "s"}`;
+  }
+
+  const normalized = value.trim();
+  if (!normalized) {
+    return "";
+  }
+
+  const singular = normalized === "1";
+  return `${normalized} international goal${singular ? "" : "s"}`;
 }
 
 export function normalizeGuess(value: string): string {

@@ -1,0 +1,102 @@
+[
+  {
+    "nation": "England",
+    "total_squad_players_found": 26,
+    "already_existed": 8,
+    "newly_added": 18,
+    "immediately_playable": 11,
+    "blocked_by_verify": 7,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Spain",
+    "total_squad_players_found": 26,
+    "already_existed": 6,
+    "newly_added": 20,
+    "immediately_playable": 9,
+    "blocked_by_verify": 11,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Germany",
+    "total_squad_players_found": 26,
+    "already_existed": 4,
+    "newly_added": 22,
+    "immediately_playable": 7,
+    "blocked_by_verify": 15,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Portugal",
+    "total_squad_players_found": 26,
+    "already_existed": 8,
+    "newly_added": 18,
+    "immediately_playable": 9,
+    "blocked_by_verify": 9,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "France",
+    "total_squad_players_found": 26,
+    "already_existed": 7,
+    "newly_added": 19,
+    "immediately_playable": 11,
+    "blocked_by_verify": 8,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Argentina",
+    "total_squad_players_found": 26,
+    "already_existed": 8,
+    "newly_added": 18,
+    "immediately_playable": 5,
+    "blocked_by_verify": 13,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Brazil",
+    "total_squad_players_found": 26,
+    "already_existed": 9,
+    "newly_added": 17,
+    "immediately_playable": 6,
+    "blocked_by_verify": 11,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Scotland",
+    "total_squad_players_found": 26,
+    "already_existed": 6,
+    "newly_added": 20,
+    "immediately_playable": 5,
+    "blocked_by_verify": 15,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "Canada",
+    "total_squad_players_found": 26,
+    "already_existed": 6,
+    "newly_added": 20,
+    "immediately_playable": 2,
+    "blocked_by_verify": 18,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  },
+  {
+    "nation": "United States",
+    "total_squad_players_found": 26,
+    "already_existed": 7,
+    "newly_added": 19,
+    "immediately_playable": 5,
+    "blocked_by_verify": 14,
+    "blocked_by_blank_fields": 0,
+    "excluded_by_x": 0
+  }
+]

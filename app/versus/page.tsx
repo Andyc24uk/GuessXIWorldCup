@@ -7,7 +7,6 @@ export default function VersusStartPage() {
       <section className="hero-panel">
         <div className="hero-copy">
           <HomeLink />
-          <p className="eyebrow">Asynchronous challenge</p>
           <h1>Versus Mode</h1>
           <p className="subtitle">Create one challenge link, share it, and see who guesses the player in fewer clues.</p>
         </div>

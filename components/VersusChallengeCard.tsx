@@ -76,7 +76,6 @@ export default function VersusChallengeCard({ baseUrl = "https://guessxi.app" }:
   return (
     <section className="game-card versus-setup-card" aria-label="Versus Mode challenge">
       <div className="versus-share-panel">
-        <p className="eyebrow">Challenge your friends</p>
         <h2>Versus Mode</h2>
         <p className="subtitle">Share one challenge link or QR code. Everyone who opens it gets the same player.</p>
         <div className="versus-link-box">

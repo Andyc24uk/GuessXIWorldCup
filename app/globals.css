@@ -149,7 +149,6 @@ h1 {
   font-size: 0.86rem;
 }
 
-.mobile-daily-pill,
 .mobile-versus-row {
   display: none;
 }
@@ -225,7 +224,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin: -2px 0 14px;
+  margin: -10px 0 14px;
 }
 
 .mode-selector,
@@ -637,11 +636,11 @@ h1 {
 .versus-share-panel,
 .versus-qr-panel {
   display: grid;
-  gap: 16px;
+  gap: 10px;
 }
 
 .versus-setup-card h2 {
-  margin: 0;
+  margin: -6px 0 0;
   color: var(--ink);
   font-size: clamp(1.8rem, 4vw, 2.4rem);
 }
@@ -684,7 +683,7 @@ h1 {
   aspect-ratio: 1;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 18px;
+  padding: 12px;
   background: #fff;
 }
 
@@ -975,32 +974,8 @@ h1 {
   }
 
   .control-panel {
-    margin: -2px 0 8px;
+    margin: -10px 0 8px;
     gap: 10px;
-  }
-
-  .mobile-daily-pill {
-    display: inline-flex;
-    min-height: 34px;
-    align-items: center;
-    gap: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 999px;
-    padding: 0 12px;
-    background: rgba(255, 255, 255, 0.12);
-    color: #fff;
-    font-size: 0.82rem;
-    font-weight: 800;
-    white-space: nowrap;
-  }
-
-  .mobile-daily-pill strong {
-    font-size: 0.9rem;
-    line-height: 1;
-  }
-
-  .mobile-daily-pill span {
-    color: rgba(255, 255, 255, 0.78);
   }
 
   .mobile-versus-row {
@@ -1063,9 +1038,9 @@ h1 {
   }
 
   .app-shell > .ad-slot {
-    margin-bottom: 10px;
-    min-height: 84px;
-    padding: 12px;
+    margin-bottom: 8px;
+    min-height: 80px;
+    padding: 10px 12px;
   }
 
   .kit-gallery-shell {

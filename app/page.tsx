@@ -92,10 +92,6 @@ export default function HomePage() {
             </button>
           ))}
         </div>
-        <div className="mobile-daily-pill" aria-label={`${dailyLimit} games today`}>
-          <strong>{dailyLimit}</strong>
-          <span>today</span>
-        </div>
       </section>
 
       <section className="mobile-versus-row" aria-label="Versus Mode">

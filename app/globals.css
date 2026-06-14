@@ -88,31 +88,36 @@ button {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 196px;
   grid-template-areas:
-    "intro daily"
-    "tabs versus"
+    "left right"
     "ad ad";
-  align-items: start;
+  align-items: end;
   column-gap: 20px;
   row-gap: 12px;
   color: #fff;
-  padding: 14px 0 8px;
+  padding: 10px 0 8px;
+}
+
+.home-left {
+  grid-area: left;
+  display: grid;
+  align-content: end;
+  gap: 8px;
+}
+
+.home-right {
+  grid-area: right;
+  display: grid;
+  align-content: end;
+  justify-items: end;
+  gap: 8px;
 }
 
 .home-intro {
-  grid-area: intro;
+  min-width: 0;
 }
 
 .home-daily {
-  grid-area: daily;
   justify-self: end;
-}
-
-.home-tabs {
-  grid-area: tabs;
-}
-
-.desktop-versus-row {
-  grid-area: versus;
 }
 
 .home-ad {
@@ -137,7 +142,7 @@ h1 {
 
 .subtitle {
   max-width: 580px;
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   color: rgba(255, 255, 255, 0.82);
   font-size: clamp(1rem, 2vw, 1.22rem);
 }
@@ -253,13 +258,17 @@ h1 {
 .slot-button,
 .secondary-button,
 .primary-button {
-  min-height: 46px;
+  min-height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 8px;
-  padding: 0 16px;
+  padding: 0 18px;
   background: rgba(255, 255, 255, 0.12);
   color: #fff;
   font-weight: 800;
+}
+
+.slot-selector .slot-button {
+  min-width: 108px;
 }
 
 .mode-button.active,
@@ -974,11 +983,14 @@ h1 {
   .home-layout {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
-      "intro"
-      "tabs"
+      "left"
       "mobile-versus"
       "ad";
     row-gap: 14px;
+  }
+
+  .home-left {
+    gap: 14px;
   }
 
   .app-shell {

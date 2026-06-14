@@ -27,9 +27,27 @@ describe("clue ordering", () => {
     const clues = buildClues(player, "casual");
 
     expect(clues).toHaveLength(11);
-    expect(clues[8].key).toBe("careerPath");
-    expect(clues[8].label).toBe("Career Path");
+    expect(clues[6].key).toBe("careerPath");
+    expect(clues[6].label).toBe("Career Path");
+    expect(clues[8].key).toBe("fact");
+    expect(clues[9].key).toBe("shirtNumber");
     expect(clues[10].key).toBe("kit");
+  });
+
+  it("uses the new structured clue order", () => {
+    expect(CASUAL_CLUE_ORDER).toEqual([
+      "position",
+      "worldCupAppearances",
+      "clubCountry",
+      "playedAlongside",
+      "caps",
+      "club",
+      "careerPath",
+      "internationalGoals",
+      "fact",
+      "shirtNumber",
+      "kit"
+    ]);
   });
 
   it("generates a current-club career path fallback when no custom path exists", () => {
@@ -63,6 +81,38 @@ describe("clue ordering", () => {
 
     expect(order.indexOf("clubCountry")).toBeLessThan(order.indexOf("club"));
   });
+
+  it("shows international clean sheets for goalkeepers when a verified value exists", () => {
+    const player = createTestPlayer({
+      displayName: "Test Keeper",
+      fullName: "Test Keeper",
+      searchAliases: ["Keeper"]
+    });
+    player.position = "Goalkeeper";
+    player.internationalGoals = 0;
+    player.internationalCleanSheets = 18;
+
+    const clue = buildClues(player, "casual").find((item) => item.key === "internationalGoals");
+
+    expect(clue?.label).toBe("International clean sheets");
+    expect(clue?.value).toBe("18 international clean sheets");
+  });
+
+  it("falls back to international goals for goalkeepers without a verified clean sheets value", () => {
+    const player = createTestPlayer({
+      displayName: "Fallback Keeper",
+      fullName: "Fallback Keeper",
+      searchAliases: ["Fallback"]
+    });
+    player.position = "Goalkeeper";
+    player.internationalGoals = 0;
+    player.internationalCleanSheets = "[Verify]";
+
+    const clue = buildClues(player, "casual").find((item) => item.key === "internationalGoals");
+
+    expect(clue?.label).toBe("International goals");
+    expect(clue?.value).toBe("0 international goals");
+  });
 });
 
 describe("sheet schema", () => {
@@ -74,6 +124,11 @@ describe("sheet schema", () => {
   it("keeps Exclude as an optional first column", () => {
     expect(PLAYER_SHEET_COLUMNS[0]).toBe("Exclude");
     expect(PLAYER_SHEET_FIELD_MAP["Exclude"]).toBe("exclude");
+  });
+
+  it("keeps International Clean Sheets optional and after Goals", () => {
+    expect(PLAYER_SHEET_COLUMNS.indexOf("International Clean Sheets")).toBe(PLAYER_SHEET_COLUMNS.indexOf("Goals") + 1);
+    expect(PLAYER_SHEET_FIELD_MAP["International Clean Sheets"]).toBe("internationalCleanSheets");
   });
 
   it("reads player sheet cells by exact header name instead of fixed index", () => {

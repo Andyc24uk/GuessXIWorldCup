@@ -1,7 +1,7 @@
 import type { Player } from "./types";
 
 export const majorNationAdditions: Player[] = [
-{
+  {
     "id": "england-ezri-konsa",
     "fullName": "Ezri Konsa",
     "displayName": "Ezri Konsa",
@@ -9,12 +9,12 @@ export const majorNationAdditions: Player[] = [
       "Ezri Konsa",
       "Konsa",
       "Konsa Ezri"
-    ],
+],
     "acceptedAnswers": [
       "Ezri Konsa",
       "Konsa",
       "Konsa Ezri"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -37,9 +37,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ezri_Konsa",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-nico-oreilly",
     "fullName": "Nico Oreilly",
     "displayName": "Nico Oreilly",
@@ -47,12 +47,12 @@ export const majorNationAdditions: Player[] = [
       "Nico Oreilly",
       "Oreilly",
       "Oreilly Nico"
-    ],
+],
     "acceptedAnswers": [
       "Nico Oreilly",
       "Oreilly",
       "Oreilly Nico"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -75,9 +75,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "england-marc-guehi",
     "fullName": "Marc Guéhi",
     "displayName": "Marc Guehi",
@@ -85,12 +85,12 @@ export const majorNationAdditions: Player[] = [
       "Marc Guehi",
       "Guehi",
       "Guehi Marc"
-    ],
+],
     "acceptedAnswers": [
       "Marc Guehi",
       "Guehi",
       "Guehi Marc"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -113,9 +113,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marc_Guéhi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "england-elliot-anderson",
     "fullName": "Elliot Anderson",
     "displayName": "Elliot Anderson",
@@ -123,12 +123,12 @@ export const majorNationAdditions: Player[] = [
       "Elliot Anderson",
       "Anderson",
       "Anderson Elliot"
-    ],
+],
     "acceptedAnswers": [
       "Elliot Anderson",
       "Anderson",
       "Anderson Elliot"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -151,9 +151,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "england-tino-livramento",
     "fullName": "Valentino Francisco Livramento",
     "displayName": "Tino Livramento",
@@ -162,13 +162,13 @@ export const majorNationAdditions: Player[] = [
       "Valentino Francisco Livramento",
       "Livramento",
       "Livramento Tino"
-    ],
+],
     "acceptedAnswers": [
       "Tino Livramento",
       "Valentino Francisco Livramento",
       "Livramento",
       "Livramento Tino"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -191,9 +191,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tino_Livramento",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "england-dean-henderson",
     "fullName": "Dean Henderson",
     "displayName": "Dean Henderson",
@@ -201,12 +201,12 @@ export const majorNationAdditions: Player[] = [
       "Dean Henderson",
       "Henderson",
       "Henderson Dean"
-    ],
+],
     "acceptedAnswers": [
       "Dean Henderson",
       "Henderson",
       "Henderson Dean"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -218,6 +218,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2020",
     "caps": 5,
     "internationalGoals": 0,
+    "internationalCleanSheets": 3,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Manchester United -> Stockport County (loan) -> Grimsby Town (loan) -> Shrewsbury Town (loan) -> Sheffield United (loan) -> Nottingham Forest (loan) -> Crystal Palace",
@@ -229,9 +230,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dean_Henderson",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "england-jordan-henderson",
     "fullName": "Jordan Hendersonnobold",
     "displayName": "Jordan Henderson",
@@ -240,13 +241,13 @@ export const majorNationAdditions: Player[] = [
       "Jordan Hendersonnobold",
       "Henderson",
       "Henderson Jordan"
-    ],
+],
     "acceptedAnswers": [
       "Jordan Henderson",
       "Jordan Hendersonnobold",
       "Henderson",
       "Henderson Jordan"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -269,9 +270,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jordan_Henderson",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-dan-burn",
     "fullName": "Dan Burn",
     "displayName": "Dan Burn",
@@ -279,12 +280,12 @@ export const majorNationAdditions: Player[] = [
       "Dan Burn",
       "Burn",
       "Burn Dan"
-    ],
+],
     "acceptedAnswers": [
       "Dan Burn",
       "Burn",
       "Burn Dan"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -307,9 +308,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dan_Burn",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "england-kobbie-mainoo",
     "fullName": "Kobbie Mainoo",
     "displayName": "Kobbie Mainoo",
@@ -317,12 +318,12 @@ export const majorNationAdditions: Player[] = [
       "Kobbie Mainoo",
       "Mainoo",
       "Mainoo Kobbie"
-    ],
+],
     "acceptedAnswers": [
       "Kobbie Mainoo",
       "Mainoo",
       "Mainoo Kobbie"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -345,9 +346,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kobbie_Mainoo",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-morgan-rogers",
     "fullName": "Morgan Rogers",
     "displayName": "Morgan Rogers",
@@ -355,12 +356,12 @@ export const majorNationAdditions: Player[] = [
       "Morgan Rogers",
       "Rogers",
       "Rogers Morgan"
-    ],
+],
     "acceptedAnswers": [
       "Morgan Rogers",
       "Rogers",
       "Rogers Morgan"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -383,9 +384,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Morgan_Rogers",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-anthony-gordon",
     "fullName": "Anthony Gordon",
     "displayName": "Anthony Gordon",
@@ -393,12 +394,12 @@ export const majorNationAdditions: Player[] = [
       "Anthony Gordon",
       "Gordon",
       "Gordon Anthony"
-    ],
+],
     "acceptedAnswers": [
       "Anthony Gordon",
       "Gordon",
       "Gordon Anthony"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -421,9 +422,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Anthony_Gordon_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "england-ollie-watkins",
     "fullName": "Ollie Watkins",
     "displayName": "Ollie Watkins",
@@ -431,12 +432,12 @@ export const majorNationAdditions: Player[] = [
       "Ollie Watkins",
       "Watkins",
       "Watkins Ollie"
-    ],
+],
     "acceptedAnswers": [
       "Ollie Watkins",
       "Watkins",
       "Watkins Ollie"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -459,9 +460,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ollie_Watkins",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-noni-madueke",
     "fullName": "Noni Madueke",
     "displayName": "Noni Madueke",
@@ -469,12 +470,12 @@ export const majorNationAdditions: Player[] = [
       "Noni Madueke",
       "Madueke",
       "Madueke Noni"
-    ],
+],
     "acceptedAnswers": [
       "Noni Madueke",
       "Madueke",
       "Madueke Noni"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -497,9 +498,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Noni_Madueke",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-eberechi-eze",
     "fullName": "Eberechi Eze",
     "displayName": "Eberechi Eze",
@@ -507,12 +508,12 @@ export const majorNationAdditions: Player[] = [
       "Eberechi Eze",
       "Eze",
       "Eze Eberechi"
-    ],
+],
     "acceptedAnswers": [
       "Eberechi Eze",
       "Eze",
       "Eze Eberechi"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -535,9 +536,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Eberechi_Eze",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-ivan-toney",
     "fullName": "Ivan Toney",
     "displayName": "Ivan Toney",
@@ -545,12 +546,12 @@ export const majorNationAdditions: Player[] = [
       "Ivan Toney",
       "Toney",
       "Toney Ivan"
-    ],
+],
     "acceptedAnswers": [
       "Ivan Toney",
       "Toney",
       "Toney Ivan"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -573,9 +574,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ivan_Toney",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "england-james-trafford",
     "fullName": "James Trafford",
     "displayName": "James Trafford",
@@ -583,12 +584,12 @@ export const majorNationAdditions: Player[] = [
       "James Trafford",
       "Trafford",
       "Trafford James"
-    ],
+],
     "acceptedAnswers": [
       "James Trafford",
       "Trafford",
       "Trafford James"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -600,6 +601,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2026",
     "caps": 2,
     "internationalGoals": 0,
+    "internationalCleanSheets": 1,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Manchester City -> Accrington Stanley (loan) -> Bolton Wanderers (loan) -> Burnley -> Manchester City",
@@ -611,9 +613,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/James_Trafford",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "england-djed-spence",
     "fullName": "Djed Spence",
     "displayName": "Djed Spence",
@@ -621,12 +623,12 @@ export const majorNationAdditions: Player[] = [
       "Djed Spence",
       "Spence",
       "Spence Djed"
-    ],
+],
     "acceptedAnswers": [
       "Djed Spence",
       "Spence",
       "Spence Djed"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -649,9 +651,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Djed_Spence",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "england-jarell-quansah",
     "fullName": "Jarell Quansah",
     "displayName": "Jarell Quansah",
@@ -659,12 +661,12 @@ export const majorNationAdditions: Player[] = [
       "Jarell Quansah",
       "Quansah",
       "Quansah Jarell"
-    ],
+],
     "acceptedAnswers": [
       "Jarell Quansah",
       "Quansah",
       "Quansah Jarell"
-    ],
+],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -687,9 +689,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jarell_Quansah",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-david-raya",
     "fullName": "David Raya",
     "displayName": "David Raya",
@@ -697,12 +699,12 @@ export const majorNationAdditions: Player[] = [
       "David Raya",
       "Raya",
       "Raya David"
-    ],
+],
     "acceptedAnswers": [
       "David Raya",
       "Raya",
       "Raya David"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -714,6 +716,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2022",
     "caps": 13,
     "internationalGoals": 0,
+    "internationalCleanSheets": 6,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Blackburn Rovers -> Southport (loan) -> Brentford -> Arsenal (loan) -> Arsenal",
@@ -725,9 +728,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/David_Raya",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-marc-pubill",
     "fullName": "Marc Pubill Pagès",
     "displayName": "Marc Pubill",
@@ -736,13 +739,13 @@ export const majorNationAdditions: Player[] = [
       "Marc Pubill Pagès",
       "Pubill",
       "Pubill Marc"
-    ],
+],
     "acceptedAnswers": [
       "Marc Pubill",
       "Marc Pubill Pagès",
       "Pubill",
       "Pubill Marc"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -765,9 +768,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marc_Pubill",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-alex-grimaldo",
     "fullName": "Álex Grimaldo",
     "displayName": "Alex Grimaldo",
@@ -775,12 +778,12 @@ export const majorNationAdditions: Player[] = [
       "Alex Grimaldo",
       "Grimaldo",
       "Grimaldo Alex"
-    ],
+],
     "acceptedAnswers": [
       "Alex Grimaldo",
       "Grimaldo",
       "Grimaldo Alex"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -803,9 +806,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Álex_Grimaldo",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-eric-garcia",
     "fullName": "Eric García",
     "displayName": "Eric Garcia",
@@ -813,12 +816,12 @@ export const majorNationAdditions: Player[] = [
       "Eric Garcia",
       "Garcia",
       "Garcia Eric"
-    ],
+],
     "acceptedAnswers": [
       "Eric Garcia",
       "Garcia",
       "Garcia Eric"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -841,9 +844,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Eric_García_(footballer,_born_2001)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-marcos-llorente",
     "fullName": "Marcos Llorente",
     "displayName": "Marcos Llorente",
@@ -851,12 +854,12 @@ export const majorNationAdditions: Player[] = [
       "Marcos Llorente",
       "Llorente",
       "Llorente Marcos"
-    ],
+],
     "acceptedAnswers": [
       "Marcos Llorente",
       "Llorente",
       "Llorente Marcos"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -879,9 +882,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marcos_Llorente",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-mikel-merino",
     "fullName": "Mikel Merino",
     "displayName": "Mikel Merino",
@@ -889,12 +892,12 @@ export const majorNationAdditions: Player[] = [
       "Mikel Merino",
       "Merino",
       "Merino Mikel"
-    ],
+],
     "acceptedAnswers": [
       "Mikel Merino",
       "Merino",
       "Merino Mikel"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -917,9 +920,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mikel_Merino",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-ferran-torres",
     "fullName": "Ferran Torres",
     "displayName": "Ferran Torres",
@@ -927,12 +930,12 @@ export const majorNationAdditions: Player[] = [
       "Ferran Torres",
       "Torres",
       "Torres Ferran"
-    ],
+],
     "acceptedAnswers": [
       "Ferran Torres",
       "Torres",
       "Torres Ferran"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -955,9 +958,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ferran_Torres",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-fabian-ruiz",
     "fullName": "Fabián Ruiz",
     "displayName": "Fabian Ruiz",
@@ -965,12 +968,12 @@ export const majorNationAdditions: Player[] = [
       "Fabian Ruiz",
       "Ruiz",
       "Ruiz Fabian"
-    ],
+],
     "acceptedAnswers": [
       "Fabian Ruiz",
       "Ruiz",
       "Ruiz Fabian"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -993,9 +996,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Fabián_Ruiz",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-pablo-gavi",
     "fullName": "Pablo Gavi",
     "displayName": "Pablo Gavi",
@@ -1003,12 +1006,12 @@ export const majorNationAdditions: Player[] = [
       "Pablo Gavi",
       "Gavi",
       "Gavi Pablo"
-    ],
+],
     "acceptedAnswers": [
       "Pablo Gavi",
       "Gavi",
       "Gavi Pablo"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1031,9 +1034,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-yeremy-pino",
     "fullName": "Yéremy Pino",
     "displayName": "Yeremy Pino",
@@ -1041,12 +1044,12 @@ export const majorNationAdditions: Player[] = [
       "Yeremy Pino",
       "Pino",
       "Pino Yeremy"
-    ],
+],
     "acceptedAnswers": [
       "Yeremy Pino",
       "Pino",
       "Pino Yeremy"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1069,9 +1072,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Yéremy_Pino",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "spain-pedro-porro",
     "fullName": "Pedro Porro",
     "displayName": "Pedro Porro",
@@ -1079,12 +1082,12 @@ export const majorNationAdditions: Player[] = [
       "Pedro Porro",
       "Porro",
       "Porro Pedro"
-    ],
+],
     "acceptedAnswers": [
       "Pedro Porro",
       "Porro",
       "Porro Pedro"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1107,9 +1110,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pedro_Porro",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-joan-garcia",
     "fullName": "Joan Garcia",
     "displayName": "Joan Garcia",
@@ -1117,12 +1120,12 @@ export const majorNationAdditions: Player[] = [
       "Joan Garcia",
       "Garcia",
       "Garcia Joan"
-    ],
+],
     "acceptedAnswers": [
       "Joan Garcia",
       "Garcia",
       "Garcia Joan"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1134,6 +1137,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2026",
     "caps": 2,
     "internationalGoals": 0,
+    "internationalCleanSheets": 1,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Espanyol B -> Espanyol -> Barcelona",
@@ -1145,9 +1149,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joan_Garcia",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-aymeric-laporte",
     "fullName": "Aymeric Laporte",
     "displayName": "Aymeric Laporte",
@@ -1155,12 +1159,12 @@ export const majorNationAdditions: Player[] = [
       "Aymeric Laporte",
       "Laporte",
       "Laporte Aymeric"
-    ],
+],
     "acceptedAnswers": [
       "Aymeric Laporte",
       "Laporte",
       "Laporte Aymeric"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1183,9 +1187,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Aymeric_Laporte",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-alex-baena",
     "fullName": "Álex Baena",
     "displayName": "Alex Baena",
@@ -1193,12 +1197,12 @@ export const majorNationAdditions: Player[] = [
       "Alex Baena",
       "Baena",
       "Baena Alex"
-    ],
+],
     "acceptedAnswers": [
       "Alex Baena",
       "Baena",
       "Baena Alex"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1221,9 +1225,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Álex_Baena",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-martin-zubimendi",
     "fullName": "Martín Zubimendi",
     "displayName": "Martin Zubimendi",
@@ -1231,12 +1235,12 @@ export const majorNationAdditions: Player[] = [
       "Martin Zubimendi",
       "Zubimendi",
       "Zubimendi Martin"
-    ],
+],
     "acceptedAnswers": [
       "Martin Zubimendi",
       "Zubimendi",
       "Zubimendi Martin"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1259,9 +1263,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Martín_Zubimendi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-mikel-oyarzabal",
     "fullName": "Mikel Oyarzabal",
     "displayName": "Mikel Oyarzabal",
@@ -1269,12 +1273,12 @@ export const majorNationAdditions: Player[] = [
       "Mikel Oyarzabal",
       "Oyarzabal",
       "Oyarzabal Mikel"
-    ],
+],
     "acceptedAnswers": [
       "Mikel Oyarzabal",
       "Oyarzabal",
       "Oyarzabal Mikel"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1297,9 +1301,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mikel_Oyarzabal",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "spain-pau-cubarsi",
     "fullName": "Pau Cubarsí",
     "displayName": "Pau Cubarsi",
@@ -1307,12 +1311,12 @@ export const majorNationAdditions: Player[] = [
       "Pau Cubarsi",
       "Cubarsi",
       "Cubarsi Pau"
-    ],
+],
     "acceptedAnswers": [
       "Pau Cubarsi",
       "Cubarsi",
       "Cubarsi Pau"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1335,9 +1339,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pau_Cubarsí",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-unai-simon",
     "fullName": "Unai Simón",
     "displayName": "Unai Simon",
@@ -1345,12 +1349,12 @@ export const majorNationAdditions: Player[] = [
       "Unai Simon",
       "Simon",
       "Simon Unai"
-    ],
+],
     "acceptedAnswers": [
       "Unai Simon",
       "Simon",
       "Simon Unai"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1362,6 +1366,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2020",
     "caps": 58,
     "internationalGoals": 0,
+    "internationalCleanSheets": 24,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Basconia -> Athletic Bilbao B -> Athletic Bilbao",
@@ -1373,9 +1378,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Unai_Simón",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-marc-cucurella",
     "fullName": "Marc Cucurella",
     "displayName": "Marc Cucurella",
@@ -1383,12 +1388,12 @@ export const majorNationAdditions: Player[] = [
       "Marc Cucurella",
       "Cucurella",
       "Cucurella Marc"
-    ],
+],
     "acceptedAnswers": [
       "Marc Cucurella",
       "Cucurella",
       "Cucurella Marc"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1411,9 +1416,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marc_Cucurella",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "spain-borja-iglesias",
     "fullName": "Borja Iglesias",
     "displayName": "Borja Iglesias",
@@ -1421,12 +1426,12 @@ export const majorNationAdditions: Player[] = [
       "Borja Iglesias",
       "Iglesias",
       "Iglesias Borja"
-    ],
+],
     "acceptedAnswers": [
       "Borja Iglesias",
       "Iglesias",
       "Iglesias Borja"
-    ],
+],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -1449,9 +1454,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Borja_Iglesias",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-antonio-ruediger",
     "fullName": "Antonio Ruediger",
     "displayName": "Antonio Ruediger",
@@ -1459,12 +1464,12 @@ export const majorNationAdditions: Player[] = [
       "Antonio Ruediger",
       "Ruediger",
       "Ruediger Antonio"
-    ],
+],
     "acceptedAnswers": [
       "Antonio Ruediger",
       "Ruediger",
       "Ruediger Antonio"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1487,9 +1492,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "germany-waldemar-anton",
     "fullName": "Waldemar Anton",
     "displayName": "Waldemar Anton",
@@ -1497,12 +1502,12 @@ export const majorNationAdditions: Player[] = [
       "Waldemar Anton",
       "Anton",
       "Anton Waldemar"
-    ],
+],
     "acceptedAnswers": [
       "Waldemar Anton",
       "Anton",
       "Anton Waldemar"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1525,9 +1530,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Waldemar_Anton",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-jonathan-tah",
     "fullName": "Jonathan Tah",
     "displayName": "Jonathan Tah",
@@ -1535,12 +1540,12 @@ export const majorNationAdditions: Player[] = [
       "Jonathan Tah",
       "Tah",
       "Tah Jonathan"
-    ],
+],
     "acceptedAnswers": [
       "Jonathan Tah",
       "Tah",
       "Tah Jonathan"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1563,9 +1568,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jonathan_Tah",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-aleksandar-pavlovic",
     "fullName": "Aleksandar Pavlović",
     "displayName": "Aleksandar Pavlovic",
@@ -1573,12 +1578,12 @@ export const majorNationAdditions: Player[] = [
       "Aleksandar Pavlovic",
       "Pavlovic",
       "Pavlovic Aleksandar"
-    ],
+],
     "acceptedAnswers": [
       "Aleksandar Pavlovic",
       "Pavlovic",
       "Pavlovic Aleksandar"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1601,9 +1606,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Aleksandar_Pavlović_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-kai-havertz",
     "fullName": "Kai Havertz",
     "displayName": "Kai Havertz",
@@ -1611,12 +1616,12 @@ export const majorNationAdditions: Player[] = [
       "Kai Havertz",
       "Havertz",
       "Havertz Kai"
-    ],
+],
     "acceptedAnswers": [
       "Kai Havertz",
       "Havertz",
       "Havertz Kai"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1639,9 +1644,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kai_Havertz",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-leon-goretzka",
     "fullName": "Leon Goretzka",
     "displayName": "Leon Goretzka",
@@ -1649,12 +1654,12 @@ export const majorNationAdditions: Player[] = [
       "Leon Goretzka",
       "Goretzka",
       "Goretzka Leon"
-    ],
+],
     "acceptedAnswers": [
       "Leon Goretzka",
       "Goretzka",
       "Goretzka Leon"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1677,9 +1682,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leon_Goretzka",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-jamie-leweling",
     "fullName": "Jamie Jaleel Jeremy Leweling",
     "displayName": "Jamie Leweling",
@@ -1688,13 +1693,13 @@ export const majorNationAdditions: Player[] = [
       "Jamie Jaleel Jeremy Leweling",
       "Leweling",
       "Leweling Jamie"
-    ],
+],
     "acceptedAnswers": [
       "Jamie Leweling",
       "Jamie Jaleel Jeremy Leweling",
       "Leweling",
       "Leweling Jamie"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1717,9 +1722,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jamie_Leweling",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-nick-woltemade",
     "fullName": "Nick Woltemade",
     "displayName": "Nick Woltemade",
@@ -1727,12 +1732,12 @@ export const majorNationAdditions: Player[] = [
       "Nick Woltemade",
       "Woltemade",
       "Woltemade Nick"
-    ],
+],
     "acceptedAnswers": [
       "Nick Woltemade",
       "Woltemade",
       "Woltemade Nick"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1755,9 +1760,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nick_Woltemade",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "germany-oliver-baumann",
     "fullName": "Oliver Baumann",
     "displayName": "Oliver Baumann",
@@ -1765,12 +1770,12 @@ export const majorNationAdditions: Player[] = [
       "Oliver Baumann",
       "Baumann",
       "Baumann Oliver"
-    ],
+],
     "acceptedAnswers": [
       "Oliver Baumann",
       "Baumann",
       "Baumann Oliver"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1782,6 +1787,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2024",
     "caps": 13,
     "internationalGoals": 0,
+    "internationalCleanSheets": 7,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
     "careerPath": "SC Freiburg II -> SC Freiburg -> TSG Hoffenheim",
@@ -1793,9 +1799,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Oliver_Baumann",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "germany-pascal-gross",
     "fullName": "Pascal Groß",
     "displayName": "Pascal Gross",
@@ -1804,13 +1810,13 @@ export const majorNationAdditions: Player[] = [
       "Pascal Groß",
       "Gross",
       "Gross Pascal"
-    ],
+],
     "acceptedAnswers": [
       "Pascal Gross",
       "Pascal Groß",
       "Gross",
       "Gross Pascal"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1833,9 +1839,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pascal_Groß",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "germany-maximilian-beier",
     "fullName": "Maximilian Beier",
     "displayName": "Maximilian Beier",
@@ -1843,12 +1849,12 @@ export const majorNationAdditions: Player[] = [
       "Maximilian Beier",
       "Beier",
       "Beier Maximilian"
-    ],
+],
     "acceptedAnswers": [
       "Maximilian Beier",
       "Beier",
       "Beier Maximilian"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1871,9 +1877,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maximilian_Beier",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-nico-schlotterbeck",
     "fullName": "Nico Schlotterbeck",
     "displayName": "Nico Schlotterbeck",
@@ -1881,12 +1887,12 @@ export const majorNationAdditions: Player[] = [
       "Nico Schlotterbeck",
       "Schlotterbeck",
       "Schlotterbeck Nico"
-    ],
+],
     "acceptedAnswers": [
       "Nico Schlotterbeck",
       "Schlotterbeck",
       "Schlotterbeck Nico"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1909,9 +1915,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nico_Schlotterbeck",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-angelo-stiller",
     "fullName": "Angelo Stiller",
     "displayName": "Angelo Stiller",
@@ -1919,12 +1925,12 @@ export const majorNationAdditions: Player[] = [
       "Angelo Stiller",
       "Stiller",
       "Stiller Angelo"
-    ],
+],
     "acceptedAnswers": [
       "Angelo Stiller",
       "Stiller",
       "Stiller Angelo"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1947,9 +1953,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Angelo_Stiller",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-nathaniel-brown",
     "fullName": "Nathaniel Brown",
     "displayName": "Nathaniel Brown",
@@ -1957,12 +1963,12 @@ export const majorNationAdditions: Player[] = [
       "Nathaniel Brown",
       "Brown",
       "Brown Nathaniel"
-    ],
+],
     "acceptedAnswers": [
       "Nathaniel Brown",
       "Brown",
       "Brown Nathaniel"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -1985,9 +1991,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathaniel_Brown_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-leroy-sane",
     "fullName": "Leroy Sané",
     "displayName": "Leroy Sane",
@@ -1995,12 +2001,12 @@ export const majorNationAdditions: Player[] = [
       "Leroy Sane",
       "Sane",
       "Sane Leroy"
-    ],
+],
     "acceptedAnswers": [
       "Leroy Sane",
       "Sane",
       "Sane Leroy"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2023,9 +2029,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leroy_Sané",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-nadiem-amiri",
     "fullName": "Nadiem Amiri",
     "displayName": "Nadiem Amiri",
@@ -2033,12 +2039,12 @@ export const majorNationAdditions: Player[] = [
       "Nadiem Amiri",
       "Amiri",
       "Amiri Nadiem"
-    ],
+],
     "acceptedAnswers": [
       "Nadiem Amiri",
       "Amiri",
       "Amiri Nadiem"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2061,9 +2067,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nadiem_Amiri",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "germany-alexander-nuebel",
     "fullName": "Alexander Nuebel",
     "displayName": "Alexander Nuebel",
@@ -2071,12 +2077,12 @@ export const majorNationAdditions: Player[] = [
       "Alexander Nuebel",
       "Nuebel",
       "Nuebel Alexander"
-    ],
+],
     "acceptedAnswers": [
       "Alexander Nuebel",
       "Nuebel",
       "Nuebel Alexander"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2088,6 +2094,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "11/10/24",
     "caps": 3,
     "internationalGoals": 0,
+    "internationalCleanSheets": 3,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
     "careerPath": "SC Paderborn -> FC Schalke 04 -> Bayern Munich -> Monaco (Loan) -> VfB Stuttgart",
@@ -2099,9 +2106,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-david-raum",
     "fullName": "David Raum",
     "displayName": "David Raum",
@@ -2109,12 +2116,12 @@ export const majorNationAdditions: Player[] = [
       "David Raum",
       "Raum",
       "Raum David"
-    ],
+],
     "acceptedAnswers": [
       "David Raum",
       "Raum",
       "Raum David"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2137,9 +2144,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/David_Raum",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "germany-felix-nmecha",
     "fullName": "Felix Nmecha",
     "displayName": "Felix Nmecha",
@@ -2147,12 +2154,12 @@ export const majorNationAdditions: Player[] = [
       "Felix Nmecha",
       "Nmecha",
       "Nmecha Felix"
-    ],
+],
     "acceptedAnswers": [
       "Felix Nmecha",
       "Nmecha",
       "Nmecha Felix"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2175,9 +2182,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Felix_Nmecha",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "germany-malick-thiaw",
     "fullName": "Malick Thiaw",
     "displayName": "Malick Thiaw",
@@ -2185,12 +2192,12 @@ export const majorNationAdditions: Player[] = [
       "Malick Thiaw",
       "Thiaw",
       "Thiaw Malick"
-    ],
+],
     "acceptedAnswers": [
       "Malick Thiaw",
       "Thiaw",
       "Thiaw Malick"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2213,9 +2220,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Malick_Thiaw",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-assan-ouedraogo",
     "fullName": "Assan Ouédraogo",
     "displayName": "Assan Ouedraogo",
@@ -2223,12 +2230,12 @@ export const majorNationAdditions: Player[] = [
       "Assan Ouedraogo",
       "Ouedraogo",
       "Ouedraogo Assan"
-    ],
+],
     "acceptedAnswers": [
       "Assan Ouedraogo",
       "Ouedraogo",
       "Ouedraogo Assan"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2251,9 +2258,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Assan_Ouédraogo",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "germany-deniz-undav",
     "fullName": "Deniz Undav",
     "displayName": "Deniz Undav",
@@ -2261,12 +2268,12 @@ export const majorNationAdditions: Player[] = [
       "Deniz Undav",
       "Undav",
       "Undav Deniz"
-    ],
+],
     "acceptedAnswers": [
       "Deniz Undav",
       "Undav",
       "Undav Deniz"
-    ],
+],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -2289,9 +2296,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Deniz_Undav",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "portugal-nelson-semedo",
     "fullName": "Nélson Semedo",
     "displayName": "Nelson Semedo",
@@ -2299,12 +2306,12 @@ export const majorNationAdditions: Player[] = [
       "Nelson Semedo",
       "Nelson Semedo Nélson",
       "Semedo"
-    ],
+],
     "acceptedAnswers": [
       "Nelson Semedo",
       "Nelson Semedo Nélson",
       "Semedo"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2327,9 +2334,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nélson_Semedo",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-jose-diogo-dalot",
     "fullName": "Diogo Dalot",
     "displayName": "José Diogo Dalot",
@@ -2338,13 +2345,13 @@ export const majorNationAdditions: Player[] = [
       "Diogo Dalot",
       "Diogo Dalot José",
       "Dalot"
-    ],
+],
     "acceptedAnswers": [
       "José Diogo Dalot",
       "Diogo Dalot",
       "Diogo Dalot José",
       "Dalot"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2367,9 +2374,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Diogo_Dalot",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-matheus-nunes",
     "fullName": "Matheus Nunes",
     "displayName": "Matheus Nunes",
@@ -2377,12 +2384,12 @@ export const majorNationAdditions: Player[] = [
       "Matheus Nunes",
       "Matheus Nunes Matheus",
       "Nunes"
-    ],
+],
     "acceptedAnswers": [
       "Matheus Nunes",
       "Matheus Nunes Matheus",
       "Nunes"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2405,9 +2412,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matheus_Nunes",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "portugal-goncalo-ramos",
     "fullName": "Gonçalo Ramos",
     "displayName": "Goncalo Ramos",
@@ -2415,12 +2422,12 @@ export const majorNationAdditions: Player[] = [
       "Goncalo Ramos",
       "Goncalo Ramos Gonçalo",
       "Ramos"
-    ],
+],
     "acceptedAnswers": [
       "Goncalo Ramos",
       "Goncalo Ramos Gonçalo",
       "Ramos"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2443,9 +2450,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonçalo_Ramos",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-joao-felix",
     "fullName": "João Félix",
     "displayName": "Joao Felix",
@@ -2453,12 +2460,12 @@ export const majorNationAdditions: Player[] = [
       "Joao Felix",
       "Joao Felix João",
       "Felix"
-    ],
+],
     "acceptedAnswers": [
       "Joao Felix",
       "Joao Felix João",
       "Felix"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2481,9 +2488,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Félix",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-jose-sa",
     "fullName": "José Sá",
     "displayName": "Jose Sa",
@@ -2491,12 +2498,12 @@ export const majorNationAdditions: Player[] = [
       "Jose Sa",
       "Jose Sa José",
       "Sa"
-    ],
+],
     "acceptedAnswers": [
       "Jose Sa",
       "Jose Sa José",
       "Sa"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2508,6 +2515,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2023",
     "caps": 5,
     "internationalGoals": 0,
+    "internationalCleanSheets": 2,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Marítimo B -> Marítimo -> Porto B -> Porto -> Olympiacos (loan) -> Olympiacos -> Wolverhampton Wanderers",
@@ -2519,9 +2527,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/José_Sá",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "portugal-renato-veiga",
     "fullName": "Renato Veiga",
     "displayName": "Renato Veiga",
@@ -2529,12 +2537,12 @@ export const majorNationAdditions: Player[] = [
       "Renato Veiga",
       "Renato Veiga Renato",
       "Veiga"
-    ],
+],
     "acceptedAnswers": [
       "Renato Veiga",
       "Renato Veiga Renato",
       "Veiga"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2557,9 +2565,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Renato_Veiga",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "portugal-goncalo-inacio",
     "fullName": "Gonçalo Inácio",
     "displayName": "Goncalo Inacio",
@@ -2567,12 +2575,12 @@ export const majorNationAdditions: Player[] = [
       "Goncalo Inacio",
       "Goncalo Inacio Gonçalo",
       "Inacio"
-    ],
+],
     "acceptedAnswers": [
       "Goncalo Inacio",
       "Goncalo Inacio Gonçalo",
       "Inacio"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2595,9 +2603,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonçalo_Inácio",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "portugal-joao-neves",
     "fullName": "João Neves",
     "displayName": "Joao Neves",
@@ -2605,12 +2613,12 @@ export const majorNationAdditions: Player[] = [
       "Joao Neves",
       "Joao Neves João",
       "Neves"
-    ],
+],
     "acceptedAnswers": [
       "Joao Neves",
       "Joao Neves João",
       "Neves"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2633,9 +2641,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Neves",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-francisco-trincao",
     "fullName": "Francisco Trincão",
     "displayName": "Francisco Trincao",
@@ -2643,12 +2651,12 @@ export const majorNationAdditions: Player[] = [
       "Francisco Trincao",
       "Francisco Trincao Francisco",
       "Trincao"
-    ],
+],
     "acceptedAnswers": [
       "Francisco Trincao",
       "Francisco Trincao Francisco",
       "Trincao"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2671,9 +2679,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Francisco_Trincão",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "portugal-rafael-leao",
     "fullName": "Rafael Leão",
     "displayName": "Rafael Leao",
@@ -2681,12 +2689,12 @@ export const majorNationAdditions: Player[] = [
       "Rafael Leao",
       "Rafael Leao Rafael",
       "Leao"
-    ],
+],
     "acceptedAnswers": [
       "Rafael Leao",
       "Rafael Leao Rafael",
       "Leao"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2709,9 +2717,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rafael_Leão",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-pedro-neto",
     "fullName": "Pedro Neto",
     "displayName": "Pedro Neto",
@@ -2719,12 +2727,12 @@ export const majorNationAdditions: Player[] = [
       "Pedro Neto",
       "Pedro Neto Pedro",
       "Neto"
-    ],
+],
     "acceptedAnswers": [
       "Pedro Neto",
       "Pedro Neto Pedro",
       "Neto"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2747,9 +2755,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pedro_Neto",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-goncalo-guedes",
     "fullName": "Gonçalo Guedes",
     "displayName": "Goncalo Guedes",
@@ -2757,12 +2765,12 @@ export const majorNationAdditions: Player[] = [
       "Goncalo Guedes",
       "Goncalo Guedes Gonçalo",
       "Guedes"
-    ],
+],
     "acceptedAnswers": [
       "Goncalo Guedes",
       "Goncalo Guedes Gonçalo",
       "Guedes"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2785,9 +2793,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonçalo_Guedes",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "portugal-joao-cancelo",
     "fullName": "João Cancelo",
     "displayName": "Joao Cancelo",
@@ -2795,12 +2803,12 @@ export const majorNationAdditions: Player[] = [
       "Joao Cancelo",
       "Joao Cancelo João",
       "Cancelo"
-    ],
+],
     "acceptedAnswers": [
       "Joao Cancelo",
       "Joao Cancelo João",
       "Cancelo"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2823,9 +2831,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Cancelo",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-ruben-neves",
     "fullName": "Rúben Neves",
     "displayName": "Ruben Neves",
@@ -2833,12 +2841,12 @@ export const majorNationAdditions: Player[] = [
       "Ruben Neves",
       "Ruben Neves Rúben",
       "Neves"
-    ],
+],
     "acceptedAnswers": [
       "Ruben Neves",
       "Ruben Neves Rúben",
       "Neves"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2861,9 +2869,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rúben_Neves",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-vitor-vitinha",
     "fullName": "Vitinha",
     "displayName": "Vitor Vitinha",
@@ -2871,12 +2879,12 @@ export const majorNationAdditions: Player[] = [
       "Vitor Vitinha",
       "Vitinha",
       "Vitinha Vitor"
-    ],
+],
     "acceptedAnswers": [
       "Vitor Vitinha",
       "Vitinha",
       "Vitinha Vitor"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2899,9 +2907,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Vitinha",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "portugal-samuel-samu-costa",
     "fullName": "Samú Costa",
     "displayName": "Samuel Samu Costa",
@@ -2910,13 +2918,13 @@ export const majorNationAdditions: Player[] = [
       "Samú Costa",
       "Samu Costa Samuel",
       "Costa"
-    ],
+],
     "acceptedAnswers": [
       "Samuel Samu Costa",
       "Samú Costa",
       "Samu Costa Samuel",
       "Costa"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2939,9 +2947,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Samú_Costa",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "portugal-francisco-conceicao",
     "fullName": "Francisco Conceição",
     "displayName": "Francisco Conceicao",
@@ -2949,12 +2957,12 @@ export const majorNationAdditions: Player[] = [
       "Francisco Conceicao",
       "Francisco Conceicao Francisco",
       "Conceicao"
-    ],
+],
     "acceptedAnswers": [
       "Francisco Conceicao",
       "Francisco Conceicao Francisco",
       "Conceicao"
-    ],
+],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -2977,9 +2985,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Francisco_Conceição",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-brice-samba",
     "fullName": "Brice Samba",
     "displayName": "Brice Samba",
@@ -2987,12 +2995,12 @@ export const majorNationAdditions: Player[] = [
       "Brice Samba",
       "Samba",
       "Samba Brice"
-    ],
+],
     "acceptedAnswers": [
       "Brice Samba",
       "Samba",
       "Samba Brice"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3004,6 +3012,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2023",
     "caps": 4,
     "internationalGoals": 0,
+    "internationalCleanSheets": 1,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Le Havre B -> Le Havre -> Marseille B -> Marseille -> Nancy B (loan) -> Nancy (loan) -> Caen B -> Caen -> Nottingham Forest -> Lens -> Rennes",
@@ -3015,9 +3024,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Brice_Samba",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "france-malo-gusto",
     "fullName": "Malo Gusto",
     "displayName": "Malo Gusto",
@@ -3025,12 +3034,12 @@ export const majorNationAdditions: Player[] = [
       "Malo Gusto",
       "Gusto",
       "Gusto Malo"
-    ],
+],
     "acceptedAnswers": [
       "Malo Gusto",
       "Gusto",
       "Gusto Malo"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3053,9 +3062,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Malo_Gusto",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-lucas-digne",
     "fullName": "Lucas Digne",
     "displayName": "Lucas Digne",
@@ -3063,12 +3072,12 @@ export const majorNationAdditions: Player[] = [
       "Lucas Digne",
       "Digne",
       "Digne Lucas"
-    ],
+],
     "acceptedAnswers": [
       "Lucas Digne",
       "Digne",
       "Digne Lucas"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3091,9 +3100,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lucas_Digne",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-jules-kounde",
     "fullName": "Jules Koundé",
     "displayName": "Jules Kounde",
@@ -3101,12 +3110,12 @@ export const majorNationAdditions: Player[] = [
       "Jules Kounde",
       "Kounde",
       "Kounde Jules"
-    ],
+],
     "acceptedAnswers": [
       "Jules Kounde",
       "Kounde",
       "Kounde Jules"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3129,9 +3138,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jules_Koundé",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-manu-kone",
     "fullName": "Manu Koné",
     "displayName": "Manu Kone",
@@ -3139,12 +3148,12 @@ export const majorNationAdditions: Player[] = [
       "Manu Kone",
       "Kone",
       "Kone Manu"
-    ],
+],
     "acceptedAnswers": [
       "Manu Kone",
       "Kone",
       "Kone Manu"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3167,9 +3176,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Manu_Koné",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "france-marcus-thuram",
     "fullName": "Marcus Thuram",
     "displayName": "Marcus Thuram",
@@ -3177,12 +3186,12 @@ export const majorNationAdditions: Player[] = [
       "Marcus Thuram",
       "Thuram",
       "Thuram Marcus"
-    ],
+],
     "acceptedAnswers": [
       "Marcus Thuram",
       "Thuram",
       "Thuram Marcus"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3205,9 +3214,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marcus_Thuram",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-michael-olise",
     "fullName": "Michael Olise",
     "displayName": "Michael Olise",
@@ -3215,12 +3224,12 @@ export const majorNationAdditions: Player[] = [
       "Michael Olise",
       "Olise",
       "Olise Michael"
-    ],
+],
     "acceptedAnswers": [
       "Michael Olise",
       "Olise",
       "Olise Michael"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3243,9 +3252,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Michael_Olise",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-bradley-barcola",
     "fullName": "Bradley Barcola",
     "displayName": "Bradley Barcola",
@@ -3253,12 +3262,12 @@ export const majorNationAdditions: Player[] = [
       "Bradley Barcola",
       "Barcola",
       "Barcola Bradley"
-    ],
+],
     "acceptedAnswers": [
       "Bradley Barcola",
       "Barcola",
       "Barcola Bradley"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3281,9 +3290,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Bradley_Barcola",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-ngolo-kante",
     "fullName": "Ngolo Kante",
     "displayName": "Ngolo Kante",
@@ -3291,12 +3300,12 @@ export const majorNationAdditions: Player[] = [
       "Ngolo Kante",
       "Kante",
       "Kante Ngolo"
-    ],
+],
     "acceptedAnswers": [
       "Ngolo Kante",
       "Kante",
       "Kante Ngolo"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3319,9 +3328,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "france-adrien-rabiot",
     "fullName": "Adrien Rabiot",
     "displayName": "Adrien Rabiot",
@@ -3329,12 +3338,12 @@ export const majorNationAdditions: Player[] = [
       "Adrien Rabiot",
       "Rabiot",
       "Rabiot Adrien"
-    ],
+],
     "acceptedAnswers": [
       "Adrien Rabiot",
       "Rabiot",
       "Rabiot Adrien"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3357,9 +3366,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Adrien_Rabiot",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-ibrahima-konate",
     "fullName": "Ibrahima Konaté",
     "displayName": "Ibrahima Konate",
@@ -3367,12 +3376,12 @@ export const majorNationAdditions: Player[] = [
       "Ibrahima Konate",
       "Konate",
       "Konate Ibrahima"
-    ],
+],
     "acceptedAnswers": [
       "Ibrahima Konate",
       "Konate",
       "Konate Ibrahima"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3395,9 +3404,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ibrahima_Konaté",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-william-saliba",
     "fullName": "William Saliba",
     "displayName": "William Saliba",
@@ -3405,12 +3414,12 @@ export const majorNationAdditions: Player[] = [
       "William Saliba",
       "Saliba",
       "Saliba William"
-    ],
+],
     "acceptedAnswers": [
       "William Saliba",
       "Saliba",
       "Saliba William"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3433,9 +3442,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/William_Saliba",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-warren-zaire-emery",
     "fullName": "Warren Zaïre-Emery",
     "displayName": "Warren Zaire-Emery",
@@ -3443,12 +3452,12 @@ export const majorNationAdditions: Player[] = [
       "Warren Zaire-Emery",
       "Zaire-Emery",
       "Zaire-Emery Warren"
-    ],
+],
     "acceptedAnswers": [
       "Warren Zaire-Emery",
       "Zaire-Emery",
       "Zaire-Emery Warren"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3471,9 +3480,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Warren_Zaïre-Emery",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-desire-doue",
     "fullName": "Désiré Doué",
     "displayName": "Desire Doue",
@@ -3481,12 +3490,12 @@ export const majorNationAdditions: Player[] = [
       "Desire Doue",
       "Doue",
       "Doue Desire"
-    ],
+],
     "acceptedAnswers": [
       "Desire Doue",
       "Doue",
       "Doue Desire"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3509,9 +3518,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Désiré_Doué",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "france-jean-mateta",
     "fullName": "Jean Mateta",
     "displayName": "Jean Mateta",
@@ -3519,12 +3528,12 @@ export const majorNationAdditions: Player[] = [
       "Jean Mateta",
       "Mateta",
       "Mateta Jean"
-    ],
+],
     "acceptedAnswers": [
       "Jean Mateta",
       "Mateta",
       "Mateta Jean"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3547,9 +3556,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "france-robin-risser",
     "fullName": "Robin Risser",
     "displayName": "Robin Risser",
@@ -3557,12 +3566,12 @@ export const majorNationAdditions: Player[] = [
       "Robin Risser",
       "Risser",
       "Risser Robin"
-    ],
+],
     "acceptedAnswers": [
       "Robin Risser",
       "Risser",
       "Risser Robin"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3574,6 +3583,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2025",
     "caps": 5,
     "internationalGoals": 0,
+    "internationalCleanSheets": 0,
     "nationalTeamDebutYear": 2025,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Strasbourg -> Strasbourg B -> Dijon (loan) -> Red Star (loan) -> Lens",
@@ -3585,9 +3595,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Robin_Risser",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "france-rayan-cherki",
     "fullName": "Rayan Cherki",
     "displayName": "Rayan Cherki",
@@ -3595,12 +3605,12 @@ export const majorNationAdditions: Player[] = [
       "Rayan Cherki",
       "Cherki",
       "Cherki Rayan"
-    ],
+],
     "acceptedAnswers": [
       "Rayan Cherki",
       "Cherki",
       "Cherki Rayan"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3623,9 +3633,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rayan_Cherki",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Elite",
+    "fameTier": "Elite"
   },
-{
+  {
     "id": "france-maghnes-akliouche",
     "fullName": "Maghnes Akliouche",
     "displayName": "Maghnes Akliouche",
@@ -3633,12 +3643,12 @@ export const majorNationAdditions: Player[] = [
       "Maghnes Akliouche",
       "Akliouche",
       "Akliouche Maghnes"
-    ],
+],
     "acceptedAnswers": [
       "Maghnes Akliouche",
       "Akliouche",
       "Akliouche Maghnes"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3661,9 +3671,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maghnes_Akliouche",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "france-maxence-lacroix",
     "fullName": "Maxence Lacroix",
     "displayName": "Maxence Lacroix",
@@ -3671,12 +3681,12 @@ export const majorNationAdditions: Player[] = [
       "Maxence Lacroix",
       "Lacroix",
       "Lacroix Maxence"
-    ],
+],
     "acceptedAnswers": [
       "Maxence Lacroix",
       "Lacroix",
       "Lacroix Maxence"
-    ],
+],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -3699,9 +3709,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maxence_Lacroix",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-juan-musso",
     "fullName": "Juan Musso",
     "displayName": "Juan Musso",
@@ -3709,12 +3719,12 @@ export const majorNationAdditions: Player[] = [
       "Juan Musso",
       "Musso",
       "Musso Juan"
-    ],
+],
     "acceptedAnswers": [
       "Juan Musso",
       "Musso",
       "Musso Juan"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3726,6 +3736,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2019",
     "caps": 4,
     "internationalGoals": 0,
+    "internationalCleanSheets": 4,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Racing Club -> Udinese -> Atalanta -> Atlético Madrid (loan) -> Atlético Madrid",
@@ -3737,9 +3748,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Juan_Musso",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-leonardo-balerdi",
     "fullName": "Leonardo Balerdi",
     "displayName": "Leonardo Balerdi",
@@ -3747,12 +3758,12 @@ export const majorNationAdditions: Player[] = [
       "Leonardo Balerdi",
       "Balerdi",
       "Balerdi Leonardo"
-    ],
+],
     "acceptedAnswers": [
       "Leonardo Balerdi",
       "Balerdi",
       "Balerdi Leonardo"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3775,9 +3786,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leonardo_Balerdi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "argentina-nicolas-tagliafico",
     "fullName": "Nicolás Tagliafico",
     "displayName": "Nicolas Tagliafico",
@@ -3785,12 +3796,12 @@ export const majorNationAdditions: Player[] = [
       "Nicolas Tagliafico",
       "Tagliafico",
       "Tagliafico Nicolas"
-    ],
+],
     "acceptedAnswers": [
       "Nicolas Tagliafico",
       "Tagliafico",
       "Tagliafico Nicolas"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3813,9 +3824,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nicolás_Tagliafico",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-gonzalo-montiel",
     "fullName": "Gonzalo Montiel",
     "displayName": "Gonzalo Montiel",
@@ -3823,12 +3834,12 @@ export const majorNationAdditions: Player[] = [
       "Gonzalo Montiel",
       "Montiel",
       "Montiel Gonzalo"
-    ],
+],
     "acceptedAnswers": [
       "Gonzalo Montiel",
       "Montiel",
       "Montiel Gonzalo"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3851,9 +3862,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonzalo_Montiel",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "argentina-leandro-paredes",
     "fullName": "Leandro Paredes",
     "displayName": "Leandro Paredes",
@@ -3861,12 +3872,12 @@ export const majorNationAdditions: Player[] = [
       "Leandro Paredes",
       "Paredes",
       "Paredes Leandro"
-    ],
+],
     "acceptedAnswers": [
       "Leandro Paredes",
       "Paredes",
       "Paredes Leandro"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3889,9 +3900,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leandro_Paredes",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-rodrigo-de-paul",
     "fullName": "Rodrigo De Paul",
     "displayName": "Rodrigo De Paul",
@@ -3900,13 +3911,13 @@ export const majorNationAdditions: Player[] = [
       "De Paul",
       "De Paul Rodrigo",
       "Paul"
-    ],
+],
     "acceptedAnswers": [
       "Rodrigo De Paul",
       "De Paul",
       "De Paul Rodrigo",
       "Paul"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3929,9 +3940,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-valentin-barco",
     "fullName": "Valentín Barco",
     "displayName": "Valentin Barco",
@@ -3939,12 +3950,12 @@ export const majorNationAdditions: Player[] = [
       "Valentin Barco",
       "Barco",
       "Barco Valentin"
-    ],
+],
     "acceptedAnswers": [
       "Valentin Barco",
       "Barco",
       "Barco Valentin"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -3967,9 +3978,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Valentín_Barco",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-giovani-lo-celso",
     "fullName": "Giovani Lo Celso",
     "displayName": "Giovani Lo Celso",
@@ -3978,13 +3989,13 @@ export const majorNationAdditions: Player[] = [
       "Lo Celso",
       "Lo Celso Giovani",
       "Celso"
-    ],
+],
     "acceptedAnswers": [
       "Giovani Lo Celso",
       "Lo Celso",
       "Lo Celso Giovani",
       "Celso"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4007,9 +4018,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Giovani_Lo_Celso",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-geronimo-rulli",
     "fullName": "Gerónimo Rulli",
     "displayName": "Geronimo Rulli",
@@ -4017,12 +4028,12 @@ export const majorNationAdditions: Player[] = [
       "Geronimo Rulli",
       "Rulli",
       "Rulli Geronimo"
-    ],
+],
     "acceptedAnswers": [
       "Geronimo Rulli",
       "Rulli",
       "Rulli Geronimo"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4034,6 +4045,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2018",
     "caps": 8,
     "internationalGoals": 0,
+    "internationalCleanSheets": 6,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Estudiantes -> Deportivo Maldonado -> Real Sociedad (loan) -> Manchester City -> Real Sociedad (loan) -> Real Sociedad -> Montpellier (loan) -> Villarreal -> Ajax -> Jong Ajax -> Marseille",
@@ -4045,9 +4057,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gerónimo_Rulli",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-cristian-romero",
     "fullName": "Cristian Romero",
     "displayName": "Cristian Romero",
@@ -4055,12 +4067,12 @@ export const majorNationAdditions: Player[] = [
       "Cristian Romero",
       "Romero",
       "Romero Cristian"
-    ],
+],
     "acceptedAnswers": [
       "Cristian Romero",
       "Romero",
       "Romero Cristian"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4083,9 +4095,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Cristian_Romero",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-exequiel-palacios",
     "fullName": "Exequiel Palacios",
     "displayName": "Exequiel Palacios",
@@ -4093,12 +4105,12 @@ export const majorNationAdditions: Player[] = [
       "Exequiel Palacios",
       "Palacios",
       "Palacios Exequiel"
-    ],
+],
     "acceptedAnswers": [
       "Exequiel Palacios",
       "Palacios",
       "Palacios Exequiel"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4121,9 +4133,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Exequiel_Palacios",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-thiago-almada",
     "fullName": "Thiago Almada",
     "displayName": "Thiago Almada",
@@ -4131,12 +4143,12 @@ export const majorNationAdditions: Player[] = [
       "Thiago Almada",
       "Almada",
       "Almada Thiago"
-    ],
+],
     "acceptedAnswers": [
       "Thiago Almada",
       "Almada",
       "Almada Thiago"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4159,9 +4171,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Thiago_Almada",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-giuliano-simeone",
     "fullName": "Giuliano Simeone",
     "displayName": "Giuliano Simeone",
@@ -4169,12 +4181,12 @@ export const majorNationAdditions: Player[] = [
       "Giuliano Simeone",
       "Simeone",
       "Simeone Giuliano"
-    ],
+],
     "acceptedAnswers": [
       "Giuliano Simeone",
       "Simeone",
       "Simeone Giuliano"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4197,9 +4209,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Giuliano_Simeone",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-nico-paz",
     "fullName": "Nico Paz",
     "displayName": "Nico Paz",
@@ -4207,12 +4219,12 @@ export const majorNationAdditions: Player[] = [
       "Nico Paz",
       "Paz",
       "Paz Nico"
-    ],
+],
     "acceptedAnswers": [
       "Nico Paz",
       "Paz",
       "Paz Nico"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4235,9 +4247,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nico_Paz",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-nicolas-otamendi",
     "fullName": "Nicolás Otamendi",
     "displayName": "Nicolas Otamendi",
@@ -4245,12 +4257,12 @@ export const majorNationAdditions: Player[] = [
       "Nicolas Otamendi",
       "Otamendi",
       "Otamendi Nicolas"
-    ],
+],
     "acceptedAnswers": [
       "Nicolas Otamendi",
       "Otamendi",
       "Otamendi Nicolas"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4273,9 +4285,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nicolás_Otamendi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-alexis-mac-allister",
     "fullName": "Alexis Mac Allister",
     "displayName": "Alexis Mac Allister",
@@ -4284,13 +4296,13 @@ export const majorNationAdditions: Player[] = [
       "Mac Allister",
       "Mac Allister Alexis",
       "Allister"
-    ],
+],
     "acceptedAnswers": [
       "Alexis Mac Allister",
       "Mac Allister",
       "Mac Allister Alexis",
       "Allister"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4313,9 +4325,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alexis_Mac_Allister",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "argentina-facundo-medina",
     "fullName": "Facundo Axel Medina",
     "displayName": "Facundo Medina",
@@ -4324,13 +4336,13 @@ export const majorNationAdditions: Player[] = [
       "Facundo Axel Medina",
       "Medina",
       "Medina Facundo"
-    ],
+],
     "acceptedAnswers": [
       "Facundo Medina",
       "Facundo Axel Medina",
       "Medina",
       "Medina Facundo"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4353,9 +4365,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Facundo_Medina",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "argentina-nahuel-molina",
     "fullName": "Nahuel Molina",
     "displayName": "Nahuel Molina",
@@ -4363,12 +4375,12 @@ export const majorNationAdditions: Player[] = [
       "Nahuel Molina",
       "Molina",
       "Molina Nahuel"
-    ],
+],
     "acceptedAnswers": [
       "Nahuel Molina",
       "Molina",
       "Molina Nahuel"
-    ],
+],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -4391,9 +4403,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nahuel_Molina",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-alisson",
     "fullName": "Alisson Becker",
     "displayName": "Alisson",
@@ -4401,12 +4413,12 @@ export const majorNationAdditions: Player[] = [
       "Alisson",
       "Alisson Becker",
       "Alisson Álisson"
-    ],
+],
     "acceptedAnswers": [
       "Alisson",
       "Alisson Becker",
       "Alisson Álisson"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4418,6 +4430,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2015",
     "caps": 78,
     "internationalGoals": 0,
+    "internationalCleanSheets": 44,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "Played in 2 previous World Cups",
     "careerPath": "Internacional -> Roma -> Liverpool",
@@ -4429,9 +4442,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alisson_Becker",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-gabriel-magalhaes",
     "fullName": "Gabriel",
     "displayName": "Gabriel Magalhaes",
@@ -4440,13 +4453,13 @@ export const majorNationAdditions: Player[] = [
       "Gabriel",
       "Gabriel Magalhaes Gabriel",
       "Magalhaes"
-    ],
+],
     "acceptedAnswers": [
       "Gabriel Magalhaes",
       "Gabriel",
       "Gabriel Magalhaes Gabriel",
       "Magalhaes"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4469,20 +4482,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gabriel_Magalhães",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-casemiro",
     "fullName": "Casemiro",
     "displayName": "Casemiro",
     "searchAliases": [
       "Casemiro",
       "Casemiro Carlos"
-    ],
+],
     "acceptedAnswers": [
       "Casemiro",
       "Casemiro Carlos"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4505,9 +4518,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Casemiro",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-alex-sandro",
     "fullName": "Alex Sandro",
     "displayName": "Alex Sandro",
@@ -4515,12 +4528,12 @@ export const majorNationAdditions: Player[] = [
       "Alex Sandro",
       "Alex Sandro Alex",
       "Sandro"
-    ],
+],
     "acceptedAnswers": [
       "Alex Sandro",
       "Alex Sandro Alex",
       "Sandro"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4543,9 +4556,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alex_Sandro",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-matheus-cunha",
     "fullName": "Matheus Cunha",
     "displayName": "Matheus Cunha",
@@ -4553,12 +4566,12 @@ export const majorNationAdditions: Player[] = [
       "Matheus Cunha",
       "Matheus Cunha Matheus",
       "Cunha"
-    ],
+],
     "acceptedAnswers": [
       "Matheus Cunha",
       "Matheus Cunha Matheus",
       "Cunha"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4581,20 +4594,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matheus_Cunha",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-raphinha",
     "fullName": "Raphinha",
     "displayName": "Raphinha",
     "searchAliases": [
       "Raphinha",
       "Raphinha Raphael"
-    ],
+],
     "acceptedAnswers": [
       "Raphinha",
       "Raphinha Raphael"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4617,20 +4630,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Raphinha",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-weverton",
     "fullName": "Weverton",
     "displayName": "Weverton",
     "searchAliases": [
       "Weverton",
       "Weverton Weverton"
-    ],
+],
     "acceptedAnswers": [
       "Weverton",
       "Weverton Weverton"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4642,6 +4655,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2017",
     "caps": 11,
     "internationalGoals": 0,
+    "internationalCleanSheets": 4,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Corinthians -> Remo (loan) -> Oeste (loan) -> América de Natal (loan) -> Botafogo-SP -> Portuguesa -> Atlético Paranaense -> Palmeiras -> Grêmio",
@@ -4653,20 +4667,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Weverton_(footballer,_born_1987)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "brazil-danilo",
     "fullName": "Danilo",
     "displayName": "Danilo",
     "searchAliases": [
       "Danilo",
       "Danilo Danilo"
-    ],
+],
     "acceptedAnswers": [
       "Danilo",
       "Danilo Danilo"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4689,9 +4703,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Danilo_(footballer,_born_July_1991)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-bremer",
     "fullName": "Gleison Bremer",
     "displayName": "Bremer",
@@ -4699,12 +4713,12 @@ export const majorNationAdditions: Player[] = [
       "Bremer",
       "Gleison Bremer",
       "Bremer Gleison"
-    ],
+],
     "acceptedAnswers": [
       "Bremer",
       "Gleison Bremer",
       "Bremer Gleison"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4727,9 +4741,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gleison_Bremer",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-leo-pereira",
     "fullName": "Leonardo Pereira",
     "displayName": "Leo Pereira",
@@ -4738,13 +4752,13 @@ export const majorNationAdditions: Player[] = [
       "Leonardo Pereira",
       "Leo Pereira Leonardo",
       "Pereira"
-    ],
+],
     "acceptedAnswers": [
       "Leo Pereira",
       "Leonardo Pereira",
       "Leo Pereira Leonardo",
       "Pereira"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4767,20 +4781,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Léo_Pereira_(footballer,_born_1996)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "brazil-fabinho",
     "fullName": "Fabinho",
     "displayName": "Fabinho",
     "searchAliases": [
       "Fabinho",
       "Fabinho Fabio"
-    ],
+],
     "acceptedAnswers": [
       "Fabinho",
       "Fabinho Fabio"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4803,9 +4817,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "brazil-lucas-paqueta",
     "fullName": "Lucas Paquetá",
     "displayName": "Lucas Paqueta",
@@ -4813,12 +4827,12 @@ export const majorNationAdditions: Player[] = [
       "Lucas Paqueta",
       "Lucas Paqueta Lucas",
       "Paqueta"
-    ],
+],
     "acceptedAnswers": [
       "Lucas Paqueta",
       "Lucas Paqueta Lucas",
       "Paqueta"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4841,9 +4855,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lucas_Paquetá",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-luiz-henrique",
     "fullName": "Luiz Henrique Ferreira de Menezes",
     "displayName": "Luiz Henrique",
@@ -4852,13 +4866,13 @@ export const majorNationAdditions: Player[] = [
       "Luiz Henrique Ferreira de Menezes",
       "Luiz Henrique Luiz",
       "Henrique"
-    ],
+],
     "acceptedAnswers": [
       "Luiz Henrique",
       "Luiz Henrique Ferreira de Menezes",
       "Luiz Henrique Luiz",
       "Henrique"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4881,9 +4895,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Luiz_Henrique_(footballer,_born_1943)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "brazil-gabriel-martinelli",
     "fullName": "Gabriel Martinelli",
     "displayName": "Gabriel Martinelli",
@@ -4891,12 +4905,12 @@ export const majorNationAdditions: Player[] = [
       "Gabriel Martinelli",
       "Gabriel Martinelli Gabriel",
       "Martinelli"
-    ],
+],
     "acceptedAnswers": [
       "Gabriel Martinelli",
       "Gabriel Martinelli Gabriel",
       "Martinelli"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4919,20 +4933,20 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gabriel_Martinelli",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "brazil-ederson",
     "fullName": "Ederson",
     "displayName": "Ederson",
     "searchAliases": [
       "Ederson",
       "Ederson Ederson"
-    ],
+],
     "acceptedAnswers": [
       "Ederson",
       "Ederson Ederson"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4944,6 +4958,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "11/10/17",
     "caps": 32,
     "internationalGoals": 0,
+    "internationalCleanSheets": 14,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
     "careerPath": "GD Ribeirao -> Rio Ave -> Benfica -> Manchester City -> Fenerbahce",
@@ -4955,9 +4970,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ederson",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "brazil-roger-ibanez",
     "fullName": "Roger Ibañez",
     "displayName": "Roger Ibanez",
@@ -4965,12 +4980,12 @@ export const majorNationAdditions: Player[] = [
       "Roger Ibanez",
       "Roger Ibanez Roger",
       "Ibanez"
-    ],
+],
     "acceptedAnswers": [
       "Roger Ibanez",
       "Roger Ibanez Roger",
       "Ibanez"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -4993,9 +5008,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Roger_Ibañez",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "brazil-igor-thiago",
     "fullName": "Igor Thiago",
     "displayName": "Igor Thiago",
@@ -5003,12 +5018,12 @@ export const majorNationAdditions: Player[] = [
       "Igor Thiago",
       "Igor Thiago Igor",
       "Thiago"
-    ],
+],
     "acceptedAnswers": [
       "Igor Thiago",
       "Igor Thiago Igor",
       "Thiago"
-    ],
+],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -5031,9 +5046,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Igor_Thiago",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "scotland-angus-gunn",
     "fullName": "Angus Fraser James Gunn",
     "displayName": "Angus Gunn",
@@ -5042,13 +5057,13 @@ export const majorNationAdditions: Player[] = [
       "Angus Fraser James Gunn",
       "Gunn",
       "Gunn Angus"
-    ],
+],
     "acceptedAnswers": [
       "Angus Gunn",
       "Angus Fraser James Gunn",
       "Gunn",
       "Gunn Angus"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5060,6 +5075,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2023",
     "caps": 22,
     "internationalGoals": 0,
+    "internationalCleanSheets": 8,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Manchester City -> Norwich City (loan) -> Southampton -> Stoke City (loan) -> Norwich City -> Nottingham Forest",
@@ -5071,9 +5087,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Angus_Gunn",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-aaron-hickey",
     "fullName": "Aaron Buchanan Hickey",
     "displayName": "Aaron Hickey",
@@ -5082,13 +5098,13 @@ export const majorNationAdditions: Player[] = [
       "Aaron Buchanan Hickey",
       "Hickey",
       "Hickey Aaron"
-    ],
+],
     "acceptedAnswers": [
       "Aaron Hickey",
       "Aaron Buchanan Hickey",
       "Hickey",
       "Hickey Aaron"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5111,9 +5127,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Aaron_Hickey",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-grant-hanley",
     "fullName": "Grant Hanley",
     "displayName": "Grant Hanley",
@@ -5121,12 +5137,12 @@ export const majorNationAdditions: Player[] = [
       "Grant Hanley",
       "Hanley",
       "Hanley Grant"
-    ],
+],
     "acceptedAnswers": [
       "Grant Hanley",
       "Hanley",
       "Hanley Grant"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5149,9 +5165,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Grant_Hanley",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-kieran-tierney",
     "fullName": "Kieran Tierney",
     "displayName": "Kieran Tierney",
@@ -5159,12 +5175,12 @@ export const majorNationAdditions: Player[] = [
       "Kieran Tierney",
       "Tierney",
       "Tierney Kieran"
-    ],
+],
     "acceptedAnswers": [
       "Kieran Tierney",
       "Tierney",
       "Tierney Kieran"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5187,9 +5203,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kieran_Tierney",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-tyler-fletcher",
     "fullName": "Tyler Robert Fletcher",
     "displayName": "Tyler Fletcher",
@@ -5198,13 +5214,13 @@ export const majorNationAdditions: Player[] = [
       "Tyler Robert Fletcher",
       "Fletcher",
       "Fletcher Tyler"
-    ],
+],
     "acceptedAnswers": [
       "Tyler Fletcher",
       "Tyler Robert Fletcher",
       "Fletcher",
       "Fletcher Tyler"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5227,9 +5243,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tyler_Fletcher",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-lyndon-dykes",
     "fullName": "Lyndon Dykes",
     "displayName": "Lyndon Dykes",
@@ -5237,12 +5253,12 @@ export const majorNationAdditions: Player[] = [
       "Lyndon Dykes",
       "Dykes",
       "Dykes Lyndon"
-    ],
+],
     "acceptedAnswers": [
       "Lyndon Dykes",
       "Dykes",
       "Dykes Lyndon"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5265,9 +5281,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lyndon_Dykes",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-ryan-christie",
     "fullName": "Ryan Christie",
     "displayName": "Ryan Christie",
@@ -5275,12 +5291,12 @@ export const majorNationAdditions: Player[] = [
       "Ryan Christie",
       "Christie",
       "Christie Ryan"
-    ],
+],
     "acceptedAnswers": [
       "Ryan Christie",
       "Christie",
       "Christie Ryan"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5303,9 +5319,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ryan_Christie",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-liam-kelly",
     "fullName": "Liam Mark Kelly",
     "displayName": "Liam Kelly",
@@ -5314,13 +5330,13 @@ export const majorNationAdditions: Player[] = [
       "Liam Mark Kelly",
       "Kelly",
       "Kelly Liam"
-    ],
+],
     "acceptedAnswers": [
       "Liam Kelly",
       "Liam Mark Kelly",
       "Kelly",
       "Kelly Liam"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5332,6 +5348,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2012",
     "caps": 1,
     "internationalGoals": 0,
+    "internationalCleanSheets": 0,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Kilmarnock -> Bristol City -> Oldham Athletic -> Leyton Orient -> Coventry City -> Rotherham United",
@@ -5343,9 +5360,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Liam_Kelly_(footballer,_born_1990)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "scotland-jack-hendry",
     "fullName": "Jack Hendry",
     "displayName": "Jack Hendry",
@@ -5353,12 +5370,12 @@ export const majorNationAdditions: Player[] = [
       "Jack Hendry",
       "Hendry",
       "Hendry Jack"
-    ],
+],
     "acceptedAnswers": [
       "Jack Hendry",
       "Hendry",
       "Hendry Jack"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5381,9 +5398,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jack_Hendry_(footballer,_born_1995)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-ross-stewart",
     "fullName": "Ross Stewart",
     "displayName": "Ross Stewart",
@@ -5391,12 +5408,12 @@ export const majorNationAdditions: Player[] = [
       "Ross Stewart",
       "Stewart",
       "Stewart Ross"
-    ],
+],
     "acceptedAnswers": [
       "Ross Stewart",
       "Stewart",
       "Stewart Ross"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5419,9 +5436,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ross_Stewart_(footballer,_born_1996)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "scotland-dominic-hyam",
     "fullName": "Dominic Hyam",
     "displayName": "Dominic Hyam",
@@ -5429,12 +5446,12 @@ export const majorNationAdditions: Player[] = [
       "Dominic Hyam",
       "Hyam",
       "Hyam Dominic"
-    ],
+],
     "acceptedAnswers": [
       "Dominic Hyam",
       "Hyam",
       "Hyam Dominic"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5457,9 +5474,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dominic_Hyam",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "scotland-george-hirst",
     "fullName": "George Hirst",
     "displayName": "George Hirst",
@@ -5467,12 +5484,12 @@ export const majorNationAdditions: Player[] = [
       "George Hirst",
       "Hirst",
       "Hirst George"
-    ],
+],
     "acceptedAnswers": [
       "George Hirst",
       "Hirst",
       "Hirst George"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5495,9 +5512,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/George_Hirst_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-lewis-ferguson",
     "fullName": "Lewis Ferguson",
     "displayName": "Lewis Ferguson",
@@ -5505,12 +5522,12 @@ export const majorNationAdditions: Player[] = [
       "Lewis Ferguson",
       "Ferguson",
       "Ferguson Lewis"
-    ],
+],
     "acceptedAnswers": [
       "Lewis Ferguson",
       "Ferguson",
       "Ferguson Lewis"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5533,9 +5550,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lewis_Ferguson",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-lawrence-shankland",
     "fullName": "Lawrence Shankland",
     "displayName": "Lawrence Shankland",
@@ -5543,12 +5560,12 @@ export const majorNationAdditions: Player[] = [
       "Lawrence Shankland",
       "Shankland",
       "Shankland Lawrence"
-    ],
+],
     "acceptedAnswers": [
       "Lawrence Shankland",
       "Shankland",
       "Shankland Lawrence"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5571,9 +5588,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lawrence_Shankland",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-craig-gordon",
     "fullName": "Craig Sinclair Gordon",
     "displayName": "Craig Gordon",
@@ -5582,13 +5599,13 @@ export const majorNationAdditions: Player[] = [
       "Craig Sinclair Gordon",
       "Gordon",
       "Gordon Craig"
-    ],
+],
     "acceptedAnswers": [
       "Craig Gordon",
       "Craig Sinclair Gordon",
       "Gordon",
       "Gordon Craig"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5600,6 +5617,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2004",
     "caps": 84,
     "internationalGoals": 0,
+    "internationalCleanSheets": 34,
     "nationalTeamDebutYear": 2004,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Heart of Midlothian -> Cowdenbeath (loan) -> Sunderland -> Celtic -> Heart of Midlothian",
@@ -5611,9 +5629,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Craig_Gordon",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-nathan-patterson",
     "fullName": "Nathan Patterson",
     "displayName": "Nathan Patterson",
@@ -5621,12 +5639,12 @@ export const majorNationAdditions: Player[] = [
       "Nathan Patterson",
       "Patterson",
       "Patterson Nathan"
-    ],
+],
     "acceptedAnswers": [
       "Nathan Patterson",
       "Patterson",
       "Patterson Nathan"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5649,9 +5667,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathan_Patterson_(footballer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-kenny-mclean",
     "fullName": "Kenneth McLean",
     "displayName": "Kenny McLean",
@@ -5660,13 +5678,13 @@ export const majorNationAdditions: Player[] = [
       "Kenneth McLean",
       "McLean",
       "McLean Kenny"
-    ],
+],
     "acceptedAnswers": [
       "Kenny McLean",
       "Kenneth McLean",
       "McLean",
       "McLean Kenny"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5689,9 +5707,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kenny_McLean",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "scotland-anthony-ralston",
     "fullName": "Anthony Ralston",
     "displayName": "Anthony Ralston",
@@ -5699,12 +5717,12 @@ export const majorNationAdditions: Player[] = [
       "Anthony Ralston",
       "Ralston",
       "Ralston Anthony"
-    ],
+],
     "acceptedAnswers": [
       "Anthony Ralston",
       "Ralston",
       "Ralston Anthony"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5727,9 +5745,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Anthony_Ralston",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "scotland-findlay-curtis",
     "fullName": "Findlay Curtis",
     "displayName": "Findlay Curtis",
@@ -5737,12 +5755,12 @@ export const majorNationAdditions: Player[] = [
       "Findlay Curtis",
       "Curtis",
       "Curtis Findlay"
-    ],
+],
     "acceptedAnswers": [
       "Findlay Curtis",
       "Curtis",
       "Curtis Findlay"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5765,9 +5783,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Findlay_Curtis",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "scotland-scott-mckenna",
     "fullName": "Scott McKenna",
     "displayName": "Scott McKenna",
@@ -5775,12 +5793,12 @@ export const majorNationAdditions: Player[] = [
       "Scott McKenna",
       "McKenna",
       "McKenna Scott"
-    ],
+],
     "acceptedAnswers": [
       "Scott McKenna",
       "McKenna",
       "McKenna Scott"
-    ],
+],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -5803,9 +5821,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Scott_McKenna",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-dayne-st-clair",
     "fullName": "Dayne St. Clair",
     "displayName": "Dayne St. Clair",
@@ -5814,13 +5832,13 @@ export const majorNationAdditions: Player[] = [
       "St. Clair",
       "St. Clair Dayne",
       "Clair"
-    ],
+],
     "acceptedAnswers": [
       "Dayne St. Clair",
       "St. Clair",
       "St. Clair Dayne",
       "Clair"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -5832,6 +5850,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2021",
     "caps": 20,
     "internationalGoals": 0,
+    "internationalCleanSheets": 9,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Vaughan Azzurri -> K-W United -> New York Red Bulls U23 -> Minnesota United -> Forward Madison (loan) -> San Antonio FC (loan) -> Inter Miami",
@@ -5843,9 +5862,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dayne_St._Clair",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-alistair-johnston",
     "fullName": "Alistair Johnston",
     "displayName": "Alistair Johnston",
@@ -5853,12 +5872,12 @@ export const majorNationAdditions: Player[] = [
       "Alistair Johnston",
       "Johnston",
       "Johnston Alistair"
-    ],
+],
     "acceptedAnswers": [
       "Alistair Johnston",
       "Johnston",
       "Johnston Alistair"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -5881,9 +5900,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alistair_Johnston",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-alfie-jones",
     "fullName": "Alfie Jones",
     "displayName": "Alfie Jones",
@@ -5891,12 +5910,12 @@ export const majorNationAdditions: Player[] = [
       "Alfie Jones",
       "Jones",
       "Jones Alfie"
-    ],
+],
     "acceptedAnswers": [
       "Alfie Jones",
       "Jones",
       "Jones Alfie"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -5919,9 +5938,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "canada-luc-de-fougerolles",
     "fullName": "Luc Rollet de Fougerolles",
     "displayName": "Luc De Fougerolles",
@@ -5931,14 +5950,14 @@ export const majorNationAdditions: Player[] = [
       "De Fougerolles",
       "De Fougerolles Luc",
       "Fougerolles"
-    ],
+],
     "acceptedAnswers": [
       "Luc De Fougerolles",
       "Luc Rollet de Fougerolles",
       "De Fougerolles",
       "De Fougerolles Luc",
       "Fougerolles"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -5961,9 +5980,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Luc_de_Fougerolles",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-joel-waterman",
     "fullName": "Joel Robert Waterman",
     "displayName": "Joel Waterman",
@@ -5972,13 +5991,13 @@ export const majorNationAdditions: Player[] = [
       "Joel Robert Waterman",
       "Waterman",
       "Waterman Joel"
-    ],
+],
     "acceptedAnswers": [
       "Joel Waterman",
       "Joel Robert Waterman",
       "Waterman",
       "Waterman Joel"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6001,9 +6020,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joel_Waterman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-mathieu-choiniere",
     "fullName": "Mathieu Choinière",
     "displayName": "Mathieu Choiniere",
@@ -6011,12 +6030,12 @@ export const majorNationAdditions: Player[] = [
       "Mathieu Choiniere",
       "Choiniere",
       "Choiniere Mathieu"
-    ],
+],
     "acceptedAnswers": [
       "Mathieu Choiniere",
       "Choiniere",
       "Choiniere Mathieu"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6039,9 +6058,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mathieu_Choinière",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "canada-ismael-kone",
     "fullName": "Ismaël Koné",
     "displayName": "Ismael Kone",
@@ -6049,12 +6068,12 @@ export const majorNationAdditions: Player[] = [
       "Ismael Kone",
       "Kone",
       "Kone Ismael"
-    ],
+],
     "acceptedAnswers": [
       "Ismael Kone",
       "Kone",
       "Kone Ismael"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6077,9 +6096,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ismaël_Koné",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-liam-millar",
     "fullName": "Liam Millar",
     "displayName": "Liam Millar",
@@ -6087,12 +6106,12 @@ export const majorNationAdditions: Player[] = [
       "Liam Millar",
       "Millar",
       "Millar Liam"
-    ],
+],
     "acceptedAnswers": [
       "Liam Millar",
       "Millar",
       "Millar Liam"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6115,9 +6134,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Liam_Millar",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-tani-oluwaseyi",
     "fullName": "Tani Oluwaseyi",
     "displayName": "Tani Oluwaseyi",
@@ -6125,12 +6144,12 @@ export const majorNationAdditions: Player[] = [
       "Tani Oluwaseyi",
       "Oluwaseyi",
       "Oluwaseyi Tani"
-    ],
+],
     "acceptedAnswers": [
       "Tani Oluwaseyi",
       "Oluwaseyi",
       "Oluwaseyi Tani"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6153,9 +6172,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tani_Oluwaseyi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-derek-cornelius",
     "fullName": "Derek Cornelius",
     "displayName": "Derek Cornelius",
@@ -6163,12 +6182,12 @@ export const majorNationAdditions: Player[] = [
       "Derek Cornelius",
       "Cornelius",
       "Cornelius Derek"
-    ],
+],
     "acceptedAnswers": [
       "Derek Cornelius",
       "Cornelius",
       "Cornelius Derek"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6191,9 +6210,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Derek_Cornelius",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "canada-jacob-shaffelburg",
     "fullName": "Jacob Shaffelburg",
     "displayName": "Jacob Shaffelburg",
@@ -6201,12 +6220,12 @@ export const majorNationAdditions: Player[] = [
       "Jacob Shaffelburg",
       "Shaffelburg",
       "Shaffelburg Jacob"
-    ],
+],
     "acceptedAnswers": [
       "Jacob Shaffelburg",
       "Shaffelburg",
       "Shaffelburg Jacob"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6229,9 +6248,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-moise-bombito",
     "fullName": "Moïse Bombito",
     "displayName": "Moise Bombito",
@@ -6239,12 +6258,12 @@ export const majorNationAdditions: Player[] = [
       "Moise Bombito",
       "Bombito",
       "Bombito Moise"
-    ],
+],
     "acceptedAnswers": [
       "Moise Bombito",
       "Bombito",
       "Bombito Moise"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6267,9 +6286,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Moïse_Bombito",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-maxime-crepeau",
     "fullName": "Maxime Crépeau",
     "displayName": "Maxime Crepeau",
@@ -6277,12 +6296,12 @@ export const majorNationAdditions: Player[] = [
       "Maxime Crepeau",
       "Crepeau",
       "Crepeau Maxime"
-    ],
+],
     "acceptedAnswers": [
       "Maxime Crepeau",
       "Crepeau",
       "Crepeau Maxime"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6294,6 +6313,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2016",
     "caps": 32,
     "internationalGoals": 0,
+    "internationalCleanSheets": 12,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Montreal Impact -> FC Montreal (loan) -> Ottawa Fury (loan) -> Vancouver Whitecaps -> Los Angeles FC -> Los Angeles FC 2 (loan) -> Portland Timbers -> Orlando City",
@@ -6305,9 +6325,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maxime_Crépeau",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-owen-goodman",
     "fullName": "Owen Olamidayo Goodman",
     "displayName": "Owen Goodman",
@@ -6316,13 +6336,13 @@ export const majorNationAdditions: Player[] = [
       "Owen Olamidayo Goodman",
       "Goodman",
       "Goodman Owen"
-    ],
+],
     "acceptedAnswers": [
       "Owen Goodman",
       "Owen Olamidayo Goodman",
       "Goodman",
       "Goodman Owen"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6334,6 +6354,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2022",
     "caps": 1,
     "internationalGoals": 0,
+    "internationalCleanSheets": 0,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Crystal Palace -> Colchester United (loan) -> AFC Wimbledon (loan) -> Huddersfield Town (loan) -> Barnsley (loan)",
@@ -6345,9 +6366,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Owen_Goodman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "canada-ali-ahmed",
     "fullName": "Ali Ahmed",
     "displayName": "Ali Ahmed",
@@ -6355,12 +6376,12 @@ export const majorNationAdditions: Player[] = [
       "Ali Ahmed",
       "Ahmed",
       "Ahmed Ali"
-    ],
+],
     "acceptedAnswers": [
       "Ali Ahmed",
       "Ahmed",
       "Ahmed Ali"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6383,9 +6404,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ali_Ahmed_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-jonathan-osorio",
     "fullName": "Jonathan Osorio",
     "displayName": "Jonathan Osorio",
@@ -6393,12 +6414,12 @@ export const majorNationAdditions: Player[] = [
       "Jonathan Osorio",
       "Osorio",
       "Osorio Jonathan"
-    ],
+],
     "acceptedAnswers": [
       "Jonathan Osorio",
       "Osorio",
       "Osorio Jonathan"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6421,9 +6442,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jonathan_Osorio",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "canada-richie-laryea",
     "fullName": "Richie Laryea",
     "displayName": "Richie Laryea",
@@ -6431,12 +6452,12 @@ export const majorNationAdditions: Player[] = [
       "Richie Laryea",
       "Laryea",
       "Laryea Richie"
-    ],
+],
     "acceptedAnswers": [
       "Richie Laryea",
       "Laryea",
       "Laryea Richie"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6459,9 +6480,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Richie_Laryea",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "canada-niko-sigur",
     "fullName": "Niko Kristian Sigur",
     "displayName": "Niko Sigur",
@@ -6470,13 +6491,13 @@ export const majorNationAdditions: Player[] = [
       "Niko Kristian Sigur",
       "Sigur",
       "Sigur Niko"
-    ],
+],
     "acceptedAnswers": [
       "Niko Sigur",
       "Niko Kristian Sigur",
       "Sigur",
       "Sigur Niko"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6499,9 +6520,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Niko_Sigur",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-nathan-saliba",
     "fullName": "Nathan-Dylan Saliba",
     "displayName": "Nathan Saliba",
@@ -6510,13 +6531,13 @@ export const majorNationAdditions: Player[] = [
       "Nathan-Dylan Saliba",
       "Saliba",
       "Saliba Nathan"
-    ],
+],
     "acceptedAnswers": [
       "Nathan Saliba",
       "Nathan-Dylan Saliba",
       "Saliba",
       "Saliba Nathan"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6539,9 +6560,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathan_Saliba",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "canada-marcelo-flores",
     "fullName": "Marcelo Flores Dorrell",
     "displayName": "Marcelo Flores",
@@ -6550,13 +6571,13 @@ export const majorNationAdditions: Player[] = [
       "Marcelo Flores Dorrell",
       "Flores",
       "Flores Marcelo"
-    ],
+],
     "acceptedAnswers": [
       "Marcelo Flores",
       "Marcelo Flores Dorrell",
       "Flores",
       "Flores Marcelo"
-    ],
+],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -6579,9 +6600,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marcelo_Flores",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "united-states-matt-turner",
     "fullName": "Matt Turner",
     "displayName": "Matt Turner",
@@ -6589,12 +6610,12 @@ export const majorNationAdditions: Player[] = [
       "Matt Turner",
       "Turner",
       "Turner Matt"
-    ],
+],
     "acceptedAnswers": [
       "Matt Turner",
       "Turner",
       "Turner Matt"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6606,6 +6627,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2021",
     "caps": 54,
     "internationalGoals": 0,
+    "internationalCleanSheets": 27,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
     "careerPath": "Jersey Express -> New England Revolution -> Richmond Kickers (loan) -> Arsenal -> Nottingham Forest -> Crystal Palace (loan) -> Lyon -> New England Revolution (loan)",
@@ -6617,9 +6639,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-sergino-dest",
     "fullName": "Sergiño Dest",
     "displayName": "Sergino Dest",
@@ -6627,12 +6649,12 @@ export const majorNationAdditions: Player[] = [
       "Sergino Dest",
       "Dest",
       "Dest Sergino"
-    ],
+],
     "acceptedAnswers": [
       "Sergino Dest",
       "Dest",
       "Dest Sergino"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6655,9 +6677,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Sergiño_Dest",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-chris-richards",
     "fullName": "Christopher Jeffrey Richards",
     "displayName": "Chris Richards",
@@ -6666,13 +6688,13 @@ export const majorNationAdditions: Player[] = [
       "Christopher Jeffrey Richards",
       "Richards",
       "Richards Chris"
-    ],
+],
     "acceptedAnswers": [
       "Chris Richards",
       "Christopher Jeffrey Richards",
       "Richards",
       "Richards Chris"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6695,9 +6717,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Chris_Richards_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-auston-trusty",
     "fullName": "Auston Trusty",
     "displayName": "Auston Trusty",
@@ -6705,12 +6727,12 @@ export const majorNationAdditions: Player[] = [
       "Auston Trusty",
       "Trusty",
       "Trusty Auston"
-    ],
+],
     "acceptedAnswers": [
       "Auston Trusty",
       "Trusty",
       "Trusty Auston"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6733,9 +6755,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Auston_Trusty",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "united-states-ricardo-pepi",
     "fullName": "Ricardo Daniel Pepi",
     "displayName": "Ricardo Pepi",
@@ -6744,13 +6766,13 @@ export const majorNationAdditions: Player[] = [
       "Ricardo Daniel Pepi",
       "Pepi",
       "Pepi Ricardo"
-    ],
+],
     "acceptedAnswers": [
       "Ricardo Pepi",
       "Ricardo Daniel Pepi",
       "Pepi",
       "Pepi Ricardo"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6773,9 +6795,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ricardo_Pepi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-brenden-aaronson",
     "fullName": "Brenden Aaronson",
     "displayName": "Brenden Aaronson",
@@ -6783,12 +6805,12 @@ export const majorNationAdditions: Player[] = [
       "Brenden Aaronson",
       "Aaronson",
       "Aaronson Brenden"
-    ],
+],
     "acceptedAnswers": [
       "Brenden Aaronson",
       "Aaronson",
       "Aaronson Brenden"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6811,9 +6833,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Brenden_Aaronson",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-tim-ream",
     "fullName": "Tim Ream",
     "displayName": "Tim Ream",
@@ -6821,12 +6843,12 @@ export const majorNationAdditions: Player[] = [
       "Tim Ream",
       "Ream",
       "Ream Tim"
-    ],
+],
     "acceptedAnswers": [
       "Tim Ream",
       "Ream",
       "Ream Tim"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6849,9 +6871,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tim_Ream",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-sebastian-berhalter",
     "fullName": "Sebastian Matthew Berhalter",
     "displayName": "Sebastian Berhalter",
@@ -6860,13 +6882,13 @@ export const majorNationAdditions: Player[] = [
       "Sebastian Matthew Berhalter",
       "Berhalter",
       "Berhalter Sebastian"
-    ],
+],
     "acceptedAnswers": [
       "Sebastian Berhalter",
       "Sebastian Matthew Berhalter",
       "Berhalter",
       "Berhalter Sebastian"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6889,9 +6911,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Sebastian_Berhalter",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-cristian-roldan",
     "fullName": "Cristian Roldan",
     "displayName": "Cristian Roldan",
@@ -6899,12 +6921,12 @@ export const majorNationAdditions: Player[] = [
       "Cristian Roldan",
       "Roldan",
       "Roldan Cristian"
-    ],
+],
     "acceptedAnswers": [
       "Cristian Roldan",
       "Roldan",
       "Roldan Cristian"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6927,9 +6949,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Cristian_Roldan",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-alex-freeman",
     "fullName": "Alexander Michael Freeman",
     "displayName": "Alex Freeman",
@@ -6938,13 +6960,13 @@ export const majorNationAdditions: Player[] = [
       "Alexander Michael Freeman",
       "Freeman",
       "Freeman Alex"
-    ],
+],
     "acceptedAnswers": [
       "Alex Freeman",
       "Alexander Michael Freeman",
       "Freeman",
       "Freeman Alex"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -6967,9 +6989,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alex_Freeman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-malik-tillman",
     "fullName": "Malik Tillman",
     "displayName": "Malik Tillman",
@@ -6977,12 +6999,12 @@ export const majorNationAdditions: Player[] = [
       "Malik Tillman",
       "Tillman",
       "Tillman Malik"
-    ],
+],
     "acceptedAnswers": [
       "Malik Tillman",
       "Tillman",
       "Tillman Malik"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7005,9 +7027,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Malik_Tillman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-max-arfsten",
     "fullName": "Maximilian Michael Arfsten",
     "displayName": "Max Arfsten",
@@ -7016,13 +7038,13 @@ export const majorNationAdditions: Player[] = [
       "Maximilian Michael Arfsten",
       "Arfsten",
       "Arfsten Max"
-    ],
+],
     "acceptedAnswers": [
       "Max Arfsten",
       "Maximilian Michael Arfsten",
       "Arfsten",
       "Arfsten Max"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7045,9 +7067,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Max_Arfsten",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-haji-wright",
     "fullName": "Haji Wright",
     "displayName": "Haji Wright",
@@ -7055,12 +7077,12 @@ export const majorNationAdditions: Player[] = [
       "Haji Wright",
       "Wright",
       "Wright Haji"
-    ],
+],
     "acceptedAnswers": [
       "Haji Wright",
       "Wright",
       "Wright Haji"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7083,9 +7105,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Haji_Wright",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-timothy-weah",
     "fullName": "Timothy Weah",
     "displayName": "Timothy Weah",
@@ -7093,12 +7115,12 @@ export const majorNationAdditions: Player[] = [
       "Timothy Weah",
       "Weah",
       "Weah Timothy"
-    ],
+],
     "acceptedAnswers": [
       "Timothy Weah",
       "Weah",
       "Weah Timothy"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7121,9 +7143,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Timothy_Weah",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global",
+    "fameTier": "Global"
   },
-{
+  {
     "id": "united-states-mark-mckenzie",
     "fullName": "Mark McKenzie",
     "displayName": "Mark McKenzie",
@@ -7131,12 +7153,12 @@ export const majorNationAdditions: Player[] = [
       "Mark McKenzie",
       "McKenzie",
       "McKenzie Mark"
-    ],
+],
     "acceptedAnswers": [
       "Mark McKenzie",
       "McKenzie",
       "McKenzie Mark"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7159,9 +7181,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mark_McKenzie_(soccer,_born_1999)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-joe-scally",
     "fullName": "Joe Scally",
     "displayName": "Joe Scally",
@@ -7169,12 +7191,12 @@ export const majorNationAdditions: Player[] = [
       "Joe Scally",
       "Scally",
       "Scally Joe"
-    ],
+],
     "acceptedAnswers": [
       "Joe Scally",
       "Scally",
       "Scally Joe"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7197,9 +7219,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joe_Scally",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-matt-freese",
     "fullName": "Matthew Andrew Geary Freese",
     "displayName": "Matt Freese",
@@ -7208,13 +7230,13 @@ export const majorNationAdditions: Player[] = [
       "Matthew Andrew Geary Freese",
       "Freese",
       "Freese Matt"
-    ],
+],
     "acceptedAnswers": [
       "Matt Freese",
       "Matthew Andrew Geary Freese",
       "Freese",
       "Freese Matt"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7226,6 +7248,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2025",
     "caps": 15,
     "internationalGoals": 0,
+    "internationalCleanSheets": 3,
     "nationalTeamDebutYear": 2025,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Bethlehem Steel -> Philadelphia Union -> Philadelphia Union II -> New York City FC",
@@ -7237,9 +7260,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matt_Freese",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
+    "fameTier": "Continental"
   },
-{
+  {
     "id": "united-states-chris-brady",
     "fullName": "Christopher Keith Brady",
     "displayName": "Chris Brady",
@@ -7248,13 +7271,13 @@ export const majorNationAdditions: Player[] = [
       "Christopher Keith Brady",
       "Brady",
       "Brady Chris"
-    ],
+],
     "acceptedAnswers": [
       "Chris Brady",
       "Christopher Keith Brady",
       "Brady",
       "Brady Chris"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7266,6 +7289,7 @@ export const majorNationAdditions: Player[] = [
     "internationalDebut": "2026",
     "caps": 1,
     "internationalGoals": 0,
+    "internationalCleanSheets": 0,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
     "careerPath": "Chicago Fire -> Forward Madison (loan) -> Chicago Fire II (loan)",
@@ -7277,9 +7301,9 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Chris_Brady_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
+    "fameTier": "National"
   },
-{
+  {
     "id": "united-states-alex-zendejas",
     "fullName": "Alex Zendejas",
     "displayName": "Alex Zendejas",
@@ -7287,12 +7311,12 @@ export const majorNationAdditions: Player[] = [
       "Alex Zendejas",
       "Zendejas",
       "Zendejas Alex"
-    ],
+],
     "acceptedAnswers": [
       "Alex Zendejas",
       "Zendejas",
       "Zendejas Alex"
-    ],
+],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -7315,6 +7339,6 @@ export const majorNationAdditions: Player[] = [
     "sources": "FIFA-PDF; Wikipedia; Transfermarkt profile",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National",
-  },
+    "fameTier": "National"
+  }
 ];

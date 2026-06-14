@@ -1,45 +1,46 @@
 import { getCareerPathOverride, getNotableFactOverride } from "./playerClueOverrides";
+import { hasVerifyMarker } from "./players";
 import type { Clue, ClueKey, GameMode, Player, StoredGameResult } from "./types";
 
 export const CASUAL_CLUE_ORDER: ClueKey[] = [
   "position",
   "worldCupAppearances",
-  "caps",
-  "internationalGoals",
   "clubCountry",
   "playedAlongside",
+  "caps",
   "club",
-  "shirtNumber",
   "careerPath",
+  "internationalGoals",
   "fact",
+  "shirtNumber",
   "kit"
 ];
 
 export const ULTRA_CLUE_ORDER: ClueKey[] = [
-  "fact",
-  "playedAlongside",
+  "position",
   "worldCupAppearances",
   "clubCountry",
-  "club",
+  "playedAlongside",
   "caps",
-  "internationalGoals",
-  "position",
-  "shirtNumber",
+  "club",
   "careerPath",
+  "internationalGoals",
+  "fact",
+  "shirtNumber",
   "kit"
 ];
 
 export const LAUNCH_CLUE_ORDER: ClueKey[] = [
   "position",
   "worldCupAppearances",
-  "caps",
-  "internationalGoals",
   "clubCountry",
   "playedAlongside",
+  "caps",
   "club",
-  "shirtNumber",
   "careerPath",
+  "internationalGoals",
   "fact",
+  "shirtNumber",
   "kit"
 ];
 
@@ -73,13 +74,13 @@ export function buildClues(player: Player, mode: GameMode, seed?: string, random
   return order
     .map((key) => ({
       key,
-      label: getClueLabel(key),
+      label: getClueLabel(key, player),
       value: getClueValue(player, key)
     }))
     .filter((clue) => Boolean(clue.value));
 }
 
-export function getClueLabel(key: ClueKey): string {
+export function getClueLabel(key: ClueKey, player?: Player): string {
   const labels: Record<ClueKey, string> = {
     kit: "Kit reveal",
     shirtNumber: "Shirt number",
@@ -87,7 +88,7 @@ export function getClueLabel(key: ClueKey): string {
     clubCountry: "Club country",
     club: "Club team",
     caps: "International caps",
-    internationalGoals: "International goals",
+    internationalGoals: shouldUseCleanSheetsClue(player) ? "International clean sheets" : "International goals",
     worldCupAppearances: "World Cup appearances",
     playedAlongside: "Played alongside",
     careerPath: "Career Path",
@@ -113,7 +114,7 @@ export function getClueValue(player: Player, key: ClueKey): string {
     case "caps":
       return formatScalarClue(player.caps, "senior caps", true);
     case "internationalGoals":
-      return formatGoalClue(player.internationalGoals);
+      return getInternationalOutputClue(player);
     case "worldCupAppearances":
       return player.worldCupAppearances;
     case "playedAlongside":
@@ -177,6 +178,45 @@ function formatGoalClue(value: string | number): string {
 
   const singular = normalized === "1";
   return `${normalized} international goal${singular ? "" : "s"}`;
+}
+
+function formatCleanSheetClue(value: string | number): string {
+  if (typeof value === "number") {
+    return `${value} international clean sheet${value === 1 ? "" : "s"}`;
+  }
+
+  const normalized = value.trim();
+  if (!normalized) {
+    return "";
+  }
+
+  const singular = normalized === "1";
+  return `${normalized} international clean sheet${singular ? "" : "s"}`;
+}
+
+function getInternationalOutputClue(player: Player): string {
+  if (shouldUseCleanSheetsClue(player)) {
+    return formatCleanSheetClue(player.internationalCleanSheets!);
+  }
+
+  return formatGoalClue(player.internationalGoals);
+}
+
+function shouldUseCleanSheetsClue(player?: Player): player is Player & { internationalCleanSheets: string | number } {
+  if (!player || player.position !== "Goalkeeper") {
+    return false;
+  }
+
+  const value = player.internationalCleanSheets;
+  if (value == null) {
+    return false;
+  }
+
+  if (typeof value === "number") {
+    return true;
+  }
+
+  return value.trim().length > 0 && !hasVerifyMarker(value);
 }
 
 export function normalizeGuess(value: string): string {

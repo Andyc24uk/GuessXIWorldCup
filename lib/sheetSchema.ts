@@ -11,6 +11,7 @@ export const PLAYER_SHEET_COLUMNS = [
   "International Debut",
   "Caps",
   "Goals",
+  "International Clean Sheets",
   "World Cup Appearances",
   "Career Path",
   "Fact",
@@ -20,7 +21,7 @@ export const PLAYER_SHEET_COLUMNS = [
   "Fame Tier"
 ] as const;
 
-export const OPTIONAL_PLAYER_SHEET_COLUMNS = ["Exclude"] as const;
+export const OPTIONAL_PLAYER_SHEET_COLUMNS = ["Exclude", "International Clean Sheets"] as const;
 
 export const PLAYER_SHEET_FIELD_MAP = {
   "Exclude": "exclude",
@@ -35,6 +36,7 @@ export const PLAYER_SHEET_FIELD_MAP = {
   "International Debut": "internationalDebut",
   "Caps": "caps",
   "Goals": "internationalGoals",
+  "International Clean Sheets": "internationalCleanSheets",
   "World Cup Appearances": "worldCupAppearances",
   "Career Path": "careerPath",
   "Fact": "clueFact",

@@ -8,13 +8,13 @@ export type PlayerScalar = string | number;
 export type ClueKey =
   | "position"
   | "worldCupAppearances"
-  | "caps"
-  | "internationalGoals"
   | "clubCountry"
   | "playedAlongside"
+  | "caps"
   | "club"
   | "shirtNumber"
   | "careerPath"
+  | "internationalGoals"
   | "fact"
   | "kit";
 
@@ -37,6 +37,7 @@ export type Player = {
   internationalDebut: string;
   caps: PlayerScalar;
   internationalGoals: PlayerScalar;
+  internationalCleanSheets?: PlayerScalar;
   nationalTeamDebutYear: PlayerScalar;
   worldCupAppearances: string;
   careerPath?: string;

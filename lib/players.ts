@@ -10,12 +10,12 @@ export const players: Player[] = [
       "John Stones",
       "John",
       "Stones"
-],
+    ],
     "acceptedAnswers": [
       "John Stones",
       "John",
       "Stones"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -48,12 +48,12 @@ export const players: Player[] = [
       "Marcus Rashford",
       "Marcus",
       "Rashford"
-],
+    ],
     "acceptedAnswers": [
       "Marcus Rashford",
       "Marcus",
       "Rashford"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -89,7 +89,7 @@ export const players: Player[] = [
       "Souček",
       "Tomas",
       "Soucek"
-],
+    ],
     "acceptedAnswers": [
       "Tomáš Souček",
       "Tomas Soucek",
@@ -97,7 +97,7 @@ export const players: Player[] = [
       "Souček",
       "Tomas",
       "Soucek"
-],
+    ],
     "nationality": "Czech Republic",
     "nation": "Czech Republic",
     "nationSlug": "czech-republic",
@@ -111,6 +111,7 @@ export const players: Player[] = [
     "internationalGoals": 17,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Slavia Prague -> Viktoria Žižkov (Loan) -> Slovan Liberec (Loan) -> West Ham United (Loan) -> West Ham United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -129,12 +130,12 @@ export const players: Player[] = [
       "Patrik Schick",
       "Patrik",
       "Schick"
-],
+    ],
     "acceptedAnswers": [
       "Patrik Schick",
       "Patrik",
       "Schick"
-],
+    ],
     "nationality": "Czech Republic",
     "nation": "Czech Republic",
     "nationSlug": "czech-republic",
@@ -148,6 +149,7 @@ export const players: Player[] = [
     "internationalGoals": 26,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Sparta Prague -> Bohemians 1905 (Loan) -> Sampdoria -> Roma -> RB Leipzig (Loan) -> Bayer Leverkusen",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -168,14 +170,14 @@ export const players: Player[] = [
       "Adam",
       "Hložek",
       "Hlozek"
-],
+    ],
     "acceptedAnswers": [
       "Adam Hložek",
       "Adam Hlozek",
       "Adam",
       "Hložek",
       "Hlozek"
-],
+    ],
     "nationality": "Czech Republic",
     "nation": "Czech Republic",
     "nationSlug": "czech-republic",
@@ -189,6 +191,7 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Sparta Prague -> Bayer Leverkusen -> TSG Hoffenheim",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -197,7 +200,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; CZECH-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "vladimir-coufal",
@@ -209,14 +213,14 @@ export const players: Player[] = [
       "Vladimír",
       "Coufal",
       "Vladimir"
-],
+    ],
     "acceptedAnswers": [
       "Vladimír Coufal",
       "Vladimir Coufal",
       "Vladimír",
       "Coufal",
       "Vladimir"
-],
+    ],
     "nationality": "Czech Republic",
     "nation": "Czech Republic",
     "nationSlug": "czech-republic",
@@ -230,6 +234,7 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Baník Ostrava -> Bílovec -> Hlučín -> Opava (Loan) -> Slovan Liberec -> Slavia Prague -> West Ham United -> TSG Hoffenheim",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -251,7 +256,7 @@ export const players: Player[] = [
       "Kovář",
       "Matej",
       "Kovar"
-],
+    ],
     "acceptedAnswers": [
       "Matěj Kovář",
       "Matej Kovar",
@@ -259,7 +264,7 @@ export const players: Player[] = [
       "Kovář",
       "Matej",
       "Kovar"
-],
+    ],
     "nationality": "Czech Republic",
     "nation": "Czech Republic",
     "nationSlug": "czech-republic",
@@ -295,14 +300,14 @@ export const players: Player[] = [
       "Edson",
       "Álvarez",
       "Alvarez"
-],
+    ],
     "acceptedAnswers": [
       "Edson Álvarez",
       "Edson Alvarez",
       "Edson",
       "Álvarez",
       "Alvarez"
-],
+    ],
     "nationality": "Mexico",
     "nation": "Mexico",
     "nationSlug": "mexico",
@@ -316,6 +321,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "América -> Ajax -> West Ham United -> Fenerbahçe (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -337,7 +343,7 @@ export const players: Player[] = [
       "Jiménez",
       "Raul",
       "Jimenez"
-],
+    ],
     "acceptedAnswers": [
       "Raúl Jiménez",
       "Raul Jimenez",
@@ -345,7 +351,7 @@ export const players: Player[] = [
       "Jiménez",
       "Raul",
       "Jimenez"
-],
+    ],
     "nationality": "Mexico",
     "nation": "Mexico",
     "nationSlug": "mexico",
@@ -359,6 +365,7 @@ export const players: Player[] = [
     "internationalGoals": 45,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 3 previous World Cups",
+    "careerPath": "América -> Atlético Madrid -> Benfica -> Wolverhampton Wanderers (Loan) -> Wolverhampton Wanderers -> Fulham",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -381,7 +388,7 @@ export const players: Player[] = [
       "Giménez",
       "Santi",
       "Gimenez"
-],
+    ],
     "acceptedAnswers": [
       "Santiago Giménez",
       "Santi Gimenez",
@@ -390,7 +397,7 @@ export const players: Player[] = [
       "Giménez",
       "Santi",
       "Gimenez"
-],
+    ],
     "nationality": "Mexico",
     "nation": "Mexico",
     "nationSlug": "mexico",
@@ -404,15 +411,17 @@ export const players: Player[] = [
     "internationalGoals": 6,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Cruz Azul -> Feyenoord -> AC Milan",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Born in Argentina but represents Mexico; moved from Feyenoord to Milan.",
+    "clueFact": "Born in Argentina but represents Mexico.",
     "playedAlongside": "Rafael Leão",
     "sources": "FIFA-SQUAD; MEXICO-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "guillermo-ochoa",
@@ -424,14 +433,14 @@ export const players: Player[] = [
       "Guillermo",
       "Ochoa",
       "Memo"
-],
+    ],
     "acceptedAnswers": [
       "Guillermo Ochoa",
       "Memo Ochoa",
       "Guillermo",
       "Ochoa",
       "Memo"
-],
+    ],
     "nationality": "Mexico",
     "nation": "Mexico",
     "nationSlug": "mexico",
@@ -467,14 +476,14 @@ export const players: Player[] = [
       "Orbelín",
       "Pineda",
       "Orbelin"
-],
+    ],
     "acceptedAnswers": [
       "Orbelín Pineda",
       "Orbelin Pineda",
       "Orbelín",
       "Pineda",
       "Orbelin"
-],
+    ],
     "nationality": "Mexico",
     "nation": "Mexico",
     "nationSlug": "mexico",
@@ -488,6 +497,7 @@ export const players: Player[] = [
     "internationalGoals": 12,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Querétaro -> Guadalajara -> Cruz Azul -> Celta -> AEK Athens (Loan) -> AEK Athens",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -496,7 +506,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; MEXICO-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ronwen-williams",
@@ -506,12 +517,12 @@ export const players: Player[] = [
       "Ronwen Williams",
       "Ronwen",
       "Williams"
-],
+    ],
     "acceptedAnswers": [
       "Ronwen Williams",
       "Ronwen",
       "Williams"
-],
+    ],
     "nationality": "South Africa",
     "nation": "South Africa",
     "nationSlug": "south-africa",
@@ -526,6 +537,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 19,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "SuperSport United -> Mamelodi Sundowns",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -534,7 +546,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "teboho-mokoena",
@@ -544,12 +557,12 @@ export const players: Player[] = [
       "Teboho Mokoena",
       "Teboho",
       "Mokoena"
-],
+    ],
     "acceptedAnswers": [
       "Teboho Mokoena",
       "Teboho",
       "Mokoena"
-],
+    ],
     "nationality": "South Africa",
     "nation": "South Africa",
     "nationSlug": "south-africa",
@@ -563,6 +576,7 @@ export const players: Player[] = [
     "internationalGoals": 9,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "SuperSport United -> Mamelodi Sundowns",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -571,7 +585,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "lyle-foster",
@@ -581,12 +596,12 @@ export const players: Player[] = [
       "Lyle Foster",
       "Lyle",
       "Foster"
-],
+    ],
     "acceptedAnswers": [
       "Lyle Foster",
       "Lyle",
       "Foster"
-],
+    ],
     "nationality": "South Africa",
     "nation": "South Africa",
     "nationSlug": "south-africa",
@@ -600,6 +615,7 @@ export const players: Player[] = [
     "internationalGoals": 10,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Orlando Pirates -> Monaco II -> Monaco -> Cercle Brugge (Loan) -> Vitória de Guimarães -> Vitória de Guimarães B -> Westerlo (Loan) -> Westerlo -> Burnley",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -608,7 +624,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "themba-zwane",
@@ -618,12 +635,12 @@ export const players: Player[] = [
       "Themba Zwane",
       "Themba",
       "Zwane"
-],
+    ],
     "acceptedAnswers": [
       "Themba Zwane",
       "Themba",
       "Zwane"
-],
+    ],
     "nationality": "South Africa",
     "nation": "South Africa",
     "nationSlug": "south-africa",
@@ -637,6 +654,7 @@ export const players: Player[] = [
     "internationalGoals": 12,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Vardos FC -> Mamelodi Sundowns",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -645,7 +663,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "relebohile-mofokeng",
@@ -655,12 +674,12 @@ export const players: Player[] = [
       "Relebohile Mofokeng",
       "Relebohile",
       "Mofokeng"
-],
+    ],
     "acceptedAnswers": [
       "Relebohile Mofokeng",
       "Relebohile",
       "Mofokeng"
-],
+    ],
     "nationality": "South Africa",
     "nation": "South Africa",
     "nationSlug": "south-africa",
@@ -674,15 +693,17 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Orlando Pirates DDC -> Orlando Pirates",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Young Orlando Pirates attacker and breakout-name clue option.",
+    "clueFact": "Young Orlando Pirates attacker and breakout star.",
     "playedAlongside": "Patrick Maswanganyi",
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "son-heung-min",
@@ -696,7 +717,7 @@ export const players: Player[] = [
       "Heung",
       "min",
       "Heungmin"
-],
+    ],
     "acceptedAnswers": [
       "Son Heung-min",
       "Son Heungmin",
@@ -705,7 +726,7 @@ export const players: Player[] = [
       "Heung",
       "min",
       "Heungmin"
-],
+    ],
     "nationality": "South Korea",
     "nation": "South Korea",
     "nationSlug": "south-korea",
@@ -741,7 +762,7 @@ export const players: Player[] = [
       "Min",
       "jae",
       "Minjae"
-],
+    ],
     "acceptedAnswers": [
       "Kim Min-jae",
       "Kim Minjae",
@@ -749,7 +770,7 @@ export const players: Player[] = [
       "Min",
       "jae",
       "Minjae"
-],
+    ],
     "nationality": "South Korea",
     "nation": "South Korea",
     "nationSlug": "south-korea",
@@ -767,7 +788,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Centre-back known for Napoli and Bayern Munich.",
+    "clueFact": "Centre-back known for his time with Napoli and Bayern Munich.",
     "playedAlongside": "Harry Kane",
     "sources": "FIFA-SQUAD; KOREA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
@@ -784,14 +805,14 @@ export const players: Player[] = [
       "Lee",
       "Kang",
       "Kangin"
-],
+    ],
     "acceptedAnswers": [
       "Lee Kang-in",
       "Lee Kangin",
       "Lee",
       "Kang",
       "Kangin"
-],
+    ],
     "nationality": "South Korea",
     "nation": "South Korea",
     "nationSlug": "south-korea",
@@ -827,7 +848,7 @@ export const players: Player[] = [
       "Hee",
       "chan",
       "Heechan"
-],
+    ],
     "acceptedAnswers": [
       "Hwang Hee-chan",
       "Hwang Heechan",
@@ -835,7 +856,7 @@ export const players: Player[] = [
       "Hee",
       "chan",
       "Heechan"
-],
+    ],
     "nationality": "South Korea",
     "nation": "South Korea",
     "nationSlug": "south-korea",
@@ -871,7 +892,7 @@ export const players: Player[] = [
       "Gue",
       "sung",
       "Guesung"
-],
+    ],
     "acceptedAnswers": [
       "Cho Gue-sung",
       "Cho Guesung",
@@ -879,7 +900,7 @@ export const players: Player[] = [
       "Gue",
       "sung",
       "Guesung"
-],
+    ],
     "nationality": "South Korea",
     "nation": "South Korea",
     "nationSlug": "south-korea",
@@ -893,6 +914,7 @@ export const players: Player[] = [
     "internationalGoals": 12,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "FC Anyang Academy -> FC Anyang -> Jeonbuk Hyundai Motors -> Gimcheon Sangmu (Loan) -> Midtjylland",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -901,7 +923,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; KOREA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "edin-dzeko",
@@ -913,14 +936,14 @@ export const players: Player[] = [
       "Edin",
       "Džeko",
       "Dzeko"
-],
+    ],
     "acceptedAnswers": [
       "Edin Džeko",
       "Edin Dzeko",
       "Edin",
       "Džeko",
       "Dzeko"
-],
+    ],
     "nationality": "Bosnia and Herzegovina",
     "nation": "Bosnia and Herzegovina",
     "nationSlug": "bosnia-and-herzegovina",
@@ -955,14 +978,14 @@ export const players: Player[] = [
       "Sead",
       "Kolašinac",
       "Kolasinac"
-],
+    ],
     "acceptedAnswers": [
       "Sead Kolašinac",
       "Sead Kolasinac",
       "Sead",
       "Kolašinac",
       "Kolasinac"
-],
+    ],
     "nationality": "Bosnia and Herzegovina",
     "nation": "Bosnia and Herzegovina",
     "nationSlug": "bosnia-and-herzegovina",
@@ -976,6 +999,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Schalke 04 -> Schalke 04 II -> Schalke 04 -> Arsenal -> Schalke 04 (Loan) -> Marseille -> Atalanta",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -996,14 +1020,14 @@ export const players: Player[] = [
       "Ermedin",
       "Demirović",
       "Demirovic"
-],
+    ],
     "acceptedAnswers": [
       "Ermedin Demirović",
       "Ermedin Demirovic",
       "Ermedin",
       "Demirović",
       "Demirovic"
-],
+    ],
     "nationality": "Bosnia and Herzegovina",
     "nation": "Bosnia and Herzegovina",
     "nationSlug": "bosnia-and-herzegovina",
@@ -1017,6 +1041,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "RB Leipzig -> RB Leipzig II -> Alavés -> Sochaux (Loan) -> Almería (Loan) -> St. Gallen (Loan) -> SC Freiburg -> FC Augsburg -> VfB Stuttgart",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1025,7 +1050,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; BOSNIA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "amar-dedic",
@@ -1037,14 +1063,14 @@ export const players: Player[] = [
       "Amar",
       "Dedić",
       "Dedic"
-],
+    ],
     "acceptedAnswers": [
       "Amar Dedić",
       "Amar Dedic",
       "Amar",
       "Dedić",
       "Dedic"
-],
+    ],
     "nationality": "Bosnia and Herzegovina",
     "nation": "Bosnia and Herzegovina",
     "nationSlug": "bosnia-and-herzegovina",
@@ -1058,6 +1084,7 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Red Bull Salzburg -> Liefering -> Wolfsberger AC (Loan) -> Marseille (Loan) -> Benfica",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1066,7 +1093,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; BOSNIA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "esmir-bajraktarevic",
@@ -1078,14 +1106,14 @@ export const players: Player[] = [
       "Esmir",
       "Bajraktarević",
       "Bajraktarevic"
-],
+    ],
     "acceptedAnswers": [
       "Esmir Bajraktarević",
       "Esmir Bajraktarevic",
       "Esmir",
       "Bajraktarević",
       "Bajraktarevic"
-],
+    ],
     "nationality": "Bosnia and Herzegovina",
     "nation": "Bosnia and Herzegovina",
     "nationSlug": "bosnia-and-herzegovina",
@@ -1099,6 +1127,7 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "New England Revolution -> New England Revolution II -> New England Revolution -> PSV",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1107,7 +1136,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; BOSNIA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "alphonso-davies",
@@ -1119,14 +1149,14 @@ export const players: Player[] = [
       "Alphonso",
       "Davies",
       "Boyle"
-],
+    ],
     "acceptedAnswers": [
       "Alphonso Davies",
       "Alphonso Boyle Davies",
       "Alphonso",
       "Davies",
       "Boyle"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -1161,14 +1191,14 @@ export const players: Player[] = [
       "Jonathan",
       "David",
       "Christian"
-],
+    ],
     "acceptedAnswers": [
       "Jonathan David",
       "Jonathan Christian David",
       "Jonathan",
       "David",
       "Christian"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -1203,14 +1233,14 @@ export const players: Player[] = [
       "Cyle",
       "Larin",
       "Christopher"
-],
+    ],
     "acceptedAnswers": [
       "Cyle Larin",
       "Cyle Christopher Larin",
       "Cyle",
       "Larin",
       "Christopher"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -1224,6 +1254,7 @@ export const players: Player[] = [
     "internationalGoals": 30,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Sigma -> Orlando City -> Beşiktaş -> Zulte Waregem (Loan) -> Club Brugge -> Valladolid (Loan) -> Valladolid -> Mallorca -> Feyenoord (Loan) -> Southampton (Loan) -> Southampton",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1232,7 +1263,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; CANADA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "tajon-buchanan",
@@ -1244,14 +1276,14 @@ export const players: Player[] = [
       "Tajon",
       "Buchanan",
       "Trevor"
-],
+    ],
     "acceptedAnswers": [
       "Tajon Buchanan",
       "Tajon Trevor Buchanan",
       "Tajon",
       "Buchanan",
       "Trevor"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -1265,6 +1297,7 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Real Colorado -> Sigma -> New England Revolution -> Club Brugge -> New England Revolution (Loan) -> Inter Milan -> Villarreal (Loan) -> Villarreal",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1273,7 +1306,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; CANADA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "stephen-eustaquio",
@@ -1287,7 +1321,7 @@ export const players: Player[] = [
       "Eustáquio",
       "Eustaquio",
       "Antunes"
-],
+    ],
     "acceptedAnswers": [
       "Stephen Eustáquio",
       "Stephen Eustaquio",
@@ -1296,7 +1330,7 @@ export const players: Player[] = [
       "Eustáquio",
       "Eustaquio",
       "Antunes"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -1310,6 +1344,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Torreense -> Nazarenos -> Torreense -> Leixões -> Chaves -> Cruz Azul -> Paços Ferreira (Loan) -> Paços Ferreira -> Porto (Loan) -> Porto -> Los Angeles FC (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1318,7 +1353,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; CANADA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "hassan-al-haydos",
@@ -1329,13 +1365,13 @@ export const players: Player[] = [
       "Hassan Al Haydos",
       "Hassan",
       "Haydos"
-],
+    ],
     "acceptedAnswers": [
       "Hassan Al-Haydos",
       "Hassan Al Haydos",
       "Hassan",
       "Haydos"
-],
+    ],
     "nationality": "Qatar",
     "nation": "Qatar",
     "nationSlug": "qatar",
@@ -1349,6 +1385,7 @@ export const players: Player[] = [
     "internationalGoals": 41,
     "nationalTeamDebutYear": 2008,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al Sadd academy -> Al Sadd",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1357,7 +1394,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "akram-afif",
@@ -1370,7 +1408,7 @@ export const players: Player[] = [
       "Afif",
       "Hassan",
       "Yahya"
-],
+    ],
     "acceptedAnswers": [
       "Akram Afif",
       "Akram Hassan Afif Yahya Afif",
@@ -1378,7 +1416,7 @@ export const players: Player[] = [
       "Afif",
       "Hassan",
       "Yahya"
-],
+    ],
     "nationality": "Qatar",
     "nation": "Qatar",
     "nationSlug": "qatar",
@@ -1392,6 +1430,7 @@ export const players: Player[] = [
     "internationalGoals": 41,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al Sadd -> Eupen -> Villarreal -> Sporting Gijón (Loan) -> Eupen (Loan) -> Al Sadd (Loan) -> Al Sadd",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1400,7 +1439,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "almoez-ali",
@@ -1412,14 +1452,14 @@ export const players: Player[] = [
       "Almoez",
       "Ali",
       "Abdulla"
-],
+    ],
     "acceptedAnswers": [
       "Almoez Ali",
       "Almoez Ali Abdulla",
       "Almoez",
       "Ali",
       "Abdulla"
-],
+    ],
     "nationality": "Qatar",
     "nation": "Qatar",
     "nationSlug": "qatar",
@@ -1433,6 +1473,7 @@ export const players: Player[] = [
     "internationalGoals": 60,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Eupen -> LASK II -> LASK -> Cultural Leonesa -> Al-Duhail B -> Al-Duhail",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1441,7 +1482,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "abdulaziz-hatem",
@@ -1454,7 +1496,7 @@ export const players: Player[] = [
       "Hatem",
       "Mohammed",
       "Abdullah"
-],
+    ],
     "acceptedAnswers": [
       "Abdulaziz Hatem",
       "Abdulaziz Hatem Mohammed Abdullah",
@@ -1462,7 +1504,7 @@ export const players: Player[] = [
       "Hatem",
       "Mohammed",
       "Abdullah"
-],
+    ],
     "nationality": "Qatar",
     "nation": "Qatar",
     "nationSlug": "qatar",
@@ -1476,6 +1518,7 @@ export const players: Player[] = [
     "internationalGoals": 11,
     "nationalTeamDebutYear": 2009,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al-Arabi -> Al-Gharafa -> Al Rayyan",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1484,7 +1527,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "meshaal-barsham",
@@ -1496,14 +1540,14 @@ export const players: Player[] = [
       "Meshaal",
       "Barsham",
       "Essa"
-],
+    ],
     "acceptedAnswers": [
       "Meshaal Barsham",
       "Meshaal Essa Barsham",
       "Meshaal",
       "Barsham",
       "Essa"
-],
+    ],
     "nationality": "Qatar",
     "nation": "Qatar",
     "nationSlug": "qatar",
@@ -1518,6 +1562,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 13,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al Sadd -> Al-Sadd",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1526,7 +1571,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "granit-xhaka",
@@ -1536,12 +1582,12 @@ export const players: Player[] = [
       "Granit Xhaka",
       "Granit",
       "Xhaka"
-],
+    ],
     "acceptedAnswers": [
       "Granit Xhaka",
       "Granit",
       "Xhaka"
-],
+    ],
     "nationality": "Switzerland",
     "nation": "Switzerland",
     "nationSlug": "switzerland",
@@ -1555,6 +1601,7 @@ export const players: Player[] = [
     "internationalGoals": 16,
     "nationalTeamDebutYear": 2011,
     "worldCupAppearances": "Played in 3 previous World Cups",
+    "careerPath": "Basel -> Borussia Mönchengladbach -> Arsenal -> Bayer Leverkusen -> Sunderland",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1575,14 +1622,14 @@ export const players: Player[] = [
       "Manuel",
       "Akanji",
       "Obafemi"
-],
+    ],
     "acceptedAnswers": [
       "Manuel Akanji",
       "Manuel Obafemi Akanji",
       "Manuel",
       "Akanji",
       "Obafemi"
-],
+    ],
     "nationality": "Switzerland",
     "nation": "Switzerland",
     "nationSlug": "switzerland",
@@ -1596,6 +1643,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "FC Winterthur -> FC Winterthur II -> FC Winterthur -> FC Basel II -> FC Basel -> Borussia Dortmund -> Manchester City -> Inter Milan (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1616,14 +1664,14 @@ export const players: Player[] = [
       "Breel",
       "Embolo",
       "Donald"
-],
+    ],
     "acceptedAnswers": [
       "Breel Embolo",
       "Breel Donald Embolo",
       "Breel",
       "Embolo",
       "Donald"
-],
+    ],
     "nationality": "Switzerland",
     "nation": "Switzerland",
     "nationSlug": "switzerland",
@@ -1637,6 +1685,7 @@ export const players: Player[] = [
     "internationalGoals": 23,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Basel -> Schalke 04 -> Borussia Mönchengladbach -> Monaco -> Rennes",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1645,7 +1694,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SWITZERLAND-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "gregor-kobel",
@@ -1655,12 +1705,12 @@ export const players: Player[] = [
       "Gregor Kobel",
       "Gregor",
       "Kobel"
-],
+    ],
     "acceptedAnswers": [
       "Gregor Kobel",
       "Gregor",
       "Kobel"
-],
+    ],
     "nationality": "Switzerland",
     "nation": "Switzerland",
     "nationSlug": "switzerland",
@@ -1694,12 +1744,12 @@ export const players: Player[] = [
       "Dan Ndoye",
       "Dan",
       "Ndoye"
-],
+    ],
     "acceptedAnswers": [
       "Dan Ndoye",
       "Dan",
       "Ndoye"
-],
+    ],
     "nationality": "Switzerland",
     "nation": "Switzerland",
     "nationSlug": "switzerland",
@@ -1713,6 +1763,7 @@ export const players: Player[] = [
     "internationalGoals": 6,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Lausanne-Sport -> Lausanne-Sport II -> Lausanne-Sport -> Nice -> Lausanne-Sport (Loan) -> Basel (Loan) -> Basel -> Bologna -> Nottingham Forest",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1736,7 +1787,7 @@ export const players: Player[] = [
       "Santos",
       "Júnior",
       "Junior"
-],
+    ],
     "acceptedAnswers": [
       "Neymar",
       "Neymar Jr",
@@ -1746,7 +1797,7 @@ export const players: Player[] = [
       "Santos",
       "Júnior",
       "Junior"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -1788,7 +1839,7 @@ export const players: Player[] = [
       "José",
       "Paixão",
       "Oliveira"
-],
+    ],
     "acceptedAnswers": [
       "Vinícius Júnior",
       "Vinicius Junior",
@@ -1802,7 +1853,7 @@ export const players: Player[] = [
       "José",
       "Paixão",
       "Oliveira"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -1840,7 +1891,7 @@ export const players: Player[] = [
       "Guimaraes",
       "Rodriguez",
       "Moura"
-],
+    ],
     "acceptedAnswers": [
       "Bruno Guimarães",
       "Bruno Guimaraes",
@@ -1850,7 +1901,7 @@ export const players: Player[] = [
       "Guimaraes",
       "Rodriguez",
       "Moura"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -1888,7 +1939,7 @@ export const players: Player[] = [
       "Corrêa",
       "Aoas",
       "Correa"
-],
+    ],
     "acceptedAnswers": [
       "Marquinhos",
       "Marcos Aoás Corrêa",
@@ -1898,7 +1949,7 @@ export const players: Player[] = [
       "Corrêa",
       "Aoas",
       "Correa"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -1933,14 +1984,14 @@ export const players: Player[] = [
       "Felipe",
       "Moreira",
       "Sousa"
-],
+    ],
     "acceptedAnswers": [
       "Endrick",
       "Endrick Felipe Moreira de Sousa",
       "Felipe",
       "Moreira",
       "Sousa"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -1954,6 +2005,7 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Palmeiras -> Real Madrid -> Lyon (loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -1974,14 +2026,14 @@ export const players: Player[] = [
       "Hakimi",
       "Achraf",
       "Mouh"
-],
+    ],
     "acceptedAnswers": [
       "Achraf Hakimi",
       "Achraf Hakimi Mouh",
       "Hakimi",
       "Achraf",
       "Mouh"
-],
+    ],
     "nationality": "Morocco",
     "nation": "Morocco",
     "nationSlug": "morocco",
@@ -2018,7 +2070,7 @@ export const players: Player[] = [
       "Díaz",
       "Diaz",
       "Abdelkader"
-],
+    ],
     "acceptedAnswers": [
       "Brahim Díaz",
       "Brahim Diaz",
@@ -2027,7 +2079,7 @@ export const players: Player[] = [
       "Díaz",
       "Diaz",
       "Abdelkader"
-],
+    ],
     "nationality": "Morocco",
     "nation": "Morocco",
     "nationSlug": "morocco",
@@ -2041,6 +2093,7 @@ export const players: Player[] = [
     "internationalGoals": 13,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Manchester City -> Real Madrid -> AC Milan (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2059,12 +2112,12 @@ export const players: Player[] = [
       "Sofyan Amrabat",
       "Amrabat",
       "Sofyan"
-],
+    ],
     "acceptedAnswers": [
       "Sofyan Amrabat",
       "Amrabat",
       "Sofyan"
-],
+    ],
     "nationality": "Morocco",
     "nation": "Morocco",
     "nationSlug": "morocco",
@@ -2078,6 +2131,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Utrecht -> Feyenoord -> Club Brugge -> Hellas Verona (Loan) -> Fiorentina -> Manchester United (Loan) -> Fenerbahçe (Loan) -> Fenerbahçe -> Betis (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2086,7 +2140,8 @@ export const players: Player[] = [
     "sources": "FFT-SQUAD; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "nayef-aguerd",
@@ -2096,12 +2151,12 @@ export const players: Player[] = [
       "Nayef Aguerd",
       "Aguerd",
       "Nayef"
-],
+    ],
     "acceptedAnswers": [
       "Nayef Aguerd",
       "Aguerd",
       "Nayef"
-],
+    ],
     "nationality": "Morocco",
     "nation": "Morocco",
     "nationSlug": "morocco",
@@ -2115,6 +2170,7 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Mohammed VI Academy -> FUS Rabat -> Dijon -> Rennes -> West Ham United -> Real Sociedad (Loan) -> Marseille",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2136,7 +2192,7 @@ export const players: Player[] = [
       "Bilal",
       "Khannouss",
       "Khannous"
-],
+    ],
     "acceptedAnswers": [
       "Bilal El Khannouss",
       "El Khannouss",
@@ -2144,7 +2200,7 @@ export const players: Player[] = [
       "Bilal",
       "Khannouss",
       "Khannous"
-],
+    ],
     "nationality": "Morocco",
     "nation": "Morocco",
     "nationSlug": "morocco",
@@ -2158,6 +2214,7 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Genk -> Leicester City -> VfB Stuttgart (Loan) -> VfB Stuttgart",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2166,7 +2223,8 @@ export const players: Player[] = [
     "sources": "FFT-SQUAD; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "jean-ricner-bellegarde",
@@ -2178,14 +2236,14 @@ export const players: Player[] = [
       "Bellegarde",
       "Jean",
       "Ricner"
-],
+    ],
     "acceptedAnswers": [
       "Jean-Ricner Bellegarde",
       "Jean Ricner Bellegarde",
       "Bellegarde",
       "Jean",
       "Ricner"
-],
+    ],
     "nationality": "Haiti",
     "nation": "Haiti",
     "nationSlug": "haiti",
@@ -2199,6 +2257,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2025,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Lens -> Lens B -> Lens -> Strasbourg -> Wolverhampton Wanderers",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2217,12 +2276,12 @@ export const players: Player[] = [
       "Wilson Isidor",
       "Isidor",
       "Wilson"
-],
+    ],
     "acceptedAnswers": [
       "Wilson Isidor",
       "Isidor",
       "Wilson"
-],
+    ],
     "nationality": "Haiti",
     "nation": "Haiti",
     "nationSlug": "haiti",
@@ -2236,6 +2295,7 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Rennes -> Rennes II -> Monaco II -> Monaco -> Laval (Loan) -> Laval II (Loan) -> Bastia-Borgo (Loan) -> Lokomotiv Moscow -> Zenit Saint Petersburg (Loan) -> Zenit Saint Petersburg -> Sunderland (Loan) -> Sunderland",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2258,7 +2318,7 @@ export const players: Player[] = [
       "Duckens",
       "Moïse",
       "Moise"
-],
+    ],
     "acceptedAnswers": [
       "Duckens Nazon",
       "Duckens Moïse Nazon",
@@ -2267,7 +2327,7 @@ export const players: Player[] = [
       "Duckens",
       "Moïse",
       "Moise"
-],
+    ],
     "nationality": "Haiti",
     "nation": "Haiti",
     "nationSlug": "haiti",
@@ -2281,6 +2341,7 @@ export const players: Player[] = [
     "internationalGoals": 44,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Lorient -> Lorient II -> Olympique Saint-Quentin -> Laval -> Kerala Blasters -> Wolverhampton Wanderers -> Coventry City (Loan) -> Oldham Athletic (Loan) -> Sint-Truiden -> St Mirren (Loan) -> Quevilly-Rouen -> CSKA Sofia -> Kayserispor -> Esteghlal",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2289,7 +2350,8 @@ export const players: Player[] = [
     "sources": "FFT-SQUAD; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ricardo-ade",
@@ -2303,7 +2365,7 @@ export const players: Player[] = [
       "Adé",
       "Ade",
       "Kat"
-],
+    ],
     "acceptedAnswers": [
       "Ricardo Adé",
       "Ricardo Ade",
@@ -2312,7 +2374,7 @@ export const players: Player[] = [
       "Adé",
       "Ade",
       "Kat"
-],
+    ],
     "nationality": "Haiti",
     "nation": "Haiti",
     "nationSlug": "haiti",
@@ -2326,6 +2388,7 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Baltimore SC -> Miami United -> Don Bosco -> Santiago Morning -> Magallanes -> Mushuc Runa -> Aucas -> L.D.U. Quito",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2334,7 +2397,8 @@ export const players: Player[] = [
     "sources": "FFT-SQUAD; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "johny-placide",
@@ -2346,14 +2410,14 @@ export const players: Player[] = [
       "Johny",
       "Placide",
       "Johnny"
-],
+    ],
     "acceptedAnswers": [
       "Johny Placide",
       "Johnny Placide",
       "Johny",
       "Placide",
       "Johnny"
-],
+    ],
     "nationality": "Haiti",
     "nation": "Haiti",
     "nationSlug": "haiti",
@@ -2368,6 +2432,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 25,
     "nationalTeamDebutYear": 2011,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Le Havre -> Le Havre B -> Le Havre -> Reims -> Guingamp -> Oldham Athletic -> Tsarsko Selo -> Bastia",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2376,7 +2441,8 @@ export const players: Player[] = [
     "sources": "FFT-SQUAD; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "andy-robertson",
@@ -2390,7 +2456,7 @@ export const players: Player[] = [
       "Robertson",
       "Andrew",
       "Henry"
-],
+    ],
     "acceptedAnswers": [
       "Andy Robertson",
       "Andrew Robertson",
@@ -2399,7 +2465,7 @@ export const players: Player[] = [
       "Robertson",
       "Andrew",
       "Henry"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -2434,14 +2500,14 @@ export const players: Player[] = [
       "McTominay",
       "Scott",
       "Francis"
-],
+    ],
     "acceptedAnswers": [
       "Scott McTominay",
       "Scott Francis McTominay",
       "McTominay",
       "Scott",
       "Francis"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -2474,12 +2540,12 @@ export const players: Player[] = [
       "John McGinn",
       "McGinn",
       "John"
-],
+    ],
     "acceptedAnswers": [
       "John McGinn",
       "McGinn",
       "John"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -2493,6 +2559,7 @@ export const players: Player[] = [
     "internationalGoals": 20,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "St Mirren -> Hibernian -> Aston Villa",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2517,7 +2584,7 @@ export const players: Player[] = [
       "Zach",
       "Everton",
       "Fred"
-],
+    ],
     "acceptedAnswers": [
       "Ché Adams",
       "Che Adams",
@@ -2528,7 +2595,7 @@ export const players: Player[] = [
       "Zach",
       "Everton",
       "Fred"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -2542,6 +2609,7 @@ export const players: Player[] = [
     "internationalGoals": 11,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Oadby Town -> Ilkeston -> Sheffield United -> Birmingham City -> Southampton -> Torino",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2564,7 +2632,7 @@ export const players: Player[] = [
       "Ben",
       "Gannon",
       "Doak"
-],
+    ],
     "acceptedAnswers": [
       "Ben Gannon-Doak",
       "Ben Doak",
@@ -2573,7 +2641,7 @@ export const players: Player[] = [
       "Ben",
       "Gannon",
       "Doak"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -2587,6 +2655,7 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Celtic -> Liverpool -> Middlesbrough (Loan) -> Bournemouth",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2608,7 +2677,7 @@ export const players: Player[] = [
       "Christian",
       "Captain",
       "America"
-],
+    ],
     "acceptedAnswers": [
       "Christian Pulisic",
       "Pulisic",
@@ -2616,7 +2685,7 @@ export const players: Player[] = [
       "Christian",
       "Captain",
       "America"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -2651,14 +2720,14 @@ export const players: Player[] = [
       "Flo Balogun",
       "Folarin",
       "Flo"
-],
+    ],
     "acceptedAnswers": [
       "Folarin Balogun",
       "Balogun",
       "Flo Balogun",
       "Folarin",
       "Flo"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -2672,6 +2741,7 @@ export const players: Player[] = [
     "internationalGoals": 9,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Arsenal -> Middlesbrough (Loan) -> Reims (Loan) -> Monaco",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2692,14 +2762,14 @@ export const players: Player[] = [
       "Wes McKennie",
       "Weston",
       "Wes"
-],
+    ],
     "acceptedAnswers": [
       "Weston McKennie",
       "McKennie",
       "Wes McKennie",
       "Weston",
       "Wes"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -2734,14 +2804,14 @@ export const players: Player[] = [
       "Robinson",
       "Antonee",
       "Jedi"
-],
+    ],
     "acceptedAnswers": [
       "Antonee Robinson",
       "Jedi Robinson",
       "Robinson",
       "Antonee",
       "Jedi"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -2755,6 +2825,7 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Everton -> Bolton Wanderers (Loan) -> Wigan Athletic (Loan) -> Wigan Athletic -> Fulham",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2775,14 +2846,14 @@ export const players: Player[] = [
       "Reyna",
       "Giovanni",
       "Gio"
-],
+    ],
     "acceptedAnswers": [
       "Giovanni Reyna",
       "Gio Reyna",
       "Reyna",
       "Giovanni",
       "Gio"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -2796,6 +2867,7 @@ export const players: Player[] = [
     "internationalGoals": 9,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Borussia Dortmund -> Nottingham Forest (Loan) -> Borussia Mönchengladbach",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2816,14 +2888,14 @@ export const players: Player[] = [
       "Gómez",
       "Gustavo",
       "Gomez"
-],
+    ],
     "acceptedAnswers": [
       "Gustavo Gómez",
       "Gustavo Gomez",
       "Gómez",
       "Gustavo",
       "Gomez"
-],
+    ],
     "nationality": "Paraguay",
     "nation": "Paraguay",
     "nationSlug": "paraguay",
@@ -2837,6 +2909,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Libertad -> Lanús -> AC Milan -> Palmeiras (Loan) -> Palmeiras",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2845,7 +2918,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "antonio-sanabria",
@@ -2857,14 +2931,14 @@ export const players: Player[] = [
       "Sanabria",
       "Antonio",
       "Tony"
-],
+    ],
     "acceptedAnswers": [
       "Antonio Sanabria",
       "Tony Sanabria",
       "Sanabria",
       "Antonio",
       "Tony"
-],
+    ],
     "nationality": "Paraguay",
     "nation": "Paraguay",
     "nationSlug": "paraguay",
@@ -2878,6 +2952,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Roma -> Barcelona B -> Sassuolo -> Roma -> Sporting Gijón (Loan) -> Betis -> Genoa (Loan) -> Torino -> Cremonese",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2886,7 +2961,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "miguel-almiron",
@@ -2898,14 +2974,14 @@ export const players: Player[] = [
       "Almirón",
       "Almiron",
       "Miguel"
-],
+    ],
     "acceptedAnswers": [
       "Miguel Almirón",
       "Miguel Almiron",
       "Almirón",
       "Almiron",
       "Miguel"
-],
+    ],
     "nationality": "Paraguay",
     "nation": "Paraguay",
     "nationSlug": "paraguay",
@@ -2919,6 +2995,7 @@ export const players: Player[] = [
     "internationalGoals": 10,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Cerro Porteño -> Lanús -> Atlanta United -> Newcastle United -> Atlanta United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2937,12 +3014,12 @@ export const players: Player[] = [
       "Omar Alderete",
       "Alderete",
       "Omar"
-],
+    ],
     "acceptedAnswers": [
       "Omar Alderete",
       "Alderete",
       "Omar"
-],
+    ],
     "nationality": "Paraguay",
     "nation": "Paraguay",
     "nationSlug": "paraguay",
@@ -2956,6 +3033,7 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Cerro Porteño -> Gimnasia y Esgrima (Loan) -> Huracán -> Basel -> Hertha BSC -> Valencia (Loan) -> Getafe (Loan) -> Getafe -> Sunderland",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -2974,12 +3052,12 @@ export const players: Player[] = [
       "Julio Enciso",
       "Enciso",
       "Julio"
-],
+    ],
     "acceptedAnswers": [
       "Julio Enciso",
       "Enciso",
       "Julio"
-],
+    ],
     "nationality": "Paraguay",
     "nation": "Paraguay",
     "nationSlug": "paraguay",
@@ -3001,7 +3079,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "careerPath": "Libertad -> Brighton & Hove Albion -> Ipswich Town (Loan) -> Strasbourg"
   },
   {
     "id": "mathew-ryan",
@@ -3015,7 +3094,7 @@ export const players: Player[] = [
       "Ryan",
       "Matt",
       "Matthew"
-],
+    ],
     "acceptedAnswers": [
       "Mathew Ryan",
       "Matt Ryan",
@@ -3024,7 +3103,7 @@ export const players: Player[] = [
       "Ryan",
       "Matt",
       "Matthew"
-],
+    ],
     "nationality": "Australia",
     "nation": "Australia",
     "nationSlug": "australia",
@@ -3060,14 +3139,14 @@ export const players: Player[] = [
       "Nestor Irankunda",
       "Nestory",
       "Nestor"
-],
+    ],
     "acceptedAnswers": [
       "Nestory Irankunda",
       "Irankunda",
       "Nestor Irankunda",
       "Nestory",
       "Nestor"
-],
+    ],
     "nationality": "Australia",
     "nation": "Australia",
     "nationSlug": "australia",
@@ -3081,6 +3160,7 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Adelaide United -> Adelaide United Youth -> Adelaide United -> Bayern Munich II -> Bayern Munich -> Grasshopper (Loan) -> Watford",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3099,12 +3179,12 @@ export const players: Player[] = [
       "Jackson Irvine",
       "Irvine",
       "Jackson"
-],
+    ],
     "acceptedAnswers": [
       "Jackson Irvine",
       "Irvine",
       "Jackson"
-],
+    ],
     "nationality": "Australia",
     "nation": "Australia",
     "nationSlug": "australia",
@@ -3118,6 +3198,7 @@ export const players: Player[] = [
     "internationalGoals": 14,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Celtic -> Frankston Pines -> Celtic -> Kilmarnock (Loan) -> Ross County (Loan) -> Ross County -> Burton Albion -> Hull City -> Hibernian -> FC St. Pauli",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3136,12 +3217,12 @@ export const players: Player[] = [
       "Harry Souttar",
       "Souttar",
       "Harry"
-],
+    ],
     "acceptedAnswers": [
       "Harry Souttar",
       "Souttar",
       "Harry"
-],
+    ],
     "nationality": "Australia",
     "nation": "Australia",
     "nationSlug": "australia",
@@ -3155,6 +3236,7 @@ export const players: Player[] = [
     "internationalGoals": 11,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Dundee United -> Stoke City -> Ross County (Loan) -> Fleetwood Town (Loan) -> Leicester City -> Sheffield United (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3173,12 +3255,12 @@ export const players: Player[] = [
       "Cristian Volpato",
       "Volpato",
       "Cristian"
-],
+    ],
     "acceptedAnswers": [
       "Cristian Volpato",
       "Volpato",
       "Cristian"
-],
+    ],
     "nationality": "Australia",
     "nation": "Australia",
     "nationSlug": "australia",
@@ -3192,6 +3274,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Roma -> Sassuolo",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3200,7 +3283,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "hakan-calhanoglu",
@@ -3212,14 +3296,14 @@ export const players: Player[] = [
       "Çalhanoğlu",
       "Calhanoglu",
       "Hakan"
-],
+    ],
     "acceptedAnswers": [
       "Hakan Çalhanoğlu",
       "Hakan Calhanoglu",
       "Çalhanoğlu",
       "Calhanoglu",
       "Hakan"
-],
+    ],
     "nationality": "Türkiye",
     "nation": "Türkiye",
     "nationSlug": "turkiye",
@@ -3233,6 +3317,7 @@ export const players: Player[] = [
     "internationalGoals": 22,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Karlsruher SC II -> Karlsruher SC -> Hamburger SV -> Bayer Leverkusen -> AC Milan -> Inter Milan",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3241,7 +3326,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "arda-guler",
@@ -3253,14 +3339,14 @@ export const players: Player[] = [
       "Güler",
       "Guler",
       "Arda"
-],
+    ],
     "acceptedAnswers": [
       "Arda Güler",
       "Arda Guler",
       "Güler",
       "Guler",
       "Arda"
-],
+    ],
     "nationality": "Türkiye",
     "nation": "Türkiye",
     "nationSlug": "turkiye",
@@ -3295,14 +3381,14 @@ export const players: Player[] = [
       "Kökçü",
       "Kokcu",
       "Orkun"
-],
+    ],
     "acceptedAnswers": [
       "Orkun Kökçü",
       "Orkun Kokcu",
       "Kökçü",
       "Kokcu",
       "Orkun"
-],
+    ],
     "nationality": "Türkiye",
     "nation": "Türkiye",
     "nationSlug": "turkiye",
@@ -3316,6 +3402,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Feyenoord -> Benfica -> Beşiktaş (Loan) -> Beşiktaş",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3324,7 +3411,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ferdi-kadoglu",
@@ -3336,14 +3424,14 @@ export const players: Player[] = [
       "Kadıoğlu",
       "Kadioglu",
       "Ferdi"
-],
+    ],
     "acceptedAnswers": [
       "Ferdi Kadıoğlu",
       "Ferdi Kadioglu",
       "Kadıoğlu",
       "Kadioglu",
       "Ferdi"
-],
+    ],
     "nationality": "Türkiye",
     "nation": "Türkiye",
     "nationSlug": "turkiye",
@@ -3357,6 +3445,7 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Fenerbahçe U21 -> NEC -> Fenerbahçe -> Brighton & Hove Albion",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3377,14 +3466,14 @@ export const players: Player[] = [
       "Yıldız",
       "Yildiz",
       "Kenan"
-],
+    ],
     "acceptedAnswers": [
       "Kenan Yıldız",
       "Kenan Yildiz",
       "Yıldız",
       "Yildiz",
       "Kenan"
-],
+    ],
     "nationality": "Türkiye",
     "nation": "Türkiye",
     "nationSlug": "turkiye",
@@ -3398,6 +3487,7 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Juventus Next Gen -> Juventus",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3406,7 +3496,8 @@ export const players: Player[] = [
     "sources": "WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "manuel-neuer",
@@ -3416,12 +3507,12 @@ export const players: Player[] = [
       "Manuel Neuer",
       "Neuer",
       "Manuel"
-],
+    ],
     "acceptedAnswers": [
       "Manuel Neuer",
       "Neuer",
       "Manuel"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -3455,12 +3546,12 @@ export const players: Player[] = [
       "Joshua Kimmich",
       "Kimmich",
       "Joshua"
-],
+    ],
     "acceptedAnswers": [
       "Joshua Kimmich",
       "Kimmich",
       "Joshua"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -3478,7 +3569,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as Germany captain by source.",
+    "clueFact": "Germany captain with over 100 Champions League appearances to his name.",
     "playedAlongside": "Jamal Musiala",
     "sources": "TRANSFERMARKT; GER-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3495,14 +3586,14 @@ export const players: Player[] = [
       "Rudiger",
       "Antonio",
       "Rüdiger"
-],
+    ],
     "acceptedAnswers": [
       "Antonio Rüdiger",
       "Antonio Rudiger",
       "Rudiger",
       "Antonio",
       "Rüdiger"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -3535,12 +3626,12 @@ export const players: Player[] = [
       "Florian Wirtz",
       "Wirtz",
       "Florian"
-],
+    ],
     "acceptedAnswers": [
       "Florian Wirtz",
       "Wirtz",
       "Florian"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -3558,7 +3649,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named Germany star player by source.",
+    "clueFact": "Seen as Germany's star player by many despite a difficult first season at his new club.",
     "playedAlongside": "Mohamed Salah",
     "sources": "TRANSFERMARKT; GER-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3573,12 +3664,12 @@ export const players: Player[] = [
       "Jamal Musiala",
       "Musiala",
       "Jamal"
-],
+    ],
     "acceptedAnswers": [
       "Jamal Musiala",
       "Musiala",
       "Jamal"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -3611,12 +3702,12 @@ export const players: Player[] = [
       "Eloy Room",
       "Room",
       "Eloy"
-],
+    ],
     "acceptedAnswers": [
       "Eloy Room",
       "Room",
       "Eloy"
-],
+    ],
     "nationality": "Curaçao",
     "nation": "Curaçao",
     "nationSlug": "curacao",
@@ -3631,15 +3722,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 27,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Vitesse -> Go Ahead Eagles (Loan) -> PSV -> Jong PSV -> Columbus Crew -> Vitesse -> Cercle Brugge -> Miami FC",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Joint-most capped Curaçao player per source.",
+    "clueFact": "Joint-most capped Curaçao player.",
     "playedAlongside": "Jürgen Locadia",
     "sources": "TRANSFERMARKT; CUR-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "leandro-bacuna",
@@ -3649,12 +3742,12 @@ export const players: Player[] = [
       "Leandro Bacuna",
       "Bacuna",
       "Leandro"
-],
+    ],
     "acceptedAnswers": [
       "Leandro Bacuna",
       "Bacuna",
       "Leandro"
-],
+    ],
     "nationality": "Curaçao",
     "nation": "Curaçao",
     "nationSlug": "curacao",
@@ -3668,10 +3761,11 @@ export const players: Player[] = [
     "internationalGoals": 16,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Groningen -> Aston Villa -> Reading -> Cardiff City -> Watford -> Groningen -> Bandırmaspor -> Iğdır FK",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Curaçao captain per source.",
+    "clueFact": "Curaçao captain playing alongside his brother.",
     "playedAlongside": "Ryan Mendes",
     "sources": "TRANSFERMARKT; CUR-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3686,12 +3780,12 @@ export const players: Player[] = [
       "Juninho Bacuna",
       "Bacuna",
       "Juninho"
-],
+    ],
     "acceptedAnswers": [
       "Juninho Bacuna",
       "Bacuna",
       "Juninho"
-],
+    ],
     "nationality": "Curaçao",
     "nation": "Curaçao",
     "nationSlug": "curacao",
@@ -3705,6 +3799,7 @@ export const players: Player[] = [
     "internationalGoals": 14,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Groningen -> Huddersfield Town -> Rangers -> Birmingham City -> Al-Wehda -> Gaziantep -> Volendam (Loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3713,7 +3808,8 @@ export const players: Player[] = [
     "sources": "TRANSFERMARKT; CUR-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "tahith-chong",
@@ -3723,12 +3819,12 @@ export const players: Player[] = [
       "Tahith Chong",
       "Chong",
       "Tahith"
-],
+    ],
     "acceptedAnswers": [
       "Tahith Chong",
       "Chong",
       "Tahith"
-],
+    ],
     "nationality": "Curaçao",
     "nation": "Curaçao",
     "nationSlug": "curacao",
@@ -3742,6 +3838,7 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2025,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Manchester United -> Werder Bremen (Loan) -> Club Brugge (Loan) -> Birmingham City (Loan) -> Birmingham City -> Luton Town -> Sheffield United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -3750,7 +3847,8 @@ export const players: Player[] = [
     "sources": "TRANSFERMARKT; CUR-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "jurgen-locadia",
@@ -3762,14 +3860,14 @@ export const players: Player[] = [
       "Locadia",
       "Jürgen",
       "Jurgen"
-],
+    ],
     "acceptedAnswers": [
       "Jürgen Locadia",
       "Jurgen Locadia",
       "Locadia",
       "Jürgen",
       "Jurgen"
-],
+    ],
     "nationality": "Curaçao",
     "nation": "Curaçao",
     "nationSlug": "curacao",
@@ -3783,10 +3881,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "PSV -> Brighton & Hove Albion -> Hoffenheim (Loan) -> FC Cincinnati (Loan) -> Bochum -> Persepolis -> Cangzhou Mighty Lions -> Amorebieta -> Intercity -> Miami FC",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Curaçao are making their World Cup debut.",
+    "clueFact": "Forced out of several Netherlands squad callups by injury before switching allegiances to Curaçao.",
     "playedAlongside": "Eloy Room",
     "sources": "TRANSFERMARKT; CUR-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3801,12 +3900,12 @@ export const players: Player[] = [
       "Yahia Fofana",
       "Fofana",
       "Yahia"
-],
+    ],
     "acceptedAnswers": [
       "Yahia Fofana",
       "Fofana",
       "Yahia"
-],
+    ],
     "nationality": "Ivory Coast",
     "nation": "Ivory Coast",
     "nationSlug": "ivory-coast",
@@ -3821,15 +3920,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 18,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Le Havre -> Angers -> Çaykur Rizespor",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Final-squad goalkeeper.",
+    "clueFact": "Born in Paris and played for France up to U19 level before declaring for Côte d'Ivoire.",
     "playedAlongside": "Ali Sowe",
     "sources": "TRANSFERMARKT; CIV-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "wilfried-singo",
@@ -3839,12 +3940,12 @@ export const players: Player[] = [
       "Wilfried Singo",
       "Singo",
       "Wilfried"
-],
+    ],
     "acceptedAnswers": [
       "Wilfried Singo",
       "Singo",
       "Wilfried"
-],
+    ],
     "nationality": "Ivory Coast",
     "nation": "Ivory Coast",
     "nationSlug": "ivory-coast",
@@ -3858,15 +3959,17 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Torino -> Monaco -> Galatasaray",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Part of a strong defensive group.",
+    "clueFact": "Primarily a central defender, but also effective as a right-sided fullback or wing-back.",
     "playedAlongside": "Victor Osimhen",
     "sources": "TRANSFERMARKT; CIV-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "evan-ndicka",
@@ -3876,12 +3979,12 @@ export const players: Player[] = [
       "Evan Ndicka",
       "Ndicka",
       "Evan"
-],
+    ],
     "acceptedAnswers": [
       "Evan Ndicka",
       "Ndicka",
       "Evan"
-],
+    ],
     "nationality": "Ivory Coast",
     "nation": "Ivory Coast",
     "nationSlug": "ivory-coast",
@@ -3895,10 +3998,11 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Auxerre -> Eintracht Frankfurt -> Roma",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Key centre-back option.",
+    "clueFact": "Born in Paris and capped up to U21 level by France, he could also have chosen to represent Cameroon.",
     "playedAlongside": "Paulo Dybala",
     "sources": "TRANSFERMARKT; CIV-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3915,14 +4019,14 @@ export const players: Player[] = [
       "Kessie",
       "Franck",
       "Kessié"
-],
+    ],
     "acceptedAnswers": [
       "Franck Kessié",
       "Franck Kessie",
       "Kessie",
       "Franck",
       "Kessié"
-],
+    ],
     "nationality": "Ivory Coast",
     "nation": "Ivory Coast",
     "nationSlug": "ivory-coast",
@@ -3936,10 +4040,11 @@ export const players: Player[] = [
     "internationalGoals": 14,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Atalanta -> Stella Club -> Atalanta -> Cesena (loan) -> AC Milan (loan) -> AC Milan -> Barcelona -> Al-Ahli",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Leadership-group midfielder.",
+    "clueFact": "Named MVP in the Asian Champions League last season as he secured a winners' medal.",
     "playedAlongside": "Riyad Mahrez",
     "sources": "TRANSFERMARKT; CIV-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3954,12 +4059,12 @@ export const players: Player[] = [
       "Amad Diallo",
       "Amad",
       "Diallo"
-],
+    ],
     "acceptedAnswers": [
       "Amad Diallo",
       "Amad",
       "Diallo"
-],
+    ],
     "nationality": "Ivory Coast",
     "nation": "Ivory Coast",
     "nationSlug": "ivory-coast",
@@ -3973,10 +4078,11 @@ export const players: Player[] = [
     "internationalGoals": 6,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Atalanta -> Manchester United -> Rangers (loan) -> Sunderland (loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named Ivory Coast star player by source.",
+    "clueFact": "Scored in the Europa League 2 months before making his league debut.",
     "playedAlongside": "Bruno Fernandes",
     "sources": "TRANSFERMARKT; CIV-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -3994,7 +4100,7 @@ export const players: Player[] = [
       "Hernán",
       "Galíndez",
       "Hernan"
-],
+    ],
     "acceptedAnswers": [
       "Hernán Galíndez",
       "Hernan Galindez",
@@ -4002,7 +4108,7 @@ export const players: Player[] = [
       "Hernán",
       "Galíndez",
       "Hernan"
-],
+    ],
     "nationality": "Ecuador",
     "nation": "Ecuador",
     "nationSlug": "ecuador",
@@ -4017,15 +4123,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 16,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Rosario Central -> Quilmes (loan) -> Rangers -> Universidad Católica (loan) -> Universidad Católica -> Universidad de Chile -> Aucas -> Huracán",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran keeper in final squad.",
+    "clueFact": "Argentina-born goalkeeper making his second World Cup squad",
     "playedAlongside": "Walter Mazzantti",
     "sources": "TRANSFERMARKT; ECU-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "piero-hincapie",
@@ -4037,14 +4145,14 @@ export const players: Player[] = [
       "Hincapie",
       "Piero",
       "Hincapié"
-],
+    ],
     "acceptedAnswers": [
       "Piero Hincapié",
       "Piero Hincapie",
       "Hincapie",
       "Piero",
       "Hincapié"
-],
+    ],
     "nationality": "Ecuador",
     "nation": "Ecuador",
     "nationSlug": "ecuador",
@@ -4058,10 +4166,11 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Independiente del Valle -> Talleres -> Bayer Leverkusen -> Arsenal (loan) -> Real Madrid",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "High-profile European defender.",
+    "clueFact": "Reigning English Premier League champion",
     "playedAlongside": "Bukayo Saka",
     "sources": "TRANSFERMARKT; ECU-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4076,12 +4185,12 @@ export const players: Player[] = [
       "Willian Pacho",
       "Pacho",
       "Willian"
-],
+    ],
     "acceptedAnswers": [
       "Willian Pacho",
       "Pacho",
       "Willian"
-],
+    ],
     "nationality": "Ecuador",
     "nation": "Ecuador",
     "nationSlug": "ecuador",
@@ -4095,10 +4204,11 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Independiente del Valle -> Royal Antwerp -> Eintracht Frankfurt -> Paris Saint-Germain",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named among Ecuador standouts.",
+    "clueFact": "First Ecuadorian to win a Champions League medal",
     "playedAlongside": "Ousmane Dembélé",
     "sources": "TRANSFERMARKT; ECU-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4115,14 +4225,14 @@ export const players: Player[] = [
       "Caicedo",
       "Moisés",
       "Moises"
-],
+    ],
     "acceptedAnswers": [
       "Moisés Caicedo",
       "Moises Caicedo",
       "Caicedo",
       "Moisés",
       "Moises"
-],
+    ],
     "nationality": "Ecuador",
     "nation": "Ecuador",
     "nationSlug": "ecuador",
@@ -4140,7 +4250,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named Ecuador star player by source.",
+    "clueFact": "Subject of a 3-way transfer battle between Arsenal, Liverpool and Chelsea before joining the Blues in 2023.",
     "playedAlongside": "Cole Palmer",
     "sources": "TRANSFERMARKT; ECU-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4155,12 +4265,12 @@ export const players: Player[] = [
       "Enner Valencia",
       "Enner",
       "Valencia"
-],
+    ],
     "acceptedAnswers": [
       "Enner Valencia",
       "Enner",
       "Valencia"
-],
+    ],
     "nationality": "Ecuador",
     "nation": "Ecuador",
     "nationSlug": "ecuador",
@@ -4174,6 +4284,7 @@ export const players: Player[] = [
     "internationalGoals": 49,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Emelec -> Pachuca -> West Ham United -> Everton (loan) -> Tigres UANL -> Fenerbahçe -> Internacional -> Pachuca",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -4182,7 +4293,8 @@ export const players: Player[] = [
     "sources": "TRANSFERMARKT; ECU-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "bart-verbruggen",
@@ -4192,12 +4304,12 @@ export const players: Player[] = [
       "Bart Verbruggen",
       "Verbruggen",
       "Bart"
-],
+    ],
     "acceptedAnswers": [
       "Bart Verbruggen",
       "Verbruggen",
       "Bart"
-],
+    ],
     "nationality": "Netherlands",
     "nation": "Netherlands",
     "nationSlug": "netherlands",
@@ -4233,14 +4345,14 @@ export const players: Player[] = [
       "Virgil",
       "van",
       "Dijk"
-],
+    ],
     "acceptedAnswers": [
       "Virgil van Dijk",
       "Van Dijk",
       "Virgil",
       "van",
       "Dijk"
-],
+    ],
     "nationality": "Netherlands",
     "nation": "Netherlands",
     "nationSlug": "netherlands",
@@ -4258,7 +4370,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed captain and star player by source.",
+    "clueFact": "Dutch captain and star player.",
     "playedAlongside": "Mohamed Salah",
     "sources": "TRANSFERMARKT; NED-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4274,13 +4386,13 @@ export const players: Player[] = [
       "De Jong",
       "Frenkie",
       "Jong"
-],
+    ],
     "acceptedAnswers": [
       "Frenkie de Jong",
       "De Jong",
       "Frenkie",
       "Jong"
-],
+    ],
     "nationality": "Netherlands",
     "nation": "Netherlands",
     "nationSlug": "netherlands",
@@ -4298,7 +4410,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Midfield core player.",
+    "clueFact": "Long-serving Barcelona man who recently passed 200 games for the club.",
     "playedAlongside": "Lamine Yamal",
     "sources": "TRANSFERMARKT; NED-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4313,12 +4425,12 @@ export const players: Player[] = [
       "Cody Gakpo",
       "Gakpo",
       "Cody"
-],
+    ],
     "acceptedAnswers": [
       "Cody Gakpo",
       "Gakpo",
       "Cody"
-],
+    ],
     "nationality": "Netherlands",
     "nation": "Netherlands",
     "nationSlug": "netherlands",
@@ -4332,6 +4444,7 @@ export const players: Player[] = [
     "internationalGoals": 21,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "PSV -> Jong PSV -> PSV -> Liverpool",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -4350,12 +4463,12 @@ export const players: Player[] = [
       "Memphis Depay",
       "Memphis",
       "Depay"
-],
+    ],
     "acceptedAnswers": [
       "Memphis Depay",
       "Memphis",
       "Depay"
-],
+    ],
     "nationality": "Netherlands",
     "nation": "Netherlands",
     "nationSlug": "netherlands",
@@ -4373,7 +4486,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Netherlands all-time top scorer per source.",
+    "clueFact": "Netherlands all-time top scorer.",
     "playedAlongside": "Yuri Alberto",
     "sources": "TRANSFERMARKT; NED-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4388,12 +4501,12 @@ export const players: Player[] = [
       "Wataru Endo",
       "Endo",
       "Wataru"
-],
+    ],
     "acceptedAnswers": [
       "Wataru Endo",
       "Endo",
       "Wataru"
-],
+    ],
     "nationality": "Japan",
     "nation": "Japan",
     "nationSlug": "japan",
@@ -4411,7 +4524,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Japan captain per source.",
+    "clueFact": "Japan captain.",
     "playedAlongside": "Mohamed Salah",
     "sources": "TRANSFERMARKT; JPN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4426,12 +4539,12 @@ export const players: Player[] = [
       "Takehiro Tomiyasu",
       "Tomiyasu",
       "Takehiro"
-],
+    ],
     "acceptedAnswers": [
       "Takehiro Tomiyasu",
       "Tomiyasu",
       "Takehiro"
-],
+    ],
     "nationality": "Japan",
     "nation": "Japan",
     "nationSlug": "japan",
@@ -4445,10 +4558,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Avispa Fukuoka -> Sint-Truiden -> Bologna -> Arsenal -> Ajax",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Returned from injury for the squad.",
+    "clueFact": "Returned from injury to make the squad.",
     "playedAlongside": "Bukayo Saka",
     "sources": "TRANSFERMARKT; JPN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4463,12 +4577,12 @@ export const players: Player[] = [
       "Ritsu Doan",
       "Doan",
       "Ritsu"
-],
+    ],
     "acceptedAnswers": [
       "Ritsu Doan",
       "Doan",
       "Ritsu"
-],
+    ],
     "nationality": "Japan",
     "nation": "Japan",
     "nationSlug": "japan",
@@ -4482,6 +4596,7 @@ export const players: Player[] = [
     "internationalGoals": 11,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Gamba Osaka -> Groningen (loan) -> Groningen -> PSV -> Arminia Bielefeld (loan) -> SC Freiburg -> Eintracht Frankfurt",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -4500,12 +4615,12 @@ export const players: Player[] = [
       "Takefusa Kubo",
       "Kubo",
       "Takefusa"
-],
+    ],
     "acceptedAnswers": [
       "Takefusa Kubo",
       "Kubo",
       "Takefusa"
-],
+    ],
     "nationality": "Japan",
     "nation": "Japan",
     "nationSlug": "japan",
@@ -4519,6 +4634,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "FC Tokyo -> FC Tokyo U-23 -> FC Tokyo -> Yokohama F. Marinos (loan) -> Real Madrid -> Mallorca (loan) -> Villarreal (loan) -> Getafe (loan) -> Mallorca (loan) -> Real Sociedad",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -4537,12 +4653,12 @@ export const players: Player[] = [
       "Ayase Ueda",
       "Ueda",
       "Ayase"
-],
+    ],
     "acceptedAnswers": [
       "Ayase Ueda",
       "Ueda",
       "Ayase"
-],
+    ],
     "nationality": "Japan",
     "nation": "Japan",
     "nationSlug": "japan",
@@ -4556,15 +4672,17 @@ export const players: Player[] = [
     "internationalGoals": 16,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Kashima Gakuen High School -> Kashima Antlers -> Cercle Brugge -> Feyenoord",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as key attacking option.",
+    "clueFact": "Scored 25 goals from 31 starts in an outstanding season for Feyenoord this year.",
     "playedAlongside": "Quinten Timber",
     "sources": "TRANSFERMARKT; JPN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "alexander-isak",
@@ -4574,12 +4692,12 @@ export const players: Player[] = [
       "Alexander Isak",
       "Isak",
       "Alexander"
-],
+    ],
     "acceptedAnswers": [
       "Alexander Isak",
       "Isak",
       "Alexander"
-],
+    ],
     "nationality": "Sweden",
     "nation": "Sweden",
     "nationSlug": "sweden",
@@ -4597,7 +4715,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Part of elite Sweden strike pair.",
+    "clueFact": "Smashed the British transfer fee record in controversial circumstances in 2025.",
     "playedAlongside": "Mohamed Salah",
     "sources": "TRANSFERMARKT; SWE-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4614,14 +4732,14 @@ export const players: Player[] = [
       "Gyokeres",
       "Viktor",
       "Gyökeres"
-],
+    ],
     "acceptedAnswers": [
       "Viktor Gyökeres",
       "Viktor Gyokeres",
       "Gyokeres",
       "Viktor",
       "Gyökeres"
-],
+    ],
     "nationality": "Sweden",
     "nation": "Sweden",
     "nationSlug": "sweden",
@@ -4635,10 +4753,11 @@ export const players: Player[] = [
     "internationalGoals": 20,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "IF Brommapojkarna -> Brighton & Hove Albion -> St. Pauli (loan) -> Swansea City (loan) -> Coventry City (loan) -> Coventry City -> Sporting CP -> Arsenal",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named Sweden star player by source.",
+    "clueFact": "Late-developer who spent time in England's second tier before finding success in Portugal",
     "playedAlongside": "Bukayo Saka",
     "sources": "TRANSFERMARKT; SWE-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4653,12 +4772,12 @@ export const players: Player[] = [
       "Anthony Elanga",
       "Elanga",
       "Anthony"
-],
+    ],
     "acceptedAnswers": [
       "Anthony Elanga",
       "Elanga",
       "Anthony"
-],
+    ],
     "nationality": "Sweden",
     "nation": "Sweden",
     "nationSlug": "sweden",
@@ -4672,10 +4791,11 @@ export const players: Player[] = [
     "internationalGoals": 6,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Manchester United -> Nottingham Forest -> Newcastle United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Premier League attacking option.",
+    "clueFact": "Scored twice inside 30 minutes against Barcelona this season, but failed to register a single league goal.",
     "playedAlongside": "Alexander Isak",
     "sources": "TRANSFERMARKT; SWE-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4690,12 +4810,12 @@ export const players: Player[] = [
       "Lucas Bergvall",
       "Bergvall",
       "Lucas"
-],
+    ],
     "acceptedAnswers": [
       "Lucas Bergvall",
       "Bergvall",
       "Lucas"
-],
+    ],
     "nationality": "Sweden",
     "nation": "Sweden",
     "nationSlug": "sweden",
@@ -4709,10 +4829,11 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "IF Brommapojkarna -> Djurgården -> Tottenham Hotspur",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Young Premier League midfielder.",
+    "clueFact": "Survived relegation on the final day of the domestic season before joining up with his national team.",
     "playedAlongside": "James Maddison",
     "sources": "TRANSFERMARKT; SWE-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4729,14 +4850,14 @@ export const players: Player[] = [
       "Lindelof",
       "Victor",
       "Lindelöf"
-],
+    ],
     "acceptedAnswers": [
       "Victor Lindelöf",
       "Victor Lindelof",
       "Lindelof",
       "Victor",
       "Lindelöf"
-],
+    ],
     "nationality": "Sweden",
     "nation": "Sweden",
     "nationSlug": "sweden",
@@ -4750,10 +4871,11 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Benfica -> Västerås SK -> Benfica B -> Benfica -> Manchester United -> Aston Villa",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran defensive leader.",
+    "clueFact": "UEFA Europa League title holder",
     "playedAlongside": "John McGinn",
     "sources": "TRANSFERMARKT; SWE-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4768,12 +4890,12 @@ export const players: Player[] = [
       "Ellyes Skhiri",
       "Skhiri",
       "Ellyes"
-],
+    ],
     "acceptedAnswers": [
       "Ellyes Skhiri",
       "Skhiri",
       "Ellyes"
-],
+    ],
     "nationality": "Tunisia",
     "nation": "Tunisia",
     "nationSlug": "tunisia",
@@ -4787,15 +4909,17 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Montpellier -> Montpellier B -> Montpellier -> 1. FC Köln -> Eintracht Frankfurt",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Named Tunisia star player by source.",
+    "clueFact": "Former Tunisian Player of the Year seen as his nation's star man.",
     "playedAlongside": "Mario Götze",
     "sources": "TRANSFERMARKT; TUN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "hannibal-mejbri",
@@ -4805,12 +4929,12 @@ export const players: Player[] = [
       "Hannibal Mejbri",
       "Hannibal",
       "Mejbri"
-],
+    ],
     "acceptedAnswers": [
       "Hannibal Mejbri",
       "Hannibal",
       "Mejbri"
-],
+    ],
     "nationality": "Tunisia",
     "nation": "Tunisia",
     "nationSlug": "tunisia",
@@ -4824,10 +4948,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Manchester United -> Birmingham City (loan) -> Sevilla (loan) -> Burnley",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Experienced English-football midfielder.",
+    "clueFact": "Parisian native French youth international who switched to represent Tunisia, the country of his parents.",
     "playedAlongside": "Lyle Foster",
     "sources": "TRANSFERMARKT; TUN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
@@ -4842,12 +4967,12 @@ export const players: Player[] = [
       "Montassar Talbi",
       "Talbi",
       "Montassar"
-],
+    ],
     "acceptedAnswers": [
       "Montassar Talbi",
       "Talbi",
       "Montassar"
-],
+    ],
     "nationality": "Tunisia",
     "nation": "Tunisia",
     "nationSlug": "tunisia",
@@ -4861,15 +4986,17 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Espérance de Tunis -> Çaykur Rizespor -> Benevento -> Rubin Kazan -> Lorient",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "First listed Tunisia defender.",
+    "clueFact": "Tall centre-back who has enjoyed a good season in Ligue 1 as his newly promoted club finished comfortably mid-table.",
     "playedAlongside": "Laurent Abergel",
     "sources": "TRANSFERMARKT; TUN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ali-abdi",
@@ -4879,12 +5006,12 @@ export const players: Player[] = [
       "Ali Abdi",
       "Abdi",
       "Ali"
-],
+    ],
     "acceptedAnswers": [
       "Ali Abdi",
       "Abdi",
       "Ali"
-],
+    ],
     "nationality": "Tunisia",
     "nation": "Tunisia",
     "nationSlug": "tunisia",
@@ -4898,15 +5025,17 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Sfax RS -> JS Kairouan -> Espérance de Tunis -> Stade Tunisien (loan) -> Club Africain -> Paris -> Paris B -> Caen -> Caen B -> Nice",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Ligue 1 defender in final squad.",
+    "clueFact": "Experienced left-back who joined his current club outside of the transfer window, thanks to a special exemption  from the league.",
     "playedAlongside": "Dante",
     "sources": "TRANSFERMARKT; TUN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "elias-achouri",
@@ -4916,12 +5045,12 @@ export const players: Player[] = [
       "Elias Achouri",
       "Achouri",
       "Elias"
-],
+    ],
     "acceptedAnswers": [
       "Elias Achouri",
       "Achouri",
       "Elias"
-],
+    ],
     "nationality": "Tunisia",
     "nation": "Tunisia",
     "nationSlug": "tunisia",
@@ -4935,6 +5064,7 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Vitória Guimarães -> Vitória Guimarães B -> Estoril -> Trofense (loan) -> Viborg -> Copenhagen",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -4943,7 +5073,8 @@ export const players: Player[] = [
     "sources": "TRANSFERMARKT; TUN-SQ; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "thibaut-courtois",
@@ -4953,12 +5084,12 @@ export const players: Player[] = [
       "Thibaut Courtois",
       "Courtois",
       "Thibaut"
-],
+    ],
     "acceptedAnswers": [
       "Thibaut Courtois",
       "Courtois",
       "Thibaut"
-],
+    ],
     "nationality": "Belgium",
     "nation": "Belgium",
     "nationSlug": "belgium",
@@ -4977,7 +5108,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Most-capped Belgium goalkeeper in selected rows.",
+    "clueFact": "Most-capped Belgium goalkeeper.",
     "playedAlongside": "Kylian Mbappé",
     "sources": "BEL-RBFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -4993,13 +5124,13 @@ export const players: Player[] = [
       "KDB",
       "Kevin",
       "Bruyne"
-],
+    ],
     "acceptedAnswers": [
       "Kevin De Bruyne",
       "KDB",
       "Kevin",
       "Bruyne"
-],
+    ],
     "nationality": "Belgium",
     "nation": "Belgium",
     "nationSlug": "belgium",
@@ -5017,7 +5148,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "119 caps and 37 international goals.",
+    "clueFact": "Legendary multi-title-winning midfielder now playing in Serie A.",
     "playedAlongside": "Scott McTominay",
     "sources": "BEL-RBFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5032,12 +5163,12 @@ export const players: Player[] = [
       "Romelu Lukaku",
       "Lukaku",
       "Romelu"
-],
+    ],
     "acceptedAnswers": [
       "Romelu Lukaku",
       "Lukaku",
       "Romelu"
-],
+    ],
     "nationality": "Belgium",
     "nation": "Belgium",
     "nationSlug": "belgium",
@@ -5055,7 +5186,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Scored 90 international goals before the tournament.",
+    "clueFact": "Second-highest European international goalscorer of all time with 90 goals at the start of the tournament.",
     "playedAlongside": "Kevin De Bruyne",
     "sources": "BEL-RBFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5070,12 +5201,12 @@ export const players: Player[] = [
       "Youri Tielemans",
       "Tielemans",
       "Youri"
-],
+    ],
     "acceptedAnswers": [
       "Youri Tielemans",
       "Tielemans",
       "Youri"
-],
+    ],
     "nationality": "Belgium",
     "nation": "Belgium",
     "nationSlug": "belgium",
@@ -5089,10 +5220,11 @@ export const players: Player[] = [
     "internationalGoals": 13,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Anderlecht -> Monaco -> Leicester City (loan) -> Leicester City -> Aston Villa",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Belgium captain and UEFA Europa League title winner.",
     "playedAlongside": "John McGinn",
     "sources": "BEL-RBFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5109,14 +5241,14 @@ export const players: Player[] = [
       "Doku",
       "Jérémy",
       "Jeremy"
-],
+    ],
     "acceptedAnswers": [
       "Jérémy Doku",
       "Jeremy Doku",
       "Doku",
       "Jérémy",
       "Jeremy"
-],
+    ],
     "nationality": "Belgium",
     "nation": "Belgium",
     "nationSlug": "belgium",
@@ -5150,13 +5282,13 @@ export const players: Player[] = [
       "Mo Salah",
       "Mohamed",
       "Salah"
-],
+    ],
     "acceptedAnswers": [
       "Mohamed Salah",
       "Mo Salah",
       "Mohamed",
       "Salah"
-],
+    ],
     "nationality": "Egypt",
     "nation": "Egypt",
     "nationSlug": "egypt",
@@ -5174,7 +5306,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Legendary winger currently looking for a new home after leaving his club.",
     "playedAlongside": "Virgil van Dijk",
     "sources": "EGY-EFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5189,12 +5321,12 @@ export const players: Player[] = [
       "Omar Marmoush",
       "Marmoush",
       "Omar"
-],
+    ],
     "acceptedAnswers": [
       "Omar Marmoush",
       "Marmoush",
       "Omar"
-],
+    ],
     "nationality": "Egypt",
     "nation": "Egypt",
     "nationSlug": "egypt",
@@ -5212,7 +5344,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Premier League club player.",
+    "clueFact": "Cairo-born striker in his second season in the EPL.",
     "playedAlongside": "Erling Haaland",
     "sources": "EGY-EFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5229,14 +5361,14 @@ export const players: Player[] = [
       "Mahmoud Hassan",
       "Mahmoud",
       "Hassan"
-],
+    ],
     "acceptedAnswers": [
       "Trézéguet",
       "Trezeguet",
       "Mahmoud Hassan",
       "Mahmoud",
       "Hassan"
-],
+    ],
     "nationality": "Egypt",
     "nation": "Egypt",
     "nationSlug": "egypt",
@@ -5250,10 +5382,11 @@ export const players: Player[] = [
     "internationalGoals": 23,
     "nationalTeamDebutYear": 2014,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al Ahly -> Anderlecht (loan) -> Anderlecht -> Mouscron (loan) -> Kasımpaşa (loan) -> Kasımpaşa -> Aston Villa -> İstanbul Başakşehir (loan) -> Trabzonspor -> Al-Rayyan (loan) -> Al Ahly",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "96 senior international caps.",
+    "clueFact": "Named for one of his footballing idols after a coach commented on the similarity between their playing styles and appearance.",
     "playedAlongside": "Emam Ashour",
     "sources": "EGY-EFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5269,13 +5402,13 @@ export const players: Player[] = [
       "El Shenawy",
       "Mohamed",
       "Shenawy"
-],
+    ],
     "acceptedAnswers": [
       "Mohamed El Shenawy",
       "El Shenawy",
       "Mohamed",
       "Shenawy"
-],
+    ],
     "nationality": "Egypt",
     "nation": "Egypt",
     "nationSlug": "egypt",
@@ -5290,6 +5423,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 39,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al Ahly -> Tala'ea El-Gaish -> Haras El-Hodoud (loan) -> Petrojet -> Al Ahly",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -5298,7 +5432,8 @@ export const players: Player[] = [
     "sources": "EGY-EFA; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "mostafa-shobeir",
@@ -5308,12 +5443,12 @@ export const players: Player[] = [
       "Mostafa Shobeir",
       "Shobeir",
       "Mostafa"
-],
+    ],
     "acceptedAnswers": [
       "Mostafa Shobeir",
       "Shobeir",
       "Mostafa"
-],
+    ],
     "nationality": "Egypt",
     "nation": "Egypt",
     "nationSlug": "egypt",
@@ -5328,15 +5463,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 5,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Al Ahly academy -> Al Ahly",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Al Ahly goalkeeper.",
+    "clueFact": "Second generation of Egyptian national team goalkeepers to appear in a World Cup - His father was between the posts in 1990.",
     "playedAlongside": "Mohamed El Shenawy",
     "sources": "EGY-EFA; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "mehdi-taremi",
@@ -5346,12 +5483,12 @@ export const players: Player[] = [
       "Mehdi Taremi",
       "Taremi",
       "Mehdi"
-],
+    ],
     "acceptedAnswers": [
       "Mehdi Taremi",
       "Taremi",
       "Mehdi"
-],
+    ],
     "nationality": "Iran",
     "nation": "Iran",
     "nationSlug": "iran",
@@ -5365,10 +5502,11 @@ export const players: Player[] = [
     "internationalGoals": 58,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Iranjavan -> Shahin Bushehr -> Iranjavan -> Persepolis -> Al-Gharafa -> Rio Ave -> Porto -> Inter Milan -> Olympiacos",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran international striker for Iran.",
+    "clueFact": "Played in the 2025 UEFA Champions League final",
     "playedAlongside": "Ayoub El Kaabi",
     "sources": "IRN-FFIRI; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5383,12 +5521,12 @@ export const players: Player[] = [
       "Ehsan Hajsafi",
       "Hajsafi",
       "Ehsan"
-],
+    ],
     "acceptedAnswers": [
       "Ehsan Hajsafi",
       "Hajsafi",
       "Ehsan"
-],
+    ],
     "nationality": "Iran",
     "nation": "Iran",
     "nationSlug": "iran",
@@ -5402,15 +5540,17 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2008,
     "worldCupAppearances": "Played in 3 previous World Cups",
+    "careerPath": "Sepahan -> Tractor (loan) -> FSV Frankfurt -> Sepahan -> Panionios -> Olympiacos -> Tractor -> Sepahan -> AEK Athens -> Sepahan",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Veteran left-back captaining Iran.",
     "playedAlongside": "Ramin Rezaeian",
     "sources": "IRN-FFIRI; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "alireza-jahanbakhsh",
@@ -5420,12 +5560,12 @@ export const players: Player[] = [
       "Alireza Jahanbakhsh",
       "Jahanbakhsh",
       "Alireza"
-],
+    ],
     "acceptedAnswers": [
       "Alireza Jahanbakhsh",
       "Jahanbakhsh",
       "Alireza"
-],
+    ],
     "nationality": "Iran",
     "nation": "Iran",
     "nationSlug": "iran",
@@ -5439,15 +5579,17 @@ export const players: Player[] = [
     "internationalGoals": 17,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Damash Gilan -> Damash Tehran -> Damash Gilan -> NEC -> AZ -> Brighton & Hove Albion -> Feyenoord -> SC Heerenveen -> Dender EH",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Senior wide midfielder for Iran.",
+    "clueFact": "Senior wide midfielder making his fourth World Cup appearance.",
     "playedAlongside": "Orkun Kökçü",
     "sources": "IRN-FFIRI; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "alireza-beiranvand",
@@ -5457,12 +5599,12 @@ export const players: Player[] = [
       "Alireza Beiranvand",
       "Beiranvand",
       "Alireza"
-],
+    ],
     "acceptedAnswers": [
       "Alireza Beiranvand",
       "Beiranvand",
       "Alireza"
-],
+    ],
     "nationality": "Iran",
     "nation": "Iran",
     "nationSlug": "iran",
@@ -5480,12 +5622,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Most-capped Iran goalkeeper in selected rows.",
+    "clueFact": "Veteran goalkeeper who achieved the Guinness World Records for longest throw and longest drop-kick in football.",
     "playedAlongside": "Shojae Khalilzadeh",
     "sources": "IRN-FFIRI; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Naft Tehran -> Persepolis -> Royal Antwerp -> Boavista (Loan) -> Persepolis -> Tractor",
+    "exclude": true
   },
   {
     "id": "saman-ghoddos",
@@ -5495,12 +5639,12 @@ export const players: Player[] = [
       "Saman Ghoddos",
       "Ghoddos",
       "Saman"
-],
+    ],
     "acceptedAnswers": [
       "Saman Ghoddos",
       "Ghoddos",
       "Saman"
-],
+    ],
     "nationality": "Iran",
     "nation": "Iran",
     "nationSlug": "iran",
@@ -5514,15 +5658,17 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "IF Limhamn Bunkeflo -> Trelleborgs FF -> Syrianska FC -> Östersunds FK -> Amiens -> Brentford (loan) -> Brentford -> Kalba",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Experienced international midfielder.",
+    "clueFact": "Made two friendly appearances for Sweden before switching allegiances to Iran.",
     "playedAlongside": "Mehdi Ghayedi",
     "sources": "IRN-FFIRI; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "chris-wood",
@@ -5534,14 +5680,14 @@ export const players: Player[] = [
       "Chris",
       "Wood",
       "Christopher"
-],
+    ],
     "acceptedAnswers": [
       "Chris Wood",
       "Christopher Wood",
       "Chris",
       "Wood",
       "Christopher"
-],
+    ],
     "nationality": "New Zealand",
     "nation": "New Zealand",
     "nationSlug": "new-zealand",
@@ -5555,10 +5701,11 @@ export const players: Player[] = [
     "internationalGoals": 45,
     "nationalTeamDebutYear": 2009,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Cambridge -> Hamilton Wanderers -> Waikato -> West Bromwich Albion -> Barnsley (loan) -> Brighton & Hove Albion (loan) -> Birmingham City (loan) -> Bristol City (loan) -> Millwall (loan) -> Leicester City (loan) -> Leicester City -> Ipswich Town (loan) -> Leeds United -> Burnley -> Newcastle United -> Nottingham Forest (loan) -> Nottingham Forest",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "New Zealand captain who is well-known to fans in England.",
     "playedAlongside": "Dan Ndoye",
     "sources": "NZL-NZF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5575,14 +5722,14 @@ export const players: Player[] = [
       "Marko",
       "Stamenić",
       "Stamenic"
-],
+    ],
     "acceptedAnswers": [
       "Marko Stamenić",
       "Marko Stamenic",
       "Marko",
       "Stamenić",
       "Stamenic"
-],
+    ],
     "nationality": "New Zealand",
     "nation": "New Zealand",
     "nationSlug": "new-zealand",
@@ -5596,15 +5743,17 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Western Suburbs -> Team Wellington -> Copenhagen -> HB Køge (loan) -> Red Star Belgrade -> Nottingham Forest -> Olympiacos (loan) -> Swansea City",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "European-based midfielder.",
+    "clueFact": "Nomadic midfielder who seems to have finally found a home in south Wales.",
     "playedAlongside": "Ben Cabango",
     "sources": "NZL-NZF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "max-crocombe",
@@ -5614,12 +5763,12 @@ export const players: Player[] = [
       "Max Crocombe",
       "Crocombe",
       "Max"
-],
+    ],
     "acceptedAnswers": [
       "Max Crocombe",
       "Crocombe",
       "Max"
-],
+    ],
     "nationality": "New Zealand",
     "nation": "New Zealand",
     "nationSlug": "new-zealand",
@@ -5634,10 +5783,11 @@ export const players: Player[] = [
     "internationalCleanSheets": 8,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Oxford United -> Buckingham Town -> Oxford United -> Banbury United (loan) -> Nuneaton Town (loan) -> Barnet (loan) -> Southport (loan) -> Carlisle United -> Salford City -> Brisbane Roar -> Melbourne Victory -> Grimsby Town -> Burton Albion -> Millwall",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Squad number one goalkeeper.",
+    "clueFact": "Comes into the World Cup off the back of an outstanding club season in the English Championship",
     "playedAlongside": "Mihailo Ivanović",
     "sources": "NZL-NZF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5652,12 +5802,12 @@ export const players: Player[] = [
       "Liberato Cacace",
       "Cacace",
       "Liberato"
-],
+    ],
     "acceptedAnswers": [
       "Liberato Cacace",
       "Cacace",
       "Liberato"
-],
+    ],
     "nationality": "New Zealand",
     "nation": "New Zealand",
     "nationSlug": "new-zealand",
@@ -5671,10 +5821,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Island Bay United -> Wellington Phoenix Reserves -> Wellington Phoenix -> Sint-Truiden -> Empoli (loan) -> Empoli -> Wrexham",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "37 caps at age 25.",
+    "clueFact": "Swapped Serie A for Wales in 2025 as he was recruited into the Wrexham revolution.",
     "playedAlongside": "Elliot Lee",
     "sources": "NZL-NZF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -5689,12 +5840,12 @@ export const players: Player[] = [
       "Michael Boxall",
       "Boxall",
       "Michael"
-],
+    ],
     "acceptedAnswers": [
       "Michael Boxall",
       "Boxall",
       "Michael"
-],
+    ],
     "nationality": "New Zealand",
     "nation": "New Zealand",
     "nationSlug": "new-zealand",
@@ -5708,15 +5859,17 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2011,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Mount Albert Grammar School -> Ellerslie -> Central United -> Auckland City -> Vancouver Whitecaps -> Vancouver Whitecaps U-23 (loan) -> Wellington Phoenix -> Oakleigh Cannons (loan) -> Wellington Phoenix Reserves -> SuperSport United -> Minnesota United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran defender.",
+    "clueFact": "Veteran defender who should feel right at home after almost a decade in MLS.",
     "playedAlongside": "Robin Lod",
     "sources": "NZL-NZF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "lamine-yamal",
@@ -5729,7 +5882,7 @@ export const players: Player[] = [
       "Yamal",
       "Nasraoui",
       "Ebana"
-],
+    ],
     "acceptedAnswers": [
       "Lamine Yamal",
       "Lamine Yamal Nasraoui Ebana",
@@ -5737,7 +5890,7 @@ export const players: Player[] = [
       "Yamal",
       "Nasraoui",
       "Ebana"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -5772,14 +5925,14 @@ export const players: Player[] = [
       "Pedro",
       "González",
       "López"
-],
+    ],
     "acceptedAnswers": [
       "Pedri",
       "Pedro González López",
       "Pedro",
       "González",
       "López"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -5814,14 +5967,14 @@ export const players: Player[] = [
       "Rodrigo",
       "Hernández",
       "Cascante"
-],
+    ],
     "acceptedAnswers": [
       "Rodri",
       "Rodrigo Hernández Cascante",
       "Rodrigo",
       "Hernández",
       "Cascante"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -5839,7 +5992,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Manchester City profile identifies him as Rodrigo Hernández Cascante.",
+    "clueFact": "2024 Ballon d'Or winner.",
     "playedAlongside": "Erling Haaland",
     "sources": "FIFA-SQUAD; SPAIN-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -5857,7 +6010,7 @@ export const players: Player[] = [
       "Williams",
       "Nicholas",
       "Arthuer"
-],
+    ],
     "acceptedAnswers": [
       "Nico Williams",
       "Nicholas Williams Arthuer",
@@ -5865,7 +6018,7 @@ export const players: Player[] = [
       "Williams",
       "Nicholas",
       "Arthuer"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -5883,7 +6036,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Extended with Athletic Club until 2035 in July 2025.",
+    "clueFact": "Extended contract with Athletic Club until 2035 in July 2025.",
     "playedAlongside": "Iñaki Williams",
     "sources": "FIFA-SQUAD; SPAIN-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -5901,7 +6054,7 @@ export const players: Player[] = [
       "Olmo",
       "Daniel",
       "Carvajal"
-],
+    ],
     "acceptedAnswers": [
       "Dani Olmo",
       "Daniel Olmo Carvajal",
@@ -5909,7 +6062,7 @@ export const players: Player[] = [
       "Olmo",
       "Daniel",
       "Carvajal"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -5927,7 +6080,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Barça notes he was top scorer at EURO 2024 with three goals.",
+    "clueFact": "Top scorer at EURO 2024 with three goals.",
     "playedAlongside": "Lamine Yamal",
     "sources": "FIFA-SQUAD; SPAIN-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -5943,13 +6096,13 @@ export const players: Player[] = [
       "Josimar Dias",
       "Josimar",
       "Dias"
-],
+    ],
     "acceptedAnswers": [
       "Vozinha",
       "Josimar Dias",
       "Josimar",
       "Dias"
-],
+    ],
     "nationality": "Cape Verde",
     "nation": "Cape Verde",
     "nationSlug": "cape-verde",
@@ -5964,6 +6117,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 35,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Batuque -> Mindelense -> Progresso do Sambizanga -> Mindelense -> Zimbru Chișinău -> Gil Vicente -> AEL Limassol -> AS Trenčín -> Chaves",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -5972,7 +6126,8 @@ export const players: Player[] = [
     "sources": "CPV-FCF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ryan-mendes",
@@ -5982,12 +6137,12 @@ export const players: Player[] = [
       "Ryan Mendes",
       "Mendes",
       "Ryan"
-],
+    ],
     "acceptedAnswers": [
       "Ryan Mendes",
       "Mendes",
       "Ryan"
-],
+    ],
     "nationality": "Cape Verde",
     "nation": "Cape Verde",
     "nationSlug": "cape-verde",
@@ -6001,10 +6156,11 @@ export const players: Player[] = [
     "internationalGoals": 22,
     "nationalTeamDebutYear": 2010,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Batuque FC -> Le Havre -> Le Havre II -> Lille -> Lille II -> Nottingham Forest (loan) -> Kayserispor -> Sharjah -> Al Nasr -> Fatih Karagümrük -> Kocaelispor -> Iğdır",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Record appearance holder, record goalscorer, and now a World Cup captain for Cape Verde.",
     "playedAlongside": "Leandro Bacuna",
     "sources": "CPV-FCF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6019,12 +6175,12 @@ export const players: Player[] = [
       "Logan Costa",
       "Costa",
       "Logan"
-],
+    ],
     "acceptedAnswers": [
       "Logan Costa",
       "Costa",
       "Logan"
-],
+    ],
     "nationality": "Cape Verde",
     "nation": "Cape Verde",
     "nationSlug": "cape-verde",
@@ -6038,10 +6194,11 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Reims -> Reims B -> Le Mans (loan) -> Toulouse B -> Toulouse -> Villarreal",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "La Liga defender.",
+    "clueFact": "Regular starter in La Liga.",
     "playedAlongside": "Tajon Buchanan",
     "sources": "CPV-FCF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6056,12 +6213,12 @@ export const players: Player[] = [
       "Garry Rodrigues",
       "Rodrigues",
       "Garry"
-],
+    ],
     "acceptedAnswers": [
       "Garry Rodrigues",
       "Rodrigues",
       "Garry"
-],
+    ],
     "nationality": "Cape Verde",
     "nation": "Cape Verde",
     "nationSlug": "cape-verde",
@@ -6075,15 +6232,17 @@ export const players: Player[] = [
     "internationalGoals": 9,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Real SC -> XerxesDZB -> Rostocker FC -> Boshuizen -> ADO Den Haag -> Dordrecht (loan) -> Levski Sofia -> Elche -> PAOK -> Galatasaray -> Al-Ittihad -> Fenerbahçe (loan) -> Olympiacos -> Ankaragücü -> Sivasspor -> Apollon Limassol",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "60 senior international caps.",
+    "clueFact": "Diminutive winger with plenty of club and international experience.",
     "playedAlongside": "Mathieu Valbuena",
     "sources": "CPV-FCF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "jamiro-monteiro",
@@ -6093,12 +6252,12 @@ export const players: Player[] = [
       "Jamiro Monteiro",
       "Monteiro",
       "Jamiro"
-],
+    ],
     "acceptedAnswers": [
       "Jamiro Monteiro",
       "Monteiro",
       "Jamiro"
-],
+    ],
     "nationality": "Cape Verde",
     "nation": "Cape Verde",
     "nationSlug": "cape-verde",
@@ -6112,15 +6271,17 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Cambuur -> Heracles Almelo -> Metz -> Philadelphia Union (loan) -> Philadelphia Union -> San Jose Earthquakes -> Gaziantep -> PEC Zwolle",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Experienced Cape Verde midfielder.",
+    "clueFact": "Former MLS player with a decade of Cape Verde caps behind him.",
     "playedAlongside": "Younes Namli",
     "sources": "CPV-FCF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "salem-al-dawsari",
@@ -6131,13 +6292,13 @@ export const players: Player[] = [
       "Al-Dawsari",
       "Salem",
       "Dawsari"
-],
+    ],
     "acceptedAnswers": [
       "Salem Al-Dawsari",
       "Al-Dawsari",
       "Salem",
       "Dawsari"
-],
+    ],
     "nationality": "Saudi Arabia",
     "nation": "Saudi Arabia",
     "nationSlug": "saudi-arabia",
@@ -6151,15 +6312,17 @@ export const players: Player[] = [
     "internationalGoals": 26,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Al Hilal -> Villarreal (loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Saudi captain who has played his entire career for Al Hilal except for a sole appearance on loan at Villarreal.",
     "playedAlongside": "Neymar",
     "sources": "KSA-SAFF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "firas-al-buraikan",
@@ -6170,13 +6333,13 @@ export const players: Player[] = [
       "Al-Buraikan",
       "Firas",
       "Buraikan"
-],
+    ],
     "acceptedAnswers": [
       "Firas Al-Buraikan",
       "Al-Buraikan",
       "Firas",
       "Buraikan"
-],
+    ],
     "nationality": "Saudi Arabia",
     "nation": "Saudi Arabia",
     "nationSlug": "saudi-arabia",
@@ -6190,15 +6353,17 @@ export const players: Player[] = [
     "internationalGoals": 15,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al-Nassr -> Al-Fateh -> Al-Ahli",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Regular Saudi Arabia forward.",
+    "clueFact": "Scored the winning goal in this year's AFC Champions League Elite final.",
     "playedAlongside": "Franck Kessié",
     "sources": "KSA-SAFF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "saud-abdulhamid",
@@ -6208,12 +6373,12 @@ export const players: Player[] = [
       "Saud Abdulhamid",
       "Abdulhamid",
       "Saud"
-],
+    ],
     "acceptedAnswers": [
       "Saud Abdulhamid",
       "Abdulhamid",
       "Saud"
-],
+    ],
     "nationality": "Saudi Arabia",
     "nation": "Saudi Arabia",
     "nationSlug": "saudi-arabia",
@@ -6227,10 +6392,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Al-Ittihad -> Al-Hilal -> Roma -> Lens (loan) -> Lens",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "France-based defender.",
+    "clueFact": "First Saudi player to score a goal in European competition.",
     "playedAlongside": "Florian Sotoca",
     "sources": "KSA-SAFF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6245,12 +6411,12 @@ export const players: Player[] = [
       "Mohamed Kanno",
       "Kanno",
       "Mohamed"
-],
+    ],
     "acceptedAnswers": [
       "Mohamed Kanno",
       "Kanno",
       "Mohamed"
-],
+    ],
     "nationality": "Saudi Arabia",
     "nation": "Saudi Arabia",
     "nationSlug": "saudi-arabia",
@@ -6264,15 +6430,17 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Al-Ettifaq -> Al Hilal",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Senior Al-Hilal midfielder.",
+    "clueFact": "Experienced midfielder who played in Saudi Arabia's shock victory over Argentina in 2022.",
     "playedAlongside": "Neymar",
     "sources": "KSA-SAFF; WIKIPEDIA",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "mohammed-al-owais",
@@ -6283,13 +6451,13 @@ export const players: Player[] = [
       "Al-Owais",
       "Mohammed",
       "Owais"
-],
+    ],
     "acceptedAnswers": [
       "Mohammed Al-Owais",
       "Al-Owais",
       "Mohammed",
       "Owais"
-],
+    ],
     "nationality": "Saudi Arabia",
     "nation": "Saudi Arabia",
     "nationSlug": "saudi-arabia",
@@ -6304,15 +6472,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 24,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Al-Shabab -> Al-Ahli -> Al-Hilal -> Al-Ula",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Experienced Saudi Arabia goalkeeper.",
+    "clueFact": "Experienced goalkeeper known for his performance in 2022's historic upset victory over Argentina",
     "playedAlongside": "Neymar",
     "sources": "KSA-SAFF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "federico-valverde",
@@ -6324,14 +6494,14 @@ export const players: Player[] = [
       "Federico",
       "Valverde",
       "Fede"
-],
+    ],
     "acceptedAnswers": [
       "Federico Valverde",
       "Fede Valverde",
       "Federico",
       "Valverde",
       "Fede"
-],
+    ],
     "nationality": "Uruguay",
     "nation": "Uruguay",
     "nationSlug": "uruguay",
@@ -6349,7 +6519,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Real Madrid midfielder.",
+    "clueFact": "Hard-working midfielder known for his explosive pace and adaptability.",
     "playedAlongside": "Kylian Mbappé",
     "sources": "URU-AUF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6366,14 +6536,14 @@ export const players: Player[] = [
       "Darwin",
       "Núñez",
       "Nunez"
-],
+    ],
     "acceptedAnswers": [
       "Darwin Núñez",
       "Darwin Nunez",
       "Darwin",
       "Núñez",
       "Nunez"
-],
+    ],
     "nationality": "Uruguay",
     "nation": "Uruguay",
     "nationSlug": "uruguay",
@@ -6391,7 +6561,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Scored 13 international goals before the tournament.",
+    "clueFact": "Striker who swapped Merseyside for Riyadh in 2025.",
     "playedAlongside": "Neymar",
     "sources": "URU-AUF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6406,12 +6576,12 @@ export const players: Player[] = [
       "Rodrigo Bentancur",
       "Bentancur",
       "Rodrigo"
-],
+    ],
     "acceptedAnswers": [
       "Rodrigo Bentancur",
       "Bentancur",
       "Rodrigo"
-],
+    ],
     "nationality": "Uruguay",
     "nation": "Uruguay",
     "nationSlug": "uruguay",
@@ -6425,10 +6595,11 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "Played in 2 previous World Cups",
+    "careerPath": "Boca Juniors -> Juventus -> Tottenham Hotspur",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Experienced Uruguay midfielder.",
+    "clueFact": "Experienced midfielder coming off the back of a torrid season at club level.",
     "playedAlongside": "Son Heung-min",
     "sources": "URU-AUF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6446,7 +6617,7 @@ export const players: Player[] = [
       "Giménez",
       "Jose",
       "Gimenez"
-],
+    ],
     "acceptedAnswers": [
       "José Giménez",
       "Jose Gimenez",
@@ -6454,7 +6625,7 @@ export const players: Player[] = [
       "Giménez",
       "Jose",
       "Gimenez"
-],
+    ],
     "nationality": "Uruguay",
     "nation": "Uruguay",
     "nationSlug": "uruguay",
@@ -6468,10 +6639,11 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "Played in 3 previous World Cups",
+    "careerPath": "Danubio -> Atlético Madrid",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Listed as captain by source.",
+    "clueFact": "Experienced Uruguay captain with a La Liga winners' trophy in his cabinet.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "URU-AUF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6488,14 +6660,14 @@ export const players: Player[] = [
       "Ronald",
       "Araújo",
       "Araujo"
-],
+    ],
     "acceptedAnswers": [
       "Ronald Araújo",
       "Ronald Araujo",
       "Ronald",
       "Araújo",
       "Araujo"
-],
+    ],
     "nationality": "Uruguay",
     "nation": "Uruguay",
     "nationSlug": "uruguay",
@@ -6513,7 +6685,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Barcelona defender.",
+    "clueFact": "Barcelona captain making his World Cup debut after injury kept him sidelined in 2022.",
     "playedAlongside": "Lamine Yamal",
     "sources": "URU-AUF; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -6530,14 +6702,14 @@ export const players: Player[] = [
       "Kylian",
       "Mbappé",
       "Mbappe"
-],
+    ],
     "acceptedAnswers": [
       "Kylian Mbappé",
       "Kylian Mbappe",
       "Kylian",
       "Mbappé",
       "Mbappe"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -6555,7 +6727,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Real Madrid profile lists one FIFA World Cup title in his honours.",
+    "clueFact": "Real Madrid profile already lists one FIFA World Cup title in his honours.",
     "playedAlongside": "Vinícius Júnior",
     "sources": "FIFA-SQUAD; FRANCE-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -6572,14 +6744,14 @@ export const players: Player[] = [
       "Ousmane",
       "Dembélé",
       "Dembele"
-],
+    ],
     "acceptedAnswers": [
       "Ousmane Dembélé",
       "Ousmane Dembele",
       "Ousmane",
       "Dembélé",
       "Dembele"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -6615,7 +6787,7 @@ export const players: Player[] = [
       "Tchouaméni",
       "Aurelien",
       "Tchouameni"
-],
+    ],
     "acceptedAnswers": [
       "Aurélien Tchouaméni",
       "Aurelien Tchouameni",
@@ -6623,7 +6795,7 @@ export const players: Player[] = [
       "Tchouaméni",
       "Aurelien",
       "Tchouameni"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -6660,7 +6832,7 @@ export const players: Player[] = [
       "Mike",
       "Peterson",
       "Magic"
-],
+    ],
     "acceptedAnswers": [
       "Mike Maignan",
       "Mike Peterson Maignan",
@@ -6669,7 +6841,7 @@ export const players: Player[] = [
       "Mike",
       "Peterson",
       "Magic"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -6705,14 +6877,14 @@ export const players: Player[] = [
       "Dayot",
       "Upamecano",
       "Dayotchanculle"
-],
+    ],
     "acceptedAnswers": [
       "Dayot Upamecano",
       "Dayotchanculle Upamecano",
       "Dayot",
       "Upamecano",
       "Dayotchanculle"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -6745,12 +6917,12 @@ export const players: Player[] = [
       "Kalidou Koulibaly",
       "Koulibaly",
       "Kalidou"
-],
+    ],
     "acceptedAnswers": [
       "Kalidou Koulibaly",
       "Koulibaly",
       "Kalidou"
-],
+    ],
     "nationality": "Senegal",
     "nation": "Senegal",
     "nationSlug": "senegal",
@@ -6785,14 +6957,14 @@ export const players: Player[] = [
       "Mané",
       "Mane",
       "Sadio"
-],
+    ],
     "acceptedAnswers": [
       "Sadio Mané",
       "Sadio Mane",
       "Mané",
       "Mane",
       "Sadio"
-],
+    ],
     "nationality": "Senegal",
     "nation": "Senegal",
     "nationSlug": "senegal",
@@ -6810,7 +6982,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Senegal all-time top goalscorer.",
+    "clueFact": "Senegal's all-time top goalscorer.",
     "playedAlongside": "Cristiano Ronaldo",
     "sources": "FIFA-SQUAD; SENEGAL-PROFILE; CLUB-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
@@ -6827,14 +6999,14 @@ export const players: Player[] = [
       "Lamine",
       "Camara",
       "Mamadou"
-],
+    ],
     "acceptedAnswers": [
       "Lamine Camara",
       "Mamadou Lamine Camara",
       "Lamine",
       "Camara",
       "Mamadou"
-],
+    ],
     "nationality": "Senegal",
     "nation": "Senegal",
     "nationSlug": "senegal",
@@ -6848,6 +7020,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Génération Foot -> Metz -> Metz B -> Monaco",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -6856,7 +7029,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SENEGAL-PROFILE; CLUB-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "edouard-mendy",
@@ -6871,7 +7045,7 @@ export const players: Player[] = [
       "Mendy",
       "Edouard",
       "Osoque"
-],
+    ],
     "acceptedAnswers": [
       "Édouard Mendy",
       "Edouard Mendy",
@@ -6881,7 +7055,7 @@ export const players: Player[] = [
       "Mendy",
       "Edouard",
       "Osoque"
-],
+    ],
     "nationality": "Senegal",
     "nation": "Senegal",
     "nationSlug": "senegal",
@@ -6905,7 +7079,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SENEGAL-PROFILE; CLUB-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "nicolas-jackson",
@@ -6917,14 +7092,14 @@ export const players: Player[] = [
       "Nicolas",
       "Jackson",
       "Nico"
-],
+    ],
     "acceptedAnswers": [
       "Nicolas Jackson",
       "Nico Jackson",
       "Nicolas",
       "Jackson",
       "Nico"
-],
+    ],
     "nationality": "Senegal",
     "nation": "Senegal",
     "nationSlug": "senegal",
@@ -6938,6 +7113,7 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "A.S.C. Tiléne -> Casa Sports -> Villarreal B -> Mirandés (loan) -> Villarreal -> Chelsea -> Bayern Munich (loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -6956,12 +7132,12 @@ export const players: Player[] = [
       "Aymen Hussein",
       "Hussein",
       "Aymen"
-],
+    ],
     "acceptedAnswers": [
       "Aymen Hussein",
       "Hussein",
       "Aymen"
-],
+    ],
     "nationality": "Iraq",
     "nation": "Iraq",
     "nationSlug": "iraq",
@@ -6975,6 +7151,7 @@ export const players: Player[] = [
     "internationalGoals": 32,
     "nationalTeamDebutYear": 2015,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Ghaz Al-Shamal -> Duhok -> Al-Naft -> Al-Shorta -> Al-Naft -> CS Sfaxien -> Al-Quwa Al-Jawiya -> Umm Salal -> Al-Markhiya -> Al-Jazira -> Raja CA -> Al-Quwa Al-Jawiya -> Al-Khor -> Al-Wakrah (loan) -> Al-Karma",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -6983,7 +7160,8 @@ export const players: Player[] = [
     "sources": "IRQ-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "mohanad-ali",
@@ -6994,13 +7172,13 @@ export const players: Player[] = [
       "Mimi",
       "Mohanad",
       "Ali"
-],
+    ],
     "acceptedAnswers": [
       "Mohanad Ali",
       "Mimi",
       "Mohanad",
       "Ali"
-],
+    ],
     "nationality": "Iraq",
     "nation": "Iraq",
     "nationSlug": "iraq",
@@ -7014,15 +7192,17 @@ export const players: Player[] = [
     "internationalGoals": 26,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Al-Shorta -> Al-Kahrabaa (loan) -> Al-Naft (loan) -> Al-Duhail -> Portimonense (loan) -> Al-Sailiya (loan) -> Aris (loan) -> Al-Sailiya (loan) -> Al-Shorta -> Dibba",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Highlighted star player by source.",
+    "clueFact": "Striker nicknamed 'Mimi' scored in World Cup qualification.",
     "playedAlongside": "Caio Canedo",
     "sources": "IRQ-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "zidane-iqbal",
@@ -7032,12 +7212,12 @@ export const players: Player[] = [
       "Zidane Iqbal",
       "Iqbal",
       "Zidane"
-],
+    ],
     "acceptedAnswers": [
       "Zidane Iqbal",
       "Iqbal",
       "Zidane"
-],
+    ],
     "nationality": "Iraq",
     "nation": "Iraq",
     "nationSlug": "iraq",
@@ -7051,10 +7231,11 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Manchester United -> Jong Utrecht -> Utrecht",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "European-based midfielder.",
+    "clueFact": "Manchester-born midfielder who came through at Old Trafford before a move to the Netherlands.",
     "playedAlongside": "Sébastien Haller",
     "sources": "IRQ-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7070,13 +7251,13 @@ export const players: Player[] = [
       "Al-Hamadi",
       "Ali",
       "Hamadi"
-],
+    ],
     "acceptedAnswers": [
       "Ali Al-Hamadi",
       "Al-Hamadi",
       "Ali",
       "Hamadi"
-],
+    ],
     "nationality": "Iraq",
     "nation": "Iraq",
     "nationSlug": "iraq",
@@ -7090,10 +7271,11 @@ export const players: Player[] = [
     "internationalGoals": 5,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Swansea City -> Wycombe Wanderers -> Bromley (loan) -> AFC Wimbledon -> Ipswich Town -> Stoke City (loan) -> Luton Town (loan)",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "England-based forward.",
+    "clueFact": "Iraq-born, Liverpool-raised forward set for a second crack at the Premier League next season.",
     "playedAlongside": "Conor Chaplin",
     "sources": "IRQ-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7108,12 +7290,12 @@ export const players: Player[] = [
       "Jalal Hassan",
       "Hassan",
       "Jalal"
-],
+    ],
     "acceptedAnswers": [
       "Jalal Hassan",
       "Hassan",
       "Jalal"
-],
+    ],
     "nationality": "Iraq",
     "nation": "Iraq",
     "nationSlug": "iraq",
@@ -7128,15 +7310,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 40,
     "nationalTeamDebutYear": 2011,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Karbala -> Erbil -> Amanat Baghdad -> Al-Shorta -> Naft Al-Wasat -> Al-Zawraa",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran goalkeeper and captain noted in preview.",
+    "clueFact": "Veteran goalkeeper and captain.",
     "playedAlongside": "Aymen Hussein",
     "sources": "IRQ-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "erling-haaland",
@@ -7146,12 +7330,12 @@ export const players: Player[] = [
       "Erling Haaland",
       "Haaland",
       "Erling"
-],
+    ],
     "acceptedAnswers": [
       "Erling Haaland",
       "Haaland",
       "Erling"
-],
+    ],
     "nationality": "Norway",
     "nation": "Norway",
     "nationSlug": "norway",
@@ -7169,7 +7353,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Scored 16 goals in qualifying per source.",
+    "clueFact": "Scored 16 goals in qualifying.",
     "playedAlongside": "Rodri",
     "sources": "NOR-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7186,14 +7370,14 @@ export const players: Player[] = [
       "Odegaard",
       "Martin",
       "Ødegaard"
-],
+    ],
     "acceptedAnswers": [
       "Martin Ødegaard",
       "Martin Odegaard",
       "Odegaard",
       "Martin",
       "Ødegaard"
-],
+    ],
     "nationality": "Norway",
     "nation": "Norway",
     "nationSlug": "norway",
@@ -7228,14 +7412,14 @@ export const players: Player[] = [
       "Sorloth",
       "Alexander",
       "Sørloth"
-],
+    ],
     "acceptedAnswers": [
       "Alexander Sørloth",
       "Alexander Sorloth",
       "Sorloth",
       "Alexander",
       "Sørloth"
-],
+    ],
     "nationality": "Norway",
     "nation": "Norway",
     "nationSlug": "norway",
@@ -7249,10 +7433,11 @@ export const players: Player[] = [
     "internationalGoals": 26,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Rosenborg -> Rosenborg 2 -> Rosenborg -> Bodø/Glimt (loan) -> Groningen -> Midtjylland -> Crystal Palace -> Gent (loan) -> Trabzonspor (loan) -> RB Leipzig -> Real Sociedad (loan) -> Villarreal -> Atlético Madrid",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "One of Norway’s target men.",
+    "clueFact": "Scored a 12-minute hat-trick against his former club in 2025 before adding a fourth inside 30 minutes.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "NOR-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7267,12 +7452,12 @@ export const players: Player[] = [
       "Antonio Nusa",
       "Nusa",
       "Antonio"
-],
+    ],
     "acceptedAnswers": [
       "Antonio Nusa",
       "Nusa",
       "Antonio"
-],
+    ],
     "nationality": "Norway",
     "nation": "Norway",
     "nationSlug": "norway",
@@ -7286,10 +7471,11 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Stabæk -> Club Brugge -> Club NXT -> RB Leipzig",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Next-generation attacker.",
+    "clueFact": "Exciting young talent starting to gain attention at RB Leipzig",
     "playedAlongside": "Xavi Simons",
     "sources": "NOR-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7304,12 +7490,12 @@ export const players: Player[] = [
       "Julian Ryerson",
       "Ryerson",
       "Julian"
-],
+    ],
     "acceptedAnswers": [
       "Julian Ryerson",
       "Ryerson",
       "Julian"
-],
+    ],
     "nationality": "Norway",
     "nation": "Norway",
     "nationSlug": "norway",
@@ -7323,10 +7509,11 @@ export const players: Player[] = [
     "internationalGoals": 1,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Viking -> Union Berlin -> Borussia Dortmund",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Likely starter at full-back.",
+    "clueFact": "Attacking Fullback on the verge of hitting a century of appearances for Dortmund.",
     "playedAlongside": "Gregor Kobel",
     "sources": "NOR-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7345,7 +7532,7 @@ export const players: Player[] = [
       "Messi",
       "Leo",
       "Andrés"
-],
+    ],
     "acceptedAnswers": [
       "Lionel Messi",
       "Leo Messi",
@@ -7354,7 +7541,7 @@ export const players: Player[] = [
       "Messi",
       "Leo",
       "Andrés"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -7372,7 +7559,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "FIFA credits him with sharing the World Cup goal-contribution record with Pelé at 21.",
+    "clueFact": "Shares the World Cup goal-contribution record with Pelé, at 21 contributions.",
     "playedAlongside": "Luis Suárez",
     "sources": "FIFA-SQUAD; ARGENTINA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -7389,14 +7576,14 @@ export const players: Player[] = [
       "Enzo",
       "Fernández",
       "Jeremías"
-],
+    ],
     "acceptedAnswers": [
       "Enzo Fernández",
       "Enzo Jeremías Fernández",
       "Enzo",
       "Fernández",
       "Jeremías"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -7414,7 +7601,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Won the 2022 FIFA World Cup with Argentina.",
+    "clueFact": "Broke the British transfer fee record after just 6 months with his previous club.",
     "playedAlongside": "Cole Palmer",
     "sources": "FIFA-SQUAD; ARGENTINA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -7431,14 +7618,14 @@ export const players: Player[] = [
       "Lautaro",
       "Martínez",
       "Javier"
-],
+    ],
     "acceptedAnswers": [
       "Lautaro Martínez",
       "Lautaro Javier Martínez",
       "Lautaro",
       "Martínez",
       "Javier"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -7474,7 +7661,7 @@ export const players: Player[] = [
       "Álvarez",
       "Julian",
       "Alvarez"
-],
+    ],
     "acceptedAnswers": [
       "Julián Álvarez",
       "Julian Alvarez",
@@ -7482,7 +7669,7 @@ export const players: Player[] = [
       "Álvarez",
       "Julian",
       "Alvarez"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -7500,7 +7687,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Won the 2022 FIFA World Cup with Argentina.",
+    "clueFact": "Leading striker linked with a big-money move this summer.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-SQUAD; ARGENTINA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -7517,14 +7704,14 @@ export const players: Player[] = [
       "Emiliano",
       "Martínez",
       "Dibu"
-],
+    ],
     "acceptedAnswers": [
       "Emiliano Martínez",
       "Dibu Martínez",
       "Emiliano",
       "Martínez",
       "Dibu"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -7543,7 +7730,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Won the 2022 FIFA World Cup with Argentina.",
+    "clueFact": "Goalkeeper famed for his antics after winning the 2022 World Cup",
     "playedAlongside": "John McGinn",
     "sources": "FIFA-SQUAD; ARGENTINA-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-09",
@@ -7558,12 +7745,12 @@ export const players: Player[] = [
       "Riyad Mahrez",
       "Mahrez",
       "Riyad"
-],
+    ],
     "acceptedAnswers": [
       "Riyad Mahrez",
       "Mahrez",
       "Riyad"
-],
+    ],
     "nationality": "Algeria",
     "nation": "Algeria",
     "nationSlug": "algeria",
@@ -7596,12 +7783,12 @@ export const players: Player[] = [
       "Amine Gouiri",
       "Gouiri",
       "Amine"
-],
+    ],
     "acceptedAnswers": [
       "Amine Gouiri",
       "Gouiri",
       "Amine"
-],
+    ],
     "nationality": "Algeria",
     "nation": "Algeria",
     "nationSlug": "algeria",
@@ -7615,6 +7802,7 @@ export const players: Player[] = [
     "internationalGoals": 8,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Lyon -> Lyon B -> Lyon -> Nice -> Rennes -> Marseille",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -7623,7 +7811,8 @@ export const players: Player[] = [
     "sources": "ALG-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "rayan-ait-nouri",
@@ -7637,7 +7826,7 @@ export const players: Player[] = [
       "Aït",
       "Nouri",
       "Ait"
-],
+    ],
     "acceptedAnswers": [
       "Rayan Aït-Nouri",
       "Rayan Ait-Nouri",
@@ -7646,7 +7835,7 @@ export const players: Player[] = [
       "Aït",
       "Nouri",
       "Ait"
-],
+    ],
     "nationality": "Algeria",
     "nation": "Algeria",
     "nationSlug": "algeria",
@@ -7660,10 +7849,11 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Angers -> Angers II -> Angers -> Wolverhampton Wanderers (loan) -> Wolverhampton Wanderers -> Manchester City",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Premier League defender.",
+    "clueFact": "£30m+ Premier League defender.",
     "playedAlongside": "Erling Haaland",
     "sources": "ALG-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7678,12 +7868,12 @@ export const players: Player[] = [
       "Houssem Aouar",
       "Aouar",
       "Houssem"
-],
+    ],
     "acceptedAnswers": [
       "Houssem Aouar",
       "Aouar",
       "Houssem"
-],
+    ],
     "nationality": "Algeria",
     "nation": "Algeria",
     "nationSlug": "algeria",
@@ -7697,15 +7887,17 @@ export const players: Player[] = [
     "internationalGoals": 6,
     "nationalTeamDebutYear": 2023,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Lyon -> Lyon B -> Lyon -> Roma -> Al-Ittihad",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Midfield creator in final squad.",
+    "clueFact": "Midfield creator who reached the Champions League semi-finals in 2019.",
     "playedAlongside": "Karim Benzema",
     "sources": "ALG-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ramy-bensebaini",
@@ -7715,12 +7907,12 @@ export const players: Player[] = [
       "Ramy Bensebaini",
       "Bensebaini",
       "Ramy"
-],
+    ],
     "acceptedAnswers": [
       "Ramy Bensebaini",
       "Bensebaini",
       "Ramy"
-],
+    ],
     "nationality": "Algeria",
     "nation": "Algeria",
     "nationSlug": "algeria",
@@ -7734,6 +7926,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Paradou AC -> Lierse (loan) -> Montpellier (loan) -> Rennes -> Borussia Mönchengladbach -> Borussia Dortmund",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -7742,7 +7935,8 @@ export const players: Player[] = [
     "sources": "ALG-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "david-alaba",
@@ -7752,12 +7946,12 @@ export const players: Player[] = [
       "David Alaba",
       "Alaba",
       "David"
-],
+    ],
     "acceptedAnswers": [
       "David Alaba",
       "Alaba",
       "David"
-],
+    ],
     "nationality": "Austria",
     "nation": "Austria",
     "nationSlug": "austria",
@@ -7790,12 +7984,12 @@ export const players: Player[] = [
       "Marcel Sabitzer",
       "Sabitzer",
       "Marcel"
-],
+    ],
     "acceptedAnswers": [
       "Marcel Sabitzer",
       "Sabitzer",
       "Marcel"
-],
+    ],
     "nationality": "Austria",
     "nation": "Austria",
     "nationSlug": "austria",
@@ -7809,6 +8003,7 @@ export const players: Player[] = [
     "internationalGoals": 26,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Admira Wacker -> Admira Wacker II -> Admira Wacker -> Rapid Wien -> RB Leipzig -> Red Bull Salzburg (loan) -> Bayern Munich -> Manchester United (loan) -> Borussia Dortmund",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -7827,12 +8022,12 @@ export const players: Player[] = [
       "Konrad Laimer",
       "Laimer",
       "Konrad"
-],
+    ],
     "acceptedAnswers": [
       "Konrad Laimer",
       "Laimer",
       "Konrad"
-],
+    ],
     "nationality": "Austria",
     "nation": "Austria",
     "nationSlug": "austria",
@@ -7846,6 +8041,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2019,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Red Bull Salzburg -> FC Liefering -> Red Bull Salzburg -> RB Leipzig -> Bayern Munich",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -7854,7 +8050,8 @@ export const players: Player[] = [
     "sources": "AUT-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "marko-arnautovic",
@@ -7866,14 +8063,14 @@ export const players: Player[] = [
       "Arnautovic",
       "Marko",
       "Arnautović"
-],
+    ],
     "acceptedAnswers": [
       "Marko Arnautović",
       "Marko Arnautovic",
       "Arnautovic",
       "Marko",
       "Arnautović"
-],
+    ],
     "nationality": "Austria",
     "nation": "Austria",
     "nationSlug": "austria",
@@ -7887,10 +8084,11 @@ export const players: Player[] = [
     "internationalGoals": 47,
     "nationalTeamDebutYear": 2008,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Jong Twente -> Twente -> Inter Milan (loan) -> Werder Bremen -> Stoke City -> West Ham United -> Shanghai SIPG -> Bologna -> Inter Milan (loan) -> Inter Milan -> Red Star Belgrade",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran forward selected.",
+    "clueFact": "Veteran forward who scored in the EPL and Serie A.",
     "playedAlongside": "Hakan Çalhanoğlu",
     "sources": "AUT-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -7905,12 +8103,12 @@ export const players: Player[] = [
       "Christoph Baumgartner",
       "Baumgartner",
       "Christoph"
-],
+    ],
     "acceptedAnswers": [
       "Christoph Baumgartner",
       "Baumgartner",
       "Christoph"
-],
+    ],
     "nationality": "Austria",
     "nation": "Austria",
     "nationSlug": "austria",
@@ -7924,15 +8122,17 @@ export const players: Player[] = [
     "internationalGoals": 19,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "TSG Hoffenheim -> TSG Hoffenheim II -> TSG Hoffenheim -> RB Leipzig",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Leipzig midfielder selected.",
+    "clueFact": "Fastest goalscorer in the history of international football, netting after just 6 seconds in a friendly against Slovakia.",
     "playedAlongside": "Xavi Simons",
     "sources": "AUT-FINAL; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "yazeed-abulaila",
@@ -7947,7 +8147,7 @@ export const players: Player[] = [
       "Abu",
       "Laila",
       "Yazid"
-],
+    ],
     "acceptedAnswers": [
       "Yazeed Abulaila",
       "Yazeed Abu Laila",
@@ -7957,7 +8157,7 @@ export const players: Player[] = [
       "Abu",
       "Laila",
       "Yazid"
-],
+    ],
     "nationality": "Jordan",
     "nation": "Jordan",
     "nationSlug": "jordan",
@@ -7972,6 +8172,7 @@ export const players: Player[] = [
     "internationalCleanSheets": 26,
     "nationalTeamDebutYear": 2017,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Shabab Al-Ordon -> Al-Faisaly -> Al-Jabalain (loan) -> Al-Hussein",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -7980,7 +8181,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; JORDAN-PROFILE; CLUB-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "musa-al-taamari",
@@ -7995,7 +8197,7 @@ export const players: Player[] = [
       "Taamari",
       "Mousa",
       "Tamari"
-],
+    ],
     "acceptedAnswers": [
       "Musa Al-Taamari",
       "Mousa Al-Tamari",
@@ -8005,7 +8207,7 @@ export const players: Player[] = [
       "Taamari",
       "Mousa",
       "Tamari"
-],
+    ],
     "nationality": "Jordan",
     "nation": "Jordan",
     "nationSlug": "jordan",
@@ -8019,6 +8221,7 @@ export const players: Player[] = [
     "internationalGoals": 24,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Shabab Al-Ordon -> Al-Jazeera (loan) -> APOEL -> OH Leuven -> Montpellier -> Rennes",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8039,14 +8242,14 @@ export const players: Player[] = [
       "Ali",
       "Olwan",
       "Iyad"
-],
+    ],
     "acceptedAnswers": [
       "Ali Olwan",
       "Ali Iyad Olwan",
       "Ali",
       "Olwan",
       "Iyad"
-],
+    ],
     "nationality": "Jordan",
     "nation": "Jordan",
     "nationSlug": "jordan",
@@ -8060,6 +8263,7 @@ export const players: Player[] = [
     "internationalGoals": 29,
     "nationalTeamDebutYear": 2020,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Al-Jazeera -> Al-Shamal -> Al-Khor (loan) -> Selangor -> Al-Karma -> Al-Sailiya",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8068,7 +8272,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; JORDAN-PROFILE; CLUB-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "nizar-al-rashdan",
@@ -8081,7 +8286,7 @@ export const players: Player[] = [
       "Nizar",
       "Rashdan",
       "Mahmoud"
-],
+    ],
     "acceptedAnswers": [
       "Nizar Al-Rashdan",
       "Nizar Al Rashdan",
@@ -8089,7 +8294,7 @@ export const players: Player[] = [
       "Nizar",
       "Rashdan",
       "Mahmoud"
-],
+    ],
     "nationality": "Jordan",
     "nation": "Jordan",
     "nationSlug": "jordan",
@@ -8103,6 +8308,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Al-Hussein -> Al-Faisaly -> Newroz (loan) -> Emirates (loan) -> Al-Khaldiya -> Al-Zawraa -> Qatar SC",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8111,7 +8317,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; JORDAN-PROFILE; CLUB-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "ihsan-haddad",
@@ -8125,7 +8332,7 @@ export const players: Player[] = [
       "Haddad",
       "Ehsan",
       "Manial"
-],
+    ],
     "acceptedAnswers": [
       "Ihsan Haddad",
       "Ehsan Haddad",
@@ -8134,7 +8341,7 @@ export const players: Player[] = [
       "Haddad",
       "Ehsan",
       "Manial"
-],
+    ],
     "nationality": "Jordan",
     "nation": "Jordan",
     "nationSlug": "jordan",
@@ -8148,6 +8355,7 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2013,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Al-Arabi -> Al-Ramtha -> Al-Hussein -> Al-Ramtha -> Al-Wehdat -> Al-Faisaly -> Al-Quwa Al-Jawiya -> Al-Faisaly -> Al-Shorta -> Al-Faisaly -> Al-Hussein",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8156,7 +8364,8 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; JORDAN-PROFILE; CLUB-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "cristiano-ronaldo",
@@ -8167,13 +8376,13 @@ export const players: Player[] = [
       "CR7",
       "Cristiano",
       "Ronaldo"
-],
+    ],
     "acceptedAnswers": [
       "Cristiano Ronaldo",
       "CR7",
       "Cristiano",
       "Ronaldo"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -8209,7 +8418,7 @@ export const players: Player[] = [
       "Fernandes",
       "Miguel",
       "Borges"
-],
+    ],
     "acceptedAnswers": [
       "Bruno Fernandes",
       "Bruno Miguel Borges Fernandes",
@@ -8217,7 +8426,7 @@ export const players: Player[] = [
       "Fernandes",
       "Miguel",
       "Borges"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -8250,12 +8459,12 @@ export const players: Player[] = [
       "Bernardo Silva",
       "Bernardo",
       "Silva"
-],
+    ],
     "acceptedAnswers": [
       "Bernardo Silva",
       "Bernardo",
       "Silva"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -8290,14 +8499,14 @@ export const players: Player[] = [
       "Costa",
       "Diogo",
       "Meireles"
-],
+    ],
     "acceptedAnswers": [
       "Diogo Costa",
       "Diogo Meireles da Costa",
       "Costa",
       "Diogo",
       "Meireles"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -8338,7 +8547,7 @@ export const players: Player[] = [
       "Santos",
       "Gato",
       "Alves"
-],
+    ],
     "acceptedAnswers": [
       "Rúben Dias",
       "Ruben Dias",
@@ -8350,7 +8559,7 @@ export const players: Player[] = [
       "Santos",
       "Gato",
       "Alves"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -8383,12 +8592,12 @@ export const players: Player[] = [
       "Lionel Mpasi",
       "Mpasi",
       "Lionel"
-],
+    ],
     "acceptedAnswers": [
       "Lionel Mpasi",
       "Mpasi",
       "Lionel"
-],
+    ],
     "nationality": "DR Congo",
     "nation": "DR Congo",
     "nationSlug": "dr-congo",
@@ -8403,15 +8612,17 @@ export const players: Player[] = [
     "internationalCleanSheets": 12,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Paris Saint-Germain -> Paris Saint-Germain II -> Toulouse II -> Rodez -> Rodez II (loan) -> Le Havre",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "First-choice goalkeeper candidate.",
+    "clueFact": "Made his Ligue 1 debut in January of 2026",
     "playedAlongside": "André Ayew",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "aaron-wan-bissaka",
@@ -8423,14 +8634,14 @@ export const players: Player[] = [
       "Aaron",
       "Wan",
       "Bissaka"
-],
+    ],
     "acceptedAnswers": [
       "Aaron Wan-Bissaka",
       "AWB",
       "Aaron",
       "Wan",
       "Bissaka"
-],
+    ],
     "nationality": "DR Congo",
     "nation": "DR Congo",
     "nationSlug": "dr-congo",
@@ -8444,6 +8655,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2025,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Crystal Palace -> Manchester United -> West Ham United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8462,12 +8674,12 @@ export const players: Player[] = [
       "Chancel Mbemba",
       "Mbemba",
       "Chancel"
-],
+    ],
     "acceptedAnswers": [
       "Chancel Mbemba",
       "Mbemba",
       "Chancel"
-],
+    ],
     "nationality": "DR Congo",
     "nation": "DR Congo",
     "nationSlug": "dr-congo",
@@ -8481,6 +8693,7 @@ export const players: Player[] = [
     "internationalGoals": 7,
     "nationalTeamDebutYear": 2012,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Anderlecht -> Newcastle United -> Porto -> Marseille -> Lille",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8489,7 +8702,8 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "cedric-bakambu",
@@ -8501,14 +8715,14 @@ export const players: Player[] = [
       "Bakambu",
       "Cédric",
       "Cedric"
-],
+    ],
     "acceptedAnswers": [
       "Cédric Bakambu",
       "Cedric Bakambu",
       "Bakambu",
       "Cédric",
       "Cedric"
-],
+    ],
     "nationality": "DR Congo",
     "nation": "DR Congo",
     "nationSlug": "dr-congo",
@@ -8530,7 +8744,9 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Sochaux II -> Sochaux -> Bursaspor -> Villarreal -> Beijing Guoan -> Marseille -> Olympiacos -> Al-Nasr (Dubai) -> Galatasaray -> Betis",
+    "exclude": true
   },
   {
     "id": "yoane-wissa",
@@ -8540,12 +8756,12 @@ export const players: Player[] = [
       "Yoane Wissa",
       "Wissa",
       "Yoane"
-],
+    ],
     "acceptedAnswers": [
       "Yoane Wissa",
       "Wissa",
       "Yoane"
-],
+    ],
     "nationality": "DR Congo",
     "nation": "DR Congo",
     "nationSlug": "dr-congo",
@@ -8562,12 +8778,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Premier League forward option.",
+    "clueFact": "£50m Premier League forward option.",
     "playedAlongside": "Bruno Guimarães",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Global"
+    "fameTier": "Global",
+    "careerPath": "Chateauroux II -> Chateauroux -> Angers -> Laval (Loan) -> Ajaccio (Loan) -> Lorient -> Brentford -> Newcastle United"
   },
   {
     "id": "abdukodir-khusanov",
@@ -8577,12 +8794,12 @@ export const players: Player[] = [
       "Abdukodir Khusanov",
       "Khusanov",
       "Abdukodir"
-],
+    ],
     "acceptedAnswers": [
       "Abdukodir Khusanov",
       "Khusanov",
       "Abdukodir"
-],
+    ],
     "nationality": "Uzbekistan",
     "nation": "Uzbekistan",
     "nationSlug": "uzbekistan",
@@ -8604,7 +8821,8 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "careerPath": "Energetik-BGU -> Lens -> Manchester City"
   },
   {
     "id": "eldor-shomurodov",
@@ -8614,12 +8832,12 @@ export const players: Player[] = [
       "Eldor Shomurodov",
       "Shomurodov",
       "Eldor"
-],
+    ],
     "acceptedAnswers": [
       "Eldor Shomurodov",
       "Shomurodov",
       "Eldor"
-],
+    ],
     "nationality": "Uzbekistan",
     "nation": "Uzbekistan",
     "nationSlug": "uzbekistan",
@@ -8641,7 +8859,9 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Mash'al Mubarek -> Bunyodkor -> Rostov -> Genoa -> Roma -> Spezia (Loan) -> Cagliari (Loan) -> Istanbul Basaksehir (Loan)",
+    "exclude": true
   },
   {
     "id": "jaloliddin-masharipov",
@@ -8651,12 +8871,12 @@ export const players: Player[] = [
       "Jaloliddin Masharipov",
       "Masharipov",
       "Jaloliddin"
-],
+    ],
     "acceptedAnswers": [
       "Jaloliddin Masharipov",
       "Masharipov",
       "Jaloliddin"
-],
+    ],
     "nationality": "Uzbekistan",
     "nation": "Uzbekistan",
     "nationSlug": "uzbekistan",
@@ -8678,7 +8898,9 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Pakhtakor -> Lokomotiv Tashkent (Loan) -> Al Nassr -> Shabab Al-Ahli -> Panserraikos -> Esteghlal",
+    "exclude": true
   },
   {
     "id": "abbosbek-fayzullaev",
@@ -8688,12 +8910,12 @@ export const players: Player[] = [
       "Abbosbek Fayzullaev",
       "Fayzullaev",
       "Abbosbek"
-],
+    ],
     "acceptedAnswers": [
       "Abbosbek Fayzullaev",
       "Fayzullaev",
       "Abbosbek"
-],
+    ],
     "nationality": "Uzbekistan",
     "nation": "Uzbekistan",
     "nationSlug": "uzbekistan",
@@ -8710,12 +8932,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Young attacking midfielder.",
+    "clueFact": "Young attacking midfielder who was the AFC's young player of the year in 2023.",
     "playedAlongside": "Eldor Shomurodov",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Pakhtakor -> CSKA Moscow -> Istanbul Basaksehir",
+    "exclude": true
   },
   {
     "id": "igor-sergeev",
@@ -8725,12 +8949,12 @@ export const players: Player[] = [
       "Igor Sergeev",
       "Sergeev",
       "Igor"
-],
+    ],
     "acceptedAnswers": [
       "Igor Sergeev",
       "Sergeev",
       "Igor"
-],
+    ],
     "nationality": "Uzbekistan",
     "nation": "Uzbekistan",
     "nationSlug": "uzbekistan",
@@ -8747,12 +8971,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran forward.",
+    "clueFact": "Veteran forward whose best goalscoring form has come in three spells with home-town club Pakhtakor.",
     "playedAlongside": "Serdar Dursun",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Pakhtakor -> Beijing Guoan -> Al Dhafra -> Pakhtakor -> Aktobe -> Tobol -> BG Pathum United -> Pakhtakor -> Persepolis",
+    "exclude": true
   },
   {
     "id": "david-ospina",
@@ -8762,12 +8988,12 @@ export const players: Player[] = [
       "David Ospina",
       "Ospina",
       "David"
-],
+    ],
     "acceptedAnswers": [
       "David Ospina",
       "Ospina",
       "David"
-],
+    ],
     "nationality": "Colombia",
     "nation": "Colombia",
     "nationSlug": "colombia",
@@ -8786,7 +9012,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Colombia’s record-cap goalkeeper profile.",
+    "clueFact": "Colombia’s record-cap goalkeeper.",
     "playedAlongside": "Edwin Cardona",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -8804,7 +9030,7 @@ export const players: Player[] = [
       "Luis",
       "Díaz",
       "Diaz"
-],
+    ],
     "acceptedAnswers": [
       "Luis Díaz",
       "Lucho",
@@ -8812,7 +9038,7 @@ export const players: Player[] = [
       "Luis",
       "Díaz",
       "Diaz"
-],
+    ],
     "nationality": "Colombia",
     "nation": "Colombia",
     "nationSlug": "colombia",
@@ -8826,6 +9052,7 @@ export const players: Player[] = [
     "internationalGoals": 22,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Atlético Junior -> Barranquilla -> Atlético Junior -> Porto -> Liverpool -> Bayern Munich",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8846,14 +9073,14 @@ export const players: Player[] = [
       "James",
       "Rodríguez",
       "Rodriguez"
-],
+    ],
     "acceptedAnswers": [
       "James Rodríguez",
       "James Rodriguez",
       "James",
       "Rodríguez",
       "Rodriguez"
-],
+    ],
     "nationality": "Colombia",
     "nation": "Colombia",
     "nationSlug": "colombia",
@@ -8888,14 +9115,14 @@ export const players: Player[] = [
       "Daniel",
       "Muñoz",
       "Munoz"
-],
+    ],
     "acceptedAnswers": [
       "Daniel Muñoz",
       "Daniel Munoz",
       "Daniel",
       "Muñoz",
       "Munoz"
-],
+    ],
     "nationality": "Colombia",
     "nation": "Colombia",
     "nationSlug": "colombia",
@@ -8909,10 +9136,11 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Águilas Doradas -> Atlético Nacional -> Genk -> Crystal Palace",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Attacking right-back in confirmed squad.",
+    "clueFact": "Attacking right-back.",
     "playedAlongside": "Marc Guéhi",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -8929,14 +9157,14 @@ export const players: Player[] = [
       "Davinson",
       "Sánchez",
       "Sanchez"
-],
+    ],
     "acceptedAnswers": [
       "Davinson Sánchez",
       "Davinson Sanchez",
       "Davinson",
       "Sánchez",
       "Sanchez"
-],
+    ],
     "nationality": "Colombia",
     "nation": "Colombia",
     "nationSlug": "colombia",
@@ -8950,6 +9178,7 @@ export const players: Player[] = [
     "internationalGoals": 4,
     "nationalTeamDebutYear": 2016,
     "worldCupAppearances": "Played in 1 previous World Cup",
+    "careerPath": "Atlético Nacional -> Ajax II -> Ajax -> Tottenham Hotspur -> Galatasaray",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -8970,14 +9199,14 @@ export const players: Player[] = [
       "Harry",
       "Kane",
       "Edward"
-],
+    ],
     "acceptedAnswers": [
       "Harry Kane",
       "Harry Edward Kane",
       "Harry",
       "Kane",
       "Edward"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9013,7 +9242,7 @@ export const players: Player[] = [
       "Bellingham",
       "Victor",
       "William"
-],
+    ],
     "acceptedAnswers": [
       "Jude Bellingham",
       "Jude Victor William Bellingham",
@@ -9021,7 +9250,7 @@ export const players: Player[] = [
       "Bellingham",
       "Victor",
       "William"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9054,12 +9283,12 @@ export const players: Player[] = [
       "Declan Rice",
       "Declan",
       "Rice"
-],
+    ],
     "acceptedAnswers": [
       "Declan Rice",
       "Declan",
       "Rice"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9094,14 +9323,14 @@ export const players: Player[] = [
       "Bukayo",
       "Saka",
       "Ayoyinka"
-],
+    ],
     "acceptedAnswers": [
       "Bukayo Saka",
       "Bukayo Ayoyinka Saka",
       "Bukayo",
       "Saka",
       "Ayoyinka"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9136,14 +9365,14 @@ export const players: Player[] = [
       "Jordan",
       "Pickford",
       "Lee"
-],
+    ],
     "acceptedAnswers": [
       "Jordan Pickford",
       "Jordan Lee Pickford",
       "Jordan",
       "Pickford",
       "Lee"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9162,7 +9391,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "England profile lists 43 clean sheets in 83 caps as checked on 2026-06-09.",
+    "clueFact": "His transfer fee of £25m+add-ons set a new transfer record for an English goalkeeper in 2017.",
     "playedAlongside": "Wayne Rooney",
     "sources": "ENG-PROFILE",
     "snapshotDate": "2026-06-09",
@@ -9179,14 +9408,14 @@ export const players: Player[] = [
       "Livakovic",
       "Dominik",
       "Livaković"
-],
+    ],
     "acceptedAnswers": [
       "Dominik Livaković",
       "Dominik Livakovic",
       "Livakovic",
       "Dominik",
       "Livaković"
-],
+    ],
     "nationality": "Croatia",
     "nation": "Croatia",
     "nationSlug": "croatia",
@@ -9205,7 +9434,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Penalty-shootout hero profile from 2022.",
+    "clueFact": "Penalty-shootout hero from 2022.",
     "playedAlongside": "Bruno Petković",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -9222,14 +9451,14 @@ export const players: Player[] = [
       "Gvardiol",
       "Joško",
       "Josko"
-],
+    ],
     "acceptedAnswers": [
       "Joško Gvardiol",
       "Josko Gvardiol",
       "Gvardiol",
       "Joško",
       "Josko"
-],
+    ],
     "nationality": "Croatia",
     "nation": "Croatia",
     "nationSlug": "croatia",
@@ -9264,14 +9493,14 @@ export const players: Player[] = [
       "Kovacic",
       "Mateo",
       "Kovačić"
-],
+    ],
     "acceptedAnswers": [
       "Mateo Kovačić",
       "Mateo Kovacic",
       "Kovacic",
       "Mateo",
       "Kovačić"
-],
+    ],
     "nationality": "Croatia",
     "nation": "Croatia",
     "nationSlug": "croatia",
@@ -9306,14 +9535,14 @@ export const players: Player[] = [
       "Modric",
       "Luka",
       "Modrić"
-],
+    ],
     "acceptedAnswers": [
       "Luka Modrić",
       "Luka Modric",
       "Modric",
       "Luka",
       "Modrić"
-],
+    ],
     "nationality": "Croatia",
     "nation": "Croatia",
     "nationSlug": "croatia",
@@ -9331,7 +9560,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Captain and Ballon d’Or winner.",
+    "clueFact": "Captain, legendary player, and Ballon d’Or winner.",
     "playedAlongside": "Cristiano Ronaldo",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -9348,14 +9577,14 @@ export const players: Player[] = [
       "Perisic",
       "Ivan",
       "Perišić"
-],
+    ],
     "acceptedAnswers": [
       "Ivan Perišić",
       "Ivan Perisic",
       "Perisic",
       "Ivan",
       "Perišić"
-],
+    ],
     "nationality": "Croatia",
     "nation": "Croatia",
     "nationSlug": "croatia",
@@ -9369,6 +9598,7 @@ export const players: Player[] = [
     "internationalGoals": 38,
     "nationalTeamDebutYear": 2011,
     "worldCupAppearances": "Played in 4 previous World Cups",
+    "careerPath": "Sochaux -> Sochaux II -> Roeselare (loan) -> Club Brugge -> Borussia Dortmund -> VfL Wolfsburg -> Inter Milan -> Bayern Munich (loan) -> Tottenham Hotspur -> Hajduk Split (loan) -> Hajduk Split -> PSV",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -9389,14 +9619,14 @@ export const players: Player[] = [
       "Lawrence",
       "Ati",
       "Zigi"
-],
+    ],
     "acceptedAnswers": [
       "Lawrence Ati-Zigi",
       "Ati-Zigi",
       "Lawrence",
       "Ati",
       "Zigi"
-],
+    ],
     "nationality": "Ghana",
     "nation": "Ghana",
     "nationSlug": "ghana",
@@ -9414,49 +9644,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Senior goalkeeper option.",
+    "clueFact": "Impressed in Ghana's group games in the 2022 World Cup",
     "playedAlongside": "Chadrac Akolo",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
-  },
-  {
-    "id": "thomas-partey",
-    "fullName": "Thomas Partey",
-    "displayName": "Thomas Partey",
-    "searchAliases": [
-      "Thomas Partey",
-      "Partey",
-      "Thomas"
-],
-    "acceptedAnswers": [
-      "Thomas Partey",
-      "Partey",
-      "Thomas"
-],
-    "nationality": "Ghana",
-    "nation": "Ghana",
-    "nationSlug": "ghana",
-    "shirtNumber": 5,
-    "position": "Midfielder",
-    "club": "Villarreal",
-    "clubCountry": "Spain",
-    "age": 32,
-    "internationalDebut": "2016-06-05",
-    "caps": 57,
-    "internationalGoals": 15,
-    "nationalTeamDebutYear": 2016,
-    "worldCupAppearances": "Played in 2 previous World Cups",
-    "kitPrimaryColor": "#1f7a45",
-    "kitSecondaryColor": "#ffffff",
-    "kitAccentColor": "#f5c542",
-    "clueFact": "Senior midfield leader.",
-    "playedAlongside": "Tajon Buchanan",
-    "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
-    "snapshotDate": "2026-06-11",
-    "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "National",
+    "careerPath": "Red Bull Salzburg -> FC Liefering (Loan) -> Sochaux -> St. Gallen",
+    "exclude": true
   },
   {
     "id": "jordan-ayew",
@@ -9466,12 +9661,12 @@ export const players: Player[] = [
       "Jordan Ayew",
       "Ayew",
       "Jordan"
-],
+    ],
     "acceptedAnswers": [
       "Jordan Ayew",
       "Ayew",
       "Jordan"
-],
+    ],
     "nationality": "Ghana",
     "nation": "Ghana",
     "nationSlug": "ghana",
@@ -9485,6 +9680,7 @@ export const players: Player[] = [
     "internationalGoals": 34,
     "nationalTeamDebutYear": 2010,
     "worldCupAppearances": "Played in 3 previous World Cups",
+    "careerPath": "Marseille -> Sochaux (loan) -> Lorient -> Aston Villa -> Swansea City -> Crystal Palace (loan) -> Crystal Palace -> Leicester City",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -9503,12 +9699,12 @@ export const players: Player[] = [
       "Antoine Semenyo",
       "Semenyo",
       "Antoine"
-],
+    ],
     "acceptedAnswers": [
       "Antoine Semenyo",
       "Semenyo",
       "Antoine"
-],
+    ],
     "nationality": "Ghana",
     "nation": "Ghana",
     "nationSlug": "ghana",
@@ -9525,12 +9721,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Premier League attacking player.",
+    "clueFact": "Arguably the breakout star of the English Premier League over the past 18 months, he scored the winning goal in this year's FA Cup final.",
     "playedAlongside": "Erling Haaland",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "Elite"
+    "fameTier": "Elite",
+    "careerPath": "Bristol City -> Bath City (Loan) -> Newport County (Loan) -> Sunderland (Loan) -> Bournemouth -> Manchester City"
   },
   {
     "id": "inaki-williams",
@@ -9542,14 +9739,14 @@ export const players: Player[] = [
       "Iñaki",
       "Williams",
       "Inaki"
-],
+    ],
     "acceptedAnswers": [
       "Iñaki Williams",
       "Inaki Williams",
       "Iñaki",
       "Williams",
       "Inaki"
-],
+    ],
     "nationality": "Ghana",
     "nation": "Ghana",
     "nationSlug": "ghana",
@@ -9567,7 +9764,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Switched from Spain to Ghana.",
+    "clueFact": "Made the switch from Spain to represent Ghana, unlike his younger brother.",
     "playedAlongside": "Nico Williams",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
@@ -9584,14 +9781,14 @@ export const players: Player[] = [
       "Mejia",
       "Luis",
       "Mejía"
-],
+    ],
     "acceptedAnswers": [
       "Luis Mejía",
       "Luis Mejia",
       "Mejia",
       "Luis",
       "Mejía"
-],
+    ],
     "nationality": "Panama",
     "nation": "Panama",
     "nationSlug": "panama",
@@ -9609,12 +9806,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Veteran goalkeeper.",
+    "clueFact": "2023 CONCACAF Gold Cup finalist.",
     "playedAlongside": "Diego Zabala",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Fénix -> Toulouse FC (Loan) -> Nacional -> Fénix -> Union Espanola -> Racing de Montevideo (Loan) -> Nacional",
+    "exclude": true
   },
   {
     "id": "adalberto-carrasquilla",
@@ -9625,13 +9824,13 @@ export const players: Player[] = [
       "Coco",
       "Adalberto",
       "Carrasquilla"
-],
+    ],
     "acceptedAnswers": [
       "Adalberto Carrasquilla",
       "Coco",
       "Adalberto",
       "Carrasquilla"
-],
+    ],
     "nationality": "Panama",
     "nation": "Panama",
     "nationSlug": "panama",
@@ -9645,15 +9844,17 @@ export const players: Player[] = [
     "internationalGoals": 3,
     "nationalTeamDebutYear": 2018,
     "worldCupAppearances": "First World Cup",
+    "careerPath": "Tauro -> Cartagena (loan) -> Cartagena -> Houston Dynamo (loan) -> Houston Dynamo -> Pumas UNAM",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Panama midfield creator.",
+    "clueFact": "2023 CONCACAF Gold Cup finalist and Golden Boot winner.",
     "playedAlongside": "Keylor Navas",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "yoel-barcenas",
@@ -9665,14 +9866,14 @@ export const players: Player[] = [
       "Barcenas",
       "Yoel",
       "Bárcenas"
-],
+    ],
     "acceptedAnswers": [
       "Yoel Bárcenas",
       "Yoel Barcenas",
       "Barcenas",
       "Yoel",
       "Bárcenas"
-],
+    ],
     "nationality": "Panama",
     "nation": "Panama",
     "nationSlug": "panama",
@@ -9694,7 +9895,9 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Arabe Unido -> RNK Split (Loan) -> Cafetaleros (Loan) -> Tijuana -> Oviedo (Loan) -> Girona (Loan) -> Leganes (Loan) -> Mazatlan",
+    "exclude": true
   },
   {
     "id": "anibal-godoy",
@@ -9706,14 +9909,14 @@ export const players: Player[] = [
       "Godoy",
       "Aníbal",
       "Anibal"
-],
+    ],
     "acceptedAnswers": [
       "Aníbal Godoy",
       "Anibal Godoy",
       "Godoy",
       "Aníbal",
       "Anibal"
-],
+    ],
     "nationality": "Panama",
     "nation": "Panama",
     "nationSlug": "panama",
@@ -9730,12 +9933,14 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Captain and all-time cap leader profile.",
+    "clueFact": "Captain and all-time cap leader.",
     "playedAlongside": "Hirving Lozano",
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "Chepo -> Godoy Cruz (Loan) -> Honved -> San Jose Earthquakes -> Nashville FC -> San Diego FC",
+    "exclude": true
   },
   {
     "id": "michael-amir-murillo",
@@ -9747,14 +9952,14 @@ export const players: Player[] = [
       "Michael",
       "Amir",
       "Murillo"
-],
+    ],
     "acceptedAnswers": [
       "Michael Amir Murillo",
       "Michael Murillo",
       "Michael",
       "Amir",
       "Murillo"
-],
+    ],
     "nationality": "Panama",
     "nation": "Panama",
     "nationSlug": "panama",
@@ -9776,7 +9981,9 @@ export const players: Player[] = [
     "sources": "S-WC-SQUADS; WIKIPEDIA; TRANSFERMARKT",
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
-    "fameTier": "National"
+    "fameTier": "National",
+    "careerPath": "San Francisco -> New York Red Bulls (Loan) -> New York Red Bulls -> Anderlecht -> Marseille -> Besiktas",
+    "exclude": true
   },
   {
     "id": "england-ezri-konsa",
@@ -9786,12 +9993,12 @@ export const players: Player[] = [
       "Ezri Konsa",
       "Konsa",
       "Konsa Ezri"
-],
+    ],
     "acceptedAnswers": [
       "Ezri Konsa",
       "Konsa",
       "Konsa Ezri"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9809,7 +10016,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Konsa came through the academy at Charlton Athletic, and later joined Brentford and Aston Villa.",
+    "clueFact": "Came through the academy at Charlton Athletic, and later joined Brentford and Aston Villa.",
     "playedAlongside": "Ollie Watkins",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ezri_Konsa",
     "snapshotDate": "2026-06-13",
@@ -9824,12 +10031,12 @@ export const players: Player[] = [
       "Nico Oreilly",
       "Oreilly",
       "Oreilly Nico"
-],
+    ],
     "acceptedAnswers": [
       "Nico Oreilly",
       "Oreilly",
       "Oreilly Nico"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9862,12 +10069,12 @@ export const players: Player[] = [
       "Marc Guehi",
       "Guehi",
       "Guehi Marc"
-],
+    ],
     "acceptedAnswers": [
       "Marc Guehi",
       "Guehi",
       "Guehi Marc"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9885,7 +10092,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Guéhi came through the youth system at Chelsea and made his first-team debut in 2019 before spending a season and a half on loan at Swansea City.",
+    "clueFact": "Came through the youth system at Chelsea and made his first-team debut in 2019 before spending a season and a half on loan at Swansea City.",
     "playedAlongside": "Erling Haaland",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marc_Guéhi",
     "snapshotDate": "2026-06-13",
@@ -9900,12 +10107,12 @@ export const players: Player[] = [
       "Elliot Anderson",
       "Anderson",
       "Anderson Elliot"
-],
+    ],
     "acceptedAnswers": [
       "Elliot Anderson",
       "Anderson",
       "Anderson Elliot"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9923,7 +10130,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Anderson represented Scotland at youth level before committing to England, and made his senior England debut in 2025.",
+    "clueFact": "Represented Scotland at youth level before committing to England.",
     "playedAlongside": "Morgan Gibbs-White",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)",
     "snapshotDate": "2026-06-13",
@@ -9939,13 +10146,13 @@ export const players: Player[] = [
       "Valentino Francisco Livramento",
       "Livramento",
       "Livramento Tino"
-],
+    ],
     "acceptedAnswers": [
       "Tino Livramento",
       "Valentino Francisco Livramento",
       "Livramento",
       "Livramento Tino"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -9963,7 +10170,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Livramento joined Chelsea at under-9 level before breaking through with Southampton and Newcastle United.",
+    "clueFact": "Joined Chelsea at under-9 level before breaking through with Southampton and Newcastle United.",
     "playedAlongside": "Alexander Isak",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tino_Livramento",
     "snapshotDate": "2026-06-13",
@@ -9978,12 +10185,12 @@ export const players: Player[] = [
       "Dean Henderson",
       "Henderson",
       "Henderson Dean"
-],
+    ],
     "acceptedAnswers": [
       "Dean Henderson",
       "Henderson",
       "Henderson Dean"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10002,7 +10209,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Henderson joined Manchester United's youth system in 2011 from Carlisle United.",
+    "clueFact": "Joined Manchester United's youth system in 2011 from Carlisle United.",
     "playedAlongside": "Eberechi Eze",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dean_Henderson",
     "snapshotDate": "2026-06-13",
@@ -10018,13 +10225,13 @@ export const players: Player[] = [
       "Jordan Hendersonnobold",
       "Henderson",
       "Henderson Jordan"
-],
+    ],
     "acceptedAnswers": [
       "Jordan Henderson",
       "Jordan Hendersonnobold",
       "Henderson",
       "Henderson Jordan"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10057,12 +10264,12 @@ export const players: Player[] = [
       "Dan Burn",
       "Burn",
       "Burn Dan"
-],
+    ],
     "acceptedAnswers": [
       "Dan Burn",
       "Burn",
       "Burn Dan"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10080,7 +10287,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Burn made his debut in the Football League for Darlington in 2009 and joined Fulham at the end of the 2010–11 season, having made 19 appearances for Darlington.",
+    "clueFact": "Tallest player in the English Premier League, but only second-tallest at the World Cup.",
     "playedAlongside": "Alexander Isak",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dan_Burn",
     "snapshotDate": "2026-06-13",
@@ -10095,12 +10302,12 @@ export const players: Player[] = [
       "Kobbie Mainoo",
       "Mainoo",
       "Mainoo Kobbie"
-],
+    ],
     "acceptedAnswers": [
       "Kobbie Mainoo",
       "Mainoo",
       "Mainoo Kobbie"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10114,7 +10321,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
-    "careerPath": "Manchester United",
+    "careerPath": "Manchester United Academy -> Manchester United",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -10133,12 +10340,12 @@ export const players: Player[] = [
       "Morgan Rogers",
       "Rogers",
       "Rogers Morgan"
-],
+    ],
     "acceptedAnswers": [
       "Morgan Rogers",
       "Rogers",
       "Rogers Morgan"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10156,7 +10363,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "A versatile player across attacking positions, Rogers is known for his strength, attacking runs, ability to score from a distance and ball control.",
+    "clueFact": "A versatile player across attacking positions, known for his strength, attacking runs, ability to score from a distance and ball control.",
     "playedAlongside": "Ollie Watkins",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Morgan_Rogers",
     "snapshotDate": "2026-06-13",
@@ -10171,12 +10378,12 @@ export const players: Player[] = [
       "Anthony Gordon",
       "Gordon",
       "Gordon Anthony"
-],
+    ],
     "acceptedAnswers": [
       "Anthony Gordon",
       "Gordon",
       "Gordon Anthony"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10194,7 +10401,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "He will join La Liga club Barcelona on 1 July 2026.",
+    "clueFact": "He will join Barcelona on 1 July 2026 and impressed fans by answering in Spanish at his unveiling.",
     "playedAlongside": "Alexander Isak",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Anthony_Gordon_(footballer)",
     "snapshotDate": "2026-06-13",
@@ -10209,12 +10416,12 @@ export const players: Player[] = [
       "Ollie Watkins",
       "Watkins",
       "Watkins Ollie"
-],
+    ],
     "acceptedAnswers": [
       "Ollie Watkins",
       "Watkins",
       "Watkins Ollie"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10232,7 +10439,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Described as a complete forward, Watkins is known for his finishing ability and work ethic.",
+    "clueFact": "Described as a complete forward, he is known for his finishing ability and work ethic.",
     "playedAlongside": "Ollie Watkins",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ollie_Watkins",
     "snapshotDate": "2026-06-13",
@@ -10247,12 +10454,12 @@ export const players: Player[] = [
       "Noni Madueke",
       "Madueke",
       "Madueke Noni"
-],
+    ],
     "acceptedAnswers": [
       "Noni Madueke",
       "Madueke",
       "Madueke Noni"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10270,7 +10477,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "After playing youth football with  Crystal Palace and Tottenham Hotspur, Madueke began his professional career with Dutch club PSV Eindhoven.",
+    "clueFact": "After playing youth football with  Crystal Palace and Tottenham Hotspur, began his professional career with Dutch club PSV Eindhoven.",
     "playedAlongside": "Bukayo Saka",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Noni_Madueke",
     "snapshotDate": "2026-06-13",
@@ -10285,12 +10492,12 @@ export const players: Player[] = [
       "Eberechi Eze",
       "Eze",
       "Eze Eberechi"
-],
+    ],
     "acceptedAnswers": [
       "Eberechi Eze",
       "Eze",
       "Eze Eberechi"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10308,7 +10515,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "A product of several English academies, Eze began his senior career with Queens Park Rangers in 2016.",
+    "clueFact": "A product of several English academies, began his senior career with Queens Park Rangers in 2016.",
     "playedAlongside": "Bukayo Saka",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Eberechi_Eze",
     "snapshotDate": "2026-06-13",
@@ -10323,12 +10530,12 @@ export const players: Player[] = [
       "Ivan Toney",
       "Toney",
       "Toney Ivan"
-],
+    ],
     "acceptedAnswers": [
       "Ivan Toney",
       "Toney",
       "Toney Ivan"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10346,7 +10553,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Toney became the youngest player to represent Northampton Town when he made his first-team debut in 2012.",
+    "clueFact": "became the youngest player to represent Northampton Town when he made his first-team debut in 2012.",
     "playedAlongside": "Riyad Mahrez",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ivan_Toney",
     "snapshotDate": "2026-06-13",
@@ -10361,12 +10568,12 @@ export const players: Player[] = [
       "James Trafford",
       "Trafford",
       "Trafford James"
-],
+    ],
     "acceptedAnswers": [
       "James Trafford",
       "Trafford",
       "Trafford James"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10385,7 +10592,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Trafford saved an injury-time penalty in England's 2023 UEFA European Under-21 Championship final win.",
+    "clueFact": "Saved an injury-time penalty in England's 2023 UEFA European Under-21 Championship final win.",
     "playedAlongside": "Erling Haaland",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/James_Trafford",
     "snapshotDate": "2026-06-13",
@@ -10400,12 +10607,12 @@ export const players: Player[] = [
       "Djed Spence",
       "Spence",
       "Spence Djed"
-],
+    ],
     "acceptedAnswers": [
       "Djed Spence",
       "Spence",
       "Spence Djed"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10423,7 +10630,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Spence helped Nottingham Forest win promotion to the Premier League during his 2021-22 loan spell.",
+    "clueFact": "Helped Nottingham Forest win promotion to the Premier League during his 2021-22 loan spell.",
     "playedAlongside": "Son Heung-min",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Djed_Spence",
     "snapshotDate": "2026-06-13",
@@ -10438,12 +10645,12 @@ export const players: Player[] = [
       "Jarell Quansah",
       "Quansah",
       "Quansah Jarell"
-],
+    ],
     "acceptedAnswers": [
       "Jarell Quansah",
       "Quansah",
       "Quansah Jarell"
-],
+    ],
     "nationality": "England",
     "nation": "England",
     "nationSlug": "england",
@@ -10461,7 +10668,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Quansah came through Liverpool's academy and gained senior experience on loan at Bristol Rovers.",
+    "clueFact": "Came through Liverpool's academy and gained senior experience on loan at Bristol Rovers.",
     "playedAlongside": "Florian Wirtz",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jarell_Quansah",
     "snapshotDate": "2026-06-13",
@@ -10476,12 +10683,12 @@ export const players: Player[] = [
       "David Raya",
       "Raya",
       "Raya David"
-],
+    ],
     "acceptedAnswers": [
       "David Raya",
       "Raya",
       "Raya David"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10516,13 +10723,13 @@ export const players: Player[] = [
       "Marc Pubill Pagès",
       "Pubill",
       "Pubill Marc"
-],
+    ],
     "acceptedAnswers": [
       "Marc Pubill",
       "Marc Pubill Pagès",
       "Pubill",
       "Pubill Marc"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10555,12 +10762,12 @@ export const players: Player[] = [
       "Alex Grimaldo",
       "Grimaldo",
       "Grimaldo Alex"
-],
+    ],
     "acceptedAnswers": [
       "Alex Grimaldo",
       "Grimaldo",
       "Grimaldo Alex"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10578,7 +10785,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Grimaldo was part of Bayer Leverkusen's unbeaten Bundesliga-winning team in 2023-24.",
+    "clueFact": "Part of Bayer Leverkusen's unbeaten Bundesliga-winning team in 2023-24.",
     "playedAlongside": "Florian Wirtz",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Álex_Grimaldo",
     "snapshotDate": "2026-06-13",
@@ -10593,12 +10800,12 @@ export const players: Player[] = [
       "Eric Garcia",
       "Garcia",
       "Garcia Eric"
-],
+    ],
     "acceptedAnswers": [
       "Eric Garcia",
       "Garcia",
       "Garcia Eric"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10631,12 +10838,12 @@ export const players: Player[] = [
       "Marcos Llorente",
       "Llorente",
       "Llorente Marcos"
-],
+    ],
     "acceptedAnswers": [
       "Marcos Llorente",
       "Llorente",
       "Llorente Marcos"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10669,12 +10876,12 @@ export const players: Player[] = [
       "Mikel Merino",
       "Merino",
       "Merino Mikel"
-],
+    ],
     "acceptedAnswers": [
       "Mikel Merino",
       "Merino",
       "Merino Mikel"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10707,12 +10914,12 @@ export const players: Player[] = [
       "Ferran Torres",
       "Torres",
       "Torres Ferran"
-],
+    ],
     "acceptedAnswers": [
       "Ferran Torres",
       "Torres",
       "Torres Ferran"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10730,7 +10937,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Torres began his career at Valencia, where he made his senior debut in 2017.",
+    "clueFact": "Began his career at Valencia, where he made his senior debut in 2017.",
     "playedAlongside": "Pedri",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ferran_Torres",
     "snapshotDate": "2026-06-13",
@@ -10745,12 +10952,12 @@ export const players: Player[] = [
       "Fabian Ruiz",
       "Ruiz",
       "Ruiz Fabian"
-],
+    ],
     "acceptedAnswers": [
       "Fabian Ruiz",
       "Ruiz",
       "Ruiz Fabian"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10768,7 +10975,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Fabián Ruiz helped Spain win Euro 2024 and was named in the team of the tournament.",
+    "clueFact": "Helped Spain win Euro 2024 and was named in the team of the tournament.",
     "playedAlongside": "Ousmane Dembélé",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Fabián_Ruiz",
     "snapshotDate": "2026-06-13",
@@ -10783,12 +10990,12 @@ export const players: Player[] = [
       "Pablo Gavi",
       "Gavi",
       "Gavi Pablo"
-],
+    ],
     "acceptedAnswers": [
       "Pablo Gavi",
       "Gavi",
       "Gavi Pablo"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10821,12 +11028,12 @@ export const players: Player[] = [
       "Yeremy Pino",
       "Pino",
       "Pino Yeremy"
-],
+    ],
     "acceptedAnswers": [
       "Yeremy Pino",
       "Pino",
       "Pino Yeremy"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10859,12 +11066,12 @@ export const players: Player[] = [
       "Pedro Porro",
       "Porro",
       "Porro Pedro"
-],
+    ],
     "acceptedAnswers": [
       "Pedro Porro",
       "Porro",
       "Porro Pedro"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10882,7 +11089,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Porro started his career with Girona's reserve team Peralada, before being promoted to the first team in 2017.",
+    "clueFact": "One of the few players to impress as his team escaped relegation by the skin of their teeth this season.",
     "playedAlongside": "Son Heung-min",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pedro_Porro",
     "snapshotDate": "2026-06-13",
@@ -10897,12 +11104,12 @@ export const players: Player[] = [
       "Joan Garcia",
       "Garcia",
       "Garcia Joan"
-],
+    ],
     "acceptedAnswers": [
       "Joan Garcia",
       "Garcia",
       "Garcia Joan"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10921,7 +11128,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "An Espanyol youth graduate, Garcia broke into the first team in 2021 and eventually established himself as a first-choice in 2024.",
+    "clueFact": "An Espanyol youth graduate who broke into the first team in 2021 and eventually established himself as a first-choice in 2024.",
     "playedAlongside": "Pedri",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joan_Garcia",
     "snapshotDate": "2026-06-13",
@@ -10936,12 +11143,12 @@ export const players: Player[] = [
       "Aymeric Laporte",
       "Laporte",
       "Laporte Aymeric"
-],
+    ],
     "acceptedAnswers": [
       "Aymeric Laporte",
       "Laporte",
       "Laporte Aymeric"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10974,12 +11181,12 @@ export const players: Player[] = [
       "Alex Baena",
       "Baena",
       "Baena Alex"
-],
+    ],
     "acceptedAnswers": [
       "Alex Baena",
       "Baena",
       "Baena Alex"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -10997,7 +11204,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Baena won both Euro 2024 and Olympic gold with Spain in the same summer.",
+    "clueFact": "Won both Euro 2024 and Olympic gold with Spain in the same summer.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Álex_Baena",
     "snapshotDate": "2026-06-13",
@@ -11012,12 +11219,12 @@ export const players: Player[] = [
       "Martin Zubimendi",
       "Zubimendi",
       "Zubimendi Martin"
-],
+    ],
     "acceptedAnswers": [
       "Martin Zubimendi",
       "Zubimendi",
       "Zubimendi Martin"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11035,7 +11242,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Zubimendi began his career at Real Sociedad, making his first-team debut in 2019.",
+    "clueFact": "Began his career at Real Sociedad, making his first-team debut in 2019 before a maiden EPL title win this year.",
     "playedAlongside": "Bukayo Saka",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Martín_Zubimendi",
     "snapshotDate": "2026-06-13",
@@ -11050,12 +11257,12 @@ export const players: Player[] = [
       "Mikel Oyarzabal",
       "Oyarzabal",
       "Oyarzabal Mikel"
-],
+    ],
     "acceptedAnswers": [
       "Mikel Oyarzabal",
       "Oyarzabal",
       "Oyarzabal Mikel"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11088,12 +11295,12 @@ export const players: Player[] = [
       "Pau Cubarsi",
       "Cubarsi",
       "Cubarsi Pau"
-],
+    ],
     "acceptedAnswers": [
       "Pau Cubarsi",
       "Cubarsi",
       "Cubarsi Pau"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11111,7 +11318,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "In July 2025, Sports Illustrated and ESPN ranked Cubarsí as the sixth-best centre-back in world football.",
+    "clueFact": "In July 2025, Sports Illustrated and ESPN ranked him as the sixth-best centre-back in world football.",
     "playedAlongside": "Pedri",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pau_Cubarsí",
     "snapshotDate": "2026-06-13",
@@ -11126,12 +11333,12 @@ export const players: Player[] = [
       "Unai Simon",
       "Simon",
       "Simon Unai"
-],
+    ],
     "acceptedAnswers": [
       "Unai Simon",
       "Simon",
       "Simon Unai"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11150,7 +11357,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Simón was Spain's starting goalkeeper when they won Euro 2024.",
+    "clueFact": "Spain's starting goalkeeper when they won Euro 2024.",
     "playedAlongside": "Nico Williams",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Unai_Simón",
     "snapshotDate": "2026-06-13",
@@ -11165,12 +11372,12 @@ export const players: Player[] = [
       "Marc Cucurella",
       "Cucurella",
       "Cucurella Marc"
-],
+    ],
     "acceptedAnswers": [
       "Marc Cucurella",
       "Cucurella",
       "Cucurella Marc"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11203,12 +11410,12 @@ export const players: Player[] = [
       "Borja Iglesias",
       "Iglesias",
       "Iglesias Borja"
-],
+    ],
     "acceptedAnswers": [
       "Borja Iglesias",
       "Iglesias",
       "Iglesias Borja"
-],
+    ],
     "nationality": "Spain",
     "nation": "Spain",
     "nationSlug": "spain",
@@ -11241,12 +11448,12 @@ export const players: Player[] = [
       "Antonio Ruediger",
       "Ruediger",
       "Ruediger Antonio"
-],
+    ],
     "acceptedAnswers": [
       "Antonio Ruediger",
       "Ruediger",
       "Ruediger Antonio"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11279,12 +11486,12 @@ export const players: Player[] = [
       "Waldemar Anton",
       "Anton",
       "Anton Waldemar"
-],
+    ],
     "acceptedAnswers": [
       "Waldemar Anton",
       "Anton",
       "Anton Waldemar"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11302,7 +11509,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Anton was born in Uzbekistan and moved to Germany as a child before developing in Hannover's academy.",
+    "clueFact": "Born in Uzbekistan and moved to Germany as a child before developing in Hannover's academy.",
     "playedAlongside": "Julian Brandt",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Waldemar_Anton",
     "snapshotDate": "2026-06-13",
@@ -11317,12 +11524,12 @@ export const players: Player[] = [
       "Jonathan Tah",
       "Tah",
       "Tah Jonathan"
-],
+    ],
     "acceptedAnswers": [
       "Jonathan Tah",
       "Tah",
       "Tah Jonathan"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11340,7 +11547,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Tah made his Bundesliga debut as a teenager with Hamburg before becoming a key defender for Bayer Leverkusen.",
+    "clueFact": "Made his Bundesliga debut as a teenager with Hamburg before becoming a key defender for Bayer Leverkusen.",
     "playedAlongside": "Harry Kane",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jonathan_Tah",
     "snapshotDate": "2026-06-13",
@@ -11355,12 +11562,12 @@ export const players: Player[] = [
       "Aleksandar Pavlovic",
       "Pavlovic",
       "Pavlovic Aleksandar"
-],
+    ],
     "acceptedAnswers": [
       "Aleksandar Pavlovic",
       "Pavlovic",
       "Pavlovic Aleksandar"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11393,12 +11600,12 @@ export const players: Player[] = [
       "Kai Havertz",
       "Havertz",
       "Havertz Kai"
-],
+    ],
     "acceptedAnswers": [
       "Kai Havertz",
       "Havertz",
       "Havertz Kai"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11416,7 +11623,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Having graduated from Bayer Leverkusen's youth academy in 2016, Havertz made his senior debut with the club in the same year.",
+    "clueFact": "Having graduated from Bayer Leverkusen's youth academy in 2016, made his senior debut with the club in the same year.",
     "playedAlongside": "Bukayo Saka",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kai_Havertz",
     "snapshotDate": "2026-06-13",
@@ -11431,12 +11638,12 @@ export const players: Player[] = [
       "Leon Goretzka",
       "Goretzka",
       "Goretzka Leon"
-],
+    ],
     "acceptedAnswers": [
       "Leon Goretzka",
       "Goretzka",
       "Goretzka Leon"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11470,13 +11677,13 @@ export const players: Player[] = [
       "Jamie Jaleel Jeremy Leweling",
       "Leweling",
       "Leweling Jamie"
-],
+    ],
     "acceptedAnswers": [
       "Jamie Leweling",
       "Jamie Jaleel Jeremy Leweling",
       "Leweling",
       "Leweling Jamie"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11494,7 +11701,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Leweling scored on his senior Germany debut in a Nations League match against the Netherlands.",
+    "clueFact": "Scored on his senior Germany debut in a Nations League match against the Netherlands.",
     "playedAlongside": "Deniz Undav",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jamie_Leweling",
     "snapshotDate": "2026-06-13",
@@ -11509,12 +11716,12 @@ export const players: Player[] = [
       "Nick Woltemade",
       "Woltemade",
       "Woltemade Nick"
-],
+    ],
     "acceptedAnswers": [
       "Nick Woltemade",
       "Woltemade",
       "Woltemade Nick"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11532,7 +11739,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "At nearly two metres tall, Woltemade is an unusually tall forward who can play as a striker or attacking midfielder.",
+    "clueFact": "Unusually tall forward who can play as a striker or attacking midfielder.",
     "playedAlongside": "Alexander Isak",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nick_Woltemade",
     "snapshotDate": "2026-06-13",
@@ -11547,12 +11754,12 @@ export const players: Player[] = [
       "Oliver Baumann",
       "Baumann",
       "Baumann Oliver"
-],
+    ],
     "acceptedAnswers": [
       "Oliver Baumann",
       "Baumann",
       "Baumann Oliver"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11571,7 +11778,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Baumann spent many years as a Bundesliga regular before earning senior Germany recognition.",
+    "clueFact": "Spent many years as a Bundesliga regular before earning senior Germany recognition.",
     "playedAlongside": "Andrej Kramarić",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Oliver_Baumann",
     "snapshotDate": "2026-06-13",
@@ -11587,13 +11794,13 @@ export const players: Player[] = [
       "Pascal Groß",
       "Gross",
       "Gross Pascal"
-],
+    ],
     "acceptedAnswers": [
       "Pascal Gross",
       "Pascal Groß",
       "Gross",
       "Gross Pascal"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11611,7 +11818,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "A versatile player, Groß has played as a defensive-midfielder, right-back, attacking-midfielder, winger, or forward in his career.",
+    "clueFact": "A versatile player, he has played as a defensive-midfielder, right-back, attacking-midfielder, winger, or forward in his career.",
     "playedAlongside": "Kaoru Mitoma",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Pascal_Groß",
     "snapshotDate": "2026-06-13",
@@ -11626,12 +11833,12 @@ export const players: Player[] = [
       "Maximilian Beier",
       "Beier",
       "Beier Maximilian"
-],
+    ],
     "acceptedAnswers": [
       "Maximilian Beier",
       "Beier",
       "Beier Maximilian"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11649,7 +11856,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Beier broke through in the Bundesliga with Hoffenheim before earning a move to Borussia Dortmund.",
+    "clueFact": "Broke through in the Bundesliga with Hoffenheim before earning a move to Borussia Dortmund.",
     "playedAlongside": "Julian Brandt",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maximilian_Beier",
     "snapshotDate": "2026-06-13",
@@ -11664,12 +11871,12 @@ export const players: Player[] = [
       "Nico Schlotterbeck",
       "Schlotterbeck",
       "Schlotterbeck Nico"
-],
+    ],
     "acceptedAnswers": [
       "Nico Schlotterbeck",
       "Schlotterbeck",
       "Schlotterbeck Nico"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11702,12 +11909,12 @@ export const players: Player[] = [
       "Angelo Stiller",
       "Stiller",
       "Stiller Angelo"
-],
+    ],
     "acceptedAnswers": [
       "Angelo Stiller",
       "Stiller",
       "Stiller Angelo"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11725,7 +11932,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Stiller came through Bayern Munich's academy before establishing himself in the Bundesliga.",
+    "clueFact": "Came through Bayern Munich's academy before establishing himself in the Bundesliga.",
     "playedAlongside": "Deniz Undav",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Angelo_Stiller",
     "snapshotDate": "2026-06-13",
@@ -11740,12 +11947,12 @@ export const players: Player[] = [
       "Nathaniel Brown",
       "Brown",
       "Brown Nathaniel"
-],
+    ],
     "acceptedAnswers": [
       "Nathaniel Brown",
       "Brown",
       "Brown Nathaniel"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11763,7 +11970,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Brown developed at Nürnberg before joining Eintracht Frankfurt as a young left-sided defender.",
+    "clueFact": "Developed at Nürnberg before joining Eintracht Frankfurt as a young left-sided defender.",
     "playedAlongside": "Mario Götze",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathaniel_Brown_(footballer)",
     "snapshotDate": "2026-06-13",
@@ -11778,12 +11985,12 @@ export const players: Player[] = [
       "Leroy Sane",
       "Sane",
       "Sane Leroy"
-],
+    ],
     "acceptedAnswers": [
       "Leroy Sane",
       "Sane",
       "Sane Leroy"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11801,7 +12008,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Sané made his professional debut for Schalke 04 in 2014 and transferred to Premier League club Manchester City in 2016 for an initial £37 million fee.",
+    "clueFact": "Made his professional debut for Schalke 04 in 2014 and transferred to Premier League club Manchester City in 2016 for an initial £37 million fee.",
     "playedAlongside": "Mauro Icardi",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leroy_Sané",
     "snapshotDate": "2026-06-13",
@@ -11816,12 +12023,12 @@ export const players: Player[] = [
       "Nadiem Amiri",
       "Amiri",
       "Amiri Nadiem"
-],
+    ],
     "acceptedAnswers": [
       "Nadiem Amiri",
       "Amiri",
       "Amiri Nadiem"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11854,12 +12061,12 @@ export const players: Player[] = [
       "Alexander Nuebel",
       "Nuebel",
       "Nuebel Alexander"
-],
+    ],
     "acceptedAnswers": [
       "Alexander Nuebel",
       "Nuebel",
       "Nuebel Alexander"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11893,12 +12100,12 @@ export const players: Player[] = [
       "David Raum",
       "Raum",
       "Raum David"
-],
+    ],
     "acceptedAnswers": [
       "David Raum",
       "Raum",
       "Raum David"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11916,7 +12123,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Raum helped Germany win the UEFA European Under-21 Championship in 2021.",
+    "clueFact": "Helped Germany win the UEFA European Under-21 Championship in 2021.",
     "playedAlongside": "Xavi Simons",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/David_Raum",
     "snapshotDate": "2026-06-13",
@@ -11931,12 +12138,12 @@ export const players: Player[] = [
       "Felix Nmecha",
       "Nmecha",
       "Nmecha Felix"
-],
+    ],
     "acceptedAnswers": [
       "Felix Nmecha",
       "Nmecha",
       "Nmecha Felix"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -11954,7 +12161,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Nmecha represented England at youth level before switching to play senior international football for Germany.",
+    "clueFact": "Represented England at youth level before switching to play senior international football for Germany.",
     "playedAlongside": "Julian Brandt",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Felix_Nmecha",
     "snapshotDate": "2026-06-13",
@@ -11969,12 +12176,12 @@ export const players: Player[] = [
       "Malick Thiaw",
       "Thiaw",
       "Thiaw Malick"
-],
+    ],
     "acceptedAnswers": [
       "Malick Thiaw",
       "Thiaw",
       "Thiaw Malick"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -12007,12 +12214,12 @@ export const players: Player[] = [
       "Assan Ouedraogo",
       "Ouedraogo",
       "Ouedraogo Assan"
-],
+    ],
     "acceptedAnswers": [
       "Assan Ouedraogo",
       "Ouedraogo",
       "Ouedraogo Assan"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -12030,7 +12237,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Ouedraogo came through Schalke's academy and became one of Germany's highly rated young midfielders.",
+    "clueFact": "Came through Schalke's academy and became one of Germany's highly rated young midfielders.",
     "playedAlongside": "Xavi Simons",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Assan_Ouédraogo",
     "snapshotDate": "2026-06-13",
@@ -12045,12 +12252,12 @@ export const players: Player[] = [
       "Deniz Undav",
       "Undav",
       "Undav Deniz"
-],
+    ],
     "acceptedAnswers": [
       "Deniz Undav",
       "Undav",
       "Undav Deniz"
-],
+    ],
     "nationality": "Germany",
     "nation": "Germany",
     "nationSlug": "germany",
@@ -12068,7 +12275,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Undav was a prolific scorer in Belgium with Union Saint-Gilloise before moving to England and Germany.",
+    "clueFact": "A prolific scorer in Belgium with Union Saint-Gilloise before moving to England and Germany.",
     "playedAlongside": "Angelo Stiller",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Deniz_Undav",
     "snapshotDate": "2026-06-13",
@@ -12083,12 +12290,12 @@ export const players: Player[] = [
       "Nelson Semedo",
       "Nelson Semedo Nélson",
       "Semedo"
-],
+    ],
     "acceptedAnswers": [
       "Nelson Semedo",
       "Nelson Semedo Nélson",
       "Semedo"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12106,7 +12313,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Semedo began his career at Sintrense before joining Benfica in 2012.",
+    "clueFact": "Began his career at Sintrense before joining Benfica in 2012.",
     "playedAlongside": "Fred",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nélson_Semedo",
     "snapshotDate": "2026-06-13",
@@ -12122,13 +12329,13 @@ export const players: Player[] = [
       "Diogo Dalot",
       "Diogo Dalot José",
       "Dalot"
-],
+    ],
     "acceptedAnswers": [
       "José Diogo Dalot",
       "Diogo Dalot",
       "Diogo Dalot José",
       "Dalot"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12146,7 +12353,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Dalot is a product of the Porto youth system and made his professional debut for the club's B team in January 2017.",
+    "clueFact": "A product of the Porto youth system and made his professional debut for the club's B team in January 2017.",
     "playedAlongside": "Bruno Fernandes",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Diogo_Dalot",
     "snapshotDate": "2026-06-13",
@@ -12161,12 +12368,12 @@ export const players: Player[] = [
       "Matheus Nunes",
       "Matheus Nunes Matheus",
       "Nunes"
-],
+    ],
     "acceptedAnswers": [
       "Matheus Nunes",
       "Matheus Nunes Matheus",
       "Nunes"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12199,12 +12406,12 @@ export const players: Player[] = [
       "Goncalo Ramos",
       "Goncalo Ramos Gonçalo",
       "Ramos"
-],
+    ],
     "acceptedAnswers": [
       "Goncalo Ramos",
       "Goncalo Ramos Gonçalo",
       "Ramos"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12222,7 +12429,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Born in Olhão, Ramos came through Benfica's youth academy.",
+    "clueFact": "Born in Olhão, he came through Benfica's youth academy.",
     "playedAlongside": "Ousmane Dembélé",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonçalo_Ramos",
     "snapshotDate": "2026-06-13",
@@ -12237,12 +12444,12 @@ export const players: Player[] = [
       "Joao Felix",
       "Joao Felix João",
       "Felix"
-],
+    ],
     "acceptedAnswers": [
       "Joao Felix",
       "Joao Felix João",
       "Felix"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12260,7 +12467,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Félix initially trained at Porto's youth academy, before moving to rivals Benfica in 2015.",
+    "clueFact": "Initially trained at Porto's youth academy, before moving to rivals Benfica in 2015.",
     "playedAlongside": "Cristiano Ronaldo",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Félix",
     "snapshotDate": "2026-06-13",
@@ -12275,12 +12482,12 @@ export const players: Player[] = [
       "Jose Sa",
       "Jose Sa José",
       "Sa"
-],
+    ],
     "acceptedAnswers": [
       "Jose Sa",
       "Jose Sa José",
       "Sa"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12299,7 +12506,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "He started his career with Marítimo B, making his debut with the first team in 2013, before signing for FC Porto in 2016.",
+    "clueFact": "Former Porto goalkeeper whose time in the Premier League looks set to end next season.",
     "playedAlongside": "Matheus Cunha",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/José_Sá",
     "snapshotDate": "2026-06-13",
@@ -12314,12 +12521,12 @@ export const players: Player[] = [
       "Renato Veiga",
       "Renato Veiga Renato",
       "Veiga"
-],
+    ],
     "acceptedAnswers": [
       "Renato Veiga",
       "Renato Veiga Renato",
       "Veiga"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12352,12 +12559,12 @@ export const players: Player[] = [
       "Goncalo Inacio",
       "Goncalo Inacio Gonçalo",
       "Inacio"
-],
+    ],
     "acceptedAnswers": [
       "Goncalo Inacio",
       "Goncalo Inacio Gonçalo",
       "Inacio"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12390,12 +12597,12 @@ export const players: Player[] = [
       "Joao Neves",
       "Joao Neves João",
       "Neves"
-],
+    ],
     "acceptedAnswers": [
       "Joao Neves",
       "Joao Neves João",
       "Neves"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12413,7 +12620,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Primarily a central midfielder, Neves is also able to play as a defensive midfielder and occasionally a right-back.",
+    "clueFact": "Primarily a central midfielder, he is also able to play as a defensive midfielder and occasionally a right-back.",
     "playedAlongside": "Ousmane Dembélé",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Neves",
     "snapshotDate": "2026-06-13",
@@ -12428,12 +12635,12 @@ export const players: Player[] = [
       "Francisco Trincao",
       "Francisco Trincao Francisco",
       "Trincao"
-],
+    ],
     "acceptedAnswers": [
       "Francisco Trincao",
       "Francisco Trincao Francisco",
       "Trincao"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12466,12 +12673,12 @@ export const players: Player[] = [
       "Rafael Leao",
       "Rafael Leao Rafael",
       "Leao"
-],
+    ],
     "acceptedAnswers": [
       "Rafael Leao",
       "Rafael Leao Rafael",
       "Leao"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12504,12 +12711,12 @@ export const players: Player[] = [
       "Pedro Neto",
       "Pedro Neto Pedro",
       "Neto"
-],
+    ],
     "acceptedAnswers": [
       "Pedro Neto",
       "Pedro Neto Pedro",
       "Neto"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12542,12 +12749,12 @@ export const players: Player[] = [
       "Goncalo Guedes",
       "Goncalo Guedes Gonçalo",
       "Guedes"
-],
+    ],
     "acceptedAnswers": [
       "Goncalo Guedes",
       "Goncalo Guedes Gonçalo",
       "Guedes"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12565,7 +12772,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Guedes began his career at Benfica, making his professional debut for the reserves in April 2014 and the first team six months later.",
+    "clueFact": "Began his career at Benfica, making his professional debut for the reserves in April 2014 and the first team six months later.",
     "playedAlongside": "Mikel Oyarzabal",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gonçalo_Guedes",
     "snapshotDate": "2026-06-13",
@@ -12580,12 +12787,12 @@ export const players: Player[] = [
       "Joao Cancelo",
       "Joao Cancelo João",
       "Cancelo"
-],
+    ],
     "acceptedAnswers": [
       "Joao Cancelo",
       "Joao Cancelo João",
       "Cancelo"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12603,7 +12810,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "After spending most of his youth career at Benfica, Cancelo began his professional senior career with them, before moving to Valencia permanently in May 2015.",
+    "clueFact": "After spending most of his youth career at Benfica, began his professional senior career with them, before moving to Valencia permanently in May 2015.",
     "playedAlongside": "Pedri",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/João_Cancelo",
     "snapshotDate": "2026-06-13",
@@ -12618,12 +12825,12 @@ export const players: Player[] = [
       "Ruben Neves",
       "Ruben Neves Rúben",
       "Neves"
-],
+    ],
     "acceptedAnswers": [
       "Ruben Neves",
       "Ruben Neves Rúben",
       "Neves"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12641,7 +12848,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Neves started his career with Porto and made his first-team debut at the age of 17.",
+    "clueFact": "Started his career with Porto and made his first-team debut at the age of 17.",
     "playedAlongside": "Sergej Milinković-Savić",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rúben_Neves",
     "snapshotDate": "2026-06-13",
@@ -12656,12 +12863,12 @@ export const players: Player[] = [
       "Vitor Vitinha",
       "Vitinha",
       "Vitinha Vitor"
-],
+    ],
     "acceptedAnswers": [
       "Vitor Vitinha",
       "Vitinha",
       "Vitinha Vitor"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12695,13 +12902,13 @@ export const players: Player[] = [
       "Samú Costa",
       "Samu Costa Samuel",
       "Costa"
-],
+    ],
     "acceptedAnswers": [
       "Samuel Samu Costa",
       "Samú Costa",
       "Samu Costa Samuel",
       "Costa"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12719,7 +12926,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Costa helped Almería win promotion to La Liga before moving to Mallorca.",
+    "clueFact": "Helped Almería win promotion to La Liga before moving to Mallorca.",
     "playedAlongside": "Vedat Muriqi",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Samú_Costa",
     "snapshotDate": "2026-06-13",
@@ -12734,12 +12941,12 @@ export const players: Player[] = [
       "Francisco Conceicao",
       "Francisco Conceicao Francisco",
       "Conceicao"
-],
+    ],
     "acceptedAnswers": [
       "Francisco Conceicao",
       "Francisco Conceicao Francisco",
       "Conceicao"
-],
+    ],
     "nationality": "Portugal",
     "nation": "Portugal",
     "nationSlug": "portugal",
@@ -12757,7 +12964,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Coming through Porto's youth system, Conceição was promoted to the first-team in 2021, winning a domestic double of the Primeira Liga and Taça de Portugal in 2022.",
+    "clueFact": "Coming through Porto's youth system, he was promoted to the first-team in 2021, winning a domestic double of the Primeira Liga and Taça de Portugal in 2022.",
     "playedAlongside": "Dušan Vlahović",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Francisco_Conceição",
     "snapshotDate": "2026-06-13",
@@ -12772,12 +12979,12 @@ export const players: Player[] = [
       "Brice Samba",
       "Samba",
       "Samba Brice"
-],
+    ],
     "acceptedAnswers": [
       "Brice Samba",
       "Samba",
       "Samba Brice"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12811,12 +13018,12 @@ export const players: Player[] = [
       "Malo Gusto",
       "Gusto",
       "Gusto Malo"
-],
+    ],
     "acceptedAnswers": [
       "Malo Gusto",
       "Gusto",
       "Gusto Malo"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12834,7 +13041,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Originally a product of the Lyon academy, Gusto entered the Lyon first team in 2021, where he made over 50 league appearances.",
+    "clueFact": "Originally a product of the Lyon academy, he entered the Lyon first team in 2021, where he made over 50 league appearances.",
     "playedAlongside": "Cole Palmer",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Malo_Gusto",
     "snapshotDate": "2026-06-13",
@@ -12849,12 +13056,12 @@ export const players: Player[] = [
       "Lucas Digne",
       "Digne",
       "Digne Lucas"
-],
+    ],
     "acceptedAnswers": [
       "Lucas Digne",
       "Digne",
       "Digne Lucas"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12872,7 +13079,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Digne began his professional career at Lille before joining fellow French side Paris Saint-Germain in 2013.",
+    "clueFact": "Began his professional career at Lille before joining fellow French side Paris Saint-Germain in 2013.",
     "playedAlongside": "Ollie Watkins",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lucas_Digne",
     "snapshotDate": "2026-06-13",
@@ -12887,12 +13094,12 @@ export const players: Player[] = [
       "Jules Kounde",
       "Kounde",
       "Kounde Jules"
-],
+    ],
     "acceptedAnswers": [
       "Jules Kounde",
       "Kounde",
       "Kounde Jules"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12925,12 +13132,12 @@ export const players: Player[] = [
       "Manu Kone",
       "Kone",
       "Kone Manu"
-],
+    ],
     "acceptedAnswers": [
       "Manu Kone",
       "Kone",
       "Kone Manu"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12948,7 +13155,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Koné developed at Toulouse before making his name in the Bundesliga with Borussia Mönchengladbach.",
+    "clueFact": "Developed at Toulouse before making his name in the Bundesliga with Borussia Mönchengladbach.",
     "playedAlongside": "Paulo Dybala",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Manu_Koné",
     "snapshotDate": "2026-06-13",
@@ -12963,12 +13170,12 @@ export const players: Player[] = [
       "Marcus Thuram",
       "Thuram",
       "Thuram Marcus"
-],
+    ],
     "acceptedAnswers": [
       "Marcus Thuram",
       "Thuram",
       "Thuram Marcus"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -12986,7 +13193,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Thuram began his professional career at Sochaux in 2015, where he played in three Ligue 2 seasons, before moving to Guingamp in 2017, spending two years in Ligue 1.",
+    "clueFact": "Began his professional career at Sochaux in 2015, where he played in three Ligue 2 seasons, before moving to Guingamp in 2017, spending two years in Ligue 1.",
     "playedAlongside": "Lautaro Martínez",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marcus_Thuram",
     "snapshotDate": "2026-06-13",
@@ -13001,12 +13208,12 @@ export const players: Player[] = [
       "Michael Olise",
       "Olise",
       "Olise Michael"
-],
+    ],
     "acceptedAnswers": [
       "Michael Olise",
       "Olise",
       "Olise Michael"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13039,12 +13246,12 @@ export const players: Player[] = [
       "Bradley Barcola",
       "Barcola",
       "Barcola Bradley"
-],
+    ],
     "acceptedAnswers": [
       "Bradley Barcola",
       "Barcola",
       "Barcola Bradley"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13077,12 +13284,12 @@ export const players: Player[] = [
       "Ngolo Kante",
       "Kante",
       "Kante Ngolo"
-],
+    ],
     "acceptedAnswers": [
       "Ngolo Kante",
       "Kante",
       "Kante Ngolo"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13115,12 +13322,12 @@ export const players: Player[] = [
       "Adrien Rabiot",
       "Rabiot",
       "Rabiot Adrien"
-],
+    ],
     "acceptedAnswers": [
       "Adrien Rabiot",
       "Rabiot",
       "Rabiot Adrien"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13138,7 +13345,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "In 2019, Rabiot signed for Juventus on a free transfer, winning the Serie A title during his first season with the club and the Coppa Italia in his second and fifth.",
+    "clueFact": "In 2019, he signed for Juventus on a free transfer, winning the Serie A title during his first season with the club and the Coppa Italia in his second and fifth.",
     "playedAlongside": "Christian Pulisic",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Adrien_Rabiot",
     "snapshotDate": "2026-06-13",
@@ -13153,12 +13360,12 @@ export const players: Player[] = [
       "Ibrahima Konate",
       "Konate",
       "Konate Ibrahima"
-],
+    ],
     "acceptedAnswers": [
       "Ibrahima Konate",
       "Konate",
       "Konate Ibrahima"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13176,7 +13383,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Konaté started off his professional career with Sochaux, and moved to RB Leipzig in 2017.",
+    "clueFact": "Started off his professional career with Sochaux, and moved to RB Leipzig in 2017.",
     "playedAlongside": "Mohamed Salah",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ibrahima_Konaté",
     "snapshotDate": "2026-06-13",
@@ -13191,12 +13398,12 @@ export const players: Player[] = [
       "William Saliba",
       "Saliba",
       "Saliba William"
-],
+    ],
     "acceptedAnswers": [
       "William Saliba",
       "Saliba",
       "Saliba William"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13229,12 +13436,12 @@ export const players: Player[] = [
       "Warren Zaire-Emery",
       "Zaire-Emery",
       "Zaire-Emery Warren"
-],
+    ],
     "acceptedAnswers": [
       "Warren Zaire-Emery",
       "Zaire-Emery",
       "Zaire-Emery Warren"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13252,7 +13459,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "A product of the Paris Saint-Germain Youth Academy, Zaïre-Emery made his professional debut for PSG in August 2022, becoming the club's youngest-ever player.",
+    "clueFact": "A product of the Paris Saint-Germain Youth Academy who made his professional debut for PSG in August 2022, becoming the club's youngest-ever player.",
     "playedAlongside": "Ousmane Dembélé",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Warren_Zaïre-Emery",
     "snapshotDate": "2026-06-13",
@@ -13267,12 +13474,12 @@ export const players: Player[] = [
       "Desire Doue",
       "Doue",
       "Doue Desire"
-],
+    ],
     "acceptedAnswers": [
       "Desire Doue",
       "Doue",
       "Doue Desire"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13305,12 +13512,12 @@ export const players: Player[] = [
       "Jean Mateta",
       "Mateta",
       "Mateta Jean"
-],
+    ],
     "acceptedAnswers": [
       "Jean Mateta",
       "Mateta",
       "Mateta Jean"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13343,12 +13550,12 @@ export const players: Player[] = [
       "Robin Risser",
       "Risser",
       "Risser Robin"
-],
+    ],
     "acceptedAnswers": [
       "Robin Risser",
       "Risser",
       "Risser Robin"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13367,7 +13574,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Risser developed at Strasbourg and gained senior experience on loan before joining Lens.",
+    "clueFact": "Developed at Strasbourg and gained senior experience on loan before joining Lens, he is viewed by many as the long-term future of France in goal.",
     "playedAlongside": "Florian Sotoca",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Robin_Risser",
     "snapshotDate": "2026-06-13",
@@ -13382,12 +13589,12 @@ export const players: Player[] = [
       "Rayan Cherki",
       "Cherki",
       "Cherki Rayan"
-],
+    ],
     "acceptedAnswers": [
       "Rayan Cherki",
       "Cherki",
       "Cherki Rayan"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13405,7 +13612,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Cherki came through Lyon's academy and made his senior debut for the club as a teenager.",
+    "clueFact": "Came through Lyon's academy and made his senior debut for the club as a teenager.",
     "playedAlongside": "Erling Haaland",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Rayan_Cherki",
     "snapshotDate": "2026-06-13",
@@ -13420,12 +13627,12 @@ export const players: Player[] = [
       "Maghnes Akliouche",
       "Akliouche",
       "Akliouche Maghnes"
-],
+    ],
     "acceptedAnswers": [
       "Maghnes Akliouche",
       "Akliouche",
       "Akliouche Maghnes"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13443,7 +13650,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Akliouche came through Monaco's academy and has represented France at youth level.",
+    "clueFact": "Monaco academy graduate and Olympic silver medallist who has represented France at youth level.",
     "playedAlongside": "Aleksandr Golovin",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maghnes_Akliouche",
     "snapshotDate": "2026-06-13",
@@ -13458,12 +13665,12 @@ export const players: Player[] = [
       "Maxence Lacroix",
       "Lacroix",
       "Lacroix Maxence"
-],
+    ],
     "acceptedAnswers": [
       "Maxence Lacroix",
       "Lacroix",
       "Lacroix Maxence"
-],
+    ],
     "nationality": "France",
     "nation": "France",
     "nationSlug": "france",
@@ -13481,7 +13688,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Lacroix began his career at Sochaux, where he made his senior debut in 2018.",
+    "clueFact": "Impressed at Wolfsburg under manager Oliver Glasner, who later made him one of his first signings at Crystal Palace.",
     "playedAlongside": "Eberechi Eze",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maxence_Lacroix",
     "snapshotDate": "2026-06-13",
@@ -13496,12 +13703,12 @@ export const players: Player[] = [
       "Juan Musso",
       "Musso",
       "Musso Juan"
-],
+    ],
     "acceptedAnswers": [
       "Juan Musso",
       "Musso",
       "Musso Juan"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13520,7 +13727,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Musso was part of Atalanta's UEFA Europa League-winning squad in 2023-24.",
+    "clueFact": "Part of Atalanta's UEFA Europa League-winning squad in 2023-24.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Juan_Musso",
     "snapshotDate": "2026-06-13",
@@ -13535,12 +13742,12 @@ export const players: Player[] = [
       "Leonardo Balerdi",
       "Balerdi",
       "Balerdi Leonardo"
-],
+    ],
     "acceptedAnswers": [
       "Leonardo Balerdi",
       "Balerdi",
       "Balerdi Leonardo"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13558,7 +13765,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Balerdi moved from Boca Juniors to Borussia Dortmund as a teenager before establishing himself at Marseille.",
+    "clueFact": "Broke through as part of Borussia Dortmund's talented young squad as a teenager before establishing himself at Marseille.",
     "playedAlongside": "Adrien Rabiot",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leonardo_Balerdi",
     "snapshotDate": "2026-06-13",
@@ -13573,12 +13780,12 @@ export const players: Player[] = [
       "Nicolas Tagliafico",
       "Tagliafico",
       "Tagliafico Nicolas"
-],
+    ],
     "acceptedAnswers": [
       "Nicolas Tagliafico",
       "Tagliafico",
       "Tagliafico Nicolas"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13596,7 +13803,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Tagliafico was part of Argentina's 2022 World Cup-winning squad.",
+    "clueFact": "Part of Argentina's 2022 World Cup-winning squad.",
     "playedAlongside": "Alexandre Lacazette",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nicolás_Tagliafico",
     "snapshotDate": "2026-06-13",
@@ -13611,12 +13818,12 @@ export const players: Player[] = [
       "Gonzalo Montiel",
       "Montiel",
       "Montiel Gonzalo"
-],
+    ],
     "acceptedAnswers": [
       "Gonzalo Montiel",
       "Montiel",
       "Montiel Gonzalo"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13649,12 +13856,12 @@ export const players: Player[] = [
       "Leandro Paredes",
       "Paredes",
       "Paredes Leandro"
-],
+    ],
     "acceptedAnswers": [
       "Leandro Paredes",
       "Paredes",
       "Paredes Leandro"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13672,7 +13879,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Paredes won the 2022 World Cup and 2021 Copa América with Argentina.",
+    "clueFact": "Won the 2022 World Cup and 2021 Copa América with Argentina.",
     "playedAlongside": "Edinson Cavani",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Leandro_Paredes",
     "snapshotDate": "2026-06-13",
@@ -13688,13 +13895,13 @@ export const players: Player[] = [
       "De Paul",
       "De Paul Rodrigo",
       "Paul"
-],
+    ],
     "acceptedAnswers": [
       "Rodrigo De Paul",
       "De Paul",
       "De Paul Rodrigo",
       "Paul"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13727,12 +13934,12 @@ export const players: Player[] = [
       "Valentin Barco",
       "Barco",
       "Barco Valentin"
-],
+    ],
     "acceptedAnswers": [
       "Valentin Barco",
       "Barco",
       "Barco Valentin"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13750,7 +13957,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Barco came through Boca Juniors before moving to Europe with Brighton.",
+    "clueFact": "Talented young defender was unable to settle in England before moving to France where he has had a strong season.",
     "playedAlongside": "Emanuel Emegha",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Valentín_Barco",
     "snapshotDate": "2026-06-13",
@@ -13766,13 +13973,13 @@ export const players: Player[] = [
       "Lo Celso",
       "Lo Celso Giovani",
       "Celso"
-],
+    ],
     "acceptedAnswers": [
       "Giovani Lo Celso",
       "Lo Celso",
       "Lo Celso Giovani",
       "Celso"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13790,7 +13997,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Lo Celso was part of Argentina's Copa América-winning squad in 2021.",
+    "clueFact": "Argentine-Italian dual national who missed his country's 2022 World Cup triumph with a hamstring injury.",
     "playedAlongside": "Isco",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Giovani_Lo_Celso",
     "snapshotDate": "2026-06-13",
@@ -13805,12 +14012,12 @@ export const players: Player[] = [
       "Geronimo Rulli",
       "Rulli",
       "Rulli Geronimo"
-],
+    ],
     "acceptedAnswers": [
       "Geronimo Rulli",
       "Rulli",
       "Rulli Geronimo"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13829,7 +14036,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Rulli joined Estudiantes's youth team in 2009, making his professional debut for them in 2013.",
+    "clueFact": "Joined Estudiantes's youth team in 2009, making his professional debut for them in 2013.",
     "playedAlongside": "Adrien Rabiot",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gerónimo_Rulli",
     "snapshotDate": "2026-06-13",
@@ -13844,12 +14051,12 @@ export const players: Player[] = [
       "Cristian Romero",
       "Romero",
       "Romero Cristian"
-],
+    ],
     "acceptedAnswers": [
       "Cristian Romero",
       "Romero",
       "Romero Cristian"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13867,7 +14074,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Coming through the youth system, Romero began his senior career in 2016 at Belgrano.",
+    "clueFact": "One of few Spurs players to come out of the past season with any credit, he is reportedly on the radar of several European giants.",
     "playedAlongside": "Son Heung-min",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Cristian_Romero",
     "snapshotDate": "2026-06-13",
@@ -13882,12 +14089,12 @@ export const players: Player[] = [
       "Exequiel Palacios",
       "Palacios",
       "Palacios Exequiel"
-],
+    ],
     "acceptedAnswers": [
       "Exequiel Palacios",
       "Palacios",
       "Palacios Exequiel"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13905,7 +14112,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Palacios won the 2022 World Cup with Argentina and the 2023-24 Bundesliga with Bayer Leverkusen.",
+    "clueFact": "Won the 2023-24 Bundesliga with Bayer Leverkusen after helping his nation to the 2022 World Cup.",
     "playedAlongside": "Florian Wirtz",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Exequiel_Palacios",
     "snapshotDate": "2026-06-13",
@@ -13920,12 +14127,12 @@ export const players: Player[] = [
       "Thiago Almada",
       "Almada",
       "Almada Thiago"
-],
+    ],
     "acceptedAnswers": [
       "Thiago Almada",
       "Almada",
       "Almada Thiago"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13943,7 +14150,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Almada was a member of the Argentina team that won the 2022 FIFA World Cup, making history by becoming the first active Major League Soccer player to win the tournament.",
+    "clueFact": "Became the first active Major League Soccer player to win the World Cup in 2022.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Thiago_Almada",
     "snapshotDate": "2026-06-13",
@@ -13958,12 +14165,12 @@ export const players: Player[] = [
       "Giuliano Simeone",
       "Simeone",
       "Simeone Giuliano"
-],
+    ],
     "acceptedAnswers": [
       "Giuliano Simeone",
       "Simeone",
       "Simeone Giuliano"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -13981,7 +14188,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Simeone is the son of Diego Simeone and the younger brother of Giovanni Simeone.",
+    "clueFact": "Plays under his father in the Spanish capital.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Giuliano_Simeone",
     "snapshotDate": "2026-06-13",
@@ -13996,12 +14203,12 @@ export const players: Player[] = [
       "Nico Paz",
       "Paz",
       "Paz Nico"
-],
+    ],
     "acceptedAnswers": [
       "Nico Paz",
       "Paz",
       "Paz Nico"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -14034,12 +14241,12 @@ export const players: Player[] = [
       "Nicolas Otamendi",
       "Otamendi",
       "Otamendi Nicolas"
-],
+    ],
     "acceptedAnswers": [
       "Nicolas Otamendi",
       "Otamendi",
       "Otamendi Nicolas"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -14057,7 +14264,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "He will formally join AFA Liga Profesional de Fútbol club River Plate in July 2026.",
+    "clueFact": "A well-known player across Europe, he will return to Argentina with River Plate in July 2026.",
     "playedAlongside": "Ángel Di María",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nicolás_Otamendi",
     "snapshotDate": "2026-06-13",
@@ -14073,13 +14280,13 @@ export const players: Player[] = [
       "Mac Allister",
       "Mac Allister Alexis",
       "Allister"
-],
+    ],
     "acceptedAnswers": [
       "Alexis Mac Allister",
       "Mac Allister",
       "Mac Allister Alexis",
       "Allister"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -14113,13 +14320,13 @@ export const players: Player[] = [
       "Facundo Axel Medina",
       "Medina",
       "Medina Facundo"
-],
+    ],
     "acceptedAnswers": [
       "Facundo Medina",
       "Facundo Axel Medina",
       "Medina",
       "Medina Facundo"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -14137,7 +14344,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Medina represented Argentina at the Tokyo Olympics before becoming a regular in Ligue 1.",
+    "clueFact": "Represented Argentina at the Tokyo Olympics before becoming a regular in Ligue 1.",
     "playedAlongside": "Adrien Rabiot",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Facundo_Medina",
     "snapshotDate": "2026-06-13",
@@ -14152,12 +14359,12 @@ export const players: Player[] = [
       "Nahuel Molina",
       "Molina",
       "Molina Nahuel"
-],
+    ],
     "acceptedAnswers": [
       "Nahuel Molina",
       "Molina",
       "Molina Nahuel"
-],
+    ],
     "nationality": "Argentina",
     "nation": "Argentina",
     "nationSlug": "argentina",
@@ -14175,7 +14382,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Molina scored Argentina's opening goal against the Netherlands in the 2022 World Cup quarter-final.",
+    "clueFact": "Scored Argentina's opening goal against the Netherlands in the 2022 World Cup quarter-final.",
     "playedAlongside": "Antoine Griezmann",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nahuel_Molina",
     "snapshotDate": "2026-06-13",
@@ -14190,12 +14397,12 @@ export const players: Player[] = [
       "Alisson",
       "Alisson Becker",
       "Alisson Álisson"
-],
+    ],
     "acceptedAnswers": [
       "Alisson",
       "Alisson Becker",
       "Alisson Álisson"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14230,13 +14437,13 @@ export const players: Player[] = [
       "Gabriel",
       "Gabriel Magalhaes Gabriel",
       "Magalhaes"
-],
+    ],
     "acceptedAnswers": [
       "Gabriel Magalhaes",
       "Gabriel",
       "Gabriel Magalhaes Gabriel",
       "Magalhaes"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14268,11 +14475,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Casemiro",
       "Casemiro Carlos"
-],
+    ],
     "acceptedAnswers": [
       "Casemiro",
       "Casemiro Carlos"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14290,7 +14497,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Casemiro began his career with São Paulo and progressed through the ranks.",
+    "clueFact": "His contract was not renewed by his club for financial reasons this summer despite having one of his career-best seasons.",
     "playedAlongside": "Bruno Fernandes",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Casemiro",
     "snapshotDate": "2026-06-13",
@@ -14305,12 +14512,12 @@ export const players: Player[] = [
       "Alex Sandro",
       "Alex Sandro Alex",
       "Sandro"
-],
+    ],
     "acceptedAnswers": [
       "Alex Sandro",
       "Alex Sandro Alex",
       "Sandro"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14328,7 +14535,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "At club level, Alex Sandro began his career with Atletico Paranaense and later also played for Santos on loan.",
+    "clueFact": "Joint record appearance holder for Juventus by a non-Italian with 327 games, he scored in his final game for the club.",
     "playedAlongside": "Giorgian de Arrascaeta",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alex_Sandro",
     "snapshotDate": "2026-06-13",
@@ -14343,12 +14550,12 @@ export const players: Player[] = [
       "Matheus Cunha",
       "Matheus Cunha Matheus",
       "Cunha"
-],
+    ],
     "acceptedAnswers": [
       "Matheus Cunha",
       "Matheus Cunha Matheus",
       "Cunha"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14366,7 +14573,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Cunha played youth football in Brazil for Coritiba.",
+    "clueFact": "Played youth football in Brazil for Coritiba, but has spent his entire senior career in Europe to date.",
     "playedAlongside": "Bruno Fernandes",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matheus_Cunha",
     "snapshotDate": "2026-06-13",
@@ -14380,11 +14587,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Raphinha",
       "Raphinha Raphael"
-],
+    ],
     "acceptedAnswers": [
       "Raphinha",
       "Raphinha Raphael"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14416,11 +14623,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Weverton",
       "Weverton Weverton"
-],
+    ],
     "acceptedAnswers": [
       "Weverton",
       "Weverton Weverton"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14439,7 +14646,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Weverton won the Copa Libertadores twice with Palmeiras.",
+    "clueFact": "Two-time Copa Libertadores winner with Palmeiras.",
     "playedAlongside": "Martin Braithwaite",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Weverton_(footballer,_born_1987)",
     "snapshotDate": "2026-06-13",
@@ -14453,11 +14660,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Danilo",
       "Danilo Danilo"
-],
+    ],
     "acceptedAnswers": [
       "Danilo",
       "Danilo Danilo"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14475,7 +14682,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Danilo began his career with América Mineiro before moving to Santos, where he scored the goal that won the 2011 Copa Libertadores.",
+    "clueFact": "Scored the goal that won the 2011 Copa Libertadores for Santos.",
     "playedAlongside": "Giorgian de Arrascaeta",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Danilo_(footballer,_born_July_1991)",
     "snapshotDate": "2026-06-13",
@@ -14490,12 +14697,12 @@ export const players: Player[] = [
       "Bremer",
       "Gleison Bremer",
       "Bremer Gleison"
-],
+    ],
     "acceptedAnswers": [
       "Bremer",
       "Gleison Bremer",
       "Bremer Gleison"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14513,7 +14720,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Bremer was named Serie A Defender of the Year for 2021-22 while playing for Torino.",
+    "clueFact": "Serie A Defender of the Year for 2021-22 while playing for Torino.",
     "playedAlongside": "Dušan Vlahović",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Gleison_Bremer",
     "snapshotDate": "2026-06-13",
@@ -14529,13 +14736,13 @@ export const players: Player[] = [
       "Leonardo Pereira",
       "Leo Pereira Leonardo",
       "Pereira"
-],
+    ],
     "acceptedAnswers": [
       "Leo Pereira",
       "Leonardo Pereira",
       "Leo Pereira Leonardo",
       "Pereira"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14553,7 +14760,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Léo Pereira won the Copa Libertadores with Flamengo in 2022.",
+    "clueFact": "A Copa Libertadores winner with Flamengo in 2022.",
     "playedAlongside": "Giorgian de Arrascaeta",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Léo_Pereira_(footballer,_born_1996)",
     "snapshotDate": "2026-06-13",
@@ -14567,11 +14774,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Fabinho",
       "Fabinho Fabio"
-],
+    ],
     "acceptedAnswers": [
       "Fabinho",
       "Fabinho Fabio"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14604,12 +14811,12 @@ export const players: Player[] = [
       "Lucas Paqueta",
       "Lucas Paqueta Lucas",
       "Paqueta"
-],
+    ],
     "acceptedAnswers": [
       "Lucas Paqueta",
       "Lucas Paqueta Lucas",
       "Paqueta"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14627,7 +14834,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Paquetá began his career in 2007 with Flamengo, where he won the 2016 Copa São Paulo de Júniores title.",
+    "clueFact": "Made over 200 appearances in Europe before returning to his boyhood club Flamengo for a South American transfer fee record in January.",
     "playedAlongside": "Giorgian de Arrascaeta",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lucas_Paquetá",
     "snapshotDate": "2026-06-13",
@@ -14643,13 +14850,13 @@ export const players: Player[] = [
       "Luiz Henrique Ferreira de Menezes",
       "Luiz Henrique Luiz",
       "Henrique"
-],
+    ],
     "acceptedAnswers": [
       "Luiz Henrique",
       "Luiz Henrique Ferreira de Menezes",
       "Luiz Henrique Luiz",
       "Henrique"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14682,12 +14889,12 @@ export const players: Player[] = [
       "Gabriel Martinelli",
       "Gabriel Martinelli Gabriel",
       "Martinelli"
-],
+    ],
     "acceptedAnswers": [
       "Gabriel Martinelli",
       "Gabriel Martinelli Gabriel",
       "Martinelli"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14719,11 +14926,11 @@ export const players: Player[] = [
     "searchAliases": [
       "Ederson",
       "Ederson Ederson"
-],
+    ],
     "acceptedAnswers": [
       "Ederson",
       "Ederson Ederson"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14757,12 +14964,12 @@ export const players: Player[] = [
       "Roger Ibanez",
       "Roger Ibanez Roger",
       "Ibanez"
-],
+    ],
     "acceptedAnswers": [
       "Roger Ibanez",
       "Roger Ibanez Roger",
       "Ibanez"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14776,7 +14983,7 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "First World Cup",
-    "careerPath": "ill -> Sergipe (loan) -> Fluminense (loan) -> Fluminense -> Atalanta -> Roma (loan) -> Roma -> Al-Ahli",
+    "careerPath": "Sergipe (loan) -> Fluminense (loan) -> Fluminense -> Atalanta -> Roma (loan) -> Roma -> Al-Ahli",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
@@ -14795,12 +15002,12 @@ export const players: Player[] = [
       "Igor Thiago",
       "Igor Thiago Igor",
       "Thiago"
-],
+    ],
     "acceptedAnswers": [
       "Igor Thiago",
       "Igor Thiago Igor",
       "Thiago"
-],
+    ],
     "nationality": "Brazil",
     "nation": "Brazil",
     "nationSlug": "brazil",
@@ -14818,7 +15025,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Before joining Brentford, Thiago played for Ludogorets and Club Brugge in European club football.",
+    "clueFact": "Played for Ludogorets and Club Brugge and overcame a serious injury before a record-breaking 22-goal season for Brentford earned him a World Cup place.",
     "playedAlongside": "Bryan Mbeumo",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Igor_Thiago",
     "snapshotDate": "2026-06-13",
@@ -14834,13 +15041,13 @@ export const players: Player[] = [
       "Angus Fraser James Gunn",
       "Gunn",
       "Gunn Angus"
-],
+    ],
     "acceptedAnswers": [
       "Angus Gunn",
       "Angus Fraser James Gunn",
       "Gunn",
       "Gunn Angus"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -14859,7 +15066,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Gunn began his career at his hometown club Norwich City, before joining Manchester City in 2011, signing his first professional contract in 2013.",
+    "clueFact": "Began his career at Norwich City, where his father is a club legend, before joining Manchester City in 2011, then returning to Norwich until last summer when he moved to Nottingham Forest.",
     "playedAlongside": "Morgan Gibbs-White",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Angus_Gunn",
     "snapshotDate": "2026-06-13",
@@ -14875,13 +15082,13 @@ export const players: Player[] = [
       "Aaron Buchanan Hickey",
       "Hickey",
       "Hickey Aaron"
-],
+    ],
     "acceptedAnswers": [
       "Aaron Hickey",
       "Aaron Buchanan Hickey",
       "Hickey",
       "Hickey Aaron"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -14899,7 +15106,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Hickey played youth football for Heart of Midlothian and Celtic, before returning to Hearts where he made his senior debut in 2019.",
+    "clueFact": "Played youth football for Heart of Midlothian and Celtic, before returning to Hearts where he made his senior debut in 2019.",
     "playedAlongside": "Bryan Mbeumo",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Aaron_Hickey",
     "snapshotDate": "2026-06-13",
@@ -14914,12 +15121,12 @@ export const players: Player[] = [
       "Grant Hanley",
       "Hanley",
       "Hanley Grant"
-],
+    ],
     "acceptedAnswers": [
       "Grant Hanley",
       "Hanley",
       "Hanley Grant"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -14937,7 +15144,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Across his club career, Hanley has previously played for Blackburn Rovers, Newcastle United, Norwich City, and Birmingham City.",
+    "clueFact": "Three-time EFL Championship winner with Newcastle and Norwich; now back in his native Scotland with Hibernian.",
     "playedAlongside": "Martin Boyle",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Grant_Hanley",
     "snapshotDate": "2026-06-13",
@@ -14952,12 +15159,12 @@ export const players: Player[] = [
       "Kieran Tierney",
       "Tierney",
       "Tierney Kieran"
-],
+    ],
     "acceptedAnswers": [
       "Kieran Tierney",
       "Tierney",
       "Tierney Kieran"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -14975,7 +15182,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Tierney came through the Celtic youth system and made his first-team debut in April 2015.",
+    "clueFact": "Born on the Isle of Man, he scored the crucial goal that secured Scotland's place at the World Cup.",
     "playedAlongside": "Callum McGregor",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kieran_Tierney",
     "snapshotDate": "2026-06-13",
@@ -14991,13 +15198,13 @@ export const players: Player[] = [
       "Tyler Robert Fletcher",
       "Fletcher",
       "Fletcher Tyler"
-],
+    ],
     "acceptedAnswers": [
       "Tyler Fletcher",
       "Tyler Robert Fletcher",
       "Fletcher",
       "Fletcher Tyler"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15015,7 +15222,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "He joined Manchester United's youth system in 2023, from Manchester City.",
+    "clueFact": "He joined Manchester United's youth system in 2023 from Manchester City.",
     "playedAlongside": "Bruno Fernandes",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tyler_Fletcher",
     "snapshotDate": "2026-06-13",
@@ -15030,12 +15237,12 @@ export const players: Player[] = [
       "Lyndon Dykes",
       "Dykes",
       "Dykes Lyndon"
-],
+    ],
     "acceptedAnswers": [
       "Lyndon Dykes",
       "Dykes",
       "Dykes Lyndon"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15068,12 +15275,12 @@ export const players: Player[] = [
       "Ryan Christie",
       "Christie",
       "Christie Ryan"
-],
+    ],
     "acceptedAnswers": [
       "Ryan Christie",
       "Christie",
       "Christie Ryan"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15091,7 +15298,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Christie began his career with Inverness Caledonian Thistle before joining Celtic in 2015, and had two spells on loan at Aberdeen.",
+    "clueFact": "Experienced Bournemouth midfielder who began his career with Inverness Caledonian Thistle.",
     "playedAlongside": "Antoine Semenyo",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ryan_Christie",
     "snapshotDate": "2026-06-13",
@@ -15107,13 +15314,13 @@ export const players: Player[] = [
       "Liam Mark Kelly",
       "Kelly",
       "Kelly Liam"
-],
+    ],
     "acceptedAnswers": [
       "Liam Kelly",
       "Liam Mark Kelly",
       "Kelly",
       "Kelly Liam"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15132,7 +15339,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "As a youth player Kelly played for Milton Keynes Dons, but did not make a professional appearance before leaving in 2008.",
+    "clueFact": "Rangers backup 'keeper who was also part of Scotland's Euro 2024 squad.",
     "playedAlongside": "James Tavernier",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Liam_Kelly_(footballer,_born_1990)",
     "snapshotDate": "2026-06-13",
@@ -15147,12 +15354,12 @@ export const players: Player[] = [
       "Jack Hendry",
       "Hendry",
       "Hendry Jack"
-],
+    ],
     "acceptedAnswers": [
       "Jack Hendry",
       "Hendry",
       "Hendry Jack"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15185,12 +15392,12 @@ export const players: Player[] = [
       "Ross Stewart",
       "Stewart",
       "Stewart Ross"
-],
+    ],
     "acceptedAnswers": [
       "Ross Stewart",
       "Stewart",
       "Stewart Ross"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15223,12 +15430,12 @@ export const players: Player[] = [
       "Dominic Hyam",
       "Hyam",
       "Hyam Dominic"
-],
+    ],
     "acceptedAnswers": [
       "Dominic Hyam",
       "Hyam",
       "Hyam Dominic"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15261,12 +15468,12 @@ export const players: Player[] = [
       "George Hirst",
       "Hirst",
       "Hirst George"
-],
+    ],
     "acceptedAnswers": [
       "George Hirst",
       "Hirst",
       "Hirst George"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15299,12 +15506,12 @@ export const players: Player[] = [
       "Lewis Ferguson",
       "Ferguson",
       "Ferguson Lewis"
-],
+    ],
     "acceptedAnswers": [
       "Lewis Ferguson",
       "Ferguson",
       "Ferguson Lewis"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15322,7 +15529,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "After playing youth football for Rangers and Hamilton Academical, Ferguson made his senior debut for the latter club in the 2017–18 season.",
+    "clueFact": "After playing youth football for Rangers and Hamilton Academical, made his senior debut for the latter club in the 2017–18 season.",
     "playedAlongside": "Riccardo Orsolini",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lewis_Ferguson",
     "snapshotDate": "2026-06-13",
@@ -15337,18 +15544,18 @@ export const players: Player[] = [
       "Lawrence Shankland",
       "Shankland",
       "Shankland Lawrence"
-],
+    ],
     "acceptedAnswers": [
       "Lawrence Shankland",
       "Shankland",
       "Shankland Lawrence"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
     "shirtNumber": 20,
     "position": "Forward",
-    "club": "Heart Of Midlothian FC",
+    "club": "Heart of Midlothian FC",
     "clubCountry": "Scotland",
     "age": 30,
     "internationalDebut": "2019",
@@ -15360,7 +15567,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "He is set to join fellow Scottish Premiership side Rangers on 15 June 2026.",
+    "clueFact": "After a record-breaking season ended in final-day heartache, he joined fellow Scottish Premiership side Rangers on the eve of the World Cup.",
     "playedAlongside": "Craig Gordon",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Lawrence_Shankland",
     "snapshotDate": "2026-06-13",
@@ -15376,19 +15583,19 @@ export const players: Player[] = [
       "Craig Sinclair Gordon",
       "Gordon",
       "Gordon Craig"
-],
+    ],
     "acceptedAnswers": [
       "Craig Gordon",
       "Craig Sinclair Gordon",
       "Gordon",
       "Gordon Craig"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
     "shirtNumber": 21,
     "position": "Goalkeeper",
-    "club": "Heart Of Midlothian FC",
+    "club": "Heart of Midlothian FC",
     "clubCountry": "Scotland",
     "age": 43,
     "internationalDebut": "2004",
@@ -15401,7 +15608,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Gordon started his career with Currie Boys before joining Heart of Midlothian.",
+    "clueFact": "Oldest player at the World Cup.",
     "playedAlongside": "Lawrence Shankland",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Craig_Gordon",
     "snapshotDate": "2026-06-13",
@@ -15416,12 +15623,12 @@ export const players: Player[] = [
       "Nathan Patterson",
       "Patterson",
       "Patterson Nathan"
-],
+    ],
     "acceptedAnswers": [
       "Nathan Patterson",
       "Patterson",
       "Patterson Nathan"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15439,7 +15646,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Patterson came through Rangers' academy before moving to Everton in the Premier League.",
+    "clueFact": "Came through Rangers' academy before moving to Everton in the Premier League.",
     "playedAlongside": "Jordan Pickford",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathan_Patterson_(footballer)",
     "snapshotDate": "2026-06-13",
@@ -15455,13 +15662,13 @@ export const players: Player[] = [
       "Kenneth McLean",
       "McLean",
       "McLean Kenny"
-],
+    ],
     "acceptedAnswers": [
       "Kenny McLean",
       "Kenneth McLean",
       "McLean",
       "McLean Kenny"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15479,7 +15686,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "After being released by  Rangers' youth team, McLean started his senior career at SPL club St Mirren.",
+    "clueFact": "After being released by Rangers' youth team, he started his senior career at SPL club St Mirren before becoming club captain at Norwich City",
     "playedAlongside": "Josh Sargent",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Kenny_McLean",
     "snapshotDate": "2026-06-13",
@@ -15494,12 +15701,12 @@ export const players: Player[] = [
       "Anthony Ralston",
       "Ralston",
       "Ralston Anthony"
-],
+    ],
     "acceptedAnswers": [
       "Anthony Ralston",
       "Ralston",
       "Ralston Anthony"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15517,7 +15724,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Ralston came through Celtic's academy and has won multiple Scottish league titles with the club.",
+    "clueFact": "Came through Celtic's academy and has won multiple Scottish league titles with the club.",
     "playedAlongside": "Callum McGregor",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Anthony_Ralston",
     "snapshotDate": "2026-06-13",
@@ -15532,12 +15739,12 @@ export const players: Player[] = [
       "Findlay Curtis",
       "Curtis",
       "Curtis Findlay"
-],
+    ],
     "acceptedAnswers": [
       "Findlay Curtis",
       "Curtis",
       "Curtis Findlay"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15555,7 +15762,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Curtis came through Rangers' academy before joining Kilmarnock on loan.",
+    "clueFact": "Rangers academy graduate who has spent the season at Kilmarnock on loan and is seen by many as one of Scotland's most exciting young talents.",
     "playedAlongside": "David Watson",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Findlay_Curtis",
     "snapshotDate": "2026-06-13",
@@ -15570,12 +15777,12 @@ export const players: Player[] = [
       "Scott McKenna",
       "McKenna",
       "McKenna Scott"
-],
+    ],
     "acceptedAnswers": [
       "Scott McKenna",
       "McKenna",
       "McKenna Scott"
-],
+    ],
     "nationality": "Scotland",
     "nation": "Scotland",
     "nationSlug": "scotland",
@@ -15593,7 +15800,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "McKenna helped Nottingham Forest win promotion to the Premier League in 2021-22.",
+    "clueFact": "Helped Nottingham Forest win promotion to the Premier League in 2021-22.",
     "playedAlongside": "Bruno Petković",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Scott_McKenna",
     "snapshotDate": "2026-06-13",
@@ -15609,13 +15816,13 @@ export const players: Player[] = [
       "St. Clair",
       "St. Clair Dayne",
       "Clair"
-],
+    ],
     "acceptedAnswers": [
       "Dayne St. Clair",
       "St. Clair",
       "St. Clair Dayne",
       "Clair"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15634,12 +15841,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Prior to playing for Inter Miami, St.",
+    "clueFact": "Chose to represent Canada over Scotland and Trinidad & Tobago, for whom he was also eligible.",
     "playedAlongside": "Lionel Messi",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Dayne_St._Clair",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global"
+    "fameTier": "Global",
+    "exclude": true
   },
   {
     "id": "canada-alistair-johnston",
@@ -15649,12 +15857,12 @@ export const players: Player[] = [
       "Alistair Johnston",
       "Johnston",
       "Johnston Alistair"
-],
+    ],
     "acceptedAnswers": [
       "Alistair Johnston",
       "Johnston",
       "Johnston Alistair"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15672,7 +15880,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Johnston began his senior career with Vaughan Azzurri.",
+    "clueFact": "Celtic's former MLS right-back.",
     "playedAlongside": "Callum McGregor",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alistair_Johnston",
     "snapshotDate": "2026-06-13",
@@ -15687,12 +15895,12 @@ export const players: Player[] = [
       "Alfie Jones",
       "Jones",
       "Jones Alfie"
-],
+    ],
     "acceptedAnswers": [
       "Alfie Jones",
       "Jones",
       "Jones Alfie"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15727,14 +15935,14 @@ export const players: Player[] = [
       "De Fougerolles",
       "De Fougerolles Luc",
       "Fougerolles"
-],
+    ],
     "acceptedAnswers": [
       "Luc De Fougerolles",
       "Luc Rollet de Fougerolles",
       "De Fougerolles",
       "De Fougerolles Luc",
       "Fougerolles"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15768,13 +15976,13 @@ export const players: Player[] = [
       "Joel Robert Waterman",
       "Waterman",
       "Waterman Joel"
-],
+    ],
     "acceptedAnswers": [
       "Joel Waterman",
       "Joel Robert Waterman",
       "Waterman",
       "Waterman Joel"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15788,16 +15996,17 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2022,
     "worldCupAppearances": "Played in 1 previous World Cup",
-    "careerPath": "Kitsap Pumas -> TSS FC Rovers -> Calgary Foothills -> Cavalry FC -> CF Montréalefn -> Chicago Fire",
+    "careerPath": "Kitsap Pumas -> TSS FC Rovers -> Calgary Foothills -> Cavalry FC -> CF Montréal -> Chicago Fire",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Waterman became the first Cavalry FC player transferred to Major League Soccer when he joined CF Montréal.",
+    "clueFact": "First Cavalry FC player transferred to Major League Soccer when he joined CF Montréal.",
     "playedAlongside": "Hugo Cuypers",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joel_Waterman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-mathieu-choiniere",
@@ -15807,12 +16016,12 @@ export const players: Player[] = [
       "Mathieu Choiniere",
       "Choiniere",
       "Choiniere Mathieu"
-],
+    ],
     "acceptedAnswers": [
       "Mathieu Choiniere",
       "Choiniere",
       "Choiniere Mathieu"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15826,16 +16035,17 @@ export const players: Player[] = [
     "internationalGoals": 0,
     "nationalTeamDebutYear": 2026,
     "worldCupAppearances": "First World Cup",
-    "careerPath": "CF Montréalefn -> Grasshopper -> Los Angeles FC (loan) -> Los Angeles FC",
+    "careerPath": "CF Montréal -> Grasshopper -> Los Angeles FC (loan) -> Los Angeles FC",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Choinière came through CF Montréal's academy before moving to Major League Soccer with LAFC.",
+    "clueFact": "Came through CF Montréal's academy before moving to Major League Soccer with LAFC.",
     "playedAlongside": "Olivier Giroud",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mathieu_Choinière",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "canada-ismael-kone",
@@ -15845,12 +16055,12 @@ export const players: Player[] = [
       "Ismael Kone",
       "Kone",
       "Kone Ismael"
-],
+    ],
     "acceptedAnswers": [
       "Ismael Kone",
       "Kone",
       "Kone Ismael"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15883,12 +16093,12 @@ export const players: Player[] = [
       "Liam Millar",
       "Millar",
       "Millar Liam"
-],
+    ],
     "acceptedAnswers": [
       "Liam Millar",
       "Millar",
       "Millar Liam"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15906,7 +16116,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Millar featured in the youth ranks of Brampton Youth SC and North Mississauga SC before moving to England to join Fulham Academy aged 13.",
+    "clueFact": "Played youth football for Brampton Youth SC and North Mississauga SC before moving to England to join Fulham Academy aged 13.",
     "playedAlongside": "Regan Slater",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Liam_Millar",
     "snapshotDate": "2026-06-13",
@@ -15921,12 +16131,12 @@ export const players: Player[] = [
       "Tani Oluwaseyi",
       "Oluwaseyi",
       "Oluwaseyi Tani"
-],
+    ],
     "acceptedAnswers": [
       "Tani Oluwaseyi",
       "Oluwaseyi",
       "Oluwaseyi Tani"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15949,7 +16159,8 @@ export const players: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tani_Oluwaseyi",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-derek-cornelius",
@@ -15959,12 +16170,12 @@ export const players: Player[] = [
       "Derek Cornelius",
       "Cornelius",
       "Cornelius Derek"
-],
+    ],
     "acceptedAnswers": [
       "Derek Cornelius",
       "Cornelius",
       "Cornelius Derek"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -15982,12 +16193,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Cornelius has played club football in Canada, Greece, Sweden, France and Scotland.",
+    "clueFact": "Well-traveled CB who has played club football in Canada, Greece, Sweden, Serbia, France and Scotland, as well as trialling in Russia and Hungary.",
     "playedAlongside": "James Tavernier",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Derek_Cornelius",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global"
+    "fameTier": "Global",
+    "exclude": true
   },
   {
     "id": "canada-jacob-shaffelburg",
@@ -15997,12 +16209,12 @@ export const players: Player[] = [
       "Jacob Shaffelburg",
       "Shaffelburg",
       "Shaffelburg Jacob"
-],
+    ],
     "acceptedAnswers": [
       "Jacob Shaffelburg",
       "Shaffelburg",
       "Shaffelburg Jacob"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16020,12 +16232,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Shaffelburg developed at Toronto FC before becoming a direct left-sided winger for Nashville SC and Canada.",
+    "clueFact": "Developed at Toronto FC before becoming a direct left-sided winger for Nashville SC and Canada.",
     "playedAlongside": "Olivier Giroud",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-moise-bombito",
@@ -16035,12 +16248,12 @@ export const players: Player[] = [
       "Moise Bombito",
       "Bombito",
       "Bombito Moise"
-],
+    ],
     "acceptedAnswers": [
       "Moise Bombito",
       "Bombito",
       "Bombito Moise"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16058,7 +16271,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Bombito was selected third overall by Colorado Rapids in the 2023 MLS SuperDraft.",
+    "clueFact": "Colorado Rapids' third overall pick in the 2023 MLS SuperDraft, he now plies his trade in the south of France.",
     "playedAlongside": "Dante",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Moïse_Bombito",
     "snapshotDate": "2026-06-13",
@@ -16073,12 +16286,12 @@ export const players: Player[] = [
       "Maxime Crepeau",
       "Crepeau",
       "Crepeau Maxime"
-],
+    ],
     "acceptedAnswers": [
       "Maxime Crepeau",
       "Crepeau",
       "Crepeau Maxime"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16097,12 +16310,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Crépeau is a product of the Montreal Impact Academy, and signed with the Montreal Impact first team in 2013.",
+    "clueFact": "Québécois goalkeeper who signed with the Montreal Impact first team in 2013 and has spent his entire career in the MLS.",
     "playedAlongside": "Martín Ojeda",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Maxime_Crépeau",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-owen-goodman",
@@ -16113,13 +16327,13 @@ export const players: Player[] = [
       "Owen Olamidayo Goodman",
       "Goodman",
       "Goodman Owen"
-],
+    ],
     "acceptedAnswers": [
       "Owen Goodman",
       "Owen Olamidayo Goodman",
       "Goodman",
       "Goodman Owen"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16153,12 +16367,12 @@ export const players: Player[] = [
       "Ali Ahmed",
       "Ahmed",
       "Ahmed Ali"
-],
+    ],
     "acceptedAnswers": [
       "Ali Ahmed",
       "Ahmed",
       "Ahmed Ali"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16176,8 +16390,8 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Ahmed came through the Vancouver Whitecaps system before earning senior Canada recognition.",
-    "playedAlongside": "Josh Sargent",
+    "clueFact": "Came through the Vancouver Whitecaps system before earning a January 2026 switch to the EFL championship with Norwich City.",
+    "playedAlongside": "Kenny McLean",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ali_Ahmed_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
@@ -16191,12 +16405,12 @@ export const players: Player[] = [
       "Jonathan Osorio",
       "Osorio",
       "Osorio Jonathan"
-],
+    ],
     "acceptedAnswers": [
       "Jonathan Osorio",
       "Osorio",
       "Osorio Jonathan"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16214,12 +16428,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Osorio holds the Toronto FC club record for most appearances.",
+    "clueFact": "Holds the Toronto FC club record for most appearances at 340.",
     "playedAlongside": "Lorenzo Insigne",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Jonathan_Osorio",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "canada-richie-laryea",
@@ -16229,12 +16444,12 @@ export const players: Player[] = [
       "Richie Laryea",
       "Laryea",
       "Laryea Richie"
-],
+    ],
     "acceptedAnswers": [
       "Richie Laryea",
       "Laryea",
       "Laryea Richie"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16252,12 +16467,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Laryea has had multiple spells with Toronto FC and represented Canada at the 2022 World Cup.",
+    "clueFact": "Has had multiple spells with Toronto FC and represented Canada at the 2022 World Cup.",
     "playedAlongside": "Jonathan Osorio",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Richie_Laryea",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "canada-niko-sigur",
@@ -16268,13 +16484,13 @@ export const players: Player[] = [
       "Niko Kristian Sigur",
       "Sigur",
       "Sigur Niko"
-],
+    ],
     "acceptedAnswers": [
       "Niko Sigur",
       "Niko Kristian Sigur",
       "Sigur",
       "Sigur Niko"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16292,12 +16508,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Sigur was born in Canada and developed in Croatia with Hajduk Split before representing Canada.",
+    "clueFact": "Sigur was born in Canada but developed in Croatia with Hajduk Split before choosing to represent his birth country.",
     "playedAlongside": "Marko Livaja",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Niko_Sigur",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-nathan-saliba",
@@ -16308,13 +16525,13 @@ export const players: Player[] = [
       "Nathan-Dylan Saliba",
       "Saliba",
       "Saliba Nathan"
-],
+    ],
     "acceptedAnswers": [
       "Nathan Saliba",
       "Nathan-Dylan Saliba",
       "Saliba",
       "Saliba Nathan"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16328,16 +16545,17 @@ export const players: Player[] = [
     "internationalGoals": 2,
     "nationalTeamDebutYear": 2024,
     "worldCupAppearances": "First World Cup",
-    "careerPath": "CF Montréalefn -> CF Montréal U23 (loan) -> Anderlecht",
+    "careerPath": "CF Montréal -> CF Montréal U23 (loan) -> Anderlecht",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Nathan-Dylan Saliba (born February 7, 2004) is a Canadian professional soccer player who plays for Belgian Pro League club Anderlecht and the Canada national team.",
+    "clueFact": "2024 Canada soccer Young Player of the Year who now plays for Belgian Pro League club Anderlecht.",
     "playedAlongside": "Alphonso Davies",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Nathan_Saliba",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "canada-marcelo-flores",
@@ -16348,13 +16566,13 @@ export const players: Player[] = [
       "Marcelo Flores Dorrell",
       "Flores",
       "Flores Marcelo"
-],
+    ],
     "acceptedAnswers": [
       "Marcelo Flores",
       "Marcelo Flores Dorrell",
       "Flores",
       "Flores Marcelo"
-],
+    ],
     "nationality": "Canada",
     "nation": "Canada",
     "nationSlug": "canada",
@@ -16372,12 +16590,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Flores came through Arsenal's academy before moving to Tigres UANL.",
+    "clueFact": "Made it as far as the bench at Arsenal but moved to Mexico for first-team football.",
     "playedAlongside": "André-Pierre Gignac",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Marcelo_Flores",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "united-states-matt-turner",
@@ -16387,12 +16606,12 @@ export const players: Player[] = [
       "Matt Turner",
       "Turner",
       "Turner Matt"
-],
+    ],
     "acceptedAnswers": [
       "Matt Turner",
       "Turner",
       "Turner Matt"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16426,12 +16645,12 @@ export const players: Player[] = [
       "Sergino Dest",
       "Dest",
       "Dest Sergino"
-],
+    ],
     "acceptedAnswers": [
       "Sergino Dest",
       "Dest",
       "Dest Sergino"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16465,13 +16684,13 @@ export const players: Player[] = [
       "Christopher Jeffrey Richards",
       "Richards",
       "Richards Chris"
-],
+    ],
     "acceptedAnswers": [
       "Chris Richards",
       "Christopher Jeffrey Richards",
       "Richards",
       "Richards Chris"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16489,7 +16708,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Richards developed at FC Dallas before joining Bayern Munich and later Crystal Palace.",
+    "clueFact": "Alabama native who caught the eye at Bayern Munich and Hoffenheim before becoming a key part of Crystal Palace's FA Cup and UEFA Conference League winning team.",
     "playedAlongside": "Eberechi Eze",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Chris_Richards_(soccer)",
     "snapshotDate": "2026-06-13",
@@ -16504,12 +16723,12 @@ export const players: Player[] = [
       "Auston Trusty",
       "Trusty",
       "Trusty Auston"
-],
+    ],
     "acceptedAnswers": [
       "Auston Trusty",
       "Trusty",
       "Trusty Auston"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16527,7 +16746,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "In August 2023, Trusty signed for Sheffield United, for which he made his Premier League debut.",
+    "clueFact": "In August 2023, he signed for Sheffield United, for which he made his Premier League debut.",
     "playedAlongside": "Callum McGregor",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Auston_Trusty",
     "snapshotDate": "2026-06-13",
@@ -16543,13 +16762,13 @@ export const players: Player[] = [
       "Ricardo Daniel Pepi",
       "Pepi",
       "Pepi Ricardo"
-],
+    ],
     "acceptedAnswers": [
       "Ricardo Pepi",
       "Ricardo Daniel Pepi",
       "Pepi",
       "Pepi Ricardo"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16563,11 +16782,11 @@ export const players: Player[] = [
     "internationalGoals": 13,
     "nationalTeamDebutYear": 2021,
     "worldCupAppearances": "First World Cup",
-    "careerPath": "FC Dallas -> North Texas SC (Tooltip -> FC Augsburg -> FC Groningen (loan) -> Jong PSV -> PSV",
+    "careerPath": "FC Dallas -> North Texas SC -> FC Augsburg -> FC Groningen (loan) -> Jong PSV -> PSV",
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Pepi had his breakthrough with Major League Soccer club FC Dallas and was named the MLS Young Player of the Year in 2021.",
+    "clueFact": "Made his breakthrough with Major League Soccer club FC Dallas and was named the MLS Young Player of the Year in 2021.",
     "playedAlongside": "Noa Lang",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Ricardo_Pepi",
     "snapshotDate": "2026-06-13",
@@ -16582,12 +16801,12 @@ export const players: Player[] = [
       "Brenden Aaronson",
       "Aaronson",
       "Aaronson Brenden"
-],
+    ],
     "acceptedAnswers": [
       "Brenden Aaronson",
       "Aaronson",
       "Aaronson Brenden"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16605,7 +16824,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Aaronson came through Philadelphia Union before moving to Red Bull Salzburg and Leeds United.",
+    "clueFact": "Came through Philadelphia Union's youth ranks before moving to Red Bull Salzburg and Leeds United.",
     "playedAlongside": "Daniel James",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Brenden_Aaronson",
     "snapshotDate": "2026-06-13",
@@ -16620,12 +16839,12 @@ export const players: Player[] = [
       "Tim Ream",
       "Ream",
       "Ream Tim"
-],
+    ],
     "acceptedAnswers": [
       "Tim Ream",
       "Ream",
       "Ream Tim"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16643,7 +16862,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Ream spent more than a decade playing club football in England with Bolton Wanderers and Fulham.",
+    "clueFact": "Veteran USA captain who racked up almost 400 EPL and Championship appearances over more than a decade in England's top two divisions.",
     "playedAlongside": "Wilfried Zaha",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Tim_Ream",
     "snapshotDate": "2026-06-13",
@@ -16659,13 +16878,13 @@ export const players: Player[] = [
       "Sebastian Matthew Berhalter",
       "Berhalter",
       "Berhalter Sebastian"
-],
+    ],
     "acceptedAnswers": [
       "Sebastian Berhalter",
       "Sebastian Matthew Berhalter",
       "Berhalter",
       "Berhalter Sebastian"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16683,7 +16902,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Berhalter is the son of former United States head coach Gregg Berhalter.",
+    "clueFact": "His father both played for and coached the USMNT, while his mother won 4 national college soccer titles.",
     "playedAlongside": "Ryan Gauld",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Sebastian_Berhalter",
     "snapshotDate": "2026-06-13",
@@ -16698,12 +16917,12 @@ export const players: Player[] = [
       "Cristian Roldan",
       "Roldan",
       "Roldan Cristian"
-],
+    ],
     "acceptedAnswers": [
       "Cristian Roldan",
       "Roldan",
       "Roldan Cristian"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16726,7 +16945,8 @@ export const players: Player[] = [
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Cristian_Roldan",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Global"
+    "fameTier": "Global",
+    "exclude": true
   },
   {
     "id": "united-states-alex-freeman",
@@ -16737,13 +16957,13 @@ export const players: Player[] = [
       "Alexander Michael Freeman",
       "Freeman",
       "Freeman Alex"
-],
+    ],
     "acceptedAnswers": [
       "Alex Freeman",
       "Alexander Michael Freeman",
       "Freeman",
       "Freeman Alex"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16761,12 +16981,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "In 2024, during his last season with Orlando City B, Freeman contributed the most assists and total goal contributions in the team.",
+    "clueFact": "Highly rated young fullback who has just made the move to La Liga.",
     "playedAlongside": "Gerard Moreno",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Alex_Freeman",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "united-states-malik-tillman",
@@ -16776,12 +16997,12 @@ export const players: Player[] = [
       "Malik Tillman",
       "Tillman",
       "Tillman Malik"
-],
+    ],
     "acceptedAnswers": [
       "Malik Tillman",
       "Tillman",
       "Tillman Malik"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16815,13 +17036,13 @@ export const players: Player[] = [
       "Maximilian Michael Arfsten",
       "Arfsten",
       "Arfsten Max"
-],
+    ],
     "acceptedAnswers": [
       "Max Arfsten",
       "Maximilian Michael Arfsten",
       "Arfsten",
       "Arfsten Max"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16839,12 +17060,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Arfsten developed into a left-sided wing-back role with Columbus Crew.",
+    "clueFact": "Skilful either-footed left-back who has shone for Columbus Crew over the past couple of seasons.",
     "playedAlongside": "Diego Rossi",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Max_Arfsten",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "united-states-haji-wright",
@@ -16854,12 +17076,12 @@ export const players: Player[] = [
       "Haji Wright",
       "Wright",
       "Wright Haji"
-],
+    ],
     "acceptedAnswers": [
       "Haji Wright",
       "Wright",
       "Wright Haji"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16877,7 +17099,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Wright made his senior debut for the United States national team in 2022 and played at the 2022 FIFA World Cup.",
+    "clueFact": "2022 FIFA World Cup player who has just helped his club team secure a long-awaited promotion to the English Premier League.",
     "playedAlongside": "Ben Sheaf",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Haji_Wright",
     "snapshotDate": "2026-06-13",
@@ -16892,12 +17114,12 @@ export const players: Player[] = [
       "Timothy Weah",
       "Weah",
       "Weah Timothy"
-],
+    ],
     "acceptedAnswers": [
       "Timothy Weah",
       "Weah",
       "Weah Timothy"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16915,7 +17137,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Weah made his professional debut for Ligue 1 club Paris Saint-Germain in 2018, winning Ligue 1 twice and the Trophée des Champions once.",
+    "clueFact": "Made his professional debut for Ligue 1 club Paris Saint-Germain in 2018, winning Ligue 1 twice and the Trophée des Champions once.",
     "playedAlongside": "Adrien Rabiot",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Timothy_Weah",
     "snapshotDate": "2026-06-13",
@@ -16930,12 +17152,12 @@ export const players: Player[] = [
       "Mark McKenzie",
       "McKenzie",
       "McKenzie Mark"
-],
+    ],
     "acceptedAnswers": [
       "Mark McKenzie",
       "McKenzie",
       "McKenzie Mark"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16953,7 +17175,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "McKenzie came through Philadelphia Union's system before moving to Europe with Genk and Toulouse.",
+    "clueFact": "A product of Philadelphia Union's system before moving to Europe with Genk and Toulouse.",
     "playedAlongside": "Zakaria Aboukhlal",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Mark_McKenzie_(soccer,_born_1999)",
     "snapshotDate": "2026-06-13",
@@ -16968,12 +17190,12 @@ export const players: Player[] = [
       "Joe Scally",
       "Scally",
       "Scally Joe"
-],
+    ],
     "acceptedAnswers": [
       "Joe Scally",
       "Scally",
       "Scally Joe"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -16991,7 +17213,7 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Scally joined Borussia Mönchengladbach from New York City FC as a teenager.",
+    "clueFact": "Highly rated fullback who joined Borussia Mönchengladbach from New York City FC as a teenager.",
     "playedAlongside": "Tim Kleindienst",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Joe_Scally",
     "snapshotDate": "2026-06-13",
@@ -17007,13 +17229,13 @@ export const players: Player[] = [
       "Matthew Andrew Geary Freese",
       "Freese",
       "Freese Matt"
-],
+    ],
     "acceptedAnswers": [
       "Matt Freese",
       "Matthew Andrew Geary Freese",
       "Freese",
       "Freese Matt"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -17032,12 +17254,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Freese came through Philadelphia Union before becoming a regular starter for New York City FC.",
+    "clueFact": "A regular starter for New York City FC, he came through Philadelphia Union's prolific academy system.",
     "playedAlongside": "Maxi Moralez",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Matt_Freese",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "medium",
-    "fameTier": "Continental"
+    "fameTier": "Continental",
+    "exclude": true
   },
   {
     "id": "united-states-chris-brady",
@@ -17048,13 +17271,13 @@ export const players: Player[] = [
       "Christopher Keith Brady",
       "Brady",
       "Brady Chris"
-],
+    ],
     "acceptedAnswers": [
       "Chris Brady",
       "Christopher Keith Brady",
       "Brady",
       "Brady Chris"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -17073,12 +17296,13 @@ export const players: Player[] = [
     "kitPrimaryColor": "#1f7a45",
     "kitSecondaryColor": "#ffffff",
     "kitAccentColor": "#f5c542",
-    "clueFact": "Brady progressed through Chicago Fire's academy before becoming their first-choice goalkeeper.",
+    "clueFact": "Home-grown Chicago Fire player who earned his first senior cap just two weeks before the World Cup kicked off.",
     "playedAlongside": "Hugo Cuypers",
     "sources": "FIFA-PDF; https://en.wikipedia.org/wiki/Chris_Brady_(soccer)",
     "snapshotDate": "2026-06-13",
     "difficultyTier": "hard",
-    "fameTier": "National"
+    "fameTier": "National",
+    "exclude": true
   },
   {
     "id": "united-states-alex-zendejas",
@@ -17088,12 +17312,12 @@ export const players: Player[] = [
       "Alex Zendejas",
       "Zendejas",
       "Zendejas Alex"
-],
+    ],
     "acceptedAnswers": [
       "Alex Zendejas",
       "Zendejas",
       "Zendejas Alex"
-],
+    ],
     "nationality": "United States",
     "nation": "United States",
     "nationSlug": "united-states",
@@ -17118,7 +17342,7 @@ export const players: Player[] = [
     "difficultyTier": "hard",
     "fameTier": "National"
   }
-];
+]
 
 export function getPlayerById(id: string): Player | undefined {
   return players.find((player) => player.id === id);
@@ -17166,12 +17390,8 @@ const PLAYABLE_REQUIRED_STRING_FIELDS: Array<keyof Player> = [
   "internationalDebut",
   "worldCupAppearances",
   "clueFact",
-  "playedAlongside",
-  "sources",
-  "snapshotDate",
-  "difficultyTier",
-  "fameTier"
-];
+  "playedAlongside"
+]
 
 const PLAYABLE_REQUIRED_ARRAY_FIELDS: Array<keyof Player> = ["searchAliases", "acceptedAnswers"];
 const PLAYABLE_REQUIRED_SCALAR_FIELDS: Array<keyof Player> = ["shirtNumber", "age", "caps", "internationalGoals"];
@@ -17212,6 +17432,13 @@ export function isPlayablePlayer(player: Player): boolean {
 
   if (player.careerPath == null || hasBlankString(player.careerPath) || hasVerifyMarker(player.careerPath)) {
     return false;
+  }
+
+  if (player.position.toLowerCase() === "goalkeeper") {
+    const cleanSheets = player.internationalCleanSheets;
+    if ((typeof cleanSheets !== "number" && hasBlankString(cleanSheets)) || hasVerifyMarker(cleanSheets)) {
+      return false;
+    }
   }
 
   return true;

@@ -74,6 +74,18 @@ export function getAnswerKitAssetPaths(player: Player): { shirtSrc: string; shor
   };
 }
 
+export function getCountrySpecificShirtCandidates(player: Player): string[] {
+  const slug = player.nationSlug || normalizeNationName(player.nation).replace(/ /g, "-");
+  const compact = slug.replace(/-/g, "");
+  const titleCompact = compact ? `${compact.charAt(0).toUpperCase()}${compact.slice(1)}` : "";
+
+  return [...new Set([
+    `/kits/${slug}_shirt.png`,
+    `/kits/${compact}_shirt.png`,
+    titleCompact ? `/kits/${titleCompact}_shirt.png` : ""
+  ].filter(Boolean))];
+}
+
 function normalizeNationName(nation: string): string {
   return nation
     .normalize("NFD")

@@ -15,8 +15,12 @@ const AD_SLOT_IDS: Record<AdSlotProps["placement"], string | undefined> = {
 };
 
 export default function AdSlot({ placement, className }: AdSlotProps) {
+  if (!ADSENSE_ENABLED) {
+    return null;
+  }
+
   const slotId = AD_SLOT_IDS[placement];
-  const canRenderAdSense = ADSENSE_ENABLED && ADSENSE_CLIENT && slotId;
+  const canRenderAdSense = Boolean(ADSENSE_CLIENT && slotId);
 
   useEffect(() => {
     if (!canRenderAdSense) {

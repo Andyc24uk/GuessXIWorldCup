@@ -1,4 +1,5 @@
 import HomeLink from "@/components/HomeLink";
+import SiteFooter from "@/components/SiteFooter";
 
 export const metadata = {
   title: "Privacy Policy | Guess XI",
@@ -7,10 +8,10 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="privacy-shell">
-      <article className="privacy-card">
+    <main className="content-shell">
+      <article className="content-card">
         <HomeLink />
-        <p className="privacy-eyebrow">Privacy</p>
+        <p className="content-eyebrow">Privacy</p>
         <h1>Privacy Policy</h1>
 
         <p>
@@ -41,6 +42,7 @@ export default function PrivacyPage() {
           manufacturers.
         </p>
       </article>
+      <SiteFooter />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import HomeLink from "@/components/HomeLink";
 import GameCard from "@/components/GameCard";
+import SiteFooter from "@/components/SiteFooter";
 import { createVersusSlot } from "@/lib/versus";
 
 type VersusPageProps = {
@@ -33,6 +34,8 @@ export default async function VersusChallengePage({ params }: VersusPageProps) {
           </div>
         </section>
       )}
+
+      <SiteFooter />
     </main>
   );
 }

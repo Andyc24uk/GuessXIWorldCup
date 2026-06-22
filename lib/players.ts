@@ -624,8 +624,7 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; SOUTH-AFRICA-PROFILE; WIKIPEDIA; DEBUT-YEAR-ONLY",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
-    "exclude": true
+    "fameTier": "Continental"
   },
   {
     "id": "themba-zwane",
@@ -1439,8 +1438,7 @@ export const players: Player[] = [
     "sources": "FIFA-SQUAD; QATAR-PROFILE; WIKIPEDIA",
     "snapshotDate": "2026-06-10",
     "difficultyTier": "medium",
-    "fameTier": "Continental",
-    "exclude": true
+    "fameTier": "Continental"
   },
   {
     "id": "almoez-ali",
@@ -9982,8 +9980,7 @@ export const players: Player[] = [
     "snapshotDate": "2026-06-11",
     "difficultyTier": "medium",
     "fameTier": "National",
-    "careerPath": "San Francisco -> New York Red Bulls (Loan) -> New York Red Bulls -> Anderlecht -> Marseille -> Besiktas",
-    "exclude": true
+    "careerPath": "San Francisco -> New York Red Bulls (Loan) -> New York Red Bulls -> Anderlecht -> Marseille -> Besiktas"
   },
   {
     "id": "england-ezri-konsa",

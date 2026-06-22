@@ -1,4 +1,5 @@
 import HomeLink from "@/components/HomeLink";
+import SiteFooter from "@/components/SiteFooter";
 
 export const metadata = {
   title: "Contact | Guess XI",
@@ -7,10 +8,10 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="privacy-shell">
-      <article className="privacy-card">
+    <main className="content-shell">
+      <article className="content-card">
         <HomeLink />
-        <p className="privacy-eyebrow">Contact</p>
+        <p className="content-eyebrow">Contact</p>
         <h1>Contact Guess XI</h1>
 
         <p>
@@ -23,6 +24,7 @@ export default function ContactPage() {
           verify the change.
         </p>
       </article>
+      <SiteFooter />
     </main>
   );
 }

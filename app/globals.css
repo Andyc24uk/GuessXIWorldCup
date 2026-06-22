@@ -907,13 +907,18 @@ h1 {
 }
 
 .site-footer {
+  display: grid;
+  gap: 12px;
+  padding: 22px 0 10px;
+  text-align: center;
+}
+
+.site-footer-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
   align-items: center;
   justify-content: center;
-  padding: 22px 0 6px;
-  text-align: center;
 }
 
 .site-footer a {
@@ -928,7 +933,15 @@ h1 {
   text-decoration: underline;
 }
 
-.privacy-shell {
+.site-footer-disclaimer {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.content-shell {
   position: relative;
   z-index: 1;
   width: min(860px, 100%);
@@ -936,14 +949,29 @@ h1 {
   padding: 28px 20px 48px;
 }
 
-.privacy-card {
+.content-card,
+.home-content-card,
+.content-inline-card {
   border-radius: 8px;
   padding: clamp(22px, 5vw, 42px);
   background: var(--panel);
   box-shadow: var(--shadow);
 }
 
-.privacy-eyebrow {
+.home-content-card {
+  margin-top: 18px;
+}
+
+.content-inline-card {
+  margin-top: 18px;
+}
+
+.home-content-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.content-eyebrow {
   margin: 0 0 8px;
   color: var(--green-dark);
   font-size: 0.78rem;
@@ -951,32 +979,64 @@ h1 {
   text-transform: uppercase;
 }
 
-.privacy-card h1 {
+.content-card h1,
+.home-content-card h2,
+.content-inline-card h2 {
   color: var(--ink);
+}
+
+.content-card h1 {
+  margin: 0 0 18px;
   font-size: clamp(2rem, 6vw, 3.2rem);
 }
 
-.privacy-card .subtle-home-link,
+.hero-panel h1,
+.hero-panel .subtitle,
+.hero-panel .eyebrow {
+  color: #ffffff;
+}
+
+.home-content-card h2,
+.content-inline-card h2,
+.content-section h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.3rem, 3vw, 1.75rem);
+}
+
+.content-card .subtle-home-link,
 .kit-gallery-header .subtle-home-link {
   color: var(--green-dark);
 }
 
-.privacy-card .subtle-home-link:hover,
-.privacy-card .subtle-home-link:focus-visible,
+.content-card .subtle-home-link:hover,
+.content-card .subtle-home-link:focus-visible,
 .kit-gallery-header .subtle-home-link:hover,
 .kit-gallery-header .subtle-home-link:focus-visible {
   color: var(--green);
 }
 
-.privacy-card p {
+.content-card p,
+.home-content-card p,
+.content-inline-card p {
   color: #31433d;
   font-size: 1rem;
   line-height: 1.65;
 }
 
-.privacy-card a {
+.content-card a {
   color: var(--green-dark);
   font-weight: 800;
+}
+
+.content-section + .content-section {
+  margin-top: 18px;
+}
+
+.content-section ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: #31433d;
+  line-height: 1.65;
 }
 
 @media (max-width: 760px) {
@@ -1094,5 +1154,15 @@ h1 {
   .kit-review-panel {
     min-height: 320px;
     padding: 14px;
+  }
+
+  .content-shell {
+    padding: 18px 12px 32px;
+  }
+
+  .home-content-card,
+  .content-inline-card {
+    margin-top: 14px;
+    padding: 18px 16px;
   }
 }

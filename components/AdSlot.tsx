@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { ADS_ENABLED, ADSENSE_CLIENT } from "@/lib/constants";
+import { ADSENSE_CLIENT, ADSENSE_ENABLED } from "@/lib/constants";
 
 type AdSlotProps = {
   placement: "top" | "post-game" | "footer";
@@ -16,7 +16,7 @@ const AD_SLOT_IDS: Record<AdSlotProps["placement"], string | undefined> = {
 
 export default function AdSlot({ placement, className }: AdSlotProps) {
   const slotId = AD_SLOT_IDS[placement];
-  const canRenderAdSense = ADS_ENABLED && ADSENSE_CLIENT && slotId;
+  const canRenderAdSense = ADSENSE_ENABLED && ADSENSE_CLIENT && slotId;
 
   useEffect(() => {
     if (!canRenderAdSense) {
@@ -30,25 +30,21 @@ export default function AdSlot({ placement, className }: AdSlotProps) {
     }
   }, [canRenderAdSense]);
 
-  if (!ADS_ENABLED) {
+  if (!canRenderAdSense) {
     return null;
   }
 
   return (
     <aside className={["ad-slot", `ad-slot-${placement}`, className].filter(Boolean).join(" ")} aria-label="Advertisement">
       <span>Advertisement</span>
-      {canRenderAdSense ? (
-        <ins
-          className="adsbygoogle"
-          data-ad-client={ADSENSE_CLIENT}
-          data-ad-slot={slotId}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-          style={{ display: "block" }}
-        />
-      ) : (
-        <div className="ad-placeholder">Ad space</div>
-      )}
+      <ins
+        className="adsbygoogle"
+        data-ad-client={ADSENSE_CLIENT}
+        data-ad-slot={slotId}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+        style={{ display: "block" }}
+      />
     </aside>
   );
 }

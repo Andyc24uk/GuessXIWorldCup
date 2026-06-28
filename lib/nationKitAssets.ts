@@ -75,16 +75,37 @@ export function getAnswerKitAssetPaths(player: Player): { shirtSrc: string; shor
 }
 
 export function getCountrySpecificShirtCandidates(player: Player): string[] {
-  const slug = player.nationSlug || normalizeNationName(player.nation).replace(/ /g, "-");
+  const normalizedNation = normalizeNationName(player.nation || player.nationality);
+  const slug = player.nationSlug || normalizedNation.replace(/ /g, "-");
   const compact = slug.replace(/-/g, "");
   const titleCompact = compact ? `${compact.charAt(0).toUpperCase()}${compact.slice(1)}` : "";
+  const explicitMatches = COUNTRY_SHIRT_FILE_OVERRIDES[normalizedNation] ?? [];
+  const underscored = slug.replace(/-/g, "_");
 
   return [...new Set([
+    ...explicitMatches.map((fileName) => `/kits/${fileName}`),
     `/kits/${slug}_shirt.png`,
+    `/kits/${underscored}_shirt.png`,
     `/kits/${compact}_shirt.png`,
+    `/kits/${slug}_jersey.png`,
+    `/kits/${underscored}_jersey.png`,
+    `/kits/${compact}_jersey.png`,
     titleCompact ? `/kits/${titleCompact}_shirt.png` : ""
   ].filter(Boolean))];
 }
+
+const COUNTRY_SHIRT_FILE_OVERRIDES: Record<string, string[]> = {
+  "bosnia and herzegovina": ["bosnia_shirt.png"],
+  "curacao": ["curacao_shirt.png"],
+  "czech republic": ["czechia_shirt.png"],
+  "dr congo": ["drcongo_shirt.png"],
+  "ivory coast": ["cotedivoire_shirt.png"],
+  "new zealand": ["new_zealand_shirt.png"],
+  "portugal": ["portugal_jersey.png"],
+  "south korea": ["korea_shirt.png"],
+  "turkiye": ["turkiye_shirt.png"],
+  "uzbekistan": ["uzbekistan_shirt.png"]
+};
 
 function normalizeNationName(nation: string): string {
   return nation

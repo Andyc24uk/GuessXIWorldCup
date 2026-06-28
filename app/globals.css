@@ -455,6 +455,8 @@ h1 {
 }
 
 .answer-shirt-img {
+  position: relative;
+  z-index: 0;
   display: block;
   width: 100%;
   height: 100%;
@@ -470,6 +472,7 @@ h1 {
 
 .answer-shirt-print {
   position: absolute;
+  z-index: 1;
   inset: 28% 20% auto;
   display: grid;
   justify-items: center;

@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: "Guess the World Cup player from the shirt and clues.",
   applicationName: "Guess XI: World Cup",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/kits/Guessxi_logo.png",
+    shortcut: "/kits/Guessxi_logo.png",
+    apple: "/kits/Guessxi_logo.png"
+  },
   other: {
     "google-adsense-account": "ca-pub-2518560260230499"
   },
